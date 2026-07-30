@@ -1,0 +1,42 @@
+# =========================
+# Structure files
+# =========================
+*.pdb
+*.cif
+*tar.gz
+
+# Regex
+mhc_all-vs_all*
+*aln*
+*part*
+*matrix*
+*~
+*backup*
+*#*
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# =========================
+# Plots and figures
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.html
+
+# =========================
+# Cavity files
+# =========================
+*.toml

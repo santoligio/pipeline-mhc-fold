@@ -1,0 +1,699 @@
+pdb_id,new_chain,original_chain,uniprot_id,organism,classification,mapped_class,mapped_superclass
+5JZI,D,D,GO_FALLBACK,Homo sapiens,HCV1406 TCR alpha chain,TCRa,TCR
+1QSE,D,D,GO_FALLBACK,Homo sapiens,PROTEIN (human T-Cell receptor A),TCRa,TCR
+5JZI,E,E,GO_FALLBACK,Homo sapiens,HCV1406 TCR beta chain,TCRb,TCR
+3VXU,E,E,GO_FALLBACK,Homo sapiens,T36-5 TCR beta chain,TCRb,TCR
+3VXU,D,D,GO_FALLBACK,Homo sapiens,T36-5 TCR alpha chain,TCRa,TCR
+1QSE,E,E,GO_FALLBACK,Homo sapiens,PROTEIN (human T-Cell receptor B),TCRb,TCR
+3GSN,B,A,P01848,Homo sapiens,TRAC,TCRa,TCR
+7OW6,E,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+3GSN,C,B,GO_FALLBACK,Homo sapiens,"RA14 TCR beta chain (TRBV6-5, TRBD1, TRBJ1-2)",TCRb,TCR
+7OW6,D,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+5XOV,E,J,GO_FALLBACK,Homo sapiens,V-beta chain of T cell receptor,TCRb,TCR
+5XOV,D,I,GO_FALLBACK,Homo sapiens,V-delta chain of T cell receptor,TCRd,TCR
+6ZKW,D,D,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+6ZKW,E,E,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+8YE4,E,H,GO_FALLBACK,Homo sapiens,TCR NYN-I beta chain,TCRb,TCR
+8RLV,E,E,GO_FALLBACK,Homo sapiens,"T cell receptor beta variable 6-5,T cell receptor beta chain MC.7.G5",TCRb,TCR
+8YE4,D,G,GO_FALLBACK,Homo sapiens,TCR NYN-I alpha chain,TCRa,TCR
+8RLV,D,D,GO_FALLBACK,Homo sapiens,"T cell receptor alpha variable 12-2,T cell receptor alpha chain MC.7.G5",TCRa,TCR
+1BD2,E,E,GO_FALLBACK,Homo sapiens,T CELL RECEPTOR BETA,TCRb,TCR
+7NME,E,E,GO_FALLBACK,Homo sapiens,"4C6 Human T-cell Receptor, beta Chain",TCRb,TCR
+7NME,D,D,GO_FALLBACK,Homo sapiens,"4C6 Human T-cell Receptor, alpha Chain",TCRa,TCR
+3VXS,E,E,GO_FALLBACK,Homo sapiens,H27-14 TCR beta chain,TCRb,TCR
+1BD2,D,D,GO_FALLBACK,Homo sapiens,T CELL RECEPTOR ALPHA,TCRa,TCR
+3VXS,D,D,GO_FALLBACK,Homo sapiens,H27-14 TCR alpha chain,TCRa,TCR
+7BBG,E,L,GO_FALLBACK,Homo sapiens,Light chain of Fab fragment 11D06,AbL,Ab
+7BBG,D,H,GO_FALLBACK,Homo sapiens,Heavy chain of Fab fragment 11D06,AbH,Ab
+7NDT,D,DDD,GO_FALLBACK,Homo sapiens,"T cell receptor alpha variable 26-1,T cell receptor alpha joining 37,T cell receptor alpha chain constant",TCRa,TCR
+7NDT,E,EEE,GO_FALLBACK,Homo sapiens,"T cell receptor beta variable 14,T cell receptor beta joining 2-3,T cell receptor beta constant 2",TCRb,TCR
+7N6E,E,J,GO_FALLBACK,Homo sapiens,TRBV19 TCR beta,TCRb,TCR
+7N6E,D,I,GO_FALLBACK,Homo sapiens,TRAV12-1 TCR-alpha,TCRa,TCR
+2ESV,C,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+2ESV,D,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+7NDT,F,JJJ,GO_FALLBACK,Homo sapiens,"T cell receptor beta variable 14,T cell receptor beta joining 2-3,T cell receptor beta constant 2",TCRb,TCR
+4QOK,E,E,GO_FALLBACK,Homo sapiens,Mel5 TCR chain beta,TCRb,TCR
+5XOT,E,E,GO_FALLBACK,Homo sapiens,The beta chain of TU55 TCR,TCRb,TCR
+4QOK,D,D,GO_FALLBACK,Homo sapiens,Mel5 TCR chain alpha,TCRa,TCR
+7TR4,C,H,GO_FALLBACK,Homo sapiens,Light chain,AbL,Ab
+5XOT,D,D,GO_FALLBACK,Homo sapiens,The Delta chain of TU55 TCR,TCRd,TCR
+7TR4,D,L,GO_FALLBACK,Homo sapiens,Heavy chain,AbH,Ab
+6MTM,E,E,GO_FALLBACK,Homo sapiens,EM2 TCR beta chain,TCRb,TCR
+1QSF,E,E,GO_FALLBACK,Homo sapiens,HUMAN T-CELL RECEPTOR,TCRb,TCR
+6MTM,D,D,GO_FALLBACK,Homo sapiens,EM2 TCR alpha chain,TCRa,TCR
+2F54,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+2F54,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+8QFY,E,EEE,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+8QFY,D,DDD,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+8EN8,E,E,GO_FALLBACK,Homo sapiens,3180 TCR beta chain,TCRb,TCR
+8EN8,D,D,GO_FALLBACK,Homo sapiens,3180 TCR alpha chain,TCRa,TCR
+3D3V,D,D,GO_FALLBACK,Homo sapiens,A6 TCR alpha chain,TCRa,TCR
+3PWP,E,E,GO_FALLBACK,Homo sapiens,A6 TCR beta chain,TCRb,TCR
+1QSF,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+8RYO,E,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+8RYO,D,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+7RTR,E,E,GO_FALLBACK,Homo sapiens,YLQ-SG3 TCR beta chain (TRBV7-9),TCRb,TCR
+7RTR,D,D,GO_FALLBACK,Homo sapiens,YLQ-SG3 TCR alpha chain (TRAV12-2),TCRa,TCR
+3D3V,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+3KXF,C,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+3PWP,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+6VM8,E,E-2,GO_FALLBACK,Homo sapiens,SILv44 T cell receptor beta chain,TCRb,TCR
+6ZKZ,E,E,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+6VM8,D,D-2,GO_FALLBACK,Homo sapiens,SILv44 T cell receptor alpha chain,TCRa,TCR
+4QRR,C,D,GO_FALLBACK,Homo sapiens,clone12 TCR alpha chain,TCRa,TCR
+6ZKZ,D,D,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+3KXF,D,E,A0A5B9,Homo sapiens,TRBC2,TCRb,TCR
+4QRR,D,E,GO_FALLBACK,Homo sapiens,clone12 TCR beta chain,TCRb,TCR
+7RK7,E,E,GO_FALLBACK,Homo sapiens,TIL1383i (h3T) T cell receptor beta chain,TCRb,TCR
+7RK7,D,D,GO_FALLBACK,Homo sapiens,TIL1383i (h3T) T cell receptor alpha chain,TCRa,TCR
+6ZKY,E,E,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+6ZKY,D,D,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+3UTT,E,E,GO_FALLBACK,Homo sapiens,1E6 TCR Beta Chain,TCRb,TCR
+7PBE,E,E,GO_FALLBACK,Homo sapiens,"Human T-cell Receptor YLQ36, beta chain",TCRb,TCR
+7PBE,D,D,GO_FALLBACK,Homo sapiens,"Human T-cell Receptor YLQ36, alpha chain",TCRa,TCR
+3H9S,E,E,GO_FALLBACK,Homo sapiens,TRBV6-5 protein,TCRb,TCR
+3UTT,D,D,GO_FALLBACK,Homo sapiens,1E6 TCR Alpha Chain,TCRa,TCR
+3H9S,D,D,GO_FALLBACK,Homo sapiens,A6 TCR alpha chain,TCRa,TCR
+7NDQ,E,EEE,GO_FALLBACK,Homo sapiens,"T cell receptor beta variable 7-9,M1-specific T cell receptor beta chain,T cell receptor beta variable 7-9,M1-specific T cell receptor beta chain,T cell receptor beta variable 7-9,M1-specific T cell receptor beta chain",TCRb,TCR
+7NDQ,D,DDD,GO_FALLBACK,Homo sapiens,"TCR Gag:02-alpha,TCR Gag:02-alpha,TCR Gag:02-alpha",TCRa,TCR
+6ZKX,E,E,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+6ZKX,D,D,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+3QFJ,D,D,GO_FALLBACK,Homo sapiens,A6 alpha chain,TCRa,TCR
+3QFJ,E,E,GO_FALLBACK,Homo sapiens,A6 beta chain,TCRb,TCR
+7N2R,E,F,GO_FALLBACK,Homo sapiens,AS4.3 T cell receptor beta chain,TCRb,TCR
+8RYM,E,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+7N2R,D,D,GO_FALLBACK,Homo sapiens,AS4.3 T cell receptor alpha chain,TCRa,TCR
+8RYM,D,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+8ENH,E,E,GO_FALLBACK,Homo sapiens,3180 TCR beta chain,TCRb,TCR
+8ENH,D,D,GO_FALLBACK,Homo sapiens,3180 TCR alpha chain,TCRa,TCR
+7N1E,E,E,GO_FALLBACK,Homo sapiens,pRLQ3 T cell receptor beta chain,TCRb,TCR
+2NX5,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+4JFF,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+4JFF,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+2NX5,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+7N1E,D,D,GO_FALLBACK,Homo sapiens,pRLQ3 T cell receptor alpha chain,TCRa,TCR
+5W1V,E,E,GO_FALLBACK,Homo sapiens,GF4 T cell receptor beta chain,TCRb,TCR
+5W1V,D,D,GO_FALLBACK,Homo sapiens,GF4 T cell receptor alpha chain,TCRa,TCR
+5JHD,E,E,GO_FALLBACK,Homo sapiens,TCRbeta chain,TCRb,TCR
+2F53,E,E,GO_FALLBACK,Homo sapiens,"T-cell receptor, beta chain",TCRb,TCR
+5JHD,D,D,GO_FALLBACK,Homo sapiens,TCRalpha chain,TCRa,TCR
+8RYQ,E,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+8RYQ,D,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+5ISZ,E,E,GO_FALLBACK,Homo sapiens,TCRbeta chain,TCRb,TCR
+5ISZ,D,D,GO_FALLBACK,Homo sapiens,TCRalpha chain,TCRa,TCR
+2F53,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+8RYP,D,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+1QRN,E,E,GO_FALLBACK,Homo sapiens,"T-CELL RECEPTOR, BETA CHAIN",TCRb,TCR
+8RYP,E,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+8RLT,E,E,GO_FALLBACK,Homo sapiens,"T cell receptor beta variable 6-5,T cell receptor beta chain MC.7.G5",TCRb,TCR
+8RLT,D,D,GO_FALLBACK,Homo sapiens,"T cell receptor alpha variable 12-2,T cell receptor alpha chain MC.7.G5",TCRa,TCR
+6AVF,B,A,A0A0B4J268,Homo sapiens,TRAV4,TCRa,TCR
+6AVF,C,B,A0A5B6,Homo sapiens,TRBV28,TCRb,TCR
+6VM9,E,E-2,GO_FALLBACK,Homo sapiens,T4H2 T cell receptor beta chain,TCRb,TCR
+6VM9,D,D-2,GO_FALLBACK,Homo sapiens,T4H2 T cell receptor alpha chain,TCRa,TCR
+6AM5,E,E,GO_FALLBACK,Homo sapiens,DMF5 TCR beta chain,TCRb,TCR
+6AM5,D,D,GO_FALLBACK,Homo sapiens,DMF5 TCR alpha chain,TCRa,TCR
+8RYN,E,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+8RYN,D,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+8EB2,E,M,GO_FALLBACK,Homo sapiens,PA2.1 Fab Light Chain,AbL,Ab
+8EB2,D,K,GO_FALLBACK,Homo sapiens,PA2.1 Fab Heavy Chain,AbH,Ab
+1QRN,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+7NMF,E,E,GO_FALLBACK,Homo sapiens,"Human T-cell Receptor 4C6, beta Chain",TCRb,TCR
+7NMF,D,D,GO_FALLBACK,Homo sapiens,"Human T-cell Receptor 4C6, alpha Chain",TCRa,TCR
+8GON,E,E,GO_FALLBACK,Homo sapiens,SARS-CoV-2 specific private TCR RLQ7 beta,TCRb,TCR
+8GON,D,D,GO_FALLBACK,Homo sapiens,SARS-CoV-2 specific private TCR RLQ7 alpha,TCRa,TCR
+6PAG,D,D,P43628,Homo sapiens,KIR2DL3,KIR2DL3,KIR
+7PB2,E,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+7PB2,D,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+5WKF,E,E,GO_FALLBACK,Homo sapiens,D30 TCR beta chain,TCRb,TCR
+4N8V,D,G,P43631,Homo sapiens,KIR2DS2,KIR2DS2,KIR
+4JFE,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+4JFE,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+5HYJ,E,E,GO_FALLBACK,Homo sapiens,"Human T-cell Receptor, Class I, Heavy beta Chain",TCRb,TCR
+5HYJ,D,D,GO_FALLBACK,Homo sapiens,"Human T-cell Receptor, Class I, Light alpha Chain",TCRa,TCR
+3GJF,E,L,GO_FALLBACK,Homo sapiens,Antibody light chain,AbL,Ab
+3GJF,D,H,GO_FALLBACK,Homo sapiens,Antibody heavy chain,AbH,Ab
+8RLU,E,E,GO_FALLBACK,Homo sapiens,"T cell receptor beta variable 6-5,T cell receptor beta chain MC.7.G5",TCRb,TCR
+8RLU,D,D,GO_FALLBACK,Homo sapiens,"T cell receptor alpha variable 12-2,T cell receptor alpha chain MC.7.G5",TCRa,TCR
+5W1W,E,E,GO_FALLBACK,Homo sapiens,GF4 T cell receptor beta chain,TCRb,TCR
+5WKF,D,D,GO_FALLBACK,Homo sapiens,"T-cell receptor alpha variable 30,T-cell receptor, sp3.4 alpha chain Chimera",TCRa,TCR
+5W1W,D,D,GO_FALLBACK,Homo sapiens,GF4 T cell receptor alpha chain,TCRa,TCR
+6P64,E,E-3,GO_FALLBACK,Homo sapiens,302TIL TCR beta chain,TCRb,TCR
+5HHM,D,D,GO_FALLBACK,Homo sapiens,JM22 TCR alpha chain,TCRa,TCR
+5HHM,E,E,GO_FALLBACK,Homo sapiens,JM22 TCR beta chain,TCRb,TCR
+6P64,D,D-3,GO_FALLBACK,Homo sapiens,302TIL TCR alpha chain,TCRa,TCR
+3O4L,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+3O4L,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+5C07,E,E,GO_FALLBACK,Homo sapiens,1E6 TCR Beta Chain,TCRb,TCR
+5C07,D,D,GO_FALLBACK,Homo sapiens,1E6 TCR Alpha Chain,TCRa,TCR
+7OW5,E,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+5BRZ,D,D,GO_FALLBACK,Homo sapiens,"Protein TRAV21,T-cell receptor alpha chain C region",TCRa,TCR
+7OW5,D,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+9BL6,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+5C0C,E,J,GO_FALLBACK,Homo sapiens,1E6 TCR Beta Chain,TCRb,TCR
+5BRZ,E,E,GO_FALLBACK,Homo sapiens,"Protein TRBV5-1,Human nkt tcr beta chain",TCRb,TCR
+4G8G,E,E,GO_FALLBACK,Homo sapiens,beta chain C12C TCR,TCRb,TCR
+4G8G,D,D,GO_FALLBACK,Homo sapiens,alpha chain C12C TCR,TCRa,TCR
+6RP9,E,E,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+7PBC,B,AAA,GO_FALLBACK,Homo sapiens,T-cell receptor (TRAV/TRAC),TCRa,TCR
+5C0C,D,I,GO_FALLBACK,Homo sapiens,1E6 TCR Alpha Chain,TCRa,TCR
+7PBC,C,BBB,GO_FALLBACK,Homo sapiens,T-cell receptor (TRBV/TRBC),TCRb,TCR
+6RP9,D,D,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+8F5A,C,C,GO_FALLBACK,Homo sapiens,KS1 TCR alpha chain,TCRa,TCR
+8F5A,D,D,GO_FALLBACK,Homo sapiens,KS1 TCR beta chain,TCRb,TCR
+4WUU,E,E,GO_FALLBACK,Homo sapiens,IMMUNOGLOBULIN HEAVY CHAIN,AbH,Ab
+4WUU,D,D,GO_FALLBACK,Homo sapiens,ESK1,AbL,Ab
+1W72,E,L,GO_FALLBACK,Homo sapiens,HYB3 LIGHT CHAIN,AbL,Ab
+1W72,D,H,GO_FALLBACK,Homo sapiens,HYB3 HEAVY CHAIN,AbH,Ab
+8SHI,D,G,GO_FALLBACK,Homo sapiens,T cell receptor alpha,TCRa,TCR
+8SHI,E,H,GO_FALLBACK,Homo sapiens,T cell receptor beta,TCRb,TCR
+2P5E,E,E,GO_FALLBACK,Homo sapiens,Hypothetical protein,TCRb,TCR
+4MNQ,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+2VLK,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+2VLK,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+5HHO,E,E,GO_FALLBACK,Homo sapiens,JM22 TCR beta chain,TCRb,TCR
+5HHO,D,D,GO_FALLBACK,Homo sapiens,JM22 TCR alpha chain,TCRa,TCR
+6RSY,E,E,GO_FALLBACK,Homo sapiens,DMF4 Beta CHAIN,TCRb,TCR
+2P5E,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+6RSY,D,D,GO_FALLBACK,Homo sapiens,a7b2 ALPHA CHAIN,TCRa,TCR
+6R2L,D,D,GO_FALLBACK,Homo sapiens,"T cell receptor alpha variable 22,Human nkt tcr alpha chain",TCRa,TCR
+6R2L,E,E,GO_FALLBACK,Homo sapiens,"T cell receptor beta variable 11-2,Human nkt tcr beta chain",TCRb,TCR
+5E9D,E,E,A0A0K0K1A5,Homo sapiens,TRBV6-5,TCRb,TCR
+5E9D,D,D,A0A075B6T6,Homo sapiens,TRAV12-2,TCRa,TCR
+6TRO,E,E,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+2GJ6,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+2GJ6,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+6TRO,D,D,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+5WKH,E,E,GO_FALLBACK,Homo sapiens,D30 TCR beta chain,TCRb,TCR
+3SJV,E,E,GO_FALLBACK,Homo sapiens,"RL42 T cell receptor, beta chain",TCRb,TCR
+5C08,E,E,GO_FALLBACK,Homo sapiens,1E6 TCR Beta Chain,TCRb,TCR
+5C08,D,D,GO_FALLBACK,Homo sapiens,1E6 TCR Alpha Chain,TCRa,TCR
+6VMA,E,E-2,GO_FALLBACK,Homo sapiens,T4H2 T cell receptor beta chain,TCRb,TCR
+8EO8,E,E,GO_FALLBACK,Homo sapiens,3180 beta chain,TCRb,TCR
+8EO8,D,D,GO_FALLBACK,Homo sapiens,3180 alpha chain,TCRa,TCR
+6VMA,D,D-2,GO_FALLBACK,Homo sapiens,T4H2 T cell receptor alpha chain,TCRa,TCR
+7RM4,E,E,GO_FALLBACK,Homo sapiens,6-11 T cell receptor alpha chain,TCRa,TCR
+7RM4,D,D,GO_FALLBACK,Homo sapiens,6-11 T cell receptor beta chain,TCRb,TCR
+3SJV,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+7RRG,E,E-2,GO_FALLBACK,Homo sapiens,"T cell receptor, beta chain",TCRb,TCR
+3D39,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+3D39,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+5IRO,D,D,Q8BEL5,Human adenovirus E serotype 4,E3,E3,E3
+7RRG,D,D-2,GO_FALLBACK,Homo sapiens,"T cell receptor, alpha chain",TCRa,TCR
+7DZN,E,E,GO_FALLBACK,Homo sapiens,alpha chain T18A TCR,TCRa,TCR
+7DZN,D,D,GO_FALLBACK,Homo sapiens,beta chain T18A TCR,TCRb,TCR
+8ES9,B,A,GO_FALLBACK,Homo sapiens,PN45428 TCR alpha chain,TCRa,TCR
+8ES9,C,B,GO_FALLBACK,Homo sapiens,PN45428 TCR beta chain,TCRb,TCR
+5WKH,D,D,GO_FALLBACK,Homo sapiens,"T-cell receptor alpha variable 30,T-cell receptor, sp3.4 alpha chain",TCRa,TCR
+3UTS,E,E,GO_FALLBACK,Homo sapiens,1E6 TCR Beta Chain,TCRb,TCR
+3UTS,D,D,GO_FALLBACK,Homo sapiens,1E6 TCR Alpha Chain,TCRa,TCR
+5MEN,E,E,GO_FALLBACK,Homo sapiens,"Protein TRBV6-5,Human nkt tcr beta chain",TCRb,TCR
+5MEN,D,D,GO_FALLBACK,Homo sapiens,"Protein TRAV22,Human nkt tcr alpha chain",TCRa,TCR
+8ES8,B,A,GO_FALLBACK,Homo sapiens,PN45545 TCR alpha chain,TCRa,TCR
+8ES8,C,B,GO_FALLBACK,Homo sapiens,PN45545 TCR beta chain,TCRb,TCR
+9BL5,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+1OGA,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+1OGA,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+4JRX,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+6BJ2,D,D,Q6IRV4,Homo sapiens,TRA@,TCRa,TCR
+5C0B,D,D,GO_FALLBACK,Homo sapiens,1E6 TCR Alpha Chain,TCRa,TCR
+5C0B,E,E,GO_FALLBACK,Homo sapiens,1E6 TCR Beta Chain,TCRb,TCR
+4E5X,D,G,P68979,Human adenovirus C serotype 6,Early E3 18.5 kDa glycoprotein,E3,E3
+1AO7,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+4FTV,E,E,GO_FALLBACK,Homo sapiens,A6 beta chain,TCRb,TCR
+4FTV,D,D,GO_FALLBACK,Homo sapiens,A6 alpha chain,TCRa,TCR
+3HAE,E,L,GO_FALLBACK,Homo sapiens,Antibody light chain,AbL,Ab
+3HAE,D,H,GO_FALLBACK,Homo sapiens,Antibody heavy chain,AbH,Ab
+5NMF,E,E,GO_FALLBACK,Homo sapiens,Human T-cell receptor Beta chain,TCRb,TCR
+5NMF,D,D,GO_FALLBACK,Homo sapiens,HUman T-cell receptor Alpha chain,TCRa,TCR
+7Q9A,E,E,GO_FALLBACK,Homo sapiens,"Human Mel5 T Cell Receptor, Beta Chain",TCRb,TCR
+5C09,E,E,GO_FALLBACK,Homo sapiens,1E6 TCR Beta Chain,TCRb,TCR
+5C09,D,D,GO_FALLBACK,Homo sapiens,1E6 TCR Alpha Chain,TCRa,TCR
+7Q9A,D,D,GO_FALLBACK,Homo sapiens,"Human Mel5 T Cell Receptor, Alpha Chain",TCRa,TCR
+7N1F,D,D,GO_FALLBACK,Homo sapiens,pYLQ7 T cell receptor alpha chain,TCRa,TCR
+7N1F,E,E,GO_FALLBACK,Homo sapiens,pYLQ7 T cell receptor beta chain,TCRb,TCR
+6V3J,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+6VM7,E,E-2,GO_FALLBACK,Homo sapiens,SILv44 T cell receptor beta chain,TCRb,TCR
+1AO7,D,D,GO_FALLBACK,Homo sapiens,T CELL RECEPTOR ALPHA,TCRa,TCR
+6VM7,D,D-2,GO_FALLBACK,Homo sapiens,SILv44 T cell receptor alpha chain,TCRa,TCR
+7NDU,E,EEE,GO_FALLBACK,Homo sapiens,"T cell receptor beta variable 7-9,T cell receptor beta joining 1-2,Human nkt tcr beta chain",TCRb,TCR
+7NDU,D,DDD,GO_FALLBACK,Homo sapiens,"T cell receptor alpha variable 4,T cell receptor alpha joining 23,M1-specific T cell receptor alpha chain",TCRa,TCR
+7NMG,E,E,GO_FALLBACK,Homo sapiens,"Human 4C6 T-cell Receptor, beta Chain",TCRb,TCR
+6UJ9,E,L,GO_FALLBACK,Homo sapiens,Fab light chain,AbL,Ab
+7NMG,D,D,GO_FALLBACK,Homo sapiens,"Human 4C6 T-cell Receptor, alpha Chain",TCRa,TCR
+6UJ9,D,H,GO_FALLBACK,Homo sapiens,Fab heavy chain,AbH,Ab
+8EK5,D,E,GO_FALLBACK,Homo sapiens,10LH single chain fragment variable (scFv),scFv,Ab
+7QPJ,B,A,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+5EUO,C,E,GO_FALLBACK,Homo sapiens,PF6 TCR alpha chain,TCRa,TCR
+7QPJ,C,B,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+5EUO,D,F,GO_FALLBACK,Homo sapiens,PF6 TCR beta chain,TCRb,TCR
+7Q9B,D,DDD,GO_FALLBACK,Homo sapiens,"Human T Cell Receptor Mel8, Alpha Chain",TCRa,TCR
+8UDR,E,E,GO_FALLBACK,Homo sapiens,P1B7 Light Chain,AbL,Ab
+8UDR,D,D,GO_FALLBACK,Homo sapiens,P1B7 Heavy Chain,AbH,Ab
+7N2O,D,D,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+7N2O,E,F,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+7Q9B,E,EEE,GO_FALLBACK,Homo sapiens,"Human T Cell Receptor Mel8, Beta Chain",TCRb,TCR
+3VXM,D,D,GO_FALLBACK,Homo sapiens,C1-28 TCR alpha chain,TCRa,TCR
+4MJI,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+3MV9,E,E,GO_FALLBACK,Homo sapiens,beta chain of the TK3 TCR,TCRb,TCR
+3MV9,D,D,GO_FALLBACK,Homo sapiens,alpha chain of the TK3 TCR,TCRa,TCR
+3HG1,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+3HG1,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+2BNR,E,E,GO_FALLBACK,Homo sapiens,T-CELL RECEPTOR BETA CHAIN C REGION,TCRb,TCR
+2BNR,D,D,GO_FALLBACK,Homo sapiens,T-CELL RECEPTOR ALPHA CHAIN V REGION,TCRa,TCR
+4JRY,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+4JRY,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+6VMX,E,E,GO_FALLBACK,Homo sapiens,HD14 beta chain,TCRb,TCR
+6VMX,D,D,GO_FALLBACK,Homo sapiens,HD14 alpha chain,TCRa,TCR
+7Q99,E,E,GO_FALLBACK,Homo sapiens,"Mel5 Human TCR, beta chain",TCRb,TCR
+7Q99,D,D,GO_FALLBACK,Homo sapiens,"Mel5 Human TCR, alpha chain",TCRa,TCR
+5TEZ,E,J,GO_FALLBACK,Homo sapiens,TCR F50 beta chain,TCRb,TCR
+5TEZ,D,I,GO_FALLBACK,Homo sapiens,TCR F50 alpha chain,TCRa,TCR
+7N2S,E,F,GO_FALLBACK,Homo sapiens,T cell receptor beta chain,TCRb,TCR
+7N2S,D,D,GO_FALLBACK,Homo sapiens,T cell receptor alpha chain,TCRa,TCR
+6AMU,E,E,GO_FALLBACK,Homo sapiens,DMF5 TCR beta chain,TCRb,TCR
+6AMU,D,D,GO_FALLBACK,Homo sapiens,DMF5 TCR alpha chain,TCRa,TCR
+4QRP,E,E,GO_FALLBACK,Homo sapiens,DD31 TCR beta chain,TCRb,TCR
+4QRP,D,D,GO_FALLBACK,Homo sapiens,DD31 TCR alpha chain,TCRa,TCR
+9DL1,B,A,GO_FALLBACK,Homo sapiens,TRACeR-I,TRACeR-I,TRACeR-I
+9DL1,D,D,GO_FALLBACK,Homo sapiens,TRACeR-I,TRACeR-I,TRACeR-I
+2BNQ,D,D,GO_FALLBACK,Homo sapiens,T-CELL RECEPTOR ALPHA CHAIN V REGION,TCRa,TCR
+2BNQ,E,E,GO_FALLBACK,Homo sapiens,T-CELL RECEPTOR BETA CHAIN C REGION,TCRb,TCR
+7N2P,E,F,GO_FALLBACK,Homo sapiens,AS4.3 T cell receptor beta chain,TCRb,TCR
+7N2P,D,D,GO_FALLBACK,Homo sapiens,AS4.3 T cell receptor alpha chain,TCRa,TCR
+6EQA,E,E,GO_FALLBACK,Homo sapiens,"Mel5 TCR, beta chain",TCRb,TCR
+6EQA,D,D,GO_FALLBACK,Homo sapiens,"Mel5 TCR, alpha chain",TCRa,TCR
+9BL2,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+3VXR,E,E,GO_FALLBACK,Homo sapiens,H27-14 TCR beta chain,TCRb,TCR
+1MI5,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+1MI5,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+3VXR,D,D,GO_FALLBACK,Homo sapiens,H27-14 TCR alpha chain,TCRa,TCR
+4JFD,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+4JFD,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+6RPB,E,E,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+6RPB,D,D,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+5EU6,E,E,GO_FALLBACK,Homo sapiens,Human TCR Heavy Chain,TCRb,TCR
+3QDM,E,E,GO_FALLBACK,Homo sapiens,DMF4 beta chain,TCRb,TCR
+5EU6,D,D,GO_FALLBACK,Homo sapiens,Human TCR Light Chain,TCRa,TCR
+4L3E,E,E,GO_FALLBACK,Homo sapiens,DMF5 beta chain,TCRb,TCR
+4L3E,D,D,GO_FALLBACK,Homo sapiens,DMF5 alpha chain,TCRa,TCR
+5T6Z,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+6VMC,E,E-2,GO_FALLBACK,Homo sapiens,T4H2 T cell receptor beta chain,TCRb,TCR
+6VMC,D,D-2,GO_FALLBACK,Homo sapiens,T4H2 T cell receptor alpha chain,TCRa,TCR
+6BJ3,D,D,Q6IRV4,Homo sapiens,TRA@,TCRa,TCR
+3QDM,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+8V51,E,E,GO_FALLBACK,Homo sapiens,D1 TCR beta chain,TCRb,TCR
+8V51,D,D,GO_FALLBACK,Homo sapiens,D1 TCR alpha chain,TCRa,TCR
+5YXN,B,A,GO_FALLBACK,Homo sapiens,T cell receptor alpha chain,TCRa,TCR
+5YXN,C,B,GO_FALLBACK,Homo sapiens,T cell receptor beta chain,TCRb,TCR
+6AVG,B,C,A0A0B4J268,Homo sapiens,TRAV4,TCRa,TCR
+6AVG,C,D,A0A0B4J1U6,Homo sapiens,TRBV9,TCRb,TCR
+4PRI,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+6ULN,E,E-2,GO_FALLBACK,Homo sapiens,TCR-V-beta-5-6*01,TCRb,TCR
+6D7G,C,E,GO_FALLBACK,Homo sapiens,"T-CELL RECEPTOR GAMMA VARIABLE 8,T-CELL RECEPTOR GAMMA-2 CHAIN C REGION",TCRg,TCR
+6ULN,D,D-2,GO_FALLBACK,Homo sapiens,TCR-V-alpha-4*01,TCRa,TCR
+4PRI,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+6D7G,B,D,Q6PJ56,Homo sapiens,TRA@,TCRa,TCR
+8FJA,E,E,GO_FALLBACK,Homo sapiens,REGN6972 Fab heavy chain,AbH,Ab
+8FJA,D,D,GO_FALLBACK,Homo sapiens,REGN6972 Fab light chain,AbL,Ab
+2YPL,E,E,GO_FALLBACK,Homo sapiens,AGA T-CELL RECEPTOR BETA CHAIN,TCRb,TCR
+2YPL,D,D,GO_FALLBACK,Homo sapiens,AGA T-CELL RECEPTOR ALPHA CHAIN,TCRa,TCR
+5C0A,E,E,GO_FALLBACK,Homo sapiens,1E6 TCR Beta Chain,TCRb,TCR
+5C0A,D,D,GO_FALLBACK,Homo sapiens,1E6 TCR Alpha Chain,TCRa,TCR
+1IM3,D,D,P09713,Human cytomegalovirus (strain AD169),US2,US2,US2
+4PRP,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+4PRP,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+5NQK,C,B,A0A075B6N1,Homo sapiens,TRBV19,TCRb,TCR
+5NQK,B,A,P01848,Homo sapiens,TRAC,TCRa,TCR
+7N2N,E,F,GO_FALLBACK,Homo sapiens,T cell receptor beta chain,TCRb,TCR
+7N2N,D,D,GO_FALLBACK,Homo sapiens,T cell receptor alpha chain,TCRa,TCR
+9BLA,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+5BS0,E,E,GO_FALLBACK,Homo sapiens,"Protein TRBV5-1,Human nkt tcr beta chain",TCRb,TCR
+3W0W,E,E,GO_FALLBACK,Homo sapiens,T36-5 TCR beta chain,TCRb,TCR
+3W0W,D,D,GO_FALLBACK,Homo sapiens,T36-5 TCR alpha chain,TCRa,TCR
+5BS0,D,D,GO_FALLBACK,Homo sapiens,"Protein TRAV21,T-cell receptor alpha chain C region",TCRa,TCR
+7DZM,E,E,GO_FALLBACK,Homo sapiens,alpha chain T18A TCR,TCRa,TCR
+7DZM,D,D,GO_FALLBACK,Homo sapiens,beta chain T18A TCR,TCRb,TCR
+6ULR,E,E-2,GO_FALLBACK,Homo sapiens,TCR-V-beta 5-6*01,TCRb,TCR
+6ULR,D,D-2,GO_FALLBACK,Homo sapiens,TCR-V-alpha 4*01,TCRa,TCR
+6VRM,D,E,GO_FALLBACK,Homo sapiens,"TCR 12-6, beta chain",TCRb,TCR
+6VRM,C,D,GO_FALLBACK,Homo sapiens,"T-cell receptor 12-6, alfa chain",TCRa,TCR
+5YXU,B,F-2,GO_FALLBACK,Homo sapiens,T cell receptor alpha chain,TCRa,TCR
+5YXU,C,G-2,GO_FALLBACK,Homo sapiens,T cell receptor beta chain,TCRb,TCR
+5NHT,B,A,GO_FALLBACK,Homo sapiens,"T-cell receptor alpha variable 12-2,T-cell receptor, sp3.4 alpha chain",TCRa,TCR
+4PRH,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+4PRH,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+5NHT,C,B,GO_FALLBACK,Homo sapiens,"T-cell receptor beta variable 19,TRB protein",TCRb,TCR
+2VLJ,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+2VLJ,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+7L1D,E,E,GO_FALLBACK,Homo sapiens,"T cell receptor, beta chain",TCRb,TCR
+8CX4,E,F,GO_FALLBACK,Homo sapiens,AS8.4b,TCRb,TCR
+7L1D,D,D,GO_FALLBACK,Homo sapiens,"T cell receptor, alpha chain",TCRa,TCR
+8CX4,D,D,GO_FALLBACK,Homo sapiens,AS8.4a,TCRa,TCR
+6RPA,E,E,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+6RPA,D,D,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+8GOM,E,E,GO_FALLBACK,Homo sapiens,SARS-CoV-2 specific private TCR RLQ7 beta,TCRb,TCR
+3CDG,C,J,Q13241,Homo sapiens,KLRD1,CD94,CD94
+3CDG,D,K,P26715,Homo sapiens,KLRC1,NKG2A,NKG2A
+8GOM,D,D,GO_FALLBACK,Homo sapiens,SARS-CoV-2 specific private TCR RLQ7 alpha,TCRa,TCR
+5NME,E,E,GO_FALLBACK,Homo sapiens,Human T-cell receptor beta chain,TCRb,TCR
+5NME,D,D,GO_FALLBACK,Homo sapiens,T-cell receptor Alpha chain,TCRa,TCR
+7PDW,B,AAA,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain (TRAV/TRAC),TCRa,TCR
+7PDW,C,BBB,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain (TRBV/TRBC),TCRb,TCR
+6VQO,C,D,GO_FALLBACK,Homo sapiens,"T-cell receptor 1a2, alfa chain",TCRa,TCR
+6VQO,D,E,GO_FALLBACK,Homo sapiens,"TCR receptor 1a2, beta chain",TCRb,TCR
+3FFC,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+7TUE,C,D,O15533,Homo sapiens,TAPBP,TAPBP,TAPBP
+3MV7,E,E,GO_FALLBACK,Homo sapiens,beta chain of the TK3 TCR,TCRb,TCR
+3FFC,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+5T70,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+6TMO,E,E,GO_FALLBACK,Homo sapiens,Beta chain of high affinity engineered T-cell receptor,TCRb,TCR
+3MV7,D,D,GO_FALLBACK,Homo sapiens,alpha chain of the TK3 TCR,TCRa,TCR
+7K81,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+6TMO,D,D,GO_FALLBACK,Homo sapiens,Alpha chain of engineered high affinity T-cell receptor,TCRa,TCR
+7R80,B,A,GO_FALLBACK,Homo sapiens,Alpha chain of C3 TCR,TCRa,TCR
+6BJ8,D,D,Q6IRV4,Homo sapiens,TRA@,TCRa,TCR
+7R80,C,B,GO_FALLBACK,Homo sapiens,Beta Chain of C3 TCR,TCRb,TCR
+8DNT,B,A,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+8DNT,C,B,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+7PHR,B,A,GO_FALLBACK,Homo sapiens,T-cell receptor alpha chain,TCRa,TCR
+7PHR,C,B,GO_FALLBACK,Homo sapiens,T-cell receptor beta chain,TCRb,TCR
+6DKP,E,E,GO_FALLBACK,Homo sapiens,DMF5 T-cell Receptor Beta Chain fusion,TCRb,TCR
+6DKP,D,D,GO_FALLBACK,Homo sapiens,DMF5 T-cell Receptor Alpha Chain fusion,TCRa,TCR
+7STF,E,L,GO_FALLBACK,Homo sapiens,"IgG, Fab Light Chain V2",AbL,Ab
+7STF,D,H,GO_FALLBACK,Homo sapiens,"IgG, Fab Heavy Chain V2",AbH,Ab
+7K80,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+2PYE,E,E,GO_FALLBACK,Homo sapiens,"T-Cell Receptor, Beta Chain",TCRb,TCR
+8GVB,B,A,GO_FALLBACK,Homo sapiens,TD08 TCR alpha chain,TCRa,TCR
+8GVB,C,B,GO_FALLBACK,Homo sapiens,TD08 TCR beta chain,TCRb,TCR
+9BL3,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+2AK4,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+3VH8,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+2AK4,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+6PA1,D,D,P43627,Homo sapiens,KIR2DL2,KIR2DL2,KIR
+5B38,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+6ENY,D,C,O15533,Homo sapiens,TAPBP,TAPBP,TAPBP
+2PYE,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+3KPS,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+8V4Z,E,E,GO_FALLBACK,Homo sapiens,D1 TCR beta chain,TCRb,TCR
+3KPS,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+8V4Z,D,D,GO_FALLBACK,Homo sapiens,D1 TCR alpha chain,TCRa,TCR
+6VRN,C,D,GO_FALLBACK,Homo sapiens,"T-cell receptor 38-10, alfa chain",TCRa,TCR
+6VRN,D,E,GO_FALLBACK,Homo sapiens,"TCR repeptor 38-10, beta chain",TCRb,TCR
+8TNJ,B,C,GO_FALLBACK,Homo sapiens,B.8 Fab light chain,AbL,Ab
+8TNJ,C,D,GO_FALLBACK,Homo sapiens,B.8 Fab heavy chain,AbH,Ab
+5NMG,E,E,GO_FALLBACK,Homo sapiens,Human T-cell Receptor beta chain,TCRb,TCR
+5NMG,D,D,GO_FALLBACK,Homo sapiens,Human T-cell receptor alpha chain,TCRa,TCR
+3QDG,E,E,GO_FALLBACK,Homo sapiens,DMF5 beta chain,TCRb,TCR
+8RJ5,E,E,GO_FALLBACK,Homo sapiens,P1-15 T-cell Receptor Beta Chain,TCRb,TCR
+8RJ5,D,D,GO_FALLBACK,Homo sapiens,P1-15 T-cell Receptor Alpha Chain,TCRa,TCR
+8FJB,E,E,GO_FALLBACK,Homo sapiens,H2aM31345N Fab heavy chain,AbH,Ab
+8FJB,D,D,GO_FALLBACK,Homo sapiens,H2aM31345N Fab light chain,AbL,Ab
+9BL9,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+5D2L,D,J,GO_FALLBACK,Homo sapiens,C7 TCR beta chain,TCRb,TCR
+5D2L,C,I,GO_FALLBACK,Homo sapiens,C7 TCR alpha chain,TCRa,TCR
+6EQB,D,D,GO_FALLBACK,Homo sapiens,"High Affinity Mel5 TCR, alpha chain",TCRa,TCR
+6EQB,E,E,GO_FALLBACK,Homo sapiens,"High Affinity Mel5 TCR, beta chain",TCRb,TCR
+3KPR,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+3KPR,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+3QDG,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+3DXA,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+3DXA,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+3QEQ,E,E,GO_FALLBACK,Homo sapiens,DMF4 beta chain,TCRb,TCR
+9BL4,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+2P5W,E,E,GO_FALLBACK,Homo sapiens,Hypothetical protein,TCRb,TCR
+3MV8,E,E,GO_FALLBACK,Homo sapiens,beta chain of the TK3 TCR,TCRb,TCR
+3MV8,D,D,GO_FALLBACK,Homo sapiens,alpha chain of the TK3 TCR,TCRa,TCR
+8GVG,B,A,GO_FALLBACK,Homo sapiens,TD08 TCR alpha chain,TCRa,TCR
+8GVG,C,B,GO_FALLBACK,Homo sapiens,TD08 TCR beta chain,TCRb,TCR
+4EUP,E,H,GO_FALLBACK,Homo sapiens,JKF6 beta chain,TCRb,TCR
+4EUP,D,G,GO_FALLBACK,Homo sapiens,JKF6 alpha chain,TCRa,TCR
+3QDJ,E,E,GO_FALLBACK,Homo sapiens,DMF5 beta chain,TCRb,TCR
+7RE7,E,J-2,GO_FALLBACK,Homo sapiens,Fab light chain,AbL,Ab
+7RE7,D,I-2,GO_FALLBACK,Homo sapiens,Fab heavy chain,AbH,Ab
+3QEQ,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+2P5W,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+8VRA,E,E,GO_FALLBACK,Homo sapiens,R023 Fab heavy chain,AbH,Ab
+5B39,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+3WUW,D,G,P43629,Homo sapiens,KIR3DL1,KIR3DL1,KIR
+8VRA,D,D,GO_FALLBACK,Homo sapiens,R023 Fab light chain,AbL,Ab
+4G9F,E,E,GO_FALLBACK,Homo sapiens,beta chain C12C TCR,TCRb,TCR
+4G9F,D,D,GO_FALLBACK,Homo sapiens,alpha chain C12C TCR,TCRa,TCR
+5D2N,B,C,GO_FALLBACK,Homo sapiens,C25 alpha,TCRa,TCR
+3QDJ,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+5D2N,C,F,GO_FALLBACK,Homo sapiens,C25 beta,TCRb,TCR
+8T7R,H,g,GO_FALLBACK,Homo sapiens,Light chain from antibody JTK191b E07,AbL,Ab
+8T7R,I,h,GO_FALLBACK,Homo sapiens,Fab heavy chain from antibody JTK191b E07,AbH,Ab
+8VR9,D,D,GO_FALLBACK,Homo sapiens,R023 Fab light chain,AbL,Ab
+8VR9,E,E,GO_FALLBACK,Homo sapiens,R023 Fab heavy chain,AbH,Ab
+2VLR,E,E,P01850,Homo sapiens,TRBC1,TCRb,TCR
+2VLR,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+8T6M,E,D,GO_FALLBACK,Homo sapiens,JTK191b_L02_Fab,AbH,Ab
+8T6M,B,A,GO_FALLBACK,Homo sapiens,JTK191b_M07_Light,AbL,Ab
+8T6M,C,B,GO_FALLBACK,Homo sapiens,JTK191b_M07_Fab,AbH,Ab
+8T6M,D,C,GO_FALLBACK,Homo sapiens,JTK191b_L02_Light,AbL,Ab
+8RRO,B,A,P01848,Homo sapiens,TRAC,TCRa,TCR
+6UON,E,H,GO_FALLBACK,Homo sapiens,TCR-V-beta-10-2*01,TCRb,TCR
+8RRO,C,B,P01850,Homo sapiens,TRBC1,TCRb,TCR
+6UON,D,G,GO_FALLBACK,Homo sapiens,TCR-V-alpha-12-02*01,TCRa,TCR
+8YIV,E,E,P0DTU4,Homo sapiens,TRB,TCRb,TCR
+8YIV,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+7N2Q,D,D,GO_FALLBACK,Homo sapiens,AS4.3 T cell receptor alpha chain,TCRa,TCR
+7N2Q,E,F,GO_FALLBACK,Homo sapiens,AS4.3 T cell receptor beta chain,TCRb,TCR
+8V50,E,E,GO_FALLBACK,Homo sapiens,D1 TCR beta chain,TCRb,TCR
+8V50,D,D,GO_FALLBACK,Homo sapiens,D1 TCR alpha chain,TCRa,TCR
+8GVI,B,A,GO_FALLBACK,Homo sapiens,H25-11 TCR alpha chain,TCRa,TCR
+8GVI,C,B,GO_FALLBACK,Homo sapiens,H25-11 TCR beta chain,TCRb,TCR
+8VRB,E,E,GO_FALLBACK,Homo sapiens,R023 Fab heavy chain,AbH,Ab
+8VRB,D,D,GO_FALLBACK,Homo sapiens,R023 Fab light chain,AbL,Ab
+8YJ2,E,E,P0DTU4,Homo sapiens,TRB,TCRb,TCR
+8YJ2,D,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+5E6I,C,H,GO_FALLBACK,Homo sapiens,T-cell receptor beta-2 chain C region,TCRb,TCR
+3CII,E,H,P26715,Homo sapiens,KLRC1,NKG2A,NKG2A
+3CII,D,G,Q13241,Homo sapiens,KLRD1,CD94,CD94
+7QPD,F,T,O15533,Homo sapiens,TAPBP,TAPBP,TAPBP
+7DUU,D,D,P43631,Homo sapiens,KIR2DS2,KIR2DS2,KIR
+6PUI,B,B,GO_FALLBACK,Homo sapiens,Human TCR alpha chain,TCRa,TCR
+1EFX,D,D,P43627,Homo sapiens,KIR2DL2,KIR2DL2,KIR
+6PUI,C,G,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+5U1R,B,D,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor alpha chain,TCRa,TCR
+8TMU,C,C-2,P43627,Homo sapiens,KIR2DL2,KIR2DL2,KIR
+5U1R,C,E,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor beta chain,TCRb,TCR
+5U72,B,B,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor alpha chain,TCRa,TCR
+1IM9,D,D,P43626,Homo sapiens,KIR2DL1,KIR2DL1,KIR
+9C3E,B,A,P01848,Homo sapiens,TRAC,TCRa,TCR
+9C3E,C,B,P0DTU4,Homo sapiens,TRB,TCRb,TCR
+5U72,C,G,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor beta chain,TCRb,TCR
+6PUL,B,B,GO_FALLBACK,Homo sapiens,TRA@ protein,TCRa,TCR
+6PUL,C,G,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+5U16,C,G,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor alpha chain,TCRa,TCR
+5U16,D,H,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor beta chain,TCRb,TCR
+6PUD,C,G,GO_FALLBACK,Homo sapiens,Human TCR alpha chain,TCRa,TCR
+6PUD,D,H,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+6XQP,C,E,GO_FALLBACK,Homo sapiens,TRAV12-2 alpha chain,TCRa,TCR
+6XQP,D,F,GO_FALLBACK,Homo sapiens,TRBV29-1,TCRb,TCR
+7ZT8,C,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+7ZT8,D,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+9BTX,C,G,GO_FALLBACK,Homo sapiens,Human TCR TRAV1-2_ALPHA,TCRa,TCR
+9BTX,D,H,GO_FALLBACK,Homo sapiens,Human TCR TRBV6-1_BETA,TCRb,TCR
+5U6Q,B,D,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor alpha chain,TCRa,TCR
+5U6Q,C,E,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor beta chain,TCRb,TCR
+6PUM,C,G,GO_FALLBACK,Homo sapiens,TCR alpha chain,TCRa,TCR
+6PUM,D,H,GO_FALLBACK,Homo sapiens,TCR beta chain,TCRb,TCR
+6PUC,C,G,GO_FALLBACK,Homo sapiens,Human TCR alpha chain,TCRa,TCR
+6PUC,D,H,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+6PUJ,B,B,GO_FALLBACK,Homo sapiens,Human TCR alpha chain,TCRa,TCR
+6PUJ,C,G,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+9CGS,C,G,GO_FALLBACK,Homo sapiens,TCR TRAV1-2,TCRa,TCR
+9CGS,D,H,GO_FALLBACK,Homo sapiens,TCR TRBV6-1,TCRb,TCR
+6W9U,C,G,GO_FALLBACK,Homo sapiens,TCR-alpha chain,TCRa,TCR
+6W9U,D,H,GO_FALLBACK,Homo sapiens,TCR-beta chain,TCRb,TCR
+6PUH,B,B,GO_FALLBACK,Homo sapiens,Human TCR alpha chain,TCRa,TCR
+6PUH,C,G,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+9CGR,C,G,GO_FALLBACK,Homo sapiens,TCR TRAV1-2,TCRa,TCR
+9CGR,D,H,GO_FALLBACK,Homo sapiens,TCR TRBV 6-1,TCRb,TCR
+4L4V,C,G,Q6P4G7,Homo sapiens,TRA@,TCRa,TCR
+4L4V,D,H,P01850,Homo sapiens,TRBC1,TCRb,TCR
+4PJF,C,G,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJF,D,H,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+5D7I,C,G,GO_FALLBACK,Homo sapiens,M33.64 TCR Alpha Chain,TCRa,TCR
+5D7I,D,H,GO_FALLBACK,Homo sapiens,M33.64 TCR Beta Chain,TCRb,TCR
+6PVD,C,G,GO_FALLBACK,Homo sapiens,Human TCR alpha chain,TCRa,TCR
+6PVD,D,H,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+6PVC,C,G,GO_FALLBACK,Homo sapiens,Human TCR alpha chain,TCRa,TCR
+8Y6X,C,D,P01848,Homo sapiens,TRAC,TCRa,TCR
+6PVC,D,H,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+6PUF,C,G,GO_FALLBACK,Homo sapiens,Human TCR alpha chain,TCRa,TCR
+6PUF,D,H,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+4PJI,C,G,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+8Y6X,D,E,P0DTU4,Homo sapiens,TRB,TCRb,TCR
+4PJI,D,H,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+5U2V,C,G,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor alpha chain,TCRa,TCR
+5U2V,D,H,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor beta chain,TCRb,TCR
+4PJ5,C,G,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJ5,D,H,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+9BTY,C,G,GO_FALLBACK,Homo sapiens,Human TCR TRAV1-2_ALPHA,TCRa,TCR
+9BTY,D,H,GO_FALLBACK,Homo sapiens,Human TCR TRBV6-1_BETA,TCRb,TCR
+6PUG,C,G,GO_FALLBACK,Homo sapiens,Human TCR alpha chain,TCRa,TCR
+4NQE,C,G,Q6P4G7,Homo sapiens,TRA@,TCRa,TCR
+6PUG,D,H,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+4NQE,D,H,P01850,Homo sapiens,TRBC1,TCRb,TCR
+6PUE,C,G,GO_FALLBACK,Homo sapiens,Human TCR alpha chain,TCRa,TCR
+6PUE,D,H,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+5U17,B,B,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor alpha chain,TCRa,TCR
+5U17,C,G,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor beta chain,TCRb,TCR
+7ZT3,D,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+7ZT3,C,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+4PJE,C,E,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJE,D,F,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+4PJ8,C,C,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJ8,D,D,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+6PUK,B,B,GO_FALLBACK,Homo sapiens,TRA@ protein,TCRa,TCR
+6PUK,C,G,GO_FALLBACK,Homo sapiens,Human TCR beta chain,TCRb,TCR
+6W9V,C,G,GO_FALLBACK,Homo sapiens,TCR-alpha chain,TCRa,TCR
+6W9V,D,H,GO_FALLBACK,Homo sapiens,TCR-beta chain,TCRb,TCR
+7ZT2,C,D,GO_FALLBACK,Homo sapiens,E8 TCR Alpha,TCRa,TCR
+7ZT2,D,E,GO_FALLBACK,Homo sapiens,E8 TCR beta,TCRb,TCR
+4PJ9,C,C,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJ9,D,D,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+9BTZ,D,H,GO_FALLBACK,Homo sapiens,Human TCR TRBV6-1_BETA,TCRb,TCR
+9BTZ,C,G,GO_FALLBACK,Homo sapiens,Human TCR TRAV1-2_ALPHA,TCRa,TCR
+4PJG,C,G,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJG,D,H,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+4PJC,C,E,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJC,D,F,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+7UFJ,C,G,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor alpha chain,TCRa,TCR
+7UFJ,D,H,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor beta chain,TCRb,TCR
+5D7J,B,A,GO_FALLBACK,Homo sapiens,M33.64 TCR Alpha Chain,TCRa,TCR
+5D7J,C,B,GO_FALLBACK,Homo sapiens,M33.64 TCR Beta Chain,TCRb,TCR
+4PJ7,C,G,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJ7,D,H,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+9BU0,C,G,GO_FALLBACK,Homo sapiens,Human TCR TRAV1-2_ALPHA,TCRa,TCR
+9BU0,D,H,GO_FALLBACK,Homo sapiens,Human TCR TRBV6-1_BETA,TCRb,TCR
+4PJH,C,E,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJH,D,F,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+7ZT5,C,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+7ZT5,D,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+4PJD,C,E,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJD,D,F,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+7ZT7,C,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+7ZT7,D,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+4PJX,C,E,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJX,D,F,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+7ZT4,C,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+7ZT4,D,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+4PJA,C,E,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJA,D,F,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+4L4T,C,G,GO_FALLBACK,Homo sapiens,MAIT T-cell receptor alpha chain,TCRa,TCR
+7ZT9,D,E,GO_FALLBACK,Homo sapiens,TCR beta,TCRb,TCR
+7ZT9,C,D,GO_FALLBACK,Homo sapiens,TCR alpha,TCRa,TCR
+4PJB,C,E,GO_FALLBACK,Homo sapiens,TCR-alpha,TCRa,TCR
+4PJB,D,F,GO_FALLBACK,Homo sapiens,TCR-beta,TCRb,TCR
+7LLJ,C,K,GO_FALLBACK,Homo sapiens,T cell receptor gamma variable 8,TCRg,TCR
+7LLJ,D,L,GO_FALLBACK,Homo sapiens,T cell receptor delta variable 3,TCRd,TCR
+7LLI,C,K,A0A0C4DH27,Homo sapiens,TRGV8,TCRg,TCR
+4LCW,C,G,Q6P4G7,Homo sapiens,TRA@,TCRa,TCR
+7LLI,D,L,A0JD37,Homo sapiens,TRDV3,TCRd,TCR
+4LCW,D,H,P01850,Homo sapiens,TRBC1,TCRb,TCR
+4L4T,D,H,P01850,Homo sapiens,TRBC1,TCRb,TCR
+1DE4,C,C,P02786,Homo sapiens,TFRC,TFR,TFR
+1DE4,D,F,P02786,Homo sapiens,TFRC,TFR,TFR
+7RNO,C,C,Q9BX59,Homo sapiens,TAPBPL,TAPBP,TAPBP
+6FGB,D,L,GO_FALLBACK,Homo sapiens,1519.g57- Light chain,AbL,Ab
+7Q15,C,E,P01857,Homo sapiens,IGHG1,AbH,Ab
+6WNA,C,H,P01861,Homo sapiens,IGHG4,AbH,Ab
+6ILM,E,C-41,GO_FALLBACK,Echovirus E6,Capsid protein VP3,Capsid protein VP3,VPs
+2WY3,B,B,P16757,Human cytomegalovirus (strain AD169),UL16,UL16,UL16
+6WOL,C,H,P01861,Homo sapiens,IGHG4,AbH,Ab
+6QIO,B,A,P02768,Homo sapiens,ALB,ALB,ALB
+4N0F,C,D,P02768,Homo sapiens,ALB,ALB,ALB
+4N0U,C,D,P02768,Homo sapiens,ALB,ALB,ALB
+4N0U,D,E,P01857,Homo sapiens,IGHG1,AbH,Ab
+6ILM,B,A-41,GO_FALLBACK,Echovirus E6,Capsid protein VP1,Capsid protein VP1,VPs
+6ILM,C,A-45,GO_FALLBACK,Echovirus E6,Capsid protein VP1,Capsid protein VP1,VPs
+6ILM,D,B-45,GO_FALLBACK,Echovirus E6,Capsid protein VP2,Capsid protein VP2,VPs
+6LA6,B,A-4,GO_FALLBACK,Echovirus E11,Capsid protein VP1,Capsid protein VP1,VPs
+6LA6,F,C-5,GO_FALLBACK,Echovirus E11,Capsid protein VP3,Capsid protein VP3,VPs
+6QIP,B,A,P02768,Homo sapiens,ALB,ALB,ALB
+4WO4,C,C,GO_FALLBACK,Homo sapiens,TCR variable DELTA 1 CHAIN and TCR constant Alpha,TCRd,TCR
+4WO4,D,D,GO_FALLBACK,Homo sapiens,TCR variable BETA 2 (TRVB20) chain and TCR constant BETA,TCRb,TCR
+3SDX,D,F,GO_FALLBACK,Homo sapiens,NKT TCR autoreactive-Vbeta11 chain,TCRb,TCR
+8TM0,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+5WHK,D,L,Q6NS95,Homo sapiens,IGL@,AbL,Ab
+5WHK,C,H,GO_FALLBACK,Homo sapiens,DX-2507 Fab heavy chain,AbH,Ab
+8TM2,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+4K71,B,A,P02768,Homo sapiens,ALB,ALB,ALB
+3SDX,C,E,P01848,Homo sapiens,TRAC,TCRa,TCR
+6LA7,B,A-3,GO_FALLBACK,Echovirus E11,Capsid protein VP1,Capsid protein VP1,VPs
+6LA7,D,B-3,GO_FALLBACK,Echovirus E11,Capsid protein VP2,Capsid protein VP2,VPs
+7C9V,B,A-14,GO_FALLBACK,Echovirus E30,VP1,Capsid protein VP1,VPs
+7C9V,C,B-14,GO_FALLBACK,Echovirus E30,VP2,Capsid protein VP2,VPs
+7C9V,D,C-14,GO_FALLBACK,Echovirus E30,VP3,Capsid protein VP3,VPs
+1KCG,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+1KCG,C,B,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+4S0U,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+4S0U,C,B,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+8SGM,C,C,GO_FALLBACK,Homo sapiens,Natural killer T cell receptor TRAV26-2,TCRa,TCR
+8SGM,D,D,GO_FALLBACK,Homo sapiens,Natural killer T cell receptor TRBV19 beta chain,TCRb,TCR
+3HUJ,C,G,GO_FALLBACK,Homo sapiens,NKT15 T cell receptor alpha-chain,TCRa,TCR
+3HUJ,D,H,GO_FALLBACK,Homo sapiens,NKT15 T cell receptor beta-chain,TCRb,TCR
+6SNY,B,A,GO_FALLBACK,synthetic construct,Synthetic EPCR binding protein,Synthetic PfEMP1,PfEMP1
+3VWK,C,C,GO_FALLBACK,Homo sapiens,NKT15 T cell receptor alpha-chain,TCRa,TCR
+4WW2,C,B,A0A5B9,Homo sapiens,TRBC2,TCRb,TCR
+4LHU,F,G,P0CF51,Homo sapiens,TRGC1,TCRg,TCR
+3VWK,D,D,GO_FALLBACK,Homo sapiens,NKT15 T cell receptor beta-chain,TCRb,TCR
+3TZV,E,H,GO_FALLBACK,Homo sapiens,Invariant Natural Killer T Cell Receptor chain B,TCRb,TCR
+3TZV,D,G,GO_FALLBACK,Homo sapiens,Invariant Natural Killer T Cell Receptor chain A,TCRa,TCR
+4LHU,D,D,Q6PJ56,Homo sapiens,TRA@,TCRa,TCR
+4WW2,B,A,GO_FALLBACK,Homo sapiens,TCR Alpha Chain-TRAV21-TRAJ8,TCRa,TCR
+8SGB,D,D,GO_FALLBACK,Homo sapiens,Natural Killer T cell receptor TRBV19 beta chain,TCRb,TCR
+8SGB,C,C,GO_FALLBACK,Homo sapiens,Natural Killer T cell receptor TRAV26A-2 alpha chain,TCRa,TCR
+7FI9,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+7FI9,C,B,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+4MNG,C,E,Q6PJ56,Homo sapiens,TRA@,TCRa,TCR
+7FI6,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+7FI6,C,B,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+1HYR,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+7RYO,C,C,GO_FALLBACK,Homo sapiens,"T cell receptor gamma variable 4,T cell receptor beta constant 1",TCRb,TCR
+1HYR,C,B,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+7FI5,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+7FI5,C,B,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+4V3E,B,A,GO_FALLBACK,Plasmodium falciparum,IT4VAR07 CIDRA,CIDRα,PfEMP1
+4X6D,C,G,P01848,Homo sapiens,TRAC,TCRa,TCR
+4X6D,D,H,P01850,Homo sapiens,TRBC1,TCRb,TCR
+4V3D,B,C,GO_FALLBACK,Plasmodium falciparum HB3,HB3VAR03 CIDRA DOMAIN,CIDRα,PfEMP1
+2PO6,D,D,GO_FALLBACK,Homo sapiens,NKT15 beta-chain,TCRb,TCR
+6C09,D,D,GO_FALLBACK,Homo sapiens,3C8 T cell receptor beta-chain,TCRb,TCR
+6CUG,C,D,GO_FALLBACK,Homo sapiens,T-cell receptor alpha variable TRAV9-2 - BC8B TCR,TCRa,TCR
+6CUG,D,E,GO_FALLBACK,Homo sapiens,T-cell receptor beta variable TRBV6-2 - BC8B TCR,TCRb,TCR
+6C09,C,C,GO_FALLBACK,Homo sapiens,3C8 T cell receptor alpha-chain,TCRa,TCR
+5L2K,C,D,GO_FALLBACK,Homo sapiens,GEM42 TCR alpha chain,TCRa,TCR
+5L2K,D,E,GO_FALLBACK,Homo sapiens,GEM42 TCR beta chain,TCRb,TCR
+2PO6,C,C,P01848,Homo sapiens,TRAC,TCRa,TCR
+3VWJ,C,C,GO_FALLBACK,Homo sapiens,NKT15 T cell receptor alpha-chain,TCRa,TCR
+3VWJ,D,D,GO_FALLBACK,Homo sapiens,NKT15 T cell receptor beta-chain,TCRb,TCR
+7FI7,C,B,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+7FI7,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+5WKI,E,E,GO_FALLBACK,Homo sapiens,PG90 TCR beta chain,TCRb,TCR
+7RYM,C,C,GO_FALLBACK,Homo sapiens,"T cell receptor gamma variable 4,T cell receptor beta constant 1",TCRb,TCR
+8ZOX,C,D,GO_FALLBACK,Homo sapiens,Y-50 TCR alpha,TCRa,TCR
+8ZOX,D,E,GO_FALLBACK,Homo sapiens,Y-50 TCR beta,TCRb,TCR
+7FI8,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+7FI8,C,B,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+4WWK,B,A,GO_FALLBACK,Homo sapiens,TCR Alpha Chain-TRAV12-3,TCRa,TCR
+4WWK,C,B,GO_FALLBACK,Homo sapiens,TCR Beta Chain-TRBV6-5,TCRb,TCR
+7B5F,B,A,GO_FALLBACK,Echovirus E18,Echovirus 18 viral protein 1,Capsid protein VP1,VPs
+4X6C,C,G,P01848,Homo sapiens,TRAC,TCRa,TCR
+7B5F,C,B,GO_FALLBACK,Echovirus E18,Echovirus 18 viral protein 2,Capsid protein VP1,VPs
+8C44,B,A,GO_FALLBACK,Plasmodium falciparum HB3,PfEMP1,PfEMP1,PfEMP1
+4X6C,D,H,P01850,Homo sapiens,TRBC1,TCRb,TCR
+6V80,C,C,GO_FALLBACK,Homo sapiens,"T cell receptor alpha variable 10, nkt tcr alpha chain fusion",TCRa,TCR
+7XXA,F,C-30,GO_FALLBACK,Echovirus E18,VP3,Capsid protein VP3,VPs
+7XXA,B,A-29,GO_FALLBACK,Echovirus E18,VP1,Capsid protein VP1,VPs
+5WKI,D,D,GO_FALLBACK,Homo sapiens,"T-cell receptor alpha variable 26-1,TRA@ protein",TCRa,TCR
+7XXA,C,A-30,GO_FALLBACK,Echovirus E18,VP1,Capsid protein VP1,VPs
+7XXA,D,B-29,GO_FALLBACK,Echovirus E18,VP2,Capsid protein VP2,VPs
+4PDC,B,A,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+4PDC,C,B,P26718,Homo sapiens,KLRK1,NKG2D,NKG2
+3IT8,B,A,P01375,Homo sapiens,TNF,TNF,TNF
+3IT8,C,B,P01375,Homo sapiens,TNF,TNF,TNF

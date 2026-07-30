@@ -1,0 +1,16 @@
+PTM summary for step7 chain A
+==============================
+
+Total step7 structures analyzed: 1165
+Total structures with at least one PTM in chain A: 1
+
+Number of structures with each PTM type:
+cofactor-linked lysine modification	1
+
+Number of structures with each PTM residue code:
+LLP	cofactor-linked lysine modification	1
+
+Files containing PTMs in chain A:
+
+9CGS
+  - cofactor-linked lysine modification: 1 residues (LLP:A44)
