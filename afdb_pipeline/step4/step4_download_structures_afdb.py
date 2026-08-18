@@ -1,20 +1,17 @@
 #!/usr/bin/env python3
 """
-Download AFDB models that survived step3 filtering (step4 of the AFDB pipeline).
-
-Which set of models gets downloaded is controlled by ONE toggle below,
-AFDB_DATASET_SELECTION -- it picks the matching file that
-step3_filter_mhc_annotations_afdb.py wrote, via the shared lookup table in
-afdb_dataset_config.py. If you build a step5 later, point it at the same
-AFDB_DATASET_SELECTION import (or copy the value) so it can't drift out of
-sync with whatever step4 actually downloaded.
+Step 4 of the AFDB pipeline: download the AFDB models that survived step3
+filtering. Which option gets downloaded is controlled by
+AFDB_DATASET_SELECTION below.
 """
 
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+import sys
 
 import pandas as pd
 import requests
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from afdb_dataset_config import AfdbDataset, DATASET_MODEL_FILENAMES, STEP3_DIR, STEP4_DIR, describe
 
@@ -23,10 +20,9 @@ from afdb_dataset_config import AfdbDataset, DATASET_MODEL_FILENAMES, STEP3_DIR,
 # Configuration
 # =========================
 
-# ---- Choose which AFDB dataset version to download ----
-# See afdb_dataset_config.py for the full description of each option.
+# See afdb_dataset_config.py for the full description of each option:
 #   AfdbDataset.ALL_HUMAN_MHC          1. All human AFDB MHC
-#   AfdbDataset.CURRENT_RESTRICTIONS   2. Human AFDB MHC with current restrictions  (default)
+#   AfdbDataset.CURRENT_RESTRICTIONS   2. Human AFDB MHC, current restrictions (default)
 #   AfdbDataset.SUBSET_REVIEWED        3. AFDB subset 1 (Swiss-Prot reviewed)
 #   AfdbDataset.SUBSET_LENGTH_175_185  4. AFDB subset 2 (target_length 175-185)
 #   AfdbDataset.BOTH_SUBSETS           5. Both AFDB subsets
@@ -40,9 +36,10 @@ AFDB_MODEL_DIR = OUT_DIR / "1_models"
 THREADS = 8
 REQUEST_TIMEOUT = 60
 
-# Manual download blacklist. AFDB model IDs exactly as they appear in the
-# input CSV's "pdb" column (e.g. "AF-P01911-F1-model_v4").
+# AFDB model IDs to skip, exactly as they appear in the "pdb" column
+# (e.g. "AF-P01911-F1-model_v4").
 DOWNLOAD_REMOVAL_LIST: set = set()
+_BLACKLIST_UPPER = {str(v).strip().upper() for v in DOWNLOAD_REMOVAL_LIST}
 
 
 # =========================
@@ -57,7 +54,6 @@ def download_file(url: str, out_path: Path) -> bool:
         return True
 
     response = requests.get(url, timeout=REQUEST_TIMEOUT)
-
     if response.status_code != 200:
         return False
 
@@ -70,15 +66,12 @@ def download_afdb_model(model_id: str) -> None:
     out_path = AFDB_MODEL_DIR / f"{model_id}.cif"
     url = f"https://alphafold.ebi.ac.uk/files/{model_id}.cif"
 
-    ok = download_file(url, out_path)
-
-    if not ok:
+    if not download_file(url, out_path):
         print(f"[FAILED] {model_id}")
 
 
 def is_blacklisted_structure(structure_id: str) -> bool:
-    blacklist = {str(value).strip().upper() for value in DOWNLOAD_REMOVAL_LIST}
-    return str(structure_id).strip().upper() in blacklist
+    return str(structure_id).strip().upper() in _BLACKLIST_UPPER
 
 
 # =========================

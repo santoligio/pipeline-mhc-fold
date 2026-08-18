@@ -1,26 +1,23 @@
 #!/usr/bin/env python3
 """
-Record MHC functional annotations for AFDB models.
-
-AFDB pipeline order (differs from PDB):
-    step1 (select) -> step2 (this script: annotate) -> step3 (filter) -> step4 (download)
-
-Because AFDB is much larger than the PDB, annotation happens directly against
-the step1 selection table -- BEFORE anything is downloaded -- so step3 can
-discard everything that doesn't pass the MHC / species filters and step4
-only has to download the models that survive.
-
-Only UniProt REST lookups are needed here, so no structure files are read.
+Step 2 of the AFDB pipeline: annotate step1's primary models with UniProt
+metadata (name, organism, gene, length, review status) via REST lookups.
+No structure files are read here -- filtering and download happen later
+(step3, step4).
 """
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import Dict, List, Optional, Tuple
+from pathlib import Path
+from typing import List, Optional, Tuple
 import logging
 import re
+import sys
 import time
 
 import pandas as pd
 import requests
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from afdb_dataset_config import STEP1_DIR, STEP2_DIR
 
@@ -29,13 +26,7 @@ from afdb_dataset_config import STEP1_DIR, STEP2_DIR
 # Configuration
 # =========================
 
-# NOTE: step1 (not part of this edit) needs to write its AFDB output to
-# this same path -- afdb_pipeline/step1/afdb/afdb_models.csv -- for this
-# to resolve. If step1 still writes to the old top-level "step1/afdb/"
-# location, either update step1's output path to match, or share step1
-# here so it can be updated too.
 STEP1_CSV = STEP1_DIR / "afdb" / "afdb_models.csv"
-
 OUT_DIR = STEP2_DIR
 
 THREADS = 16
@@ -47,10 +38,6 @@ REQUEST_RETRIES = 3
 # =========================
 # Setup
 # =========================
-
-def log(message: str) -> None:
-    print(message, flush=True)
-
 
 def make_output_dirs() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -157,6 +144,8 @@ def get_uniprot_metadata(uniprot_id: str, logger: logging.Logger) -> Optional[di
 # =========================
 
 def extract_afdb_uniprot_id(model_id: str) -> str:
+    """"AF-P01911-F1-model_v4" -> "P01911". Works for any fragment number
+    (F1, F2, ...) since it just reads the second "-"-separated field."""
     value = str(model_id).strip()
 
     if value.startswith("AF-"):

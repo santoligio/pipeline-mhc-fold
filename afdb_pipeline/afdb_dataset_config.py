@@ -2,22 +2,18 @@
 """
 Shared AFDB dataset-selection config.
 
-step3_filter_mhc_annotations_afdb.py WRITES one CSV pair (annotations +
+step3_filter_mhc_annotations_afdb.py writes one CSV pair (annotations +
 model list) per option below, every run.
 
-step4_download_structures_afdb.py -- and any future step5 -- READS whichever
-option is selected via a single AFDB_DATASET_SELECTION toggle near the top
-of that script, by looking up its filename here.
+step4_download_structures_afdb.py -- and step5_separate_mhc_afdb.py, which
+imports the toggle straight from step4 -- read whichever option is
+selected via AFDB_DATASET_SELECTION in step4, by looking up its filename
+here. Keeping the option list and filenames in one shared file (instead of
+each script hardcoding its own path) is what keeps step4/step5 from
+silently drifting onto different subsets of the data.
 
-Keeping the option list and filenames in one shared file (instead of each
-downstream script hardcoding its own INPUT_CSV) is what prevents the
-fragility from before: change the toggle in step4, and step5 either imports
-the same toggle or is obviously still pointed at "afdb_models_filtered.csv"
-by name -- it can no longer silently drift to a different subset than step4
-used.
-
-Place this file in the same directory as step3/step4/step5 so the plain
-`import afdb_dataset_config` below resolves.
+Place this file in the same directory as step1-step5 so the plain
+`import afdb_dataset_config` in those scripts resolves.
 """
 
 from enum import Enum
@@ -28,20 +24,12 @@ from pathlib import Path
 # Directory layout
 # =========================
 #
-# Everything AFDB-specific lives under one parent folder, afdb_pipeline/,
-# with one subfolder per step -- so the folder tree itself tells you where
-# to look to recover any given step's output:
-#
 #   afdb_pipeline/
-#     step1/afdb/afdb_models.csv        <- step1 (selection, not shown here)
+#     step1/afdb/afdb_models.csv        <- step1 (selection)
 #     step2/afdb_mhc_annotations.csv    <- step2 (annotate)
-#     step3/afdb_models_filtered.csv    <- step3 (filter, 5 dataset options)
+#     step3/afdb_models_*.csv           <- step3 (filter, 5 dataset options)
 #     step4/1_models/*.cif              <- step4 (download)
 #     step5/<option>/1_mhc_only/*.pdb   <- step5 (trim to MHC-only chain)
-#
-# Every script imports PIPELINE_DIR / STEP*_DIR from here instead of
-# building its own copy, so moving/renaming a folder is a one-line change
-# in this file rather than an edit in every script.
 
 PIPELINE_DIR = Path("/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline")
 AFDB_DIR = PIPELINE_DIR / "afdb_pipeline"
@@ -53,11 +41,10 @@ STEP4_DIR = AFDB_DIR / "step4"
 STEP5_DIR = AFDB_DIR / "step5"
 
 # Curated files shared with the PDB pipeline's step2-1 filter script.
-# These stay at the top of PIPELINE_DIR (NOT under afdb_pipeline) on purpose
-# -- both the AFDB and PDB pipelines read the same copy, so there's only
-# ever one gene_mapping.csv / removal list to maintain.
-GENE_MAPPING_FILE = PIPELINE_DIR / "step2_1" / "gene_mapping.csv"
-UNIPROT_REMOVE_FILE = PIPELINE_DIR / "step2_1" / "uniprot_proteins_to_remove.txt"
+# Kept at the top of PIPELINE_DIR (not under afdb_pipeline/) on purpose --
+# both pipelines read the same copy.
+GENE_MAPPING_FILE = PIPELINE_DIR / "step2-1" / "gene_mapping.csv"
+UNIPROT_REMOVE_FILE = PIPELINE_DIR / "step2-1" / "uniprot_proteins_to_remove.txt"
 
 
 class AfdbDataset(Enum):
@@ -68,8 +55,8 @@ class AfdbDataset(Enum):
     BOTH_SUBSETS = "both_subsets"
 
 
-# Plain-language description of each option -- printed by step3 and step4
-# so it's always visible in the logs which dataset is in play.
+# Plain-language description of each option -- printed by step3/step4/step5
+# so the active dataset is always visible in the logs.
 AFDB_DATASET_DESCRIPTIONS = {
     AfdbDataset.ALL_HUMAN_MHC: (
         "1. All human AFDB MHC -- species + excluded-gene-name filters only. "
@@ -96,8 +83,8 @@ AFDB_DATASET_DESCRIPTIONS = {
     ),
 }
 
-# Model-list filenames written by step3 into afdb_pipeline/step3_filtered/,
-# and read from there by step4/step5 based on AFDB_DATASET_SELECTION.
+# Model-list filenames written by step3 into afdb_pipeline/step3/, and read
+# from there by step4/step5 based on AFDB_DATASET_SELECTION.
 DATASET_MODEL_FILENAMES = {
     AfdbDataset.ALL_HUMAN_MHC: "afdb_models_all_human_mhc.csv",
     AfdbDataset.CURRENT_RESTRICTIONS: "afdb_models_filtered.csv",

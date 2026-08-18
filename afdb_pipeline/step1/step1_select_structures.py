@@ -1,43 +1,34 @@
 #!/usr/bin/env python3
 """
-Filter Foldseek hits and create the primary/duplicate structure table.
-
+Build the primary/duplicate structure table from filtered Foldseek hits.
 """
 
+import sys
 from pathlib import Path
 
 import pandas as pd
 
-from afdb_dataset_config import STEP1_DIR as AFDB_STEP1_DIR
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from afdb_dataset_config import STEP1_DIR as AFDB_STEP1_DIR
 
 # =========================
 # Configuration
 # =========================
 
-# NOTE: this PIPELINE_DIR is intentionally separate from the one in
-# afdb_dataset_config.py -- it's just where the raw Foldseek alignment
-# files (and the PDB-side output) live, unrelated to the afdb_pipeline/
-# folder tree used from step2 onward. If /mnt/4TB/... and
-# /mnt/c/Users/gio/.../ligands_pipeline are actually the same disk
-# reached through two different mount points, this is fine either way --
-# but if they're genuinely different machines/drives, double check that
-# afdb_dataset_config.py's PIPELINE_DIR is the one step2+ can actually see.
-PIPELINE_DIR = Path("/mnt/4TB/giovanna/foldseek/version_02")
+# Raw Foldseek alignment files live on a separate path from the
+# afdb_pipeline/ tree used by step2 onward.
+PIPELINE_DIR = Path("/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline")
 
-DATASET = "pdb"  # "pdb" or "afdb"
+DATASET = "afdb"  # "pdb" or "afdb"
 
 FOLDSEEK_ALN = {
-    "pdb": PIPELINE_DIR / "pdb" / "dbs_pdb_aln",
-    "afdb": PIPELINE_DIR / "alphafold" / "3mre_afdb_aln",
+    "pdb": PIPELINE_DIR / "foldseek_data" / "pdb" / "dbs_pdb_aln",
+    "afdb": PIPELINE_DIR / "afdb_pipeline" / "foldseek_data" / "dbs_afdb_aln_amostra",
 }
 
 OUT_CSV = {
-    "pdb": PIPELINE_DIR / "filter" / "step1" / "pdb" / "pdb_assemblies.csv",
-    # Written straight into the shared afdb_pipeline/step1/ folder from
-    # afdb_dataset_config.py, so it's guaranteed to match the path
-    # step2_record_mhc_annotations_afdb.py reads from -- no separate
-    # path to keep in sync by hand.
+    "pdb": PIPELINE_DIR / "step1" / "pdb" / "pdb_assemblies.csv",
     "afdb": AFDB_STEP1_DIR / "afdb" / "afdb_models.csv",
 }
 
@@ -62,6 +53,7 @@ def load_foldseek_table(path: Path) -> pd.DataFrame:
 
 
 def filter_hits(df: pd.DataFrame) -> pd.DataFrame:
+    """Keep confident hits and one row per target (lowest e-value)."""
     df_filtered = df[
         (df["evalue"] <= EVALUE_CUTOFF)
         & (df["alnlen"] >= MIN_ALIGNMENT_LENGTH)
@@ -79,6 +71,13 @@ def filter_hits(df: pd.DataFrame) -> pd.DataFrame:
 # =========================
 
 def parse_targets(df_filtered: pd.DataFrame) -> pd.DataFrame:
+    """Parse Foldseek target IDs into (pdb, chain, tstart, tend, status).
+
+    PDB targets encode assembly/chain info (e.g. "1abc-assembly1_A") and
+    can have duplicate/split entries to dedup. AFDB targets are plain
+    model IDs (e.g. "AF-P01911-F1-model_v4") with no chain info, so they
+    fall through to the "else" branch below with chain="NoChainInfo".
+    """
     records = []
     seen_pdbs = set()
     all_targets = set(df_filtered["target"])
@@ -92,7 +91,7 @@ def parse_targets(df_filtered: pd.DataFrame) -> pd.DataFrame:
                 pdb_id = entry.split("_")[0]
                 chain_id = entry.split("_")[1]
 
-                # Prefer assembly1 when an assembly1 target exists.
+                # Prefer assembly1 when an assembly1 version of this PDB exists.
                 if not pdb_id.endswith("-assembly1"):
                     pdb_code = pdb_id.split("-")[0]
                     assembly1_prefix = f"{pdb_code}-assembly1"
@@ -104,7 +103,7 @@ def parse_targets(df_filtered: pd.DataFrame) -> pd.DataFrame:
                 pdb_id = entry
                 chain_id = "NoChainInfo"
 
-                # Prefer main model over split alternatives.
+                # Prefer the main model over split alternative entries.
                 parts = entry.split("-")
 
                 if len(parts) == 5:
