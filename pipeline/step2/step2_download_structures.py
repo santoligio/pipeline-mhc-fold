@@ -16,7 +16,7 @@ import requests
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path("/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline")
+PIPELINE_DIR = Path(__file__).resolve().parents[1]
 DATASET = "pdb"  # "pdb" or "afdb"
 
 INPUT_CSV = {

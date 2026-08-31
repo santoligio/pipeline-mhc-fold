@@ -13,9 +13,7 @@ from Bio.PDB.Polypeptide import is_aa
 # Configuration
 # =========================================================
 
-PIPELINE_DIR = Path(
-    "/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline"
-)
+PIPELINE_DIR = Path(__file__).resolve().parents[1]
 
 STEP1_CSV = PIPELINE_DIR / "step1" / "pdb" / "pdb_assemblies.csv"
 STEP5_REMAP_CSV = PIPELINE_DIR / "step5" / "pdb" / "pdb_assemblies_remapped.csv"

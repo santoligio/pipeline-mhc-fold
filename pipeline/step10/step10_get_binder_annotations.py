@@ -6,6 +6,8 @@
 import re
 import time
 import logging
+from pathlib import Path
+
 import pandas as pd
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -15,7 +17,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # CONFIGURATION
 # =========================
 
-BASE_DIR = "/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline"
+BASE_DIR = Path(__file__).resolve().parents[1]
 
 INPUT_CSV        = f"{BASE_DIR}/step9/pdb/modified_pdbs/step9_binders.csv"
 CHAIN_MAP_CSV    = f"{BASE_DIR}/step5/pdb/chain_map.csv"

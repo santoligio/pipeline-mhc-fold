@@ -21,7 +21,7 @@ import requests
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path("/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline")
+PIPELINE_DIR = Path(__file__).resolve().parents[1]
 FILTER_DIR = PIPELINE_DIR
 
 DATABASE = "both"  # "pdb", "afdb", or "both"
@@ -36,7 +36,7 @@ STEP2_DOWNLOAD_DIR = {
     "afdb": FILTER_DIR / "step2" / "afdb" / "1_models",
 }
 
-OUT_DIR = FILTER_DIR / "step2_1" 
+OUT_DIR = FILTER_DIR / "step2-1"
 
 THREADS = 16
 REQUEST_SLEEP = 0.2

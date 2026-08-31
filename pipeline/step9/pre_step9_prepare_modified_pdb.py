@@ -17,9 +17,7 @@ from Bio.PDB import PDBIO, PDBParser
 # Configuration
 # =========================================================
 
-PIPELINE_DIR = Path(
-    "/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline"
-)
+PIPELINE_DIR = Path(__file__).resolve().parents[1]
 
 DATABASE = "pdb"
 

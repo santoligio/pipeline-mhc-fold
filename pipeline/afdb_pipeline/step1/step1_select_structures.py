@@ -18,7 +18,7 @@ from afdb_dataset_config import STEP1_DIR as AFDB_STEP1_DIR
 
 # Raw Foldseek alignment files live on a separate path from the
 # afdb_pipeline/ tree used by step2 onward.
-PIPELINE_DIR = Path("/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline")
+PIPELINE_DIR = Path(__file__).resolve().parents[2]
 
 DATASET = "afdb"  # "pdb" or "afdb"
 

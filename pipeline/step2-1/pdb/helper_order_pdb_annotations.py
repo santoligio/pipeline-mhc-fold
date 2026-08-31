@@ -21,15 +21,19 @@ import pandas as pd
 # Configuration
 # =========================
 
-OLD_EDITED_CSV = Path(
-    "/mnt/c/Users/gio/Documents/foldseek_nefertari/analysis/"
-    "functional_annotation/pdb/pdb_mhc_annotations_edited.csv"
+PIPELINE_DIR = Path(__file__).resolve().parents[2]
+WORKSPACE_DIR = PIPELINE_DIR.parent.parent
+
+OLD_EDITED_CSV = (
+    WORKSPACE_DIR
+    / "version_02"
+    / "analysis"
+    / "functional_annotation"
+    / "pdb"
+    / "pdb_mhc_annotations_edited.csv"
 )
 
-NEW_ANNOTATION_DIR = Path(
-    "/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/"
-    "ligands_pipeline/step2_1/functional_annotation/pdb"
-)
+NEW_ANNOTATION_DIR = PIPELINE_DIR / "step2-1" / "pdb"
 
 NEW_FILES = [
     NEW_ANNOTATION_DIR / "pdb_mhc_annotations.csv",

@@ -14,15 +14,17 @@ import matplotlib.pyplot as plt
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path("/mnt/c/Users/gio/Documents/foldseek_nefertari/")
+PIPELINE_DIR = Path(__file__).resolve().parents[1]
+WORKSPACE_DIR = PIPELINE_DIR.parent.parent
+VERSION_02_DIR = WORKSPACE_DIR / "version_02"
 DATASET = "pdb"  # "pdb" or "afdb"
 
 FOLDSEEK_ALN = {
-    "pdb": PIPELINE_DIR / "pdb" / "dbs_pdb_aln",
-    "afdb": PIPELINE_DIR / "alphafold" / "3mre_afdb_aln",
+    "pdb": VERSION_02_DIR / "pdb" / "dbs_pdb_aln",
+    "afdb": VERSION_02_DIR / "alphafold" / "3mre_afdb_aln",
 }
 
-OUT_DIR = PIPELINE_DIR / "filter" / "step0" / DATASET
+OUT_DIR = PIPELINE_DIR / "step0" / DATASET
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 FIGSIZE = (7, 5)

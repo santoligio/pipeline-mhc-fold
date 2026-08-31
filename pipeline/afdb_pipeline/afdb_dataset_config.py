@@ -31,7 +31,7 @@ from pathlib import Path
 #     step4/1_models/*.cif              <- step4 (download)
 #     step5/<option>/1_mhc_only/*.pdb   <- step5 (trim to MHC-only chain)
 
-PIPELINE_DIR = Path("/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline")
+PIPELINE_DIR = Path(__file__).resolve().parents[1]
 AFDB_DIR = PIPELINE_DIR / "afdb_pipeline"
 
 STEP1_DIR = AFDB_DIR / "step1"

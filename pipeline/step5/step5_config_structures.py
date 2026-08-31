@@ -19,10 +19,10 @@ from Bio.PDB import MMCIFParser, PDBIO, NeighborSearch
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path("/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline")
+PIPELINE_DIR = Path(__file__).resolve().parents[1]
 
-INPUT_CIF_DIR = Path("/mnt/c/Users/gio/Documents/foldseek/version_02/filter/step2/pdb/1_assemblies")
-INPUT_CSV = PIPELINE_DIR / "step2_1" / "pdb" / "filtered" / "pdb_assemblies_filtered.csv"
+INPUT_CIF_DIR = PIPELINE_DIR / "step2" / "pdb" / "1_assemblies"
+INPUT_CSV = PIPELINE_DIR / "step2-1" / "pdb" / "filtered" / "pdb_assemblies_filtered.csv"
 
 MATRIX_DIR = PIPELINE_DIR / "step4" / "pdb" / "1_aligned" / "matrices"
 

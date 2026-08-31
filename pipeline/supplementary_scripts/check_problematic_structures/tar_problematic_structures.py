@@ -24,9 +24,7 @@ import pandas as pd
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path(
-    "/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline"
-)
+PIPELINE_DIR = Path(__file__).resolve().parents[2]
 
 PROBLEMATIC_LIST_CSV = (
     PIPELINE_DIR / "step6" / "pdb" / "summaries" / "problematic_list_current.csv"

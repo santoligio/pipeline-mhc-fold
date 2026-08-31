@@ -35,9 +35,7 @@ from Bio.PDB import PDBIO, PDBParser, Select, is_aa
 # Configuration
 # =========================================================
 
-PIPELINE_DIR = Path(
-    "/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline"
-)
+PIPELINE_DIR = Path(__file__).resolve().parents[1]
 
 DATABASE = "pdb"
 
@@ -48,9 +46,12 @@ STEP7_SUMMARY_DIR = STEP7_DIR / "summaries"
 BINDERS_CSV = STEP7_SUMMARY_DIR / "step7_binders.csv"
 LIGANDS_CSV = STEP7_SUMMARY_DIR / "step7_ligands.csv"
 
-ANNOTATIONS_CSV = Path(
-    "/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline"
-    "/step2_1/functional_annotation/pdb/filtered/pdb_mhc_annotations_filtered.csv"
+ANNOTATIONS_CSV = (
+    PIPELINE_DIR
+    / "step2-1"
+    / "pdb"
+    / "filtered"
+    / "pdb_mhc_annotations_filtered.csv"
 )
 ANNOTATIONS_OUT_CSV = STEP9_DIR / "step9_annotations.csv"
 
@@ -571,7 +572,7 @@ def main() -> None:
         pd.DataFrame(columns=cols).to_csv(RESIDUES_CSV, index=False)
 
     # ---------------------------------------------------------
-    # Write annotated copy of the step2_1 annotations CSV.
+    # Write annotated copy of the step2-1 annotations CSV.
     # ---------------------------------------------------------
     write_annotated_csv(
         binders=binders,

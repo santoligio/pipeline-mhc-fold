@@ -21,7 +21,7 @@ from Bio.PDB import PDBParser, PDBIO
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path("/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline")
+PIPELINE_DIR = Path(__file__).resolve().parents[1]
 
 INPUT_PDB_DIR = PIPELINE_DIR / "step3" / "pdb" / "1_mhc_only"
 STEP4_DIR = PIPELINE_DIR / "step4"

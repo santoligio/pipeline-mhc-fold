@@ -19,8 +19,8 @@ import pandas as pd
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path("/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline")
-STEP2_1_DIR = PIPELINE_DIR / "step2_1"
+PIPELINE_DIR = Path(__file__).resolve().parents[1]
+STEP2_1_DIR = PIPELINE_DIR / "step2-1"
 
 DATABASE = "pdb"  # "pdb", "afdb", or "both"
 

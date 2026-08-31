@@ -8,8 +8,8 @@
 #
 # Example:
 #   ./compare_trimmed_mhc.sh \
-#       /mnt/c/.../ligands_pipeline/step6/pdb/2_trimmed_mhc \
-#       /mnt/c/.../ligands_pipeline/step6_fix/pdb/2_trimmed_mhc \
+#       /mnt/c/.../version_03/pipeline/step6/pdb/2_trimmed_mhc \
+#       /mnt/c/.../version_03/pipeline/step6_fix/pdb/2_trimmed_mhc \
 #       trimmed_mhc_diff_report.csv
 
 set -euo pipefail
