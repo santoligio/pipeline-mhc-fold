@@ -1,0 +1,2 @@
+pdb_id,new_chain,original_chain,uniprot_id,organism,classification,reason
+3VXM,E,E,GO_FALLBACK,Homo sapiens,C1-28 TCR beta chain,No GO mapping found for classification 'C1-28 TCR beta chain'

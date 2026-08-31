@@ -1,0 +1,2217 @@
+=== STEP7 configuration ===
+INPUT_PDB_DIR:         /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step6/pdb/2_trimmed_mhc | exists=True
+POSSIBLE_LIGANDS_CSV:  /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step6/pdb/summaries/possible_ligands.csv | exists=True
+BLACKLIST_CSV:         /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step6/blacklist.csv | exists=True
+FILTERED_PDB_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step7_fix/pdb/1_filtered_structures
+DSSP_EXE:              mkdssp
+
+[INPUT] PDB files:           1159
+[INPUT] possible ligands:     1130
+[INPUT] blacklisted resnames: 60
+
+=== STEP7 processing ===
+[BLACKLIST] 1A1M: removed_residues=54
+[OK] 1A1M: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1a1m_mhc_complex.pdb
+[BLACKLIST] 1A1N: removed_residues=83
+[OK] 1A1N: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1a1n_mhc_complex.pdb
+[BLACKLIST] 1A1O: removed_residues=32
+[OK] 1A1O: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1a1o_mhc_complex.pdb
+[BLACKLIST] 1A6Z: removed_residues=2
+[OK] 1A6Z: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1a6z_mhc_complex.pdb
+[OK] 1A9B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1a9b_mhc_complex.pdb
+[BLACKLIST] 1A9E: removed_residues=29
+[OK] 1A9E: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1a9e_mhc_complex.pdb
+[BLACKLIST] 1AGB: removed_residues=75
+[OK] 1AGB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1agb_mhc_complex.pdb
+[BLACKLIST] 1AGC: removed_residues=74
+[OK] 1AGC: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1agc_mhc_complex.pdb
+[BLACKLIST] 1AGD: removed_residues=88
+[OK] 1AGD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1agd_mhc_complex.pdb
+[BLACKLIST] 1AGE: removed_residues=62
+[OK] 1AGE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1age_mhc_complex.pdb
+[BLACKLIST] 1AGF: removed_residues=76
+[OK] 1AGF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1agf_mhc_complex.pdb
+[BLACKLIST] 1AKJ: removed_residues=56
+[OK] 1AKJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'D', 'E']; output=1akj_mhc_complex.pdb
+[BLACKLIST] 1AO7: removed_residues=26
+[OK] 1AO7: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=1ao7_mhc_complex.pdb
+[BLACKLIST] 1B0G: removed_residues=9
+[OK] 1B0G: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1b0g_mhc_complex.pdb
+[OK] 1B0R: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1b0r_mhc_complex.pdb
+[BLACKLIST] 1BD2: removed_residues=30
+[OK] 1BD2: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=1bd2_mhc_complex.pdb
+[BLACKLIST] 1CG9: removed_residues=26
+[OK] 1CG9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1cg9_mhc_complex.pdb
+[BLACKLIST] 1DE4: removed_residues=10
+[OK] 1DE4: binders=2; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1de4_mhc_complex.pdb
+[BLACKLIST] 1DUY: removed_residues=72
+[OK] 1DUY: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1duy_mhc_complex.pdb
+[BLACKLIST] 1DUZ: removed_residues=91
+[OK] 1DUZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1duz_mhc_complex.pdb
+[BLACKLIST] 1E27: removed_residues=112
+[OK] 1E27: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1e27_mhc_complex.pdb
+[OK] 1E28: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1e28_mhc_complex.pdb
+[BLACKLIST] 1EEY: removed_residues=31
+[OK] 1EEY: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1eey_mhc_complex.pdb
+[BLACKLIST] 1EEZ: removed_residues=6
+[OK] 1EEZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1eez_mhc_complex.pdb
+[BLACKLIST] 1EFX: removed_residues=79
+[OK] 1EFX: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=1efx_mhc_complex.pdb
+[BLACKLIST] 1EXU: removed_residues=19
+[OK] 1EXU: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1exu_mhc_complex.pdb
+[BLACKLIST] 1GZP: removed_residues=15
+[OK] 1GZP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1gzp_mhc_complex.pdb
+[BLACKLIST] 1GZQ: removed_residues=57
+[OK] 1GZQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1gzq_mhc_complex.pdb
+[OK] 1HHG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1hhg_mhc_complex.pdb
+[OK] 1HHH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1hhh_mhc_complex.pdb
+[OK] 1HHI: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1hhi_mhc_complex.pdb
+[OK] 1HHJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1hhj_mhc_complex.pdb
+[OK] 1HHK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1hhk_mhc_complex.pdb
+[BLACKLIST] 1HSA: removed_residues=64
+[OK] 1HSA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1hsa_mhc_complex.pdb
+[BLACKLIST] 1HSB: removed_residues=66
+[OK] 1HSB: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1hsb_mhc_complex.pdb
+[BLACKLIST] 1HYR: removed_residues=10
+[OK] 1HYR: binders=2; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1hyr_mhc_complex.pdb
+[OK] 1I1F: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1i1f_mhc_complex.pdb
+[BLACKLIST] 1I1Y: removed_residues=28
+[OK] 1I1Y: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1i1y_mhc_complex.pdb
+[BLACKLIST] 1I4F: removed_residues=114
+[OK] 1I4F: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1i4f_mhc_complex.pdb
+[BLACKLIST] 1I7R: removed_residues=23
+[OK] 1I7R: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1i7r_mhc_complex.pdb
+[OK] 1I7T: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1i7t_mhc_complex.pdb
+[BLACKLIST] 1I7U: removed_residues=69
+[OK] 1I7U: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1i7u_mhc_complex.pdb
+[BLACKLIST] 1IM3: removed_residues=153
+[OK] 1IM3: binders=1; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1im3_mhc_complex.pdb
+[BLACKLIST] 1IM9: removed_residues=72
+[OK] 1IM9: binders=1; ligands=1; ligand_contact_binders=1; warnings=2; removed_chains=['B', 'F']; output=1im9_mhc_complex.pdb
+[OK] 1JE6: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1je6_mhc_complex.pdb
+[BLACKLIST] 1JF1: removed_residues=123
+[OK] 1JF1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1jf1_mhc_complex.pdb
+[BLACKLIST] 1JGD: removed_residues=134
+[OK] 1JGD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1jgd_mhc_complex.pdb
+[BLACKLIST] 1JGE: removed_residues=131
+[OK] 1JGE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1jge_mhc_complex.pdb
+[BLACKLIST] 1JHT: removed_residues=101
+[OK] 1JHT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1jht_mhc_complex.pdb
+[BLACKLIST] 1K5N: removed_residues=284
+[OK] 1K5N: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1k5n_mhc_complex.pdb
+[BLACKLIST] 1KCG: removed_residues=70
+[OK] 1KCG: binders=2; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1kcg_mhc_complex.pdb
+[OK] 1KPR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1kpr_mhc_complex.pdb
+[OK] 1KTL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1ktl_mhc_complex.pdb
+[BLACKLIST] 1L8J: removed_residues=6
+[OK] 1L8J: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1l8j_mhc_complex.pdb
+[BLACKLIST] 1LP9: removed_residues=116
+[OK] 1LP9: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=1lp9_mhc_complex.pdb
+[BLACKLIST] 1M05: removed_residues=132
+[OK] 1M05: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1m05_mhc_complex.pdb
+[BLACKLIST] 1M6O: removed_residues=181
+[OK] 1M6O: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1m6o_mhc_complex.pdb
+[OK] 1MHE: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'E']; output=1mhe_mhc_complex.pdb
+[BLACKLIST] 1MI5: removed_residues=161
+[OK] 1MI5: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=1mi5_mhc_complex.pdb
+[BLACKLIST] 1N2R: removed_residues=143
+[OK] 1N2R: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1n2r_mhc_complex.pdb
+[BLACKLIST] 1OF2: removed_residues=92
+[OK] 1OF2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1of2_mhc_complex.pdb
+[BLACKLIST] 1OGA: removed_residues=376
+[OK] 1OGA: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=1oga_mhc_complex.pdb
+[BLACKLIST] 1OGT: removed_residues=237
+[OK] 1OGT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1ogt_mhc_complex.pdb
+[BLACKLIST] 1ONQ: removed_residues=88
+[OK] 1ONQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1onq_mhc_complex.pdb
+[OK] 1P7Q: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=1p7q_mhc_complex.pdb
+[BLACKLIST] 1Q94: removed_residues=25
+[OK] 1Q94: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1q94_mhc_complex.pdb
+[BLACKLIST] 1QEW: removed_residues=59
+[OK] 1QEW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1qew_mhc_complex.pdb
+[BLACKLIST] 1QQD: removed_residues=13
+[OK] 1QQD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1qqd_mhc_complex.pdb
+[BLACKLIST] 1QR1: removed_residues=23
+[OK] 1QR1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1qr1_mhc_complex.pdb
+[BLACKLIST] 1QRN: removed_residues=33
+[OK] 1QRN: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=1qrn_mhc_complex.pdb
+[OK] 1QSE: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=1qse_mhc_complex.pdb
+[BLACKLIST] 1QSF: removed_residues=11
+[OK] 1QSF: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=1qsf_mhc_complex.pdb
+[BLACKLIST] 1QVO: removed_residues=61
+[OK] 1QVO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1qvo_mhc_complex.pdb
+[BLACKLIST] 1S8D: removed_residues=99
+[OK] 1S8D: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1s8d_mhc_complex.pdb
+[BLACKLIST] 1S9W: removed_residues=40
+[OK] 1S9W: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1s9w_mhc_complex.pdb
+[BLACKLIST] 1S9X: removed_residues=33
+[OK] 1S9X: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1s9x_mhc_complex.pdb
+[BLACKLIST] 1S9Y: removed_residues=52
+[OK] 1S9Y: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1s9y_mhc_complex.pdb
+[BLACKLIST] 1SYS: removed_residues=51
+[OK] 1SYS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1sys_mhc_complex.pdb
+[BLACKLIST] 1SYV: removed_residues=194
+[OK] 1SYV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1syv_mhc_complex.pdb
+[BLACKLIST] 1T1W: removed_residues=89
+[OK] 1T1W: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1t1w_mhc_complex.pdb
+[BLACKLIST] 1T1X: removed_residues=85
+[OK] 1T1X: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1t1x_mhc_complex.pdb
+[BLACKLIST] 1T1Y: removed_residues=114
+[OK] 1T1Y: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1t1y_mhc_complex.pdb
+[BLACKLIST] 1T1Z: removed_residues=110
+[OK] 1T1Z: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1t1z_mhc_complex.pdb
+[BLACKLIST] 1T20: removed_residues=78
+[OK] 1T20: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1t20_mhc_complex.pdb
+[BLACKLIST] 1T21: removed_residues=105
+[OK] 1T21: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1t21_mhc_complex.pdb
+[BLACKLIST] 1T22: removed_residues=106
+[OK] 1T22: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1t22_mhc_complex.pdb
+[BLACKLIST] 1T7V: removed_residues=2
+[OK] 1T7V: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1t7v_mhc_complex.pdb
+[BLACKLIST] 1T7W: removed_residues=2
+[OK] 1T7W: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1t7w_mhc_complex.pdb
+[BLACKLIST] 1T7X: removed_residues=2
+[OK] 1T7X: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1t7x_mhc_complex.pdb
+[BLACKLIST] 1T7Y: removed_residues=2
+[OK] 1T7Y: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1t7y_mhc_complex.pdb
+[BLACKLIST] 1T7Z: removed_residues=2
+[OK] 1T7Z: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1t7z_mhc_complex.pdb
+[BLACKLIST] 1T80: removed_residues=2
+[OK] 1T80: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1t80_mhc_complex.pdb
+[BLACKLIST] 1TMC: removed_residues=28
+[OK] 1TMC: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1tmc_mhc_complex.pdb
+[BLACKLIST] 1TVB: removed_residues=161
+[OK] 1TVB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1tvb_mhc_complex.pdb
+[BLACKLIST] 1TVH: removed_residues=123
+[OK] 1TVH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1tvh_mhc_complex.pdb
+[BLACKLIST] 1UQS: removed_residues=40
+[OK] 1UQS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1uqs_mhc_complex.pdb
+[BLACKLIST] 1UXS: removed_residues=220
+[OK] 1UXS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1uxs_mhc_complex.pdb
+[BLACKLIST] 1UXW: removed_residues=169
+[OK] 1UXW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1uxw_mhc_complex.pdb
+[BLACKLIST] 1W0V: removed_residues=113
+[OK] 1W0V: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1w0v_mhc_complex.pdb
+[BLACKLIST] 1W0W: removed_residues=122
+[OK] 1W0W: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1w0w_mhc_complex.pdb
+[BLACKLIST] 1W72: removed_residues=240
+[OK] 1W72: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=1w72_mhc_complex.pdb
+[BLACKLIST] 1X7Q: removed_residues=179
+[OK] 1X7Q: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1x7q_mhc_complex.pdb
+[BLACKLIST] 1XH3: removed_residues=150
+[OK] 1XH3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1xh3_mhc_complex.pdb
+[BLACKLIST] 1XR8: removed_residues=54
+[OK] 1XR8: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1xr8_mhc_complex.pdb
+[BLACKLIST] 1XR9: removed_residues=140
+[OK] 1XR9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1xr9_mhc_complex.pdb
+[BLACKLIST] 1XZ0: removed_residues=7
+[OK] 1XZ0: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1xz0_mhc_complex.pdb
+[BLACKLIST] 1YDP: removed_residues=119
+[OK] 1YDP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1ydp_mhc_complex.pdb
+[BLACKLIST] 1ZAG: removed_residues=7
+[OK] 1ZAG: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=1zag_mhc_complex.pdb
+[BLACKLIST] 1ZHK: removed_residues=118
+[OK] 1ZHK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1zhk_mhc_complex.pdb
+[BLACKLIST] 1ZHL: removed_residues=178
+[OK] 1ZHL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1zhl_mhc_complex.pdb
+[BLACKLIST] 1ZSD: removed_residues=88
+[OK] 1ZSD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1zsd_mhc_complex.pdb
+[BLACKLIST] 1ZT4: removed_residues=4
+[OK] 1ZT4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=1zt4_mhc_complex.pdb
+[BLACKLIST] 2A83: removed_residues=210
+[OK] 2A83: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2a83_mhc_complex.pdb
+[BLACKLIST] 2AK4: removed_residues=38
+[OK] 2AK4: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2ak4_mhc_complex.pdb
+[BLACKLIST] 2AV1: removed_residues=129
+[OK] 2AV1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2av1_mhc_complex.pdb
+[BLACKLIST] 2AV7: removed_residues=114
+[OK] 2AV7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2av7_mhc_complex.pdb
+[BLACKLIST] 2AXF: removed_residues=136
+[OK] 2AXF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2axf_mhc_complex.pdb
+[BLACKLIST] 2AXG: removed_residues=104
+[OK] 2AXG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2axg_mhc_complex.pdb
+[BLACKLIST] 2BCK: removed_residues=13
+[OK] 2BCK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2bck_mhc_complex.pdb
+[BLACKLIST] 2BNQ: removed_residues=374
+[OK] 2BNQ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2bnq_mhc_complex.pdb
+[BLACKLIST] 2BNR: removed_residues=362
+[OK] 2BNR: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2bnr_mhc_complex.pdb
+[BLACKLIST] 2BSR: removed_residues=43
+[OK] 2BSR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2bsr_mhc_complex.pdb
+[BLACKLIST] 2BSS: removed_residues=45
+[OK] 2BSS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2bss_mhc_complex.pdb
+[BLACKLIST] 2BST: removed_residues=37
+[OK] 2BST: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2bst_mhc_complex.pdb
+[BLACKLIST] 2BVO: removed_residues=162
+[OK] 2BVO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2bvo_mhc_complex.pdb
+[BLACKLIST] 2BVP: removed_residues=218
+[OK] 2BVP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2bvp_mhc_complex.pdb
+[BLACKLIST] 2BVQ: removed_residues=70
+[OK] 2BVQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2bvq_mhc_complex.pdb
+[BLACKLIST] 2C7U: removed_residues=41
+[OK] 2C7U: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2c7u_mhc_complex.pdb
+[BLACKLIST] 2CIK: removed_residues=79
+[OK] 2CIK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2cik_mhc_complex.pdb
+[OK] 2CLR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2clr_mhc_complex.pdb
+[OK] 2D31: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2d31_mhc_complex.pdb
+[BLACKLIST] 2DYP: removed_residues=42
+[OK] 2DYP: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=2dyp_mhc_complex.pdb
+[BLACKLIST] 2ESV: removed_residues=139
+[OK] 2ESV: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2esv_mhc_complex.pdb
+[BLACKLIST] 2F53: removed_residues=479
+[OK] 2F53: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2f53_mhc_complex.pdb
+[BLACKLIST] 2F54: removed_residues=5
+[OK] 2F54: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2f54_mhc_complex.pdb
+[BLACKLIST] 2FYY: removed_residues=70
+[OK] 2FYY: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2fyy_mhc_complex.pdb
+[BLACKLIST] 2FZ3: removed_residues=50
+[OK] 2FZ3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2fz3_mhc_complex.pdb
+[BLACKLIST] 2GIT: removed_residues=126
+[OK] 2GIT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2git_mhc_complex.pdb
+[BLACKLIST] 2GJ6: removed_residues=64
+[OK] 2GJ6: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2gj6_mhc_complex.pdb
+[BLACKLIST] 2GT9: removed_residues=133
+[OK] 2GT9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2gt9_mhc_complex.pdb
+[BLACKLIST] 2GTW: removed_residues=113
+[OK] 2GTW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2gtw_mhc_complex.pdb
+[BLACKLIST] 2GTZ: removed_residues=141
+[OK] 2GTZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2gtz_mhc_complex.pdb
+[BLACKLIST] 2GUO: removed_residues=97
+[OK] 2GUO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2guo_mhc_complex.pdb
+[BLACKLIST] 2H26: removed_residues=94
+[OK] 2H26: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2h26_mhc_complex.pdb
+[BLACKLIST] 2H6P: removed_residues=95
+[OK] 2H6P: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2h6p_mhc_complex.pdb
+[BLACKLIST] 2HJK: removed_residues=95
+[OK] 2HJK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2hjk_mhc_complex.pdb
+[BLACKLIST] 2HJL: removed_residues=106
+[OK] 2HJL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2hjl_mhc_complex.pdb
+[BLACKLIST] 2HLA: removed_residues=4
+[OK] 2HLA: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2hla_mhc_complex.pdb
+[BLACKLIST] 2HN7: removed_residues=161
+[OK] 2HN7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2hn7_mhc_complex.pdb
+[OK] 2J8U: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2j8u_mhc_complex.pdb
+[BLACKLIST] 2JCC: removed_residues=16
+[OK] 2JCC: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2jcc_mhc_complex.pdb
+[BLACKLIST] 2NW3: removed_residues=99
+[OK] 2NW3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2nw3_mhc_complex.pdb
+[BLACKLIST] 2NX5: removed_residues=28
+[OK] 2NX5: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2nx5_mhc_complex.pdb
+[BLACKLIST] 2P5E: removed_residues=513
+[OK] 2P5E: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2p5e_mhc_complex.pdb
+[BLACKLIST] 2P5W: removed_residues=464
+[OK] 2P5W: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2p5w_mhc_complex.pdb
+[BLACKLIST] 2PO6: removed_residues=2
+[OK] 2PO6: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=2po6_mhc_complex.pdb
+[BLACKLIST] 2PYE: removed_residues=283
+[OK] 2PYE: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2pye_mhc_complex.pdb
+[BLACKLIST] 2RFX: removed_residues=53
+[OK] 2RFX: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2rfx_mhc_complex.pdb
+[BLACKLIST] 2UWE: removed_residues=69
+[OK] 2UWE: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2uwe_mhc_complex.pdb
+[BLACKLIST] 2V2W: removed_residues=193
+[OK] 2V2W: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2v2w_mhc_complex.pdb
+[BLACKLIST] 2V2X: removed_residues=214
+[OK] 2V2X: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2v2x_mhc_complex.pdb
+[BLACKLIST] 2VLJ: removed_residues=238
+[OK] 2VLJ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2vlj_mhc_complex.pdb
+[BLACKLIST] 2VLK: removed_residues=140
+[OK] 2VLK: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2vlk_mhc_complex.pdb
+[BLACKLIST] 2VLL: removed_residues=176
+[OK] 2VLL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2vll_mhc_complex.pdb
+[BLACKLIST] 2VLR: removed_residues=216
+[OK] 2VLR: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2vlr_mhc_complex.pdb
+[BLACKLIST] 2WY3: removed_residues=180
+[OK] 2WY3: binders=1; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=2wy3_mhc_complex.pdb
+[BLACKLIST] 2X4N: removed_residues=50
+[OK] 2X4N: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2x4n_mhc_complex.pdb
+[BLACKLIST] 2X4O: removed_residues=68
+[OK] 2X4O: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2x4o_mhc_complex.pdb
+[BLACKLIST] 2X4P: removed_residues=84
+[OK] 2X4P: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2x4p_mhc_complex.pdb
+[BLACKLIST] 2X4Q: removed_residues=59
+[OK] 2X4Q: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2x4q_mhc_complex.pdb
+[BLACKLIST] 2X4R: removed_residues=68
+[OK] 2X4R: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2x4r_mhc_complex.pdb
+[BLACKLIST] 2X4S: removed_residues=22
+[OK] 2X4S: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2x4s_mhc_complex.pdb
+[BLACKLIST] 2X4T: removed_residues=37
+[OK] 2X4T: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2x4t_mhc_complex.pdb
+[BLACKLIST] 2X4U: removed_residues=59
+[OK] 2X4U: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2x4u_mhc_complex.pdb
+[BLACKLIST] 2X70: removed_residues=106
+[OK] 2X70: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2x70_mhc_complex.pdb
+[BLACKLIST] 2XPG: removed_residues=9
+[OK] 2XPG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2xpg_mhc_complex.pdb
+[BLACKLIST] 2YPK: removed_residues=118
+[OK] 2YPK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=2ypk_mhc_complex.pdb
+[BLACKLIST] 2YPL: removed_residues=118
+[OK] 2YPL: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=2ypl_mhc_complex.pdb
+[BLACKLIST] 3AM8: removed_residues=34
+[OK] 3AM8: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3am8_mhc_complex.pdb
+[BLACKLIST] 3B3I: removed_residues=123
+[OK] 3B3I: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3b3i_mhc_complex.pdb
+[BLACKLIST] 3B6S: removed_residues=152
+[OK] 3B6S: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3b6s_mhc_complex.pdb
+[BLACKLIST] 3BGM: removed_residues=126
+[OK] 3BGM: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bgm_mhc_complex.pdb
+[BLACKLIST] 3BH8: removed_residues=100
+[OK] 3BH8: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bh8_mhc_complex.pdb
+[BLACKLIST] 3BH9: removed_residues=99
+[OK] 3BH9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bh9_mhc_complex.pdb
+[BLACKLIST] 3BHB: removed_residues=28
+[OK] 3BHB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bhb_mhc_complex.pdb
+[BLACKLIST] 3BO8: removed_residues=206
+[OK] 3BO8: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bo8_mhc_complex.pdb
+[BLACKLIST] 3BP4: removed_residues=149
+[OK] 3BP4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bp4_mhc_complex.pdb
+[BLACKLIST] 3BP7: removed_residues=137
+[OK] 3BP7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bp7_mhc_complex.pdb
+[BLACKLIST] 3BVN: removed_residues=32
+[OK] 3BVN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bvn_mhc_complex.pdb
+[BLACKLIST] 3BW9: removed_residues=119
+[OK] 3BW9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bw9_mhc_complex.pdb
+[BLACKLIST] 3BWA: removed_residues=160
+[OK] 3BWA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bwa_mhc_complex.pdb
+[BLACKLIST] 3BXN: removed_residues=148
+[OK] 3BXN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bxn_mhc_complex.pdb
+[BLACKLIST] 3BZE: removed_residues=23
+[OK] 3BZE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bze_mhc_complex.pdb
+[BLACKLIST] 3BZF: removed_residues=44
+[OK] 3BZF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3bzf_mhc_complex.pdb
+[BLACKLIST] 3C9N: removed_residues=88
+[OK] 3C9N: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3c9n_mhc_complex.pdb
+[OK] 3CDG: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3cdg_mhc_complex.pdb
+[OK] 3CII: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3cii_mhc_complex.pdb
+[BLACKLIST] 3CZF: removed_residues=218
+[OK] 3CZF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3czf_mhc_complex.pdb
+[BLACKLIST] 3D18: removed_residues=103
+[OK] 3D18: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3d18_mhc_complex.pdb
+[BLACKLIST] 3D25: removed_residues=90
+[OK] 3D25: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3d25_mhc_complex.pdb
+[BLACKLIST] 3D2U: removed_residues=94
+[OK] 3D2U: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=3d2u_mhc_complex.pdb
+[BLACKLIST] 3D39: removed_residues=39
+[OK] 3D39: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3d39_mhc_complex.pdb
+[BLACKLIST] 3D3V: removed_residues=18
+[OK] 3D3V: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3d3v_mhc_complex.pdb
+[BLACKLIST] 3DTX: removed_residues=127
+[OK] 3DTX: binders=1; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['D']; output=3dtx_mhc_complex.pdb
+[BLACKLIST] 3DX6: removed_residues=143
+[OK] 3DX6: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3dx6_mhc_complex.pdb
+[BLACKLIST] 3DX7: removed_residues=98
+[OK] 3DX7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3dx7_mhc_complex.pdb
+[BLACKLIST] 3DX8: removed_residues=51
+[OK] 3DX8: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3dx8_mhc_complex.pdb
+[OK] 3DXA: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3dxa_mhc_complex.pdb
+[BLACKLIST] 3ES6: removed_residues=5
+[OK] 3ES6: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=3es6_mhc_complex.pdb
+[BLACKLIST] 3FFC: removed_residues=11
+[OK] 3FFC: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3ffc_mhc_complex.pdb
+[BLACKLIST] 3FQN: removed_residues=129
+[OK] 3FQN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3fqn_mhc_complex.pdb
+[BLACKLIST] 3FQR: removed_residues=158
+[OK] 3FQR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3fqr_mhc_complex.pdb
+[BLACKLIST] 3FQT: removed_residues=103
+[OK] 3FQT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3fqt_mhc_complex.pdb
+[BLACKLIST] 3FQU: removed_residues=123
+[OK] 3FQU: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3fqu_mhc_complex.pdb
+[BLACKLIST] 3FQW: removed_residues=108
+[OK] 3FQW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3fqw_mhc_complex.pdb
+[BLACKLIST] 3FQX: removed_residues=109
+[OK] 3FQX: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3fqx_mhc_complex.pdb
+[BLACKLIST] 3FT2: removed_residues=68
+[OK] 3FT2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3ft2_mhc_complex.pdb
+[BLACKLIST] 3FT3: removed_residues=45
+[OK] 3FT3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3ft3_mhc_complex.pdb
+[BLACKLIST] 3FT4: removed_residues=50
+[OK] 3FT4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3ft4_mhc_complex.pdb
+[BLACKLIST] 3GIV: removed_residues=107
+[OK] 3GIV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3giv_mhc_complex.pdb
+[BLACKLIST] 3GJF: removed_residues=514
+[OK] 3GJF: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3gjf_mhc_complex.pdb
+[BLACKLIST] 3GSN: removed_residues=21
+[OK] 3GSN: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=3gsn_mhc_complex.pdb
+[BLACKLIST] 3GSO: removed_residues=138
+[OK] 3GSO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3gso_mhc_complex.pdb
+[BLACKLIST] 3GSQ: removed_residues=57
+[OK] 3GSQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3gsq_mhc_complex.pdb
+[BLACKLIST] 3GSR: removed_residues=59
+[OK] 3GSR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3gsr_mhc_complex.pdb
+[BLACKLIST] 3GSU: removed_residues=53
+[OK] 3GSU: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3gsu_mhc_complex.pdb
+[BLACKLIST] 3GSV: removed_residues=48
+[OK] 3GSV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3gsv_mhc_complex.pdb
+[BLACKLIST] 3GSW: removed_residues=91
+[OK] 3GSW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3gsw_mhc_complex.pdb
+[BLACKLIST] 3GSX: removed_residues=56
+[OK] 3GSX: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3gsx_mhc_complex.pdb
+[BLACKLIST] 3H7B: removed_residues=96
+[OK] 3H7B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3h7b_mhc_complex.pdb
+[BLACKLIST] 3H9H: removed_residues=97
+[OK] 3H9H: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3h9h_mhc_complex.pdb
+[BLACKLIST] 3H9S: removed_residues=29
+[OK] 3H9S: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3h9s_mhc_complex.pdb
+[OK] 3HAE: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3hae_mhc_complex.pdb
+[BLACKLIST] 3HCV: removed_residues=72
+[OK] 3HCV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3hcv_mhc_complex.pdb
+[BLACKLIST] 3HG1: removed_residues=28
+[OK] 3HG1: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3hg1_mhc_complex.pdb
+[BLACKLIST] 3HLA: removed_residues=16
+[OK] 3HLA: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3hla_mhc_complex.pdb
+[BLACKLIST] 3HPJ: removed_residues=72
+[OK] 3HPJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3hpj_mhc_complex.pdb
+[BLACKLIST] 3HUJ: removed_residues=175
+[OK] 3HUJ: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=3huj_mhc_complex.pdb
+[BLACKLIST] 3I6G: removed_residues=91
+[OK] 3I6G: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3i6g_mhc_complex.pdb
+[BLACKLIST] 3I6K: removed_residues=15
+[OK] 3I6K: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3i6k_mhc_complex.pdb
+[BLACKLIST] 3I6L: removed_residues=73
+[OK] 3I6L: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3i6l_mhc_complex.pdb
+[BLACKLIST] 3IT8: removed_residues=19
+[OK] 3IT8: binders=2; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=3it8_mhc_complex.pdb
+[BLACKLIST] 3IXA: removed_residues=34
+[OK] 3IXA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3ixa_mhc_complex.pdb
+[BLACKLIST] 3KLA: removed_residues=279
+[OK] 3KLA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3kla_mhc_complex.pdb
+[BLACKLIST] 3KPL: removed_residues=68
+[OK] 3KPL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3kpl_mhc_complex.pdb
+[BLACKLIST] 3KPM: removed_residues=152
+[OK] 3KPM: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3kpm_mhc_complex.pdb
+[BLACKLIST] 3KPN: removed_residues=112
+[OK] 3KPN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3kpn_mhc_complex.pdb
+[BLACKLIST] 3KPO: removed_residues=66
+[OK] 3KPO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3kpo_mhc_complex.pdb
+[BLACKLIST] 3KPP: removed_residues=140
+[OK] 3KPP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3kpp_mhc_complex.pdb
+[BLACKLIST] 3KPQ: removed_residues=181
+[OK] 3KPQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3kpq_mhc_complex.pdb
+[BLACKLIST] 3KPR: removed_residues=40
+[OK] 3KPR: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3kpr_mhc_complex.pdb
+[BLACKLIST] 3KPS: removed_residues=24
+[OK] 3KPS: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3kps_mhc_complex.pdb
+[BLACKLIST] 3KWW: removed_residues=84
+[OK] 3KWW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3kww_mhc_complex.pdb
+[BLACKLIST] 3KXF: removed_residues=12
+[OK] 3KXF: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3kxf_mhc_complex.pdb
+[BLACKLIST] 3KYN: removed_residues=39
+[OK] 3KYN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3kyn_mhc_complex.pdb
+[BLACKLIST] 3KYO: removed_residues=173
+[OK] 3KYO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3kyo_mhc_complex.pdb
+[BLACKLIST] 3L3D: removed_residues=182
+[OK] 3L3D: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3l3d_mhc_complex.pdb
+[BLACKLIST] 3L3G: removed_residues=77
+[OK] 3L3G: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3l3g_mhc_complex.pdb
+[BLACKLIST] 3L3I: removed_residues=137
+[OK] 3L3I: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3l3i_mhc_complex.pdb
+[BLACKLIST] 3L3J: removed_residues=18
+[OK] 3L3J: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3l3j_mhc_complex.pdb
+[BLACKLIST] 3L3K: removed_residues=40
+[OK] 3L3K: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3l3k_mhc_complex.pdb
+[BLACKLIST] 3LKN: removed_residues=49
+[OK] 3LKN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3lkn_mhc_complex.pdb
+[BLACKLIST] 3LKO: removed_residues=75
+[OK] 3LKO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3lko_mhc_complex.pdb
+[BLACKLIST] 3LKP: removed_residues=67
+[OK] 3LKP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3lkp_mhc_complex.pdb
+[BLACKLIST] 3LKQ: removed_residues=64
+[OK] 3LKQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3lkq_mhc_complex.pdb
+[BLACKLIST] 3LKR: removed_residues=41
+[OK] 3LKR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3lkr_mhc_complex.pdb
+[BLACKLIST] 3LKS: removed_residues=47
+[OK] 3LKS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3lks_mhc_complex.pdb
+[BLACKLIST] 3LN4: removed_residues=162
+[OK] 3LN4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3ln4_mhc_complex.pdb
+[BLACKLIST] 3LN5: removed_residues=50
+[OK] 3LN5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3ln5_mhc_complex.pdb
+[BLACKLIST] 3LV3: removed_residues=75
+[OK] 3LV3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3lv3_mhc_complex.pdb
+[OK] 3M17: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=3m17_mhc_complex.pdb
+[OK] 3M1B: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=3m1b_mhc_complex.pdb
+[BLACKLIST] 3MGO: removed_residues=88
+[OK] 3MGO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mgo_mhc_complex.pdb
+[BLACKLIST] 3MGT: removed_residues=84
+[OK] 3MGT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mgt_mhc_complex.pdb
+[BLACKLIST] 3MR9: removed_residues=90
+[OK] 3MR9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mr9_mhc_complex.pdb
+[BLACKLIST] 3MRB: removed_residues=103
+[OK] 3MRB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrb_mhc_complex.pdb
+[BLACKLIST] 3MRC: removed_residues=45
+[OK] 3MRC: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrc_mhc_complex.pdb
+[BLACKLIST] 3MRD: removed_residues=53
+[OK] 3MRD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrd_mhc_complex.pdb
+[BLACKLIST] 3MRE: removed_residues=204
+[OK] 3MRE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mre_mhc_complex.pdb
+[BLACKLIST] 3MRF: removed_residues=38
+[OK] 3MRF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrf_mhc_complex.pdb
+[BLACKLIST] 3MRG: removed_residues=174
+[OK] 3MRG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrg_mhc_complex.pdb
+[BLACKLIST] 3MRH: removed_residues=2
+[OK] 3MRH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrh_mhc_complex.pdb
+[BLACKLIST] 3MRI: removed_residues=6
+[OK] 3MRI: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mri_mhc_complex.pdb
+[BLACKLIST] 3MRJ: removed_residues=52
+[OK] 3MRJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrj_mhc_complex.pdb
+[BLACKLIST] 3MRK: removed_residues=69
+[OK] 3MRK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrk_mhc_complex.pdb
+[BLACKLIST] 3MRL: removed_residues=10
+[OK] 3MRL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrl_mhc_complex.pdb
+[BLACKLIST] 3MRM: removed_residues=62
+[OK] 3MRM: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrm_mhc_complex.pdb
+[BLACKLIST] 3MRN: removed_residues=34
+[OK] 3MRN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrn_mhc_complex.pdb
+[BLACKLIST] 3MRO: removed_residues=9
+[OK] 3MRO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mro_mhc_complex.pdb
+[BLACKLIST] 3MRP: removed_residues=34
+[OK] 3MRP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrp_mhc_complex.pdb
+[BLACKLIST] 3MRQ: removed_residues=30
+[OK] 3MRQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrq_mhc_complex.pdb
+[BLACKLIST] 3MRR: removed_residues=70
+[OK] 3MRR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3mrr_mhc_complex.pdb
+[BLACKLIST] 3MV7: removed_residues=164
+[OK] 3MV7: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3mv7_mhc_complex.pdb
+[BLACKLIST] 3MV8: removed_residues=133
+[OK] 3MV8: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3mv8_mhc_complex.pdb
+[BLACKLIST] 3MV9: removed_residues=49
+[OK] 3MV9: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3mv9_mhc_complex.pdb
+[BLACKLIST] 3MYJ: removed_residues=75
+[OK] 3MYJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3myj_mhc_complex.pdb
+[BLACKLIST] 3NFN: removed_residues=87
+[OK] 3NFN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3nfn_mhc_complex.pdb
+[BLACKLIST] 3O3A: removed_residues=114
+[OK] 3O3A: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3o3a_mhc_complex.pdb
+[BLACKLIST] 3O3B: removed_residues=93
+[OK] 3O3B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3o3b_mhc_complex.pdb
+[BLACKLIST] 3O3D: removed_residues=95
+[OK] 3O3D: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3o3d_mhc_complex.pdb
+[BLACKLIST] 3O3E: removed_residues=90
+[OK] 3O3E: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3o3e_mhc_complex.pdb
+[BLACKLIST] 3O4L: removed_residues=242
+[OK] 3O4L: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3o4l_mhc_complex.pdb
+[OK] 3OV6: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=3ov6_mhc_complex.pdb
+[BLACKLIST] 3OX8: removed_residues=64
+[OK] 3OX8: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3ox8_mhc_complex.pdb
+[BLACKLIST] 3OXR: removed_residues=133
+[OK] 3OXR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3oxr_mhc_complex.pdb
+[BLACKLIST] 3OXS: removed_residues=127
+[OK] 3OXS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3oxs_mhc_complex.pdb
+[BLACKLIST] 3PWJ: removed_residues=94
+[OK] 3PWJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3pwj_mhc_complex.pdb
+[BLACKLIST] 3PWL: removed_residues=161
+[OK] 3PWL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3pwl_mhc_complex.pdb
+[BLACKLIST] 3PWN: removed_residues=115
+[OK] 3PWN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3pwn_mhc_complex.pdb
+[BLACKLIST] 3PWP: removed_residues=50
+[OK] 3PWP: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3pwp_mhc_complex.pdb
+[BLACKLIST] 3QDG: removed_residues=15
+[OK] 3QDG: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3qdg_mhc_complex.pdb
+[BLACKLIST] 3QDJ: removed_residues=24
+[OK] 3QDJ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3qdj_mhc_complex.pdb
+[BLACKLIST] 3QDM: removed_residues=19
+[OK] 3QDM: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3qdm_mhc_complex.pdb
+[BLACKLIST] 3QEQ: removed_residues=64
+[OK] 3QEQ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3qeq_mhc_complex.pdb
+[BLACKLIST] 3QFD: removed_residues=129
+[OK] 3QFD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3qfd_mhc_complex.pdb
+[BLACKLIST] 3QFJ: removed_residues=138
+[OK] 3QFJ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3qfj_mhc_complex.pdb
+[BLACKLIST] 3QZW: removed_residues=60
+[OK] 3QZW: binders=0; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'D', 'E']; output=3qzw_mhc_complex.pdb
+[BLACKLIST] 3REW: removed_residues=71
+[OK] 3REW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3rew_mhc_complex.pdb
+[BLACKLIST] 3RL1: removed_residues=95
+[OK] 3RL1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3rl1_mhc_complex.pdb
+[BLACKLIST] 3RL2: removed_residues=56
+[OK] 3RL2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3rl2_mhc_complex.pdb
+[BLACKLIST] 3S6C: removed_residues=2
+[OK] 3S6C: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=3s6c_mhc_complex.pdb
+[BLACKLIST] 3SDX: removed_residues=20
+[OK] 3SDX: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=3sdx_mhc_complex.pdb
+[OK] 3SJV: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3sjv_mhc_complex.pdb
+[BLACKLIST] 3SKM: removed_residues=121
+[OK] 3SKM: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3skm_mhc_complex.pdb
+[BLACKLIST] 3SKO: removed_residues=99
+[OK] 3SKO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3sko_mhc_complex.pdb
+[BLACKLIST] 3SPV: removed_residues=158
+[OK] 3SPV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3spv_mhc_complex.pdb
+[BLACKLIST] 3T8X: removed_residues=106
+[OK] 3T8X: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3t8x_mhc_complex.pdb
+[BLACKLIST] 3TO2: removed_residues=48
+[OK] 3TO2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3to2_mhc_complex.pdb
+[BLACKLIST] 3TZV: removed_residues=6
+[OK] 3TZV: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=3tzv_mhc_complex.pdb
+[BLACKLIST] 3U0P: removed_residues=26
+[OK] 3U0P: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3u0p_mhc_complex.pdb
+[BLACKLIST] 3UPR: removed_residues=76
+[OK] 3UPR: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3upr_mhc_complex.pdb
+[BLACKLIST] 3UTQ: removed_residues=145
+[OK] 3UTQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3utq_mhc_complex.pdb
+[BLACKLIST] 3UTS: removed_residues=32
+[OK] 3UTS: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3uts_mhc_complex.pdb
+[BLACKLIST] 3UTT: removed_residues=47
+[OK] 3UTT: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3utt_mhc_complex.pdb
+[BLACKLIST] 3V5D: removed_residues=68
+[OK] 3V5D: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3v5d_mhc_complex.pdb
+[BLACKLIST] 3V5H: removed_residues=163
+[OK] 3V5H: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3v5h_mhc_complex.pdb
+[BLACKLIST] 3V5K: removed_residues=57
+[OK] 3V5K: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3v5k_mhc_complex.pdb
+[BLACKLIST] 3VCL: removed_residues=165
+[OK] 3VCL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vcl_mhc_complex.pdb
+[BLACKLIST] 3VFM: removed_residues=110
+[OK] 3VFM: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vfm_mhc_complex.pdb
+[BLACKLIST] 3VFN: removed_residues=161
+[OK] 3VFN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vfn_mhc_complex.pdb
+[BLACKLIST] 3VFO: removed_residues=152
+[OK] 3VFO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vfo_mhc_complex.pdb
+[BLACKLIST] 3VFP: removed_residues=134
+[OK] 3VFP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vfp_mhc_complex.pdb
+[BLACKLIST] 3VFR: removed_residues=132
+[OK] 3VFR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vfr_mhc_complex.pdb
+[BLACKLIST] 3VFS: removed_residues=164
+[OK] 3VFS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vfs_mhc_complex.pdb
+[BLACKLIST] 3VFT: removed_residues=150
+[OK] 3VFT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vft_mhc_complex.pdb
+[BLACKLIST] 3VFU: removed_residues=166
+[OK] 3VFU: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vfu_mhc_complex.pdb
+[BLACKLIST] 3VFV: removed_residues=166
+[OK] 3VFV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vfv_mhc_complex.pdb
+[BLACKLIST] 3VFW: removed_residues=62
+[OK] 3VFW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vfw_mhc_complex.pdb
+[BLACKLIST] 3VH8: removed_residues=443
+[OK] 3VH8: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=3vh8_mhc_complex.pdb
+[BLACKLIST] 3VRI: removed_residues=180
+[OK] 3VRI: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vri_mhc_complex.pdb
+[BLACKLIST] 3VRJ: removed_residues=129
+[OK] 3VRJ: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vrj_mhc_complex.pdb
+[BLACKLIST] 3VWJ: removed_residues=15
+[OK] 3VWJ: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=3vwj_mhc_complex.pdb
+[BLACKLIST] 3VWK: removed_residues=13
+[OK] 3VWK: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=3vwk_mhc_complex.pdb
+[BLACKLIST] 3VXM: removed_residues=165
+[OK] 3VXM: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3vxm_mhc_complex.pdb
+[BLACKLIST] 3VXN: removed_residues=71
+[OK] 3VXN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vxn_mhc_complex.pdb
+[BLACKLIST] 3VXO: removed_residues=40
+[OK] 3VXO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vxo_mhc_complex.pdb
+[BLACKLIST] 3VXP: removed_residues=39
+[OK] 3VXP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3vxp_mhc_complex.pdb
+[BLACKLIST] 3VXR: removed_residues=185
+[OK] 3VXR: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3vxr_mhc_complex.pdb
+[BLACKLIST] 3VXS: removed_residues=483
+[OK] 3VXS: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3vxs_mhc_complex.pdb
+[OK] 3VXU: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3vxu_mhc_complex.pdb
+[BLACKLIST] 3W0W: removed_residues=209
+[OK] 3W0W: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=3w0w_mhc_complex.pdb
+[OK] 3W39: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3w39_mhc_complex.pdb
+[BLACKLIST] 3WL9: removed_residues=184
+[OK] 3WL9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3wl9_mhc_complex.pdb
+[BLACKLIST] 3WLB: removed_residues=92
+[OK] 3WLB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3wlb_mhc_complex.pdb
+[BLACKLIST] 3WUW: removed_residues=273
+[OK] 3WUW: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=3wuw_mhc_complex.pdb
+[BLACKLIST] 3X11: removed_residues=56
+[OK] 3X11: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3x11_mhc_complex.pdb
+[BLACKLIST] 3X12: removed_residues=87
+[OK] 3X12: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3x12_mhc_complex.pdb
+[BLACKLIST] 3X13: removed_residues=109
+[OK] 3X13: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3x13_mhc_complex.pdb
+[BLACKLIST] 3X14: removed_residues=94
+[OK] 3X14: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=3x14_mhc_complex.pdb
+[BLACKLIST] 4E5X: removed_residues=144
+[OK] 4E5X: binders=1; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4e5x_mhc_complex.pdb
+[BLACKLIST] 4EN3: removed_residues=73
+[OK] 4EN3: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['D']; output=4en3_mhc_complex.pdb
+[BLACKLIST] 4EUP: removed_residues=32
+[OK] 4EUP: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4eup_mhc_complex.pdb
+[BLACKLIST] 4F7M: removed_residues=94
+[OK] 4F7M: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4f7m_mhc_complex.pdb
+[BLACKLIST] 4F7P: removed_residues=129
+[OK] 4F7P: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4f7p_mhc_complex.pdb
+[BLACKLIST] 4F7T: removed_residues=133
+[OK] 4F7T: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4f7t_mhc_complex.pdb
+[OK] 4FFE: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=4ffe_mhc_complex.pdb
+[BLACKLIST] 4FTV: removed_residues=20
+[OK] 4FTV: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4ftv_mhc_complex.pdb
+[BLACKLIST] 4G8G: removed_residues=215
+[OK] 4G8G: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4g8g_mhc_complex.pdb
+[BLACKLIST] 4G8I: removed_residues=116
+[OK] 4G8I: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4g8i_mhc_complex.pdb
+[BLACKLIST] 4G9D: removed_residues=129
+[OK] 4G9D: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4g9d_mhc_complex.pdb
+[BLACKLIST] 4G9F: removed_residues=315
+[OK] 4G9F: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4g9f_mhc_complex.pdb
+[BLACKLIST] 4GKN: removed_residues=8
+[OK] 4GKN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4gkn_mhc_complex.pdb
+[BLACKLIST] 4GKS: removed_residues=23
+[OK] 4GKS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4gks_mhc_complex.pdb
+[OK] 4GUP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4gup_mhc_complex.pdb
+[BLACKLIST] 4HWZ: removed_residues=43
+[OK] 4HWZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4hwz_mhc_complex.pdb
+[BLACKLIST] 4HX1: removed_residues=97
+[OK] 4HX1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4hx1_mhc_complex.pdb
+[OK] 4I48: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4i48_mhc_complex.pdb
+[BLACKLIST] 4I4W: removed_residues=124
+[OK] 4I4W: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4i4w_mhc_complex.pdb
+[BLACKLIST] 4JFD: removed_residues=100
+[OK] 4JFD: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4jfd_mhc_complex.pdb
+[BLACKLIST] 4JFE: removed_residues=54
+[OK] 4JFE: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4jfe_mhc_complex.pdb
+[BLACKLIST] 4JFF: removed_residues=125
+[OK] 4JFF: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4jff_mhc_complex.pdb
+[BLACKLIST] 4JFO: removed_residues=72
+[OK] 4JFO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4jfo_mhc_complex.pdb
+[BLACKLIST] 4JFP: removed_residues=104
+[OK] 4JFP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4jfp_mhc_complex.pdb
+[BLACKLIST] 4JFQ: removed_residues=122
+[OK] 4JFQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4jfq_mhc_complex.pdb
+[BLACKLIST] 4JQV: removed_residues=106
+[OK] 4JQV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=4jqv_mhc_complex.pdb
+[BLACKLIST] 4JQX: removed_residues=58
+[OK] 4JQX: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=4jqx_mhc_complex.pdb
+[BLACKLIST] 4JRX: removed_residues=102
+[OK] 4JRX: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4jrx_mhc_complex.pdb
+[BLACKLIST] 4JRY: removed_residues=107
+[OK] 4JRY: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4jry_mhc_complex.pdb
+[BLACKLIST] 4K71: removed_residues=55
+[OK] 4K71: binders=1; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=4k71_mhc_complex.pdb
+[BLACKLIST] 4K7F: removed_residues=177
+[OK] 4K7F: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4k7f_mhc_complex.pdb
+[BLACKLIST] 4L29: removed_residues=1
+[OK] 4L29: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4l29_mhc_complex.pdb
+[BLACKLIST] 4L3C: removed_residues=7
+[OK] 4L3C: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4l3c_mhc_complex.pdb
+[BLACKLIST] 4L3E: removed_residues=8
+[OK] 4L3E: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4l3e_mhc_complex.pdb
+[BLACKLIST] 4L4T: removed_residues=385
+[OK] 4L4T: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4l4t_mhc_complex.pdb
+[BLACKLIST] 4L4V: removed_residues=310
+[OK] 4L4V: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4l4v_mhc_complex.pdb
+[BLACKLIST] 4LCW: removed_residues=83
+[OK] 4LCW: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4lcw_mhc_complex.pdb
+[OK] 4LCY: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=4lcy_mhc_complex.pdb
+[BLACKLIST] 4LHU: removed_residues=70
+[OK] 4LHU: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4lhu_mhc_complex.pdb
+[BLACKLIST] 4LNR: removed_residues=101
+[OK] 4LNR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4lnr_mhc_complex.pdb
+[BLACKLIST] 4MJ5: removed_residues=77
+[OK] 4MJ5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4mj5_mhc_complex.pdb
+[BLACKLIST] 4MJ6: removed_residues=35
+[OK] 4MJ6: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4mj6_mhc_complex.pdb
+[OK] 4MJI: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4mji_mhc_complex.pdb
+[BLACKLIST] 4MNG: removed_residues=2
+[OK] 4MNG: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4mng_mhc_complex.pdb
+[BLACKLIST] 4MNQ: removed_residues=11
+[OK] 4MNQ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4mnq_mhc_complex.pdb
+[BLACKLIST] 4MQ7: removed_residues=28
+[OK] 4MQ7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4mq7_mhc_complex.pdb
+[OK] 4N0F: binders=1; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4n0f_mhc_complex.pdb
+[OK] 4N0U: binders=2; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4n0u_mhc_complex.pdb
+[BLACKLIST] 4N8V: removed_residues=39
+[OK] 4N8V: binders=1; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4n8v_mhc_complex.pdb
+[BLACKLIST] 4NNX: removed_residues=54
+[OK] 4NNX: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4nnx_mhc_complex.pdb
+[BLACKLIST] 4NNY: removed_residues=79
+[OK] 4NNY: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4nny_mhc_complex.pdb
+[BLACKLIST] 4NO0: removed_residues=36
+[OK] 4NO0: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=4no0_mhc_complex.pdb
+[BLACKLIST] 4NO2: removed_residues=77
+[OK] 4NO2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4no2_mhc_complex.pdb
+[BLACKLIST] 4NO3: removed_residues=113
+[OK] 4NO3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4no3_mhc_complex.pdb
+[BLACKLIST] 4NO5: removed_residues=76
+[OK] 4NO5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4no5_mhc_complex.pdb
+[BLACKLIST] 4NQC: removed_residues=56
+[OK] 4NQC: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4nqc_mhc_complex.pdb
+[BLACKLIST] 4NQD: removed_residues=38
+[OK] 4NQD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4nqd_mhc_complex.pdb
+[BLACKLIST] 4NQE: removed_residues=197
+[OK] 4NQE: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4nqe_mhc_complex.pdb
+[BLACKLIST] 4NQV: removed_residues=48
+[OK] 4NQV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4nqv_mhc_complex.pdb
+[BLACKLIST] 4NQX: removed_residues=56
+[OK] 4NQX: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4nqx_mhc_complex.pdb
+[BLACKLIST] 4NT6: removed_residues=122
+[OK] 4NT6: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4nt6_mhc_complex.pdb
+[BLACKLIST] 4O2C: removed_residues=117
+[OK] 4O2C: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4o2c_mhc_complex.pdb
+[BLACKLIST] 4O2E: removed_residues=81
+[OK] 4O2E: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4o2e_mhc_complex.pdb
+[BLACKLIST] 4O2F: removed_residues=141
+[OK] 4O2F: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4o2f_mhc_complex.pdb
+[BLACKLIST] 4ONO: removed_residues=2
+[OK] 4ONO: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=4ono_mhc_complex.pdb
+[BLACKLIST] 4PDC: removed_residues=175
+[OK] 4PDC: binders=2; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=4pdc_mhc_complex.pdb
+[BLACKLIST] 4PJ5: removed_residues=396
+[OK] 4PJ5: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4pj5_mhc_complex.pdb
+[BLACKLIST] 4PJ7: removed_residues=180
+[OK] 4PJ7: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4pj7_mhc_complex.pdb
+[BLACKLIST] 4PJ9: removed_residues=475
+[OK] 4PJ9: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4pj9_mhc_complex.pdb
+[BLACKLIST] 4PJA: removed_residues=202
+[OK] 4PJA: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4pja_mhc_complex.pdb
+[BLACKLIST] 4PJB: removed_residues=189
+[OK] 4PJB: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4pjb_mhc_complex.pdb
+[BLACKLIST] 4PJC: removed_residues=228
+[OK] 4PJC: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4pjc_mhc_complex.pdb
+[BLACKLIST] 4PJD: removed_residues=208
+[OK] 4PJD: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4pjd_mhc_complex.pdb
+[BLACKLIST] 4PJE: removed_residues=481
+[OK] 4PJE: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4pje_mhc_complex.pdb
+[BLACKLIST] 4PJF: removed_residues=274
+[OK] 4PJF: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4pjf_mhc_complex.pdb
+[BLACKLIST] 4PJG: removed_residues=214
+[OK] 4PJG: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4pjg_mhc_complex.pdb
+[BLACKLIST] 4PJH: removed_residues=520
+[OK] 4PJH: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4pjh_mhc_complex.pdb
+[BLACKLIST] 4PJI: removed_residues=153
+[OK] 4PJI: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4pji_mhc_complex.pdb
+[BLACKLIST] 4PJX: removed_residues=265
+[OK] 4PJX: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4pjx_mhc_complex.pdb
+[BLACKLIST] 4PR5: removed_residues=148
+[OK] 4PR5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4pr5_mhc_complex.pdb
+[BLACKLIST] 4PRA: removed_residues=124
+[OK] 4PRA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4pra_mhc_complex.pdb
+[BLACKLIST] 4PRB: removed_residues=124
+[OK] 4PRB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4prb_mhc_complex.pdb
+[BLACKLIST] 4PRD: removed_residues=125
+[OK] 4PRD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4prd_mhc_complex.pdb
+[BLACKLIST] 4PRE: removed_residues=169
+[OK] 4PRE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4pre_mhc_complex.pdb
+[BLACKLIST] 4PRH: removed_residues=55
+[OK] 4PRH: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4prh_mhc_complex.pdb
+[BLACKLIST] 4PRI: removed_residues=38
+[OK] 4PRI: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4pri_mhc_complex.pdb
+[BLACKLIST] 4PRN: removed_residues=148
+[OK] 4PRN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4prn_mhc_complex.pdb
+[BLACKLIST] 4PRP: removed_residues=53
+[OK] 4PRP: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4prp_mhc_complex.pdb
+[BLACKLIST] 4QOK: removed_residues=16
+[OK] 4QOK: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4qok_mhc_complex.pdb
+[BLACKLIST] 4QRP: removed_residues=18
+[OK] 4QRP: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4qrp_mhc_complex.pdb
+[BLACKLIST] 4QRQ: removed_residues=148
+[OK] 4QRQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4qrq_mhc_complex.pdb
+[BLACKLIST] 4QRR: removed_residues=12
+[OK] 4QRR: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4qrr_mhc_complex.pdb
+[BLACKLIST] 4QRS: removed_residues=137
+[OK] 4QRS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4qrs_mhc_complex.pdb
+[BLACKLIST] 4QRT: removed_residues=168
+[OK] 4QRT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4qrt_mhc_complex.pdb
+[BLACKLIST] 4QRU: removed_residues=160
+[OK] 4QRU: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4qru_mhc_complex.pdb
+[BLACKLIST] 4S0U: removed_residues=59
+[OK] 4S0U: binders=2; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=4s0u_mhc_complex.pdb
+[BLACKLIST] 4U1H: removed_residues=89
+[OK] 4U1H: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4u1h_mhc_complex.pdb
+[BLACKLIST] 4U1I: removed_residues=68
+[OK] 4U1I: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4u1i_mhc_complex.pdb
+[BLACKLIST] 4U1J: removed_residues=118
+[OK] 4U1J: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4u1j_mhc_complex.pdb
+[BLACKLIST] 4U1K: removed_residues=40
+[OK] 4U1K: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4u1k_mhc_complex.pdb
+[BLACKLIST] 4U1L: removed_residues=36
+[OK] 4U1L: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4u1l_mhc_complex.pdb
+[BLACKLIST] 4U1M: removed_residues=159
+[OK] 4U1M: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4u1m_mhc_complex.pdb
+[BLACKLIST] 4U1N: removed_residues=87
+[OK] 4U1N: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4u1n_mhc_complex.pdb
+[BLACKLIST] 4U1S: removed_residues=66
+[OK] 4U1S: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4u1s_mhc_complex.pdb
+[BLACKLIST] 4U6X: removed_residues=90
+[OK] 4U6X: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4u6x_mhc_complex.pdb
+[BLACKLIST] 4U6Y: removed_residues=143
+[OK] 4U6Y: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4u6y_mhc_complex.pdb
+[BLACKLIST] 4UQ2: removed_residues=42
+[OK] 4UQ2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4uq2_mhc_complex.pdb
+[BLACKLIST] 4UQ3: removed_residues=57
+[OK] 4UQ3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4uq3_mhc_complex.pdb
+[BLACKLIST] 4V3D: removed_residues=7
+[OK] 4V3D: binders=1; ligands=1; ligand_contact_binders=1; warnings=0; removed_chains=[]; output=4v3d_mhc_complex.pdb
+[BLACKLIST] 4V3E: removed_residues=5
+[OK] 4V3E: binders=1; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=4v3e_mhc_complex.pdb
+[BLACKLIST] 4WJ5: removed_residues=97
+[OK] 4WJ5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4wj5_mhc_complex.pdb
+[BLACKLIST] 4WO4: removed_residues=144
+[OK] 4WO4: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=4wo4_mhc_complex.pdb
+[BLACKLIST] 4WU5: removed_residues=37
+[OK] 4WU5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4wu5_mhc_complex.pdb
+[BLACKLIST] 4WU7: removed_residues=39
+[OK] 4WU7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4wu7_mhc_complex.pdb
+[OK] 4WUU: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=4wuu_mhc_complex.pdb
+[BLACKLIST] 4WW2: removed_residues=122
+[OK] 4WW2: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=4ww2_mhc_complex.pdb
+[BLACKLIST] 4WWK: removed_residues=1
+[OK] 4WWK: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['D']; output=4wwk_mhc_complex.pdb
+[BLACKLIST] 4X6C: removed_residues=11
+[OK] 4X6C: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4x6c_mhc_complex.pdb
+[BLACKLIST] 4X6D: removed_residues=4
+[OK] 4X6D: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4x6d_mhc_complex.pdb
+[BLACKLIST] 4X6E: removed_residues=54
+[OK] 4X6E: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4x6e_mhc_complex.pdb
+[BLACKLIST] 4X6F: removed_residues=77
+[OK] 4X6F: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=4x6f_mhc_complex.pdb
+[BLACKLIST] 4XXC: removed_residues=141
+[OK] 4XXC: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=4xxc_mhc_complex.pdb
+[BLACKLIST] 5B38: removed_residues=136
+[OK] 5B38: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=5b38_mhc_complex.pdb
+[BLACKLIST] 5B39: removed_residues=88
+[OK] 5B39: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=5b39_mhc_complex.pdb
+[OK] 5BJT: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5bjt_mhc_complex.pdb
+[BLACKLIST] 5BRZ: removed_residues=13
+[OK] 5BRZ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5brz_mhc_complex.pdb
+[BLACKLIST] 5BS0: removed_residues=13
+[OK] 5BS0: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5bs0_mhc_complex.pdb
+[OK] 5BXF: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5bxf_mhc_complex.pdb
+[BLACKLIST] 5C07: removed_residues=176
+[OK] 5C07: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5c07_mhc_complex.pdb
+[BLACKLIST] 5C08: removed_residues=93
+[OK] 5C08: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5c08_mhc_complex.pdb
+[BLACKLIST] 5C09: removed_residues=29
+[OK] 5C09: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5c09_mhc_complex.pdb
+[BLACKLIST] 5C0A: removed_residues=58
+[OK] 5C0A: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5c0a_mhc_complex.pdb
+[BLACKLIST] 5C0B: removed_residues=202
+[OK] 5C0B: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5c0b_mhc_complex.pdb
+[BLACKLIST] 5C0C: removed_residues=216
+[OK] 5C0C: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5c0c_mhc_complex.pdb
+[BLACKLIST] 5C0D: removed_residues=133
+[OK] 5C0D: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5c0d_mhc_complex.pdb
+[BLACKLIST] 5C0E: removed_residues=117
+[OK] 5C0E: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5c0e_mhc_complex.pdb
+[BLACKLIST] 5C0F: removed_residues=142
+[OK] 5C0F: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5c0f_mhc_complex.pdb
+[BLACKLIST] 5C0G: removed_residues=109
+[OK] 5C0G: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5c0g_mhc_complex.pdb
+[BLACKLIST] 5C0I: removed_residues=89
+[OK] 5C0I: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5c0i_mhc_complex.pdb
+[BLACKLIST] 5C0J: removed_residues=42
+[OK] 5C0J: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5c0j_mhc_complex.pdb
+[BLACKLIST] 5C9J: removed_residues=40
+[OK] 5C9J: binders=0; ligands=3; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5c9j_mhc_complex.pdb
+[BLACKLIST] 5D2L: removed_residues=6
+[OK] 5D2L: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5d2l_mhc_complex.pdb
+[BLACKLIST] 5D2N: removed_residues=275
+[OK] 5D2N: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['E']; output=5d2n_mhc_complex.pdb
+[BLACKLIST] 5D5M: removed_residues=39
+[OK] 5D5M: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5d5m_mhc_complex.pdb
+[BLACKLIST] 5D7I: removed_residues=496
+[OK] 5D7I: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=5d7i_mhc_complex.pdb
+[BLACKLIST] 5D7J: removed_residues=324
+[OK] 5D7J: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['D']; output=5d7j_mhc_complex.pdb
+[OK] 5D7L: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5d7l_mhc_complex.pdb
+[BLACKLIST] 5D9S: removed_residues=97
+[OK] 5D9S: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5d9s_mhc_complex.pdb
+[BLACKLIST] 5DDH: removed_residues=91
+[OK] 5DDH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5ddh_mhc_complex.pdb
+[BLACKLIST] 5DEF: removed_residues=171
+[OK] 5DEF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5def_mhc_complex.pdb
+[BLACKLIST] 5DEG: removed_residues=118
+[OK] 5DEG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5deg_mhc_complex.pdb
+[BLACKLIST] 5E00: removed_residues=151
+[OK] 5E00: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5e00_mhc_complex.pdb
+[OK] 5E6I: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=5e6i_mhc_complex.pdb
+[BLACKLIST] 5E9D: removed_residues=34
+[OK] 5E9D: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5e9d_mhc_complex.pdb
+[BLACKLIST] 5ENW: removed_residues=65
+[OK] 5ENW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5enw_mhc_complex.pdb
+[BLACKLIST] 5EO0: removed_residues=129
+[OK] 5EO0: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5eo0_mhc_complex.pdb
+[BLACKLIST] 5EO1: removed_residues=143
+[OK] 5EO1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5eo1_mhc_complex.pdb
+[BLACKLIST] 5EOT: removed_residues=33
+[OK] 5EOT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5eot_mhc_complex.pdb
+[BLACKLIST] 5EU3: removed_residues=35
+[OK] 5EU3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5eu3_mhc_complex.pdb
+[BLACKLIST] 5EU4: removed_residues=29
+[OK] 5EU4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5eu4_mhc_complex.pdb
+[BLACKLIST] 5EU5: removed_residues=62
+[OK] 5EU5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5eu5_mhc_complex.pdb
+[BLACKLIST] 5EU6: removed_residues=145
+[OK] 5EU6: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5eu6_mhc_complex.pdb
+[BLACKLIST] 5EUO: removed_residues=123
+[OK] 5EUO: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5euo_mhc_complex.pdb
+[BLACKLIST] 5F7D: removed_residues=17
+[OK] 5F7D: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5f7d_mhc_complex.pdb
+[BLACKLIST] 5F9J: removed_residues=23
+[OK] 5F9J: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5f9j_mhc_complex.pdb
+[BLACKLIST] 5FA3: removed_residues=65
+[OK] 5FA3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5fa3_mhc_complex.pdb
+[BLACKLIST] 5FA4: removed_residues=28
+[OK] 5FA4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5fa4_mhc_complex.pdb
+[BLACKLIST] 5FDW: removed_residues=11
+[OK] 5FDW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5fdw_mhc_complex.pdb
+[BLACKLIST] 5GRD: removed_residues=125
+[OK] 5GRD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5grd_mhc_complex.pdb
+[BLACKLIST] 5GRG: removed_residues=83
+[OK] 5GRG: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5grg_mhc_complex.pdb
+[BLACKLIST] 5GSD: removed_residues=82
+[OK] 5GSD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5gsd_mhc_complex.pdb
+[BLACKLIST] 5HGA: removed_residues=22
+[OK] 5HGA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5hga_mhc_complex.pdb
+[BLACKLIST] 5HGB: removed_residues=40
+[OK] 5HGB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5hgb_mhc_complex.pdb
+[BLACKLIST] 5HGD: removed_residues=128
+[OK] 5HGD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5hgd_mhc_complex.pdb
+[BLACKLIST] 5HGH: removed_residues=88
+[OK] 5HGH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5hgh_mhc_complex.pdb
+[BLACKLIST] 5HHM: removed_residues=204
+[OK] 5HHM: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5hhm_mhc_complex.pdb
+[BLACKLIST] 5HHN: removed_residues=82
+[OK] 5HHN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5hhn_mhc_complex.pdb
+[OK] 5HHO: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5hho_mhc_complex.pdb
+[BLACKLIST] 5HHP: removed_residues=115
+[OK] 5HHP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5hhp_mhc_complex.pdb
+[BLACKLIST] 5HHQ: removed_residues=44
+[OK] 5HHQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5hhq_mhc_complex.pdb
+[BLACKLIST] 5HYJ: removed_residues=29
+[OK] 5HYJ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5hyj_mhc_complex.pdb
+[BLACKLIST] 5IB1: removed_residues=30
+[OK] 5IB1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5ib1_mhc_complex.pdb
+[BLACKLIST] 5IB2: removed_residues=115
+[OK] 5IB2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5ib2_mhc_complex.pdb
+[BLACKLIST] 5IB3: removed_residues=59
+[OK] 5IB3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5ib3_mhc_complex.pdb
+[BLACKLIST] 5IB4: removed_residues=48
+[OK] 5IB4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5ib4_mhc_complex.pdb
+[BLACKLIST] 5IB5: removed_residues=26
+[OK] 5IB5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5ib5_mhc_complex.pdb
+[BLACKLIST] 5IEH: removed_residues=172
+[OK] 5IEH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5ieh_mhc_complex.pdb
+[BLACKLIST] 5IEK: removed_residues=137
+[OK] 5IEK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5iek_mhc_complex.pdb
+[BLACKLIST] 5IM7: removed_residues=36
+[OK] 5IM7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5im7_mhc_complex.pdb
+[BLACKLIST] 5INC: removed_residues=6
+[OK] 5INC: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5inc_mhc_complex.pdb
+[BLACKLIST] 5IND: removed_residues=44
+[OK] 5IND: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5ind_mhc_complex.pdb
+[BLACKLIST] 5IRO: removed_residues=2
+[OK] 5IRO: binders=1; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=5iro_mhc_complex.pdb
+[BLACKLIST] 5ISZ: removed_residues=375
+[OK] 5ISZ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5isz_mhc_complex.pdb
+[BLACKLIST] 5IUE: removed_residues=15
+[OK] 5IUE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5iue_mhc_complex.pdb
+[BLACKLIST] 5J1A: removed_residues=86
+[OK] 5J1A: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5j1a_mhc_complex.pdb
+[BLACKLIST] 5JHD: removed_residues=46
+[OK] 5JHD: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5jhd_mhc_complex.pdb
+[BLACKLIST] 5JZI: removed_residues=43
+[OK] 5JZI: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5jzi_mhc_complex.pdb
+[OK] 5KNM: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'C']; output=5knm_mhc_complex.pdb
+[BLACKLIST] 5L2J: removed_residues=123
+[OK] 5L2J: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5l2j_mhc_complex.pdb
+[BLACKLIST] 5L2K: removed_residues=9
+[OK] 5L2K: binders=2; ligands=2; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5l2k_mhc_complex.pdb
+[BLACKLIST] 5MEN: removed_residues=41
+[OK] 5MEN: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5men_mhc_complex.pdb
+[BLACKLIST] 5MEO: removed_residues=119
+[OK] 5MEO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5meo_mhc_complex.pdb
+[BLACKLIST] 5MEP: removed_residues=19
+[OK] 5MEP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5mep_mhc_complex.pdb
+[BLACKLIST] 5MEQ: removed_residues=32
+[OK] 5MEQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5meq_mhc_complex.pdb
+[BLACKLIST] 5MER: removed_residues=97
+[OK] 5MER: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5mer_mhc_complex.pdb
+[BLACKLIST] 5N1Y: removed_residues=79
+[OK] 5N1Y: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5n1y_mhc_complex.pdb
+[BLACKLIST] 5N6B: removed_residues=137
+[OK] 5N6B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5n6b_mhc_complex.pdb
+[OK] 5NHT: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=5nht_mhc_complex.pdb
+[BLACKLIST] 5NME: removed_residues=17
+[OK] 5NME: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5nme_mhc_complex.pdb
+[BLACKLIST] 5NMF: removed_residues=28
+[OK] 5NMF: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5nmf_mhc_complex.pdb
+[BLACKLIST] 5NMG: removed_residues=85
+[OK] 5NMG: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5nmg_mhc_complex.pdb
+[BLACKLIST] 5NMH: removed_residues=126
+[OK] 5NMH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5nmh_mhc_complex.pdb
+[BLACKLIST] 5NMK: removed_residues=89
+[OK] 5NMK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5nmk_mhc_complex.pdb
+[BLACKLIST] 5NQK: removed_residues=1
+[OK] 5NQK: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=5nqk_mhc_complex.pdb
+[BLACKLIST] 5SWQ: removed_residues=76
+[OK] 5SWQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5swq_mhc_complex.pdb
+[BLACKLIST] 5T6W: removed_residues=41
+[OK] 5T6W: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5t6w_mhc_complex.pdb
+[BLACKLIST] 5T6X: removed_residues=44
+[OK] 5T6X: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5t6x_mhc_complex.pdb
+[BLACKLIST] 5T6Y: removed_residues=71
+[OK] 5T6Y: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5t6y_mhc_complex.pdb
+[BLACKLIST] 5T6Z: removed_residues=364
+[OK] 5T6Z: binders=1; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5t6z_mhc_complex.pdb
+[BLACKLIST] 5T70: removed_residues=189
+[OK] 5T70: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=5t70_mhc_complex.pdb
+[BLACKLIST] 5TEZ: removed_residues=559
+[OK] 5TEZ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5tez_mhc_complex.pdb
+[BLACKLIST] 5TXS: removed_residues=145
+[OK] 5TXS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5txs_mhc_complex.pdb
+[BLACKLIST] 5U16: removed_residues=495
+[OK] 5U16: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5u16_mhc_complex.pdb
+[BLACKLIST] 5U17: removed_residues=272
+[OK] 5U17: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['D']; output=5u17_mhc_complex.pdb
+[BLACKLIST] 5U1R: removed_residues=70
+[OK] 5U1R: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=5u1r_mhc_complex.pdb
+[BLACKLIST] 5U2V: removed_residues=276
+[OK] 5U2V: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5u2v_mhc_complex.pdb
+[BLACKLIST] 5U6Q: removed_residues=596
+[OK] 5U6Q: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['D']; output=5u6q_mhc_complex.pdb
+[BLACKLIST] 5U72: removed_residues=168
+[OK] 5U72: binders=2; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['D']; output=5u72_mhc_complex.pdb
+[BLACKLIST] 5U98: removed_residues=157
+[OK] 5U98: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5u98_mhc_complex.pdb
+[BLACKLIST] 5V5L: removed_residues=61
+[OK] 5V5L: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5v5l_mhc_complex.pdb
+[BLACKLIST] 5V5M: removed_residues=6
+[OK] 5V5M: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5v5m_mhc_complex.pdb
+[BLACKLIST] 5VGD: removed_residues=48
+[OK] 5VGD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vgd_mhc_complex.pdb
+[BLACKLIST] 5VGE: removed_residues=7
+[OK] 5VGE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vge_mhc_complex.pdb
+[BLACKLIST] 5VUD: removed_residues=116
+[OK] 5VUD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vud_mhc_complex.pdb
+[BLACKLIST] 5VUE: removed_residues=136
+[OK] 5VUE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vue_mhc_complex.pdb
+[BLACKLIST] 5VUF: removed_residues=144
+[OK] 5VUF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vuf_mhc_complex.pdb
+[BLACKLIST] 5VVP: removed_residues=153
+[OK] 5VVP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vvp_mhc_complex.pdb
+[BLACKLIST] 5VWD: removed_residues=176
+[OK] 5VWD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vwd_mhc_complex.pdb
+[BLACKLIST] 5VWF: removed_residues=164
+[OK] 5VWF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vwf_mhc_complex.pdb
+[BLACKLIST] 5VWH: removed_residues=125
+[OK] 5VWH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vwh_mhc_complex.pdb
+[BLACKLIST] 5VWJ: removed_residues=126
+[OK] 5VWJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vwj_mhc_complex.pdb
+[BLACKLIST] 5VZ5: removed_residues=9
+[OK] 5VZ5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5vz5_mhc_complex.pdb
+[OK] 5W1V: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5w1v_mhc_complex.pdb
+[OK] 5W1W: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5w1w_mhc_complex.pdb
+[BLACKLIST] 5W67: removed_residues=71
+[OK] 5W67: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5w67_mhc_complex.pdb
+[BLACKLIST] 5W69: removed_residues=80
+[OK] 5W69: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5w69_mhc_complex.pdb
+[BLACKLIST] 5W6A: removed_residues=116
+[OK] 5W6A: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5w6a_mhc_complex.pdb
+[BLACKLIST] 5WHK: removed_residues=188
+[OK] 5WHK: binders=2; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5whk_mhc_complex.pdb
+[BLACKLIST] 5WJL: removed_residues=10
+[OK] 5WJL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wjl_mhc_complex.pdb
+[BLACKLIST] 5WJN: removed_residues=54
+[OK] 5WJN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wjn_mhc_complex.pdb
+[BLACKLIST] 5WKE: removed_residues=109
+[OK] 5WKE: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wke_mhc_complex.pdb
+[BLACKLIST] 5WKF: removed_residues=103
+[OK] 5WKF: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5wkf_mhc_complex.pdb
+[BLACKLIST] 5WKG: removed_residues=101
+[OK] 5WKG: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wkg_mhc_complex.pdb
+[BLACKLIST] 5WKH: removed_residues=1
+[OK] 5WKH: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5wkh_mhc_complex.pdb
+[BLACKLIST] 5WKI: removed_residues=158
+[OK] 5WKI: binders=2; ligands=2; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5wki_mhc_complex.pdb
+[BLACKLIST] 5WL1: removed_residues=179
+[OK] 5WL1: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wl1_mhc_complex.pdb
+[BLACKLIST] 5WMN: removed_residues=115
+[OK] 5WMN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wmn_mhc_complex.pdb
+[BLACKLIST] 5WMO: removed_residues=177
+[OK] 5WMO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wmo_mhc_complex.pdb
+[BLACKLIST] 5WMP: removed_residues=153
+[OK] 5WMP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wmp_mhc_complex.pdb
+[BLACKLIST] 5WMQ: removed_residues=119
+[OK] 5WMQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wmq_mhc_complex.pdb
+[BLACKLIST] 5WMR: removed_residues=144
+[OK] 5WMR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wmr_mhc_complex.pdb
+[BLACKLIST] 5WSH: removed_residues=135
+[OK] 5WSH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wsh_mhc_complex.pdb
+[OK] 5WWI: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wwi_mhc_complex.pdb
+[BLACKLIST] 5WWJ: removed_residues=71
+[OK] 5WWJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wwj_mhc_complex.pdb
+[OK] 5WWU: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wwu_mhc_complex.pdb
+[BLACKLIST] 5WXC: removed_residues=65
+[OK] 5WXC: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wxc_mhc_complex.pdb
+[OK] 5WXD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5wxd_mhc_complex.pdb
+[BLACKLIST] 5XOS: removed_residues=130
+[OK] 5XOS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5xos_mhc_complex.pdb
+[BLACKLIST] 5XOT: removed_residues=24
+[OK] 5XOT: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5xot_mhc_complex.pdb
+[BLACKLIST] 5XOV: removed_residues=144
+[OK] 5XOV: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=5xov_mhc_complex.pdb
+[BLACKLIST] 5XS3: removed_residues=34
+[OK] 5XS3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=5xs3_mhc_complex.pdb
+[BLACKLIST] 5YXN: removed_residues=387
+[OK] 5YXN: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=5yxn_mhc_complex.pdb
+[BLACKLIST] 5YXU: removed_residues=63
+[OK] 5YXU: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=5yxu_mhc_complex.pdb
+[OK] 6AEE: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=6aee_mhc_complex.pdb
+[BLACKLIST] 6AM5: removed_residues=115
+[OK] 6AM5: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6am5_mhc_complex.pdb
+[BLACKLIST] 6AMT: removed_residues=21
+[OK] 6AMT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6amt_mhc_complex.pdb
+[BLACKLIST] 6AMU: removed_residues=335
+[OK] 6AMU: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6amu_mhc_complex.pdb
+[OK] 6APN: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=6apn_mhc_complex.pdb
+[BLACKLIST] 6AT5: removed_residues=261
+[OK] 6AT5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6at5_mhc_complex.pdb
+[OK] 6AT9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6at9_mhc_complex.pdb
+[BLACKLIST] 6AVF: removed_residues=358
+[OK] 6AVF: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=6avf_mhc_complex.pdb
+[BLACKLIST] 6AVG: removed_residues=154
+[OK] 6AVG: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=6avg_mhc_complex.pdb
+[BLACKLIST] 6BJ2: removed_residues=3
+[OK] 6BJ2: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6bj2_mhc_complex.pdb
+[BLACKLIST] 6BJ3: removed_residues=259
+[OK] 6BJ3: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6bj3_mhc_complex.pdb
+[BLACKLIST] 6BJ8: removed_residues=438
+[OK] 6BJ8: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6bj8_mhc_complex.pdb
+[BLACKLIST] 6BXP: removed_residues=143
+[OK] 6BXP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6bxp_mhc_complex.pdb
+[BLACKLIST] 6BXQ: removed_residues=107
+[OK] 6BXQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=6bxq_mhc_complex.pdb
+[BLACKLIST] 6C09: removed_residues=15
+[OK] 6C09: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6c09_mhc_complex.pdb
+[BLACKLIST] 6C15: removed_residues=3
+[OK] 6C15: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6c15_mhc_complex.pdb
+[BLACKLIST] 6C97: removed_residues=130
+[OK] 6C97: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6c97_mhc_complex.pdb
+[BLACKLIST] 6C98: removed_residues=105
+[OK] 6C98: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6c98_mhc_complex.pdb
+[BLACKLIST] 6C99: removed_residues=100
+[OK] 6C99: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6c99_mhc_complex.pdb
+[BLACKLIST] 6CUG: removed_residues=304
+[OK] 6CUG: binders=2; ligands=2; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6cug_mhc_complex.pdb
+[BLACKLIST] 6D29: removed_residues=127
+[OK] 6D29: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6d29_mhc_complex.pdb
+[BLACKLIST] 6D2B: removed_residues=94
+[OK] 6D2B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6d2b_mhc_complex.pdb
+[BLACKLIST] 6D2R: removed_residues=107
+[OK] 6D2R: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6d2r_mhc_complex.pdb
+[BLACKLIST] 6D2T: removed_residues=102
+[OK] 6D2T: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6d2t_mhc_complex.pdb
+[BLACKLIST] 6D64: removed_residues=133
+[OK] 6D64: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6d64_mhc_complex.pdb
+[BLACKLIST] 6D78: removed_residues=133
+[OK] 6D78: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6d78_mhc_complex.pdb
+[BLACKLIST] 6D7G: removed_residues=3
+[OK] 6D7G: binders=2; ligands=1; ligand_contact_binders=2; warnings=0; removed_chains=[]; output=6d7g_mhc_complex.pdb
+[OK] 6DKP: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6dkp_mhc_complex.pdb
+[BLACKLIST] 6EI2: removed_residues=133
+[OK] 6EI2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ei2_mhc_complex.pdb
+[BLACKLIST] 6EQA: removed_residues=5
+[OK] 6EQA: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6eqa_mhc_complex.pdb
+[BLACKLIST] 6EQB: removed_residues=20
+[OK] 6EQB: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6eqb_mhc_complex.pdb
+[BLACKLIST] 6EWA: removed_residues=12
+[OK] 6EWA: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=6ewa_mhc_complex.pdb
+[OK] 6EWC: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=6ewc_mhc_complex.pdb
+[BLACKLIST] 6EWO: removed_residues=68
+[OK] 6EWO: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=6ewo_mhc_complex.pdb
+[BLACKLIST] 6FGB: removed_residues=24
+[OK] 6FGB: binders=1; ligands=0; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'C']; output=6fgb_mhc_complex.pdb
+[BLACKLIST] 6G3J: removed_residues=5
+[OK] 6G3J: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6g3j_mhc_complex.pdb
+[BLACKLIST] 6G3K: removed_residues=4
+[OK] 6G3K: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6g3k_mhc_complex.pdb
+[BLACKLIST] 6GGM: removed_residues=48
+[OK] 6GGM: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ggm_mhc_complex.pdb
+[BLACKLIST] 6GH1: removed_residues=64
+[OK] 6GH1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6gh1_mhc_complex.pdb
+[BLACKLIST] 6GH4: removed_residues=83
+[OK] 6GH4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6gh4_mhc_complex.pdb
+[BLACKLIST] 6GHN: removed_residues=30
+[OK] 6GHN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ghn_mhc_complex.pdb
+[BLACKLIST] 6GL1: removed_residues=28
+[OK] 6GL1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6gl1_mhc_complex.pdb
+[BLACKLIST] 6ID4: removed_residues=264
+[OK] 6ID4: binders=0; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'C', 'D']; output=6id4_mhc_complex.pdb
+[BLACKLIST] 6IEX: removed_residues=37
+[OK] 6IEX: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6iex_mhc_complex.pdb
+[BLACKLIST] 6ILM: removed_residues=2
+[OK] 6ILM: binders=4; ligands=0; ligand_contact_binders=0; warnings=2; removed_chains=['F', 'G']; output=6ilm_mhc_complex.pdb
+[BLACKLIST] 6J1V: removed_residues=85
+[OK] 6J1V: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6j1v_mhc_complex.pdb
+[BLACKLIST] 6J1W: removed_residues=118
+[OK] 6J1W: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6j1w_mhc_complex.pdb
+[BLACKLIST] 6J29: removed_residues=145
+[OK] 6J29: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6j29_mhc_complex.pdb
+[BLACKLIST] 6J2A: removed_residues=170
+[OK] 6J2A: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6j2a_mhc_complex.pdb
+[BLACKLIST] 6JOZ: removed_residues=155
+[OK] 6JOZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6joz_mhc_complex.pdb
+[BLACKLIST] 6JP3: removed_residues=143
+[OK] 6JP3: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6jp3_mhc_complex.pdb
+[BLACKLIST] 6JTN: removed_residues=136
+[OK] 6JTN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6jtn_mhc_complex.pdb
+[BLACKLIST] 6JTO: removed_residues=164
+[OK] 6JTO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6jto_mhc_complex.pdb
+[BLACKLIST] 6JTP: removed_residues=148
+[OK] 6JTP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6jtp_mhc_complex.pdb
+[BLACKLIST] 6K60: removed_residues=2
+[OK] 6K60: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=6k60_mhc_complex.pdb
+[OK] 6LA6: binders=2; ligands=0; ligand_contact_binders=0; warnings=4; removed_chains=['D', 'E', 'G', 'C']; output=6la6_mhc_complex.pdb
+[OK] 6LA7: binders=2; ligands=0; ligand_contact_binders=0; warnings=4; removed_chains=['E', 'G', 'C', 'F']; output=6la7_mhc_complex.pdb
+[OK] 6MPP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=6mpp_mhc_complex.pdb
+[BLACKLIST] 6MT3: removed_residues=180
+[OK] 6MT3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=6mt3_mhc_complex.pdb
+[BLACKLIST] 6MT4: removed_residues=154
+[OK] 6MT4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6mt4_mhc_complex.pdb
+[BLACKLIST] 6MT5: removed_residues=205
+[OK] 6MT5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6mt5_mhc_complex.pdb
+[BLACKLIST] 6MT6: removed_residues=169
+[OK] 6MT6: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=6mt6_mhc_complex.pdb
+[BLACKLIST] 6MTL: removed_residues=122
+[OK] 6MTL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6mtl_mhc_complex.pdb
+[OK] 6MTM: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6mtm_mhc_complex.pdb
+[BLACKLIST] 6MWR: removed_residues=1
+[OK] 6MWR: binders=0; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'C', 'D']; output=6mwr_mhc_complex.pdb
+[OK] 6NCA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=6nca_mhc_complex.pdb
+[BLACKLIST] 6NHA: removed_residues=79
+[OK] 6NHA: binders=0; ligands=0; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'C']; output=6nha_mhc_complex.pdb
+[BLACKLIST] 6NUX: removed_residues=41
+[OK] 6NUX: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6nux_mhc_complex.pdb
+[BLACKLIST] 6O4Y: removed_residues=80
+[OK] 6O4Y: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6o4y_mhc_complex.pdb
+[BLACKLIST] 6O4Z: removed_residues=58
+[OK] 6O4Z: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6o4z_mhc_complex.pdb
+[BLACKLIST] 6O51: removed_residues=111
+[OK] 6O51: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6o51_mhc_complex.pdb
+[BLACKLIST] 6O53: removed_residues=76
+[OK] 6O53: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6o53_mhc_complex.pdb
+[BLACKLIST] 6O9B: removed_residues=57
+[OK] 6O9B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6o9b_mhc_complex.pdb
+[BLACKLIST] 6O9C: removed_residues=14
+[OK] 6O9C: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6o9c_mhc_complex.pdb
+[BLACKLIST] 6OPD: removed_residues=146
+[OK] 6OPD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6opd_mhc_complex.pdb
+[BLACKLIST] 6P23: removed_residues=62
+[OK] 6P23: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6p23_mhc_complex.pdb
+[BLACKLIST] 6P27: removed_residues=56
+[OK] 6P27: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6p27_mhc_complex.pdb
+[BLACKLIST] 6P2C: removed_residues=76
+[OK] 6P2C: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6p2c_mhc_complex.pdb
+[BLACKLIST] 6P2F: removed_residues=81
+[OK] 6P2F: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6p2f_mhc_complex.pdb
+[BLACKLIST] 6P2S: removed_residues=46
+[OK] 6P2S: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6p2s_mhc_complex.pdb
+[BLACKLIST] 6P64: removed_residues=8
+[OK] 6P64: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6p64_mhc_complex.pdb
+[OK] 6PA1: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6pa1_mhc_complex.pdb
+[OK] 6PAG: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6pag_mhc_complex.pdb
+[BLACKLIST] 6PBH: removed_residues=106
+[OK] 6PBH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6pbh_mhc_complex.pdb
+[BLACKLIST] 6PTB: removed_residues=80
+[OK] 6PTB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ptb_mhc_complex.pdb
+[BLACKLIST] 6PTE: removed_residues=134
+[OK] 6PTE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6pte_mhc_complex.pdb
+[BLACKLIST] 6PUC: removed_residues=692
+[OK] 6PUC: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6puc_mhc_complex.pdb
+[BLACKLIST] 6PUD: removed_residues=856
+[OK] 6PUD: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6pud_mhc_complex.pdb
+[BLACKLIST] 6PUE: removed_residues=676
+[OK] 6PUE: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6pue_mhc_complex.pdb
+[BLACKLIST] 6PUF: removed_residues=771
+[OK] 6PUF: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6puf_mhc_complex.pdb
+[BLACKLIST] 6PUG: removed_residues=806
+[OK] 6PUG: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6pug_mhc_complex.pdb
+[BLACKLIST] 6PUH: removed_residues=883
+[OK] 6PUH: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['D']; output=6puh_mhc_complex.pdb
+[BLACKLIST] 6PUI: removed_residues=724
+[OK] 6PUI: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['D']; output=6pui_mhc_complex.pdb
+[BLACKLIST] 6PUJ: removed_residues=661
+[OK] 6PUJ: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['D']; output=6puj_mhc_complex.pdb
+[BLACKLIST] 6PUK: removed_residues=483
+[OK] 6PUK: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['D']; output=6puk_mhc_complex.pdb
+[BLACKLIST] 6PUL: removed_residues=702
+[OK] 6PUL: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['D']; output=6pul_mhc_complex.pdb
+[BLACKLIST] 6PUM: removed_residues=639
+[OK] 6PUM: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6pum_mhc_complex.pdb
+[BLACKLIST] 6PVC: removed_residues=558
+[OK] 6PVC: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6pvc_mhc_complex.pdb
+[BLACKLIST] 6PVD: removed_residues=465
+[OK] 6PVD: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6pvd_mhc_complex.pdb
+[BLACKLIST] 6PYJ: removed_residues=117
+[OK] 6PYJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6pyj_mhc_complex.pdb
+[BLACKLIST] 6PYL: removed_residues=102
+[OK] 6PYL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6pyl_mhc_complex.pdb
+[BLACKLIST] 6PYV: removed_residues=178
+[OK] 6PYV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6pyv_mhc_complex.pdb
+[BLACKLIST] 6PYW: removed_residues=158
+[OK] 6PYW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6pyw_mhc_complex.pdb
+[BLACKLIST] 6PZ5: removed_residues=141
+[OK] 6PZ5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6pz5_mhc_complex.pdb
+[BLACKLIST] 6Q3K: removed_residues=158
+[OK] 6Q3K: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6q3k_mhc_complex.pdb
+[BLACKLIST] 6Q3S: removed_residues=2
+[OK] 6Q3S: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6q3s_mhc_complex.pdb
+[BLACKLIST] 6QIO: removed_residues=654
+[OK] 6QIO: binders=1; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=6qio_mhc_complex.pdb
+[BLACKLIST] 6QIP: removed_residues=24
+[OK] 6QIP: binders=1; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=6qip_mhc_complex.pdb
+[BLACKLIST] 6R2L: removed_residues=245
+[OK] 6R2L: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6r2l_mhc_complex.pdb
+[OK] 6R2U: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=6r2u_mhc_complex.pdb
+[OK] 6RP9: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6rp9_mhc_complex.pdb
+[BLACKLIST] 6RPA: removed_residues=17
+[OK] 6RPA: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6rpa_mhc_complex.pdb
+[BLACKLIST] 6RPB: removed_residues=44
+[OK] 6RPB: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6rpb_mhc_complex.pdb
+[BLACKLIST] 6RSY: removed_residues=37
+[OK] 6RSY: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6rsy_mhc_complex.pdb
+[BLACKLIST] 6SNY: removed_residues=8
+[OK] 6SNY: binders=1; ligands=1; ligand_contact_binders=1; warnings=0; removed_chains=[]; output=6sny_mhc_complex.pdb
+[BLACKLIST] 6SS7: removed_residues=40
+[OK] 6SS7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ss7_mhc_complex.pdb
+[BLACKLIST] 6SS8: removed_residues=58
+[OK] 6SS8: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ss8_mhc_complex.pdb
+[BLACKLIST] 6SS9: removed_residues=8
+[OK] 6SS9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ss9_mhc_complex.pdb
+[BLACKLIST] 6SSA: removed_residues=109
+[OK] 6SSA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ssa_mhc_complex.pdb
+[BLACKLIST] 6TDO: removed_residues=133
+[OK] 6TDO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6tdo_mhc_complex.pdb
+[BLACKLIST] 6TDP: removed_residues=122
+[OK] 6TDP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6tdp_mhc_complex.pdb
+[BLACKLIST] 6TDQ: removed_residues=206
+[OK] 6TDQ: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6tdq_mhc_complex.pdb
+[BLACKLIST] 6TDR: removed_residues=202
+[OK] 6TDR: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6tdr_mhc_complex.pdb
+[BLACKLIST] 6TDS: removed_residues=53
+[OK] 6TDS: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6tds_mhc_complex.pdb
+[BLACKLIST] 6TMO: removed_residues=279
+[OK] 6TMO: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6tmo_mhc_complex.pdb
+[BLACKLIST] 6TRN: removed_residues=108
+[OK] 6TRN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6trn_mhc_complex.pdb
+[BLACKLIST] 6TRO: removed_residues=19
+[OK] 6TRO: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6tro_mhc_complex.pdb
+[BLACKLIST] 6UJ7: removed_residues=63
+[OK] 6UJ7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uj7_mhc_complex.pdb
+[BLACKLIST] 6UJ8: removed_residues=24
+[OK] 6UJ8: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uj8_mhc_complex.pdb
+[BLACKLIST] 6UJ9: removed_residues=8
+[OK] 6UJ9: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6uj9_mhc_complex.pdb
+[BLACKLIST] 6UJO: removed_residues=49
+[OK] 6UJO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ujo_mhc_complex.pdb
+[BLACKLIST] 6UJQ: removed_residues=22
+[OK] 6UJQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ujq_mhc_complex.pdb
+[OK] 6UK2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uk2_mhc_complex.pdb
+[OK] 6UK4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uk4_mhc_complex.pdb
+[BLACKLIST] 6ULI: removed_residues=44
+[OK] 6ULI: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uli_mhc_complex.pdb
+[BLACKLIST] 6ULK: removed_residues=51
+[OK] 6ULK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6ulk_mhc_complex.pdb
+[BLACKLIST] 6ULN: removed_residues=318
+[OK] 6ULN: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6uln_mhc_complex.pdb
+[BLACKLIST] 6ULR: removed_residues=17
+[OK] 6ULR: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6ulr_mhc_complex.pdb
+[OK] 6UON: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6uon_mhc_complex.pdb
+[BLACKLIST] 6UZ1: removed_residues=2
+[OK] 6UZ1: binders=0; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'D', 'E']; output=6uz1_mhc_complex.pdb
+[BLACKLIST] 6UZM: removed_residues=114
+[OK] 6UZM: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uzm_mhc_complex.pdb
+[BLACKLIST] 6UZN: removed_residues=44
+[OK] 6UZN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uzn_mhc_complex.pdb
+[BLACKLIST] 6UZO: removed_residues=83
+[OK] 6UZO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uzo_mhc_complex.pdb
+[BLACKLIST] 6UZP: removed_residues=62
+[OK] 6UZP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uzp_mhc_complex.pdb
+[BLACKLIST] 6UZQ: removed_residues=40
+[OK] 6UZQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uzq_mhc_complex.pdb
+[BLACKLIST] 6UZS: removed_residues=86
+[OK] 6UZS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6uzs_mhc_complex.pdb
+[BLACKLIST] 6V2O: removed_residues=138
+[OK] 6V2O: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6v2o_mhc_complex.pdb
+[BLACKLIST] 6V2P: removed_residues=146
+[OK] 6V2P: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6v2p_mhc_complex.pdb
+[BLACKLIST] 6V2Q: removed_residues=165
+[OK] 6V2Q: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6v2q_mhc_complex.pdb
+[BLACKLIST] 6V3J: removed_residues=218
+[OK] 6V3J: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6v3j_mhc_complex.pdb
+[BLACKLIST] 6V7Y: removed_residues=93
+[OK] 6V7Y: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6v7y_mhc_complex.pdb
+[BLACKLIST] 6V7Z: removed_residues=29
+[OK] 6V7Z: binders=1; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6v7z_mhc_complex.pdb
+[BLACKLIST] 6V80: removed_residues=2
+[OK] 6V80: binders=3; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6v80_mhc_complex.pdb
+[BLACKLIST] 6VB0: removed_residues=160
+[OK] 6VB0: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vb0_mhc_complex.pdb
+[BLACKLIST] 6VB1: removed_residues=126
+[OK] 6VB1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vb1_mhc_complex.pdb
+[BLACKLIST] 6VB2: removed_residues=110
+[OK] 6VB2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vb2_mhc_complex.pdb
+[BLACKLIST] 6VB3: removed_residues=75
+[OK] 6VB3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vb3_mhc_complex.pdb
+[BLACKLIST] 6VB4: removed_residues=62
+[OK] 6VB4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vb4_mhc_complex.pdb
+[BLACKLIST] 6VB5: removed_residues=81
+[OK] 6VB5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vb5_mhc_complex.pdb
+[BLACKLIST] 6VB6: removed_residues=81
+[OK] 6VB6: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vb6_mhc_complex.pdb
+[BLACKLIST] 6VB7: removed_residues=71
+[OK] 6VB7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vb7_mhc_complex.pdb
+[BLACKLIST] 6VIU: removed_residues=62
+[OK] 6VIU: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6viu_mhc_complex.pdb
+[BLACKLIST] 6VM7: removed_residues=67
+[OK] 6VM7: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6vm7_mhc_complex.pdb
+[BLACKLIST] 6VM8: removed_residues=60
+[OK] 6VM8: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6vm8_mhc_complex.pdb
+[OK] 6VM9: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6vm9_mhc_complex.pdb
+[BLACKLIST] 6VMA: removed_residues=21
+[OK] 6VMA: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6vma_mhc_complex.pdb
+[BLACKLIST] 6VMC: removed_residues=6
+[OK] 6VMC: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6vmc_mhc_complex.pdb
+[BLACKLIST] 6VMX: removed_residues=49
+[OK] 6VMX: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6vmx_mhc_complex.pdb
+[BLACKLIST] 6VPZ: removed_residues=98
+[OK] 6VPZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vpz_mhc_complex.pdb
+[BLACKLIST] 6VQ2: removed_residues=69
+[OK] 6VQ2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vq2_mhc_complex.pdb
+[BLACKLIST] 6VQD: removed_residues=137
+[OK] 6VQD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vqd_mhc_complex.pdb
+[BLACKLIST] 6VQE: removed_residues=112
+[OK] 6VQE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vqe_mhc_complex.pdb
+[OK] 6VQO: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6vqo_mhc_complex.pdb
+[BLACKLIST] 6VQY: removed_residues=23
+[OK] 6VQY: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vqy_mhc_complex.pdb
+[BLACKLIST] 6VQZ: removed_residues=12
+[OK] 6VQZ: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vqz_mhc_complex.pdb
+[BLACKLIST] 6VR1: removed_residues=38
+[OK] 6VR1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vr1_mhc_complex.pdb
+[BLACKLIST] 6VR5: removed_residues=36
+[OK] 6VR5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6vr5_mhc_complex.pdb
+[BLACKLIST] 6VRM: removed_residues=14
+[OK] 6VRM: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6vrm_mhc_complex.pdb
+[BLACKLIST] 6VRN: removed_residues=185
+[OK] 6VRN: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6vrn_mhc_complex.pdb
+[BLACKLIST] 6W51: removed_residues=1
+[OK] 6W51: binders=0; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'D', 'E']; output=6w51_mhc_complex.pdb
+[BLACKLIST] 6W9U: removed_residues=630
+[OK] 6W9U: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=6w9u_mhc_complex.pdb
+[BLACKLIST] 6W9V: removed_residues=547
+[OK] 6W9V: binders=2; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6w9v_mhc_complex.pdb
+[BLACKLIST] 6WNA: removed_residues=50
+[OK] 6WNA: binders=1; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6wna_mhc_complex.pdb
+[BLACKLIST] 6WOL: removed_residues=14
+[OK] 6WOL: binders=1; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6wol_mhc_complex.pdb
+[BLACKLIST] 6XQA: removed_residues=87
+[OK] 6XQA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6xqa_mhc_complex.pdb
+[BLACKLIST] 6XQP: removed_residues=105
+[OK] 6XQP: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6xqp_mhc_complex.pdb
+[BLACKLIST] 6Y26: removed_residues=186
+[OK] 6Y26: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6y26_mhc_complex.pdb
+[BLACKLIST] 6Y27: removed_residues=171
+[OK] 6Y27: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6y27_mhc_complex.pdb
+[BLACKLIST] 6Y28: removed_residues=176
+[OK] 6Y28: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6y28_mhc_complex.pdb
+[BLACKLIST] 6Y29: removed_residues=183
+[OK] 6Y29: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6y29_mhc_complex.pdb
+[BLACKLIST] 6Y2A: removed_residues=200
+[OK] 6Y2A: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6y2a_mhc_complex.pdb
+[BLACKLIST] 6Y2B: removed_residues=190
+[OK] 6Y2B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6y2b_mhc_complex.pdb
+[BLACKLIST] 6Z9V: removed_residues=80
+[OK] 6Z9V: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6z9v_mhc_complex.pdb
+[BLACKLIST] 6Z9W: removed_residues=16
+[OK] 6Z9W: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6z9w_mhc_complex.pdb
+[BLACKLIST] 6Z9X: removed_residues=9
+[OK] 6Z9X: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=6z9x_mhc_complex.pdb
+[BLACKLIST] 6ZKW: removed_residues=25
+[OK] 6ZKW: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6zkw_mhc_complex.pdb
+[BLACKLIST] 6ZKX: removed_residues=158
+[OK] 6ZKX: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6zkx_mhc_complex.pdb
+[BLACKLIST] 6ZKY: removed_residues=5
+[OK] 6ZKY: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6zky_mhc_complex.pdb
+[BLACKLIST] 6ZKZ: removed_residues=62
+[OK] 6ZKZ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=6zkz_mhc_complex.pdb
+[BLACKLIST] 7ALO: removed_residues=80
+[OK] 7ALO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7alo_mhc_complex.pdb
+[BLACKLIST] 7BBG: removed_residues=175
+[OK] 7BBG: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7bbg_mhc_complex.pdb
+[BLACKLIST] 7BH8: removed_residues=562
+[OK] 7BH8: binders=2; ligands=1; ligand_contact_binders=1; warnings=2; removed_chains=['B', 'D']; output=7bh8_mhc_complex.pdb
+[OK] 7C9V: binders=3; ligands=0; ligand_contact_binders=0; warnings=2; removed_chains=['F', 'E']; output=7c9v_mhc_complex.pdb
+[BLACKLIST] 7CIQ: removed_residues=178
+[OK] 7CIQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7ciq_mhc_complex.pdb
+[BLACKLIST] 7CIR: removed_residues=103
+[OK] 7CIR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7cir_mhc_complex.pdb
+[BLACKLIST] 7CIS: removed_residues=62
+[OK] 7CIS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7cis_mhc_complex.pdb
+[BLACKLIST] 7DUU: removed_residues=61
+[OK] 7DUU: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=7duu_mhc_complex.pdb
+[BLACKLIST] 7DYN: removed_residues=132
+[OK] 7DYN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7dyn_mhc_complex.pdb
+[BLACKLIST] 7DZM: removed_residues=316
+[OK] 7DZM: binders=3; ligands=1; ligand_contact_binders=2; warnings=0; removed_chains=[]; output=7dzm_mhc_complex.pdb
+[BLACKLIST] 7DZN: removed_residues=77
+[OK] 7DZN: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7dzn_mhc_complex.pdb
+[BLACKLIST] 7EJL: removed_residues=142
+[OK] 7EJL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7ejl_mhc_complex.pdb
+[BLACKLIST] 7EJM: removed_residues=173
+[OK] 7EJM: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7ejm_mhc_complex.pdb
+[BLACKLIST] 7EJN: removed_residues=53
+[OK] 7EJN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7ejn_mhc_complex.pdb
+[OK] 7EU2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7eu2_mhc_complex.pdb
+[OK] 7F4W: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7f4w_mhc_complex.pdb
+[BLACKLIST] 7FI5: removed_residues=15
+[OK] 7FI5: binders=2; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7fi5_mhc_complex.pdb
+[OK] 7FI6: binders=2; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7fi6_mhc_complex.pdb
+[BLACKLIST] 7FI7: removed_residues=2
+[OK] 7FI7: binders=2; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7fi7_mhc_complex.pdb
+[BLACKLIST] 7FI8: removed_residues=1
+[OK] 7FI8: binders=2; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7fi8_mhc_complex.pdb
+[BLACKLIST] 7FI9: removed_residues=73
+[OK] 7FI9: binders=2; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7fi9_mhc_complex.pdb
+[BLACKLIST] 7JYU: removed_residues=20
+[OK] 7JYU: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7jyu_mhc_complex.pdb
+[BLACKLIST] 7JYV: removed_residues=173
+[OK] 7JYV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7jyv_mhc_complex.pdb
+[BLACKLIST] 7JYW: removed_residues=3
+[OK] 7JYW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7jyw_mhc_complex.pdb
+[BLACKLIST] 7JYX: removed_residues=12
+[OK] 7JYX: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7jyx_mhc_complex.pdb
+[BLACKLIST] 7K80: removed_residues=65
+[OK] 7K80: binders=1; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7k80_mhc_complex.pdb
+[BLACKLIST] 7K81: removed_residues=177
+[OK] 7K81: binders=1; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7k81_mhc_complex.pdb
+[BLACKLIST] 7KGO: removed_residues=62
+[OK] 7KGO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7kgo_mhc_complex.pdb
+[BLACKLIST] 7KGP: removed_residues=151
+[OK] 7KGP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7kgp_mhc_complex.pdb
+[BLACKLIST] 7KGQ: removed_residues=168
+[OK] 7KGQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7kgq_mhc_complex.pdb
+[BLACKLIST] 7KGR: removed_residues=67
+[OK] 7KGR: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7kgr_mhc_complex.pdb
+[BLACKLIST] 7KGS: removed_residues=166
+[OK] 7KGS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7kgs_mhc_complex.pdb
+[BLACKLIST] 7KGT: removed_residues=120
+[OK] 7KGT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7kgt_mhc_complex.pdb
+[BLACKLIST] 7KOZ: removed_residues=29
+[OK] 7KOZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7koz_mhc_complex.pdb
+[BLACKLIST] 7KP0: removed_residues=49
+[OK] 7KP0: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7kp0_mhc_complex.pdb
+[BLACKLIST] 7KP1: removed_residues=76
+[OK] 7KP1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7kp1_mhc_complex.pdb
+[BLACKLIST] 7L1B: removed_residues=71
+[OK] 7L1B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7l1b_mhc_complex.pdb
+[BLACKLIST] 7L1C: removed_residues=81
+[OK] 7L1C: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7l1c_mhc_complex.pdb
+[BLACKLIST] 7L1D: removed_residues=2
+[OK] 7L1D: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7l1d_mhc_complex.pdb
+[BLACKLIST] 7LFZ: removed_residues=123
+[OK] 7LFZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7lfz_mhc_complex.pdb
+[BLACKLIST] 7LG0: removed_residues=49
+[OK] 7LG0: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7lg0_mhc_complex.pdb
+[BLACKLIST] 7LG2: removed_residues=23
+[OK] 7LG2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7lg2_mhc_complex.pdb
+[BLACKLIST] 7LG3: removed_residues=73
+[OK] 7LG3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7lg3_mhc_complex.pdb
+[BLACKLIST] 7LGD: removed_residues=5
+[OK] 7LGD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7lgd_mhc_complex.pdb
+[BLACKLIST] 7LGT: removed_residues=77
+[OK] 7LGT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7lgt_mhc_complex.pdb
+[OK] 7LLI: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7lli_mhc_complex.pdb
+[OK] 7LLJ: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7llj_mhc_complex.pdb
+[BLACKLIST] 7M8S: removed_residues=55
+[OK] 7M8S: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7m8s_mhc_complex.pdb
+[BLACKLIST] 7M8T: removed_residues=129
+[OK] 7M8T: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7m8t_mhc_complex.pdb
+[BLACKLIST] 7M8U: removed_residues=107
+[OK] 7M8U: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7m8u_mhc_complex.pdb
+[BLACKLIST] 7MJ6: removed_residues=72
+[OK] 7MJ6: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7mj6_mhc_complex.pdb
+[BLACKLIST] 7MJ7: removed_residues=111
+[OK] 7MJ7: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7mj7_mhc_complex.pdb
+[BLACKLIST] 7MJ8: removed_residues=80
+[OK] 7MJ8: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7mj8_mhc_complex.pdb
+[BLACKLIST] 7MJ9: removed_residues=92
+[OK] 7MJ9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7mj9_mhc_complex.pdb
+[BLACKLIST] 7MJA: removed_residues=103
+[OK] 7MJA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7mja_mhc_complex.pdb
+[BLACKLIST] 7MKB: removed_residues=117
+[OK] 7MKB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7mkb_mhc_complex.pdb
+[BLACKLIST] 7MLE: removed_residues=83
+[OK] 7MLE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7mle_mhc_complex.pdb
+[BLACKLIST] 7MX4: removed_residues=57
+[OK] 7MX4: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7mx4_mhc_complex.pdb
+[BLACKLIST] 7MXF: removed_residues=34
+[OK] 7MXF: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7mxf_mhc_complex.pdb
+[BLACKLIST] 7MXH: removed_residues=34
+[OK] 7MXH: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7mxh_mhc_complex.pdb
+[BLACKLIST] 7N1A: removed_residues=99
+[OK] 7N1A: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7n1a_mhc_complex.pdb
+[OK] 7N1B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7n1b_mhc_complex.pdb
+[BLACKLIST] 7N1E: removed_residues=176
+[OK] 7N1E: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7n1e_mhc_complex.pdb
+[BLACKLIST] 7N1F: removed_residues=56
+[OK] 7N1F: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7n1f_mhc_complex.pdb
+[BLACKLIST] 7N2N: removed_residues=48
+[OK] 7N2N: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7n2n_mhc_complex.pdb
+[BLACKLIST] 7N2O: removed_residues=45
+[OK] 7N2O: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7n2o_mhc_complex.pdb
+[BLACKLIST] 7N2P: removed_residues=42
+[OK] 7N2P: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7n2p_mhc_complex.pdb
+[BLACKLIST] 7N2Q: removed_residues=18
+[OK] 7N2Q: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7n2q_mhc_complex.pdb
+[BLACKLIST] 7N2R: removed_residues=44
+[OK] 7N2R: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7n2r_mhc_complex.pdb
+[BLACKLIST] 7N2S: removed_residues=2
+[OK] 7N2S: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7n2s_mhc_complex.pdb
+[BLACKLIST] 7N6D: removed_residues=24
+[OK] 7N6D: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7n6d_mhc_complex.pdb
+[OK] 7N6E: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7n6e_mhc_complex.pdb
+[BLACKLIST] 7NDQ: removed_residues=5
+[OK] 7NDQ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7ndq_mhc_complex.pdb
+[BLACKLIST] 7NDT: removed_residues=1
+[OK] 7NDT: binders=3; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7ndt_mhc_complex.pdb
+[OK] 7NDU: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7ndu_mhc_complex.pdb
+[BLACKLIST] 7NMD: removed_residues=56
+[OK] 7NMD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7nmd_mhc_complex.pdb
+[BLACKLIST] 7NME: removed_residues=122
+[OK] 7NME: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7nme_mhc_complex.pdb
+[BLACKLIST] 7NMF: removed_residues=36
+[OK] 7NMF: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7nmf_mhc_complex.pdb
+[BLACKLIST] 7NMG: removed_residues=77
+[OK] 7NMG: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7nmg_mhc_complex.pdb
+[BLACKLIST] 7NUI: removed_residues=30
+[OK] 7NUI: binders=1; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7nui_mhc_complex.pdb
+[BLACKLIST] 7OKS: removed_residues=6
+[OK] 7OKS: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7oks_mhc_complex.pdb
+[OK] 7OKT: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7okt_mhc_complex.pdb
+[BLACKLIST] 7OKU: removed_residues=4
+[OK] 7OKU: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7oku_mhc_complex.pdb
+[OK] 7OKV: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7okv_mhc_complex.pdb
+[BLACKLIST] 7OW3: removed_residues=13
+[OK] 7OW3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7ow3_mhc_complex.pdb
+[BLACKLIST] 7OW4: removed_residues=98
+[OK] 7OW4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7ow4_mhc_complex.pdb
+[BLACKLIST] 7OW5: removed_residues=14
+[OK] 7OW5: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7ow5_mhc_complex.pdb
+[BLACKLIST] 7OW6: removed_residues=11
+[OK] 7OW6: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7ow6_mhc_complex.pdb
+[BLACKLIST] 7P3D: removed_residues=157
+[OK] 7P3D: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7p3d_mhc_complex.pdb
+[BLACKLIST] 7P3E: removed_residues=24
+[OK] 7P3E: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7p3e_mhc_complex.pdb
+[BLACKLIST] 7P49: removed_residues=56
+[OK] 7P49: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7p49_mhc_complex.pdb
+[BLACKLIST] 7P4B: removed_residues=55
+[OK] 7P4B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7p4b_mhc_complex.pdb
+[OK] 7PB2: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7pb2_mhc_complex.pdb
+[BLACKLIST] 7PBC: removed_residues=229
+[OK] 7PBC: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=7pbc_mhc_complex.pdb
+[BLACKLIST] 7PBE: removed_residues=2
+[OK] 7PBE: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7pbe_mhc_complex.pdb
+[BLACKLIST] 7PDW: removed_residues=189
+[OK] 7PDW: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=7pdw_mhc_complex.pdb
+[BLACKLIST] 7PHR: removed_residues=4
+[OK] 7PHR: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=7phr_mhc_complex.pdb
+[OK] 7Q15: binders=1; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7q15_mhc_complex.pdb
+[BLACKLIST] 7Q5D: removed_residues=4
+[OK] 7Q5D: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=7q5d_mhc_complex.pdb
+[BLACKLIST] 7Q98: removed_residues=34
+[OK] 7Q98: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7q98_mhc_complex.pdb
+[BLACKLIST] 7Q99: removed_residues=22
+[OK] 7Q99: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7q99_mhc_complex.pdb
+[BLACKLIST] 7Q9A: removed_residues=146
+[OK] 7Q9A: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7q9a_mhc_complex.pdb
+[BLACKLIST] 7Q9B: removed_residues=24
+[OK] 7Q9B: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7q9b_mhc_complex.pdb
+[BLACKLIST] 7QPD: removed_residues=7
+[OK] 7QPD: binders=1; ligands=0; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'E', 'C']; output=7qpd_mhc_complex.pdb
+[BLACKLIST] 7QPJ: removed_residues=336
+[OK] 7QPJ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=7qpj_mhc_complex.pdb
+[BLACKLIST] 7R7V: removed_residues=91
+[OK] 7R7V: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7r7v_mhc_complex.pdb
+[BLACKLIST] 7R7W: removed_residues=166
+[OK] 7R7W: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7r7w_mhc_complex.pdb
+[BLACKLIST] 7R7X: removed_residues=103
+[OK] 7R7X: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7r7x_mhc_complex.pdb
+[BLACKLIST] 7R7Y: removed_residues=156
+[OK] 7R7Y: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7r7y_mhc_complex.pdb
+[BLACKLIST] 7R80: removed_residues=86
+[OK] 7R80: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=7r80_mhc_complex.pdb
+[BLACKLIST] 7RE7: removed_residues=61
+[OK] 7RE7: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7re7_mhc_complex.pdb
+[BLACKLIST] 7RE8: removed_residues=14
+[OK] 7RE8: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7re8_mhc_complex.pdb
+[BLACKLIST] 7RK7: removed_residues=75
+[OK] 7RK7: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7rk7_mhc_complex.pdb
+[OK] 7RM4: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7rm4_mhc_complex.pdb
+[BLACKLIST] 7RRG: removed_residues=241
+[OK] 7RRG: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7rrg_mhc_complex.pdb
+[BLACKLIST] 7RTD: removed_residues=67
+[OK] 7RTD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7rtd_mhc_complex.pdb
+[BLACKLIST] 7RTR: removed_residues=27
+[OK] 7RTR: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7rtr_mhc_complex.pdb
+[OK] 7RYM: binders=1; ligands=0; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=7rym_mhc_complex.pdb
+[BLACKLIST] 7RYN: removed_residues=8
+[OK] 7RYN: binders=0; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'C', 'D']; output=7ryn_mhc_complex.pdb
+[BLACKLIST] 7RYO: removed_residues=1
+[OK] 7RYO: binders=1; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=7ryo_mhc_complex.pdb
+[BLACKLIST] 7RZD: removed_residues=168
+[OK] 7RZD: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7rzd_mhc_complex.pdb
+[BLACKLIST] 7RZJ: removed_residues=170
+[OK] 7RZJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7rzj_mhc_complex.pdb
+[BLACKLIST] 7S79: removed_residues=179
+[OK] 7S79: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7s79_mhc_complex.pdb
+[BLACKLIST] 7S7D: removed_residues=176
+[OK] 7S7D: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7s7d_mhc_complex.pdb
+[BLACKLIST] 7S7E: removed_residues=134
+[OK] 7S7E: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7s7e_mhc_complex.pdb
+[BLACKLIST] 7S7F: removed_residues=171
+[OK] 7S7F: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7s7f_mhc_complex.pdb
+[BLACKLIST] 7S8A: removed_residues=98
+[OK] 7S8A: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7s8a_mhc_complex.pdb
+[BLACKLIST] 7S8E: removed_residues=167
+[OK] 7S8E: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7s8e_mhc_complex.pdb
+[BLACKLIST] 7S8F: removed_residues=152
+[OK] 7S8F: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7s8f_mhc_complex.pdb
+[BLACKLIST] 7S8Q: removed_residues=86
+[OK] 7S8Q: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7s8q_mhc_complex.pdb
+[BLACKLIST] 7S8R: removed_residues=3
+[OK] 7S8R: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7s8r_mhc_complex.pdb
+[BLACKLIST] 7S8S: removed_residues=71
+[OK] 7S8S: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7s8s_mhc_complex.pdb
+[BLACKLIST] 7SA2: removed_residues=102
+[OK] 7SA2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sa2_mhc_complex.pdb
+[BLACKLIST] 7SH4: removed_residues=119
+[OK] 7SH4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sh4_mhc_complex.pdb
+[BLACKLIST] 7SIF: removed_residues=74
+[OK] 7SIF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sif_mhc_complex.pdb
+[BLACKLIST] 7SIG: removed_residues=119
+[OK] 7SIG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sig_mhc_complex.pdb
+[BLACKLIST] 7SIH: removed_residues=63
+[OK] 7SIH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sih_mhc_complex.pdb
+[BLACKLIST] 7SIS: removed_residues=115
+[OK] 7SIS: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sis_mhc_complex.pdb
+[BLACKLIST] 7SQP: removed_residues=25
+[OK] 7SQP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sqp_mhc_complex.pdb
+[BLACKLIST] 7SR0: removed_residues=29
+[OK] 7SR0: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sr0_mhc_complex.pdb
+[BLACKLIST] 7SR3: removed_residues=24
+[OK] 7SR3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sr3_mhc_complex.pdb
+[BLACKLIST] 7SR4: removed_residues=22
+[OK] 7SR4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sr4_mhc_complex.pdb
+[BLACKLIST] 7SR5: removed_residues=44
+[OK] 7SR5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7sr5_mhc_complex.pdb
+[BLACKLIST] 7SRK: removed_residues=11
+[OK] 7SRK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7srk_mhc_complex.pdb
+[BLACKLIST] 7SSH: removed_residues=9
+[OK] 7SSH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7ssh_mhc_complex.pdb
+[BLACKLIST] 7ST3: removed_residues=2
+[OK] 7ST3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7st3_mhc_complex.pdb
+[OK] 7STF: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7stf_mhc_complex.pdb
+[BLACKLIST] 7STG: removed_residues=9
+[OK] 7STG: binders=0; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7stg_mhc_complex.pdb
+[BLACKLIST] 7SU9: removed_residues=346
+[OK] 7SU9: binders=0; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['D', 'E', 'B']; output=7su9_mhc_complex.pdb
+[OK] 7T0L: binders=0; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'D', 'E']; output=7t0l_mhc_complex.pdb
+[BLACKLIST] 7T5M: removed_residues=172
+[OK] 7T5M: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7t5m_mhc_complex.pdb
+[BLACKLIST] 7TLT: removed_residues=10
+[OK] 7TLT: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7tlt_mhc_complex.pdb
+[BLACKLIST] 7TR4: removed_residues=63
+[OK] 7TR4: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=7tr4_mhc_complex.pdb
+[BLACKLIST] 7TUC: removed_residues=121
+[OK] 7TUC: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7tuc_mhc_complex.pdb
+[BLACKLIST] 7TUD: removed_residues=158
+[OK] 7TUD: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7tud_mhc_complex.pdb
+[OK] 7TUE: binders=1; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7tue_mhc_complex.pdb
+[BLACKLIST] 7U1R: removed_residues=63
+[OK] 7U1R: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7u1r_mhc_complex.pdb
+[BLACKLIST] 7U21: removed_residues=116
+[OK] 7U21: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7u21_mhc_complex.pdb
+[BLACKLIST] 7UC5: removed_residues=146
+[OK] 7UC5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7uc5_mhc_complex.pdb
+[BLACKLIST] 7UFJ: removed_residues=106
+[OK] 7UFJ: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=7ufj_mhc_complex.pdb
+[BLACKLIST] 7UM2: removed_residues=82
+[OK] 7UM2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7um2_mhc_complex.pdb
+[BLACKLIST] 7UMG: removed_residues=54
+[OK] 7UMG: binders=0; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'C', 'D']; output=7umg_mhc_complex.pdb
+[OK] 7UR1: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7ur1_mhc_complex.pdb
+[BLACKLIST] 7WJ2: removed_residues=128
+[OK] 7WJ2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7wj2_mhc_complex.pdb
+[BLACKLIST] 7WJ3: removed_residues=85
+[OK] 7WJ3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7wj3_mhc_complex.pdb
+[BLACKLIST] 7WKJ: removed_residues=111
+[OK] 7WKJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7wkj_mhc_complex.pdb
+[BLACKLIST] 7WT3: removed_residues=68
+[OK] 7WT3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7wt3_mhc_complex.pdb
+[BLACKLIST] 7WT4: removed_residues=70
+[OK] 7WT4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7wt4_mhc_complex.pdb
+[BLACKLIST] 7WT5: removed_residues=64
+[OK] 7WT5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7wt5_mhc_complex.pdb
+[BLACKLIST] 7WZZ: removed_residues=172
+[OK] 7WZZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7wzz_mhc_complex.pdb
+[BLACKLIST] 7X00: removed_residues=139
+[OK] 7X00: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7x00_mhc_complex.pdb
+[BLACKLIST] 7X1B: removed_residues=126
+[OK] 7X1B: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7x1b_mhc_complex.pdb
+[BLACKLIST] 7X1C: removed_residues=132
+[OK] 7X1C: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7x1c_mhc_complex.pdb
+[BLACKLIST] 7XF3: removed_residues=97
+[OK] 7XF3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7xf3_mhc_complex.pdb
+[OK] 7XXA: binders=4; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['E']; output=7xxa_mhc_complex.pdb
+[BLACKLIST] 7YG3: removed_residues=185
+[OK] 7YG3: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=7yg3_mhc_complex.pdb
+[BLACKLIST] 7ZT2: removed_residues=42
+[OK] 7ZT2: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=7zt2_mhc_complex.pdb
+[BLACKLIST] 7ZT3: removed_residues=143
+[OK] 7ZT3: binders=2; ligands=0; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7zt3_mhc_complex.pdb
+[BLACKLIST] 7ZT4: removed_residues=166
+[OK] 7ZT4: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7zt4_mhc_complex.pdb
+[BLACKLIST] 7ZT5: removed_residues=54
+[OK] 7ZT5: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7zt5_mhc_complex.pdb
+[BLACKLIST] 7ZT7: removed_residues=249
+[OK] 7ZT7: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7zt7_mhc_complex.pdb
+[BLACKLIST] 7ZT8: removed_residues=92
+[OK] 7ZT8: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7zt8_mhc_complex.pdb
+[BLACKLIST] 7ZT9: removed_residues=121
+[OK] 7ZT9: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7zt9_mhc_complex.pdb
+[BLACKLIST] 7ZUC: removed_residues=47
+[OK] 7ZUC: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=7zuc_mhc_complex.pdb
+[OK] 8BP6: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=8bp6_mhc_complex.pdb
+[OK] 8C44: binders=1; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=8c44_mhc_complex.pdb
+[BLACKLIST] 8CX4: removed_residues=34
+[OK] 8CX4: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8cx4_mhc_complex.pdb
+[OK] 8DNT: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['E']; output=8dnt_mhc_complex.pdb
+[BLACKLIST] 8DV3: removed_residues=96
+[OK] 8DV3: binders=1; ligands=2; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=8dv3_mhc_complex.pdb
+[BLACKLIST] 8DV4: removed_residues=49
+[OK] 8DV4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8dv4_mhc_complex.pdb
+[BLACKLIST] 8DVG: removed_residues=45
+[OK] 8DVG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8dvg_mhc_complex.pdb
+[BLACKLIST] 8E13: removed_residues=59
+[OK] 8E13: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8e13_mhc_complex.pdb
+[BLACKLIST] 8E2Z: removed_residues=112
+[OK] 8E2Z: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8e2z_mhc_complex.pdb
+[BLACKLIST] 8E8I: removed_residues=146
+[OK] 8E8I: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8e8i_mhc_complex.pdb
+[OK] 8EB2: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8eb2_mhc_complex.pdb
+[BLACKLIST] 8EC5: removed_residues=108
+[OK] 8EC5: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8ec5_mhc_complex.pdb
+[BLACKLIST] 8EK5: removed_residues=168
+[OK] 8EK5: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=8ek5_mhc_complex.pdb
+[BLACKLIST] 8ELG: removed_residues=127
+[OK] 8ELG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8elg_mhc_complex.pdb
+[BLACKLIST] 8ELH: removed_residues=93
+[OK] 8ELH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8elh_mhc_complex.pdb
+[BLACKLIST] 8EMF: removed_residues=134
+[OK] 8EMF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8emf_mhc_complex.pdb
+[BLACKLIST] 8EMG: removed_residues=132
+[OK] 8EMG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8emg_mhc_complex.pdb
+[BLACKLIST] 8EMI: removed_residues=155
+[OK] 8EMI: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8emi_mhc_complex.pdb
+[BLACKLIST] 8EMJ: removed_residues=142
+[OK] 8EMJ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8emj_mhc_complex.pdb
+[BLACKLIST] 8EMK: removed_residues=122
+[OK] 8EMK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8emk_mhc_complex.pdb
+[BLACKLIST] 8EN8: removed_residues=148
+[OK] 8EN8: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8en8_mhc_complex.pdb
+[BLACKLIST] 8ENH: removed_residues=165
+[OK] 8ENH: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8enh_mhc_complex.pdb
+[BLACKLIST] 8EO8: removed_residues=242
+[OK] 8EO8: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8eo8_mhc_complex.pdb
+[BLACKLIST] 8ERX: removed_residues=88
+[OK] 8ERX: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8erx_mhc_complex.pdb
+[BLACKLIST] 8ES8: removed_residues=3
+[OK] 8ES8: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=8es8_mhc_complex.pdb
+[BLACKLIST] 8ES9: removed_residues=4
+[OK] 8ES9: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=8es9_mhc_complex.pdb
+[OK] 8ESA: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8esa_mhc_complex.pdb
+[OK] 8ESB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8esb_mhc_complex.pdb
+[BLACKLIST] 8ESH: removed_residues=6
+[OK] 8ESH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8esh_mhc_complex.pdb
+[BLACKLIST] 8F5A: removed_residues=300
+[OK] 8F5A: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8f5a_mhc_complex.pdb
+[BLACKLIST] 8F7M: removed_residues=116
+[OK] 8F7M: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8f7m_mhc_complex.pdb
+[OK] 8FJA: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8fja_mhc_complex.pdb
+[OK] 8FJB: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8fjb_mhc_complex.pdb
+[OK] 8FRT: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=8frt_mhc_complex.pdb
+[BLACKLIST] 8FU4: removed_residues=131
+[OK] 8FU4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8fu4_mhc_complex.pdb
+[BLACKLIST] 8GLE: removed_residues=74
+[OK] 8GLE: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8gle_mhc_complex.pdb
+[BLACKLIST] 8GLF: removed_residues=78
+[OK] 8GLF: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8glf_mhc_complex.pdb
+[BLACKLIST] 8GLG: removed_residues=165
+[OK] 8GLG: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8glg_mhc_complex.pdb
+[BLACKLIST] 8GLH: removed_residues=141
+[OK] 8GLH: binders=0; ligands=2; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8glh_mhc_complex.pdb
+[BLACKLIST] 8GLI: removed_residues=60
+[OK] 8GLI: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8gli_mhc_complex.pdb
+[BLACKLIST] 8GOM: removed_residues=90
+[OK] 8GOM: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8gom_mhc_complex.pdb
+[BLACKLIST] 8GON: removed_residues=83
+[OK] 8GON: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8gon_mhc_complex.pdb
+[OK] 8GVB: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=8gvb_mhc_complex.pdb
+[OK] 8GVG: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=8gvg_mhc_complex.pdb
+[OK] 8GVI: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=8gvi_mhc_complex.pdb
+[OK] 8HN4: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8hn4_mhc_complex.pdb
+[OK] 8I5C: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8i5c_mhc_complex.pdb
+[OK] 8I5D: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['D']; output=8i5d_mhc_complex.pdb
+[BLACKLIST] 8I5E: removed_residues=75
+[OK] 8I5E: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8i5e_mhc_complex.pdb
+[BLACKLIST] 8ISN: removed_residues=43
+[OK] 8ISN: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8isn_mhc_complex.pdb
+[BLACKLIST] 8QFY: removed_residues=101
+[OK] 8QFY: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8qfy_mhc_complex.pdb
+[BLACKLIST] 8RBU: removed_residues=5
+[OK] 8RBU: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8rbu_mhc_complex.pdb
+[BLACKLIST] 8RBV: removed_residues=63
+[OK] 8RBV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8rbv_mhc_complex.pdb
+[BLACKLIST] 8RCV: removed_residues=86
+[OK] 8RCV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8rcv_mhc_complex.pdb
+[BLACKLIST] 8REF: removed_residues=30
+[OK] 8REF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8ref_mhc_complex.pdb
+[BLACKLIST] 8RH6: removed_residues=2
+[OK] 8RH6: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'E']; output=8rh6_mhc_complex.pdb
+[BLACKLIST] 8RHQ: removed_residues=90
+[OK] 8RHQ: binders=0; ligands=1; ligand_contact_binders=0; warnings=2; removed_chains=['B', 'D']; output=8rhq_mhc_complex.pdb
+[OK] 8RJ5: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8rj5_mhc_complex.pdb
+[BLACKLIST] 8RJH: removed_residues=11
+[OK] 8RJH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8rjh_mhc_complex.pdb
+[BLACKLIST] 8RJI: removed_residues=29
+[OK] 8RJI: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8rji_mhc_complex.pdb
+[BLACKLIST] 8RLT: removed_residues=71
+[OK] 8RLT: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8rlt_mhc_complex.pdb
+[BLACKLIST] 8RLU: removed_residues=76
+[OK] 8RLU: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8rlu_mhc_complex.pdb
+[BLACKLIST] 8RLV: removed_residues=33
+[OK] 8RLV: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8rlv_mhc_complex.pdb
+[BLACKLIST] 8RNE: removed_residues=74
+[OK] 8RNE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8rne_mhc_complex.pdb
+[BLACKLIST] 8RNF: removed_residues=144
+[OK] 8RNF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8rnf_mhc_complex.pdb
+[BLACKLIST] 8RNG: removed_residues=84
+[OK] 8RNG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8rng_mhc_complex.pdb
+[BLACKLIST] 8RNH: removed_residues=56
+[OK] 8RNH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8rnh_mhc_complex.pdb
+[BLACKLIST] 8ROO: removed_residues=84
+[OK] 8ROO: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['C']; output=8roo_mhc_complex.pdb
+[BLACKLIST] 8ROP: removed_residues=150
+[OK] 8ROP: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8rop_mhc_complex.pdb
+[OK] 8RRO: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['D']; output=8rro_mhc_complex.pdb
+[BLACKLIST] 8RYM: removed_residues=36
+[OK] 8RYM: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8rym_mhc_complex.pdb
+[BLACKLIST] 8RYN: removed_residues=197
+[OK] 8RYN: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8ryn_mhc_complex.pdb
+[BLACKLIST] 8RYO: removed_residues=146
+[OK] 8RYO: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8ryo_mhc_complex.pdb
+[BLACKLIST] 8RYP: removed_residues=196
+[OK] 8RYP: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8ryp_mhc_complex.pdb
+[BLACKLIST] 8RYQ: removed_residues=6
+[OK] 8RYQ: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8ryq_mhc_complex.pdb
+[BLACKLIST] 8SBK: removed_residues=112
+[OK] 8SBK: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8sbk_mhc_complex.pdb
+[OK] 8SBL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8sbl_mhc_complex.pdb
+[BLACKLIST] 8SGB: removed_residues=17
+[OK] 8SGB: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8sgb_mhc_complex.pdb
+[BLACKLIST] 8SGM: removed_residues=260
+[OK] 8SGM: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8sgm_mhc_complex.pdb
+[OK] 8SHI: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8shi_mhc_complex.pdb
+[BLACKLIST] 8SOS: removed_residues=125
+[OK] 8SOS: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['C']; output=8sos_mhc_complex.pdb
+[OK] 8T6M: binders=4; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['F']; output=8t6m_mhc_complex.pdb
+[OK] 8T7R: binders=2; ligands=1; ligand_contact_binders=0; warnings=3; removed_chains=['B', 'F', 'C']; output=8t7r_mhc_complex.pdb
+[BLACKLIST] 8TBV: removed_residues=25
+[OK] 8TBV: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8tbv_mhc_complex.pdb
+[BLACKLIST] 8TBW: removed_residues=79
+[OK] 8TBW: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8tbw_mhc_complex.pdb
+[BLACKLIST] 8TLZ: removed_residues=3
+[OK] 8TLZ: binders=0; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=8tlz_mhc_complex.pdb
+[BLACKLIST] 8TM0: removed_residues=2
+[OK] 8TM0: binders=1; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=8tm0_mhc_complex.pdb
+[BLACKLIST] 8TM2: removed_residues=20
+[OK] 8TM2: binders=1; ligands=0; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=8tm2_mhc_complex.pdb
+[BLACKLIST] 8TMU: removed_residues=35
+[OK] 8TMU: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=8tmu_mhc_complex.pdb
+[OK] 8TNJ: binders=2; ligands=1; ligand_contact_binders=1; warnings=2; removed_chains=['D', 'E']; output=8tnj_mhc_complex.pdb
+[BLACKLIST] 8TUB: removed_residues=52
+[OK] 8TUB: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8tub_mhc_complex.pdb
+[BLACKLIST] 8TUH: removed_residues=29
+[OK] 8TUH: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8tuh_mhc_complex.pdb
+[BLACKLIST] 8U9G: removed_residues=10
+[OK] 8U9G: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8u9g_mhc_complex.pdb
+[OK] 8UDR: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=8udr_mhc_complex.pdb
+[BLACKLIST] 8V4Z: removed_residues=126
+[OK] 8V4Z: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8v4z_mhc_complex.pdb
+[BLACKLIST] 8V50: removed_residues=124
+[OK] 8V50: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8v50_mhc_complex.pdb
+[BLACKLIST] 8V51: removed_residues=327
+[OK] 8V51: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8v51_mhc_complex.pdb
+[BLACKLIST] 8VCL: removed_residues=43
+[OK] 8VCL: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8vcl_mhc_complex.pdb
+[BLACKLIST] 8VJZ: removed_residues=110
+[OK] 8VJZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8vjz_mhc_complex.pdb
+[OK] 8VR9: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=8vr9_mhc_complex.pdb
+[OK] 8VRA: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=8vra_mhc_complex.pdb
+[OK] 8VRB: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=8vrb_mhc_complex.pdb
+[BLACKLIST] 8WTE: removed_residues=162
+[OK] 8WTE: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['D']; output=8wte_mhc_complex.pdb
+[BLACKLIST] 8WUL: removed_residues=53
+[OK] 8WUL: binders=2; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['D']; output=8wul_mhc_complex.pdb
+[BLACKLIST] 8XES: removed_residues=124
+[OK] 8XES: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8xes_mhc_complex.pdb
+[BLACKLIST] 8XFZ: removed_residues=23
+[OK] 8XFZ: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8xfz_mhc_complex.pdb
+[BLACKLIST] 8XG2: removed_residues=130
+[OK] 8XG2: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8xg2_mhc_complex.pdb
+[BLACKLIST] 8XKC: removed_residues=15
+[OK] 8XKC: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8xkc_mhc_complex.pdb
+[BLACKLIST] 8XKE: removed_residues=56
+[OK] 8XKE: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8xke_mhc_complex.pdb
+[OK] 8Y6X: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8y6x_mhc_complex.pdb
+[OK] 8YE4: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8ye4_mhc_complex.pdb
+[BLACKLIST] 8YIV: removed_residues=414
+[OK] 8YIV: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8yiv_mhc_complex.pdb
+[BLACKLIST] 8YJ2: removed_residues=316
+[OK] 8YJ2: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8yj2_mhc_complex.pdb
+[BLACKLIST] 8ZOX: removed_residues=4
+[OK] 8ZOX: binders=2; ligands=2; ligand_contact_binders=2; warnings=1; removed_chains=['B']; output=8zox_mhc_complex.pdb
+[BLACKLIST] 8ZV9: removed_residues=37
+[OK] 8ZV9: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=8zv9_mhc_complex.pdb
+[BLACKLIST] 9ASF: removed_residues=132
+[OK] 9ASF: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=9asf_mhc_complex.pdb
+[BLACKLIST] 9ASG: removed_residues=110
+[OK] 9ASG: binders=0; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=9asg_mhc_complex.pdb
+[BLACKLIST] 9BL2: removed_residues=124
+[OK] 9BL2: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=9bl2_mhc_complex.pdb
+[BLACKLIST] 9BL3: removed_residues=205
+[OK] 9BL3: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=9bl3_mhc_complex.pdb
+[BLACKLIST] 9BL4: removed_residues=257
+[OK] 9BL4: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=9bl4_mhc_complex.pdb
+[BLACKLIST] 9BL5: removed_residues=90
+[OK] 9BL5: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=9bl5_mhc_complex.pdb
+[BLACKLIST] 9BL6: removed_residues=14
+[OK] 9BL6: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=9bl6_mhc_complex.pdb
+[BLACKLIST] 9BL9: removed_residues=16
+[OK] 9BL9: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=9bl9_mhc_complex.pdb
+[BLACKLIST] 9BLA: removed_residues=2
+[OK] 9BLA: binders=1; ligands=1; ligand_contact_binders=1; warnings=1; removed_chains=['B']; output=9bla_mhc_complex.pdb
+[BLACKLIST] 9BTX: removed_residues=385
+[OK] 9BTX: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=9btx_mhc_complex.pdb
+[BLACKLIST] 9BTY: removed_residues=68
+[OK] 9BTY: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=9bty_mhc_complex.pdb
+[BLACKLIST] 9BTZ: removed_residues=60
+[OK] 9BTZ: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=9btz_mhc_complex.pdb
+[BLACKLIST] 9BU0: removed_residues=34
+[OK] 9BU0: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=9bu0_mhc_complex.pdb
+[BLACKLIST] 9C3E: removed_residues=6
+[OK] 9C3E: binders=2; ligands=1; ligand_contact_binders=2; warnings=0; removed_chains=[]; output=9c3e_mhc_complex.pdb
+[OK] 9C6V: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=9c6v_mhc_complex.pdb
+[OK] 9C6W: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=9c6w_mhc_complex.pdb
+[OK] 9C6X: binders=0; ligands=1; ligand_contact_binders=0; warnings=0; removed_chains=[]; output=9c6x_mhc_complex.pdb
+[BLACKLIST] 9CGR: removed_residues=137
+[OK] 9CGR: binders=2; ligands=1; ligand_contact_binders=0; warnings=1; removed_chains=['B']; output=9cgr_mhc_complex.pdb
+[BLACKLIST] 9DL1: removed_residues=184
+[OK] 9DL1: binders=2; ligands=1; ligand_contact_binders=2; warnings=1; removed_chains=['E']; output=9dl1_mhc_complex.pdb
+
+=== STEP7 summary ===
+Processed records: 1159
+Failed hard:       0
+Filtered PDBs:     /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step7_fix/pdb/1_filtered_structures
+Summaries:         /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step7_fix/pdb/summaries

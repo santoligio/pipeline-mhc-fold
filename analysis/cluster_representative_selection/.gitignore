@@ -1,0 +1,18 @@
+# Retired scripts and outputs
+**/legacy_scripts/
+**/legacy_outputs_pre_gene_split/
+
+# Generated analysis results
+**/pairs/
+**/results/
+
+# Python-generated files and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor and operating-system files
+.DS_Store
+*~
+*.swp

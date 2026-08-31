@@ -1,0 +1,25 @@
+timestamp,pdb_id,removed_chain_id,reason,source,status
+2026-07-27T23:08:57,1LP9,D,Mus musculus,step7,removed
+2026-07-27T23:08:57,1LP9,E,Mus musculus,step7,removed
+2026-07-27T23:08:57,2J8U,D,Mus musculus,step7,removed
+2026-07-27T23:08:57,2J8U,E,Mus musculus,step7,removed
+2026-07-27T23:08:57,2JCC,E,Mus musculus,step7,removed
+2026-07-27T23:08:57,2JCC,D,Mus musculus,step7,removed
+2026-07-27T23:08:57,2UWE,D,Mus musculus,step7,removed
+2026-07-27T23:08:57,2UWE,E,Mus musculus,step7,removed
+2026-07-27T23:08:57,3DTX,C,B2M,step7,removed
+2026-07-27T23:08:57,4MNQ,D,Pan troglodytes,not_found,source_not_found
+2026-07-27T23:08:57,6V7Z,C,Lama glama,step7,removed
+2026-07-27T23:08:57,6V80,E,Lama glama,step7,removed
+2026-07-27T23:08:58,7DZM,B,B2M,step7,removed
+2026-07-27T23:08:58,7NDT,F,Copy from asymmetric unit (chain E),step7,removed
+2026-07-27T23:08:58,7NUI,B,B2M,step7,removed
+2026-07-27T23:08:58,8DV3,B,B2M,step7,removed
+2026-07-27T23:08:58,8I5C,D,Mus musculus,step7,removed
+2026-07-27T23:08:58,8I5C,E,Mus musculus,step7,removed
+2026-07-27T23:08:58,8I5D,B,Mus musculus,step7,removed
+2026-07-27T23:08:58,8I5D,C,Mus musculus,step7,removed
+2026-07-27T23:08:58,8WTE,C,Mus musculus,step7,removed
+2026-07-27T23:08:58,8WTE,B,Mus musculus,step7,removed
+2026-07-27T23:08:58,8WUL,C,Mus musculus,step7,removed
+2026-07-27T23:08:58,8WUL,B,Mus musculus,step7,removed

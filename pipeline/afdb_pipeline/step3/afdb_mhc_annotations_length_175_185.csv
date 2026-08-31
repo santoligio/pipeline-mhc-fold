@@ -1,0 +1,6 @@
+pdb_id,res_start,res_end,uniprot_id,target_length,mapped_length,uniprot_name,organism,gene_name,entry_status,belongs_to,mapped_class,mapped_superclass
+AF-Q95363-F1-model_v6,2,179,Q95363,178,181,HLA-B protein,Homo sapiens,HLA-B,Uniprotkb unreviewed (trembl),Belongs to the MHC class I family,HLA Class Ia,Classical MHC-I
+AF-A0A8F4JDT8-F1-model_v6,2,179,A0A8F4JDT8,178,181,MHC class I antigen,Homo sapiens,HLA-B,Uniprotkb unreviewed (trembl),Belongs to the MHC class I family,HLA Class Ia,Classical MHC-I
+AF-Q95HM0-F1-model_v6,16,195,Q95HM0,180,197,MHC class I antigen,Homo sapiens,HLA-B,Uniprotkb unreviewed (trembl),Belongs to the MHC class I family,HLA Class Ia,Classical MHC-I
+AF-Q7JFI6-F1-model_v6,2,179,Q7JFI6,178,181,Leucocyte antigen,Homo sapiens,HLA-B,Uniprotkb unreviewed (trembl),Belongs to the MHC class I family,HLA Class Ia,Classical MHC-I
+AF-O19645-F1-model_v6,2,179,O19645,178,181,HLA-B*1805 alpha1 and alpha2 domains,Homo sapiens,HLA-B,Uniprotkb unreviewed (trembl),Belongs to the MHC class I family,HLA Class Ia,Classical MHC-I

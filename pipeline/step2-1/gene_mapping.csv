@@ -1,0 +1,164 @@
+gene_name,mapped_gene_name,mapped_class,mapped_superclass,database
+HLA-A,HLA-A,HLA Class Ia,Classical MHC-I,pdb
+HLA-E,HLA-E,HLA Class Ib,Non-classical MHC-I,pdb
+HLA-B,HLA-B,HLA Class Ia,Classical MHC-I,pdb
+HLA-G,HLA-G,HLA Class Ib,Non-classical MHC-I,pdb
+MHC class I HLA-A,HLA-A,HLA Class Ia,Classical MHC-I,pdb
+HLA-C,HLA-C,HLA Class Ia,Classical MHC-I,pdb
+HLA-Cw,HLA-C,HLA Class Ia,Classical MHC-I,pdb
+HLA-F,HLA-F,HLA Class Ib,Non-classical MHC-I,pdb
+B-3501,HLA-B,HLA Class Ia,Classical MHC-I,pdb
+HLA-B57,HLA-B,HLA Class Ia,Classical MHC-I,pdb
+MR1,MR1,MR1,MHC-I like,pdb
+AZGP1,ZAG,ZAG,MHC-I like,pdb
+HFE,HFE,HFE,MHC-I like,pdb
+FCGRT,FcRn,FcRn,MHC-I like,pdb
+MICB,MICB,MIC,MHC-I like,pdb
+CD1D,CD1d,CD1,MHC-I like,pdb
+MICA,MICA,MIC,MHC-I like,pdb
+CD1A,CD1a,CD1,MHC-I like,pdb
+PROCR,EPCR,EPCR,MHC-I like,pdb
+CD1C,CD1c,CD1,MHC-I like,pdb
+CD1B,CD1b,CD1,MHC-I like,pdb
+ULBP3,ULBP,ULBP,MHC-I like,pdb
+RAET1L,ULBP,ULBP,MHC-I like,pdb
+CD1E,CD1e,CD1,MHC-I like,pdb
+HLA-A_trimer,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,pdb
+HLA-B_trimer,HLA-B_SC,HLA Class Ia SC,Classical MHC-I SC,pdb
+MR1_trimer,MR1_SC,MR1 SC,MHC-I like SC,pdb
+CD1C_chimera,CD1c_chimera,CD chimera,MHC-I like chimera,pdb
+CD1D_chimera,CD1d_chimera,CD chimera,MHC-I like chimera,pdb
+CD1C_trimer,CD1c_SC,CD SC,MHC-I like SC,pdb
+CD1E_trimer,CD1e_SC,CD SC,MHC-I like SC,pdb
+H301,UL18,UL18,MHC mimetics,pdb
+CPXV018 CDS,OMCP,OMCP,MHC mimetics,pdb
+2L,2L,2L,MHC mimetics,pdb
+HLA-A,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A2,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*0225,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-B,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*0226,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-a,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+MHC class I HLA-A,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*02,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*7402,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A68,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*2410,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*68,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A33,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA A,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A30JS,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A24AK,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A30,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A24,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*29:05 NEW,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*31,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A-6601,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-All,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*33,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-C,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-G,HLA-G,HLA Class Ib,Non-classical MHC-I,afdb
+HLA-B15,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*4202,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*1204,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-A*01,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*18 variant,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*3531,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*27,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*1604,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*4012,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA_B,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA -B,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Bw62.1,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*03MAC,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*40,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+B-1510,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*07ML,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*1805,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+B-3501,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*5501 variant,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Bw62.4,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*02023,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*07,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLC-C,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*0707,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*5603,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Bw62.3,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA C,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HEL-S-83,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B35,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*03,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*15IL,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA B,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+B*56,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-H,HLA-H,HLA Class Ib,Non-classical MHC-I,afdb
+HLA-B*3512,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B41,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*58,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B1501V2,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*15UL,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*3908,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Bw62.5,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B51,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B27,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*35SRE,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*8201,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw-1503,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-C*03,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*15MD,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*1522,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-CW,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*51IM,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+Cw,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*0702,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-B52v,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B40,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-C*12NEW,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*070x,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*12042,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLAC,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+B-4901,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B57,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*5101 variant,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-Cw*,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*1513,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*50IM,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B*45ZJ,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B gene,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-B44,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-F,HLA-F,HLA Class Ib,Non-classical MHC-I,afdb
+HLA-B*44new,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HLA-C*04,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+HLA-E,HLA-E,HLA Class Ib,Non-classical MHC-I,afdb
+HLA-A null,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-A26,HLA-A,HLA Class Ia,Classical MHC-I,afdb
+HLA-C*,HLA-C,HLA Class Ia,Classical MHC-I,afdb
+MHC-G,HLA-G,HLA Class Ib,Non-classical MHC-I,afdb
+MR1,MR1,MR1,MHC-I like,afdb
+HLA-B*0707,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+HFE,HFE,HFE,MHC-I like,afdb
+AZGP1,ZAG,ZAG,MHC-I like,afdb
+RAET1E,ULBP,ULBP,MHC-I like,afdb
+MICA,MICA,MIC,MHC-I like,afdb
+RAET1G,ULBP,ULBP,MHC-I like,afdb
+MICB,MICB,MIC,MHC-I like,afdb
+PERB11.1,MICA,MIC,MHC-I like,afdb
+CD1A,CD1a,CD1,MHC-I like,afdb
+RAET-1E,ULBP,ULBP,MHC-I like,afdb
+FCGRT,FcRn,FcRn,MHC-I like,afdb
+HLA-B*2712,HLA-B,HLA Class Ia,Classical MHC-I,afdb
+EA1.2,HLA-E,HLA Class Ib,Non-classical MHC-I,afdb
+HLA-G3,HLA-G,HLA Class Ib,Non-classical MHC-I,afdb
+RAET1L,ULBP,ULBP,MHC-I like,afdb
+CD1E,CD1e,CD1,MHC-I like,afdb
+HLA-MICA,MICA,MIC,MHC-I like,afdb
+ULBP2,ULBP,ULBP,MHC-I like,afdb
+CD1D,CD1d,CD1,MHC-I like,afdb
+ULBP3,ULBP,ULBP,MHC-I like,afdb
+ULBP1,ULBP,ULBP,MHC-I like,afdb
+CD1C,CD1c,CD1,MHC-I like,afdb
+PROCR,EPCR,EPCR,MHC-I like,afdb
+CD1B,CD1b,CD1,MHC-I like,afdb

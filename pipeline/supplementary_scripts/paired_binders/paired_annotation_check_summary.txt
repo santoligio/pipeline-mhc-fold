@@ -1,0 +1,44 @@
+Paired binder annotation check
+==============================
+
+Input file: binders_annotations_filtered.csv
+Total annotation rows: 698
+Total PDB IDs: 374
+PDB IDs with missing paired entries: 24
+
+Rules checked:
+  TCR_alpha_beta: TCRa + TCRb
+  TCR_gamma_delta: TCRg + TCRd
+  antibody_heavy_light: AbH + AbL
+  NKG2_superclass_pair: at least two mapped_superclass=NKG2 rows
+
+Missing paired entries:
+  3VXM | TCR_alpha_beta | present=TCRa | missing=TCRb | chains=TCRa:D
+  4JRX | TCR_alpha_beta | present=TCRa | missing=TCRb | chains=TCRa:D
+  4LHU | TCR_alpha_beta | present=TCRa | missing=TCRb | chains=TCRa:D
+  4LHU | TCR_gamma_delta | present=TCRg | missing=TCRd | chains=TCRg:F
+  4MJI | TCR_alpha_beta | present=TCRb | missing=TCRa | chains=TCRb:E
+  4MNG | TCR_alpha_beta | present=TCRa | missing=TCRb | chains=TCRa:C
+  4MNQ | TCR_alpha_beta | present=TCRb | missing=TCRa | chains=TCRb:E
+  4N0U | antibody_heavy_light | present=AbH | missing=AbL | chains=AbH:D
+  4WO4 | TCR_alpha_beta | present=TCRb | missing=TCRa | chains=TCRb:D
+  4WO4 | TCR_gamma_delta | present=TCRd | missing=TCRg | chains=TCRd:C
+  5E6I | TCR_alpha_beta | present=TCRb | missing=TCRa | chains=TCRb:C
+  5XOT | TCR_alpha_beta | present=TCRb | missing=TCRa | chains=TCRb:E
+  5XOT | TCR_gamma_delta | present=TCRd | missing=TCRg | chains=TCRd:D
+  5XOV | TCR_alpha_beta | present=TCRb | missing=TCRa | chains=TCRb:E
+  5XOV | TCR_gamma_delta | present=TCRd | missing=TCRg | chains=TCRd:D
+  6BJ2 | TCR_alpha_beta | present=TCRa | missing=TCRb | chains=TCRa:D
+  6BJ3 | TCR_alpha_beta | present=TCRa | missing=TCRb | chains=TCRa:D
+  6BJ8 | TCR_alpha_beta | present=TCRa | missing=TCRb | chains=TCRa:D
+  6D7G | TCR_alpha_beta | present=TCRa | missing=TCRb | chains=TCRa:B
+  6D7G | TCR_gamma_delta | present=TCRg | missing=TCRd | chains=TCRg:C
+  6FGB | antibody_heavy_light | present=AbL | missing=AbH | chains=AbL:D
+  6V80 | TCR_alpha_beta | present=TCRa | missing=TCRb | chains=TCRa:C
+  6WNA | antibody_heavy_light | present=AbH | missing=AbL | chains=AbH:C
+  6WOL | antibody_heavy_light | present=AbH | missing=AbL | chains=AbH:C
+  7Q15 | antibody_heavy_light | present=AbH | missing=AbL | chains=AbH:C
+  7RYM | TCR_alpha_beta | present=TCRb | missing=TCRa | chains=TCRb:C
+  7RYO | TCR_alpha_beta | present=TCRb | missing=TCRa | chains=TCRb:C
+  8TM0 | NKG2_superclass_pair | present=NKG2 | missing=second_NKG2_superclass_binder | chains=NKG2:B
+  8TM2 | NKG2_superclass_pair | present=NKG2 | missing=second_NKG2_superclass_binder | chains=NKG2:B
