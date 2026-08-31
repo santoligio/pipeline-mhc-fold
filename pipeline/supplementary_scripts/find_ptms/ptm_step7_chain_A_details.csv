@@ -1,0 +1,2 @@
+pdb_id,chain_id,residue_name,residue_number,insertion_code,hetflag,ptm_type
+9CGS,A,LLP,44,,HETATM,cofactor-linked lysine modification

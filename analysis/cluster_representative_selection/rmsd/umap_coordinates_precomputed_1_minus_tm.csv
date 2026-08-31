@@ -1,0 +1,1295 @@
+id,UMAP1,UMAP2,umap_input,umap_neighbors,umap_min_dist,umap_spread,umap_repulsion_strength,random_state,source,pdb_id,gene_name,mapped_class,mapped_superclass,mhc_bound_state
+7ejl,10.284447,6.9080977,precomputed,8,0.8,1.0,1.0,42,pdb,7EJL,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3x12,5.49206,13.851853,precomputed,8,0.8,1.0,1.0,42,pdb,3X12,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1qse,3.7723582,1.753349,precomputed,8,0.8,1.0,1.0,42,pdb,1QSE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1p7q,5.668981,5.0326786,precomputed,8,0.8,1.0,1.0,42,pdb,1P7Q,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rlv,15.497689,22.402113,precomputed,8,0.8,1.0,1.0,42,pdb,8RLV,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+7p49,15.405334,21.609707,precomputed,8,0.8,1.0,1.0,42,pdb,7P49,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+6j1w,9.914155,3.1526542,precomputed,8,0.8,1.0,1.0,42,pdb,6J1W,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5jzi,4.801379,3.3188322,precomputed,8,0.8,1.0,1.0,42,pdb,5JZI,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7bh8,14.558319,22.848864,precomputed,8,0.8,1.0,1.0,42,pdb,7BH8,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+7tud,6.178118,13.851968,precomputed,8,0.8,1.0,1.0,42,pdb,7TUD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1bd2,6.3155694,5.9292483,precomputed,8,0.8,1.0,1.0,42,pdb,1BD2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3x11,3.7382483,13.438496,precomputed,8,0.8,1.0,1.0,42,pdb,3X11,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7ow6,11.094199,2.5935857,precomputed,8,0.8,1.0,1.0,42,pdb,7OW6,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2d31,3.3573442,10.955455,precomputed,8,0.8,1.0,1.0,42,pdb,2D31,HLA-G,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+7ndt,13.344569,22.680168,precomputed,8,0.8,1.0,1.0,42,pdb,7NDT,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+5eo1,1.0220486,9.989739,precomputed,8,0.8,1.0,1.0,42,pdb,5EO1,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3fqu,8.03419,0.48022076,precomputed,8,0.8,1.0,1.0,42,pdb,3FQU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6p27,-1.1853356,10.0111885,precomputed,8,0.8,1.0,1.0,42,pdb,6P27,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7lfz,1.4833782,7.3127594,precomputed,8,0.8,1.0,1.0,42,pdb,7LFZ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1t22,7.8913126,0.26862743,precomputed,8,0.8,1.0,1.0,42,pdb,1T22,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5vvp,4.4112105,13.170368,precomputed,8,0.8,1.0,1.0,42,pdb,5VVP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3gsn,7.001437,3.325144,precomputed,8,0.8,1.0,1.0,42,pdb,3GSN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3vxu,8.305374,7.1197248,precomputed,8,0.8,1.0,1.0,42,pdb,3VXU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3bzf,13.432619,22.95115,precomputed,8,0.8,1.0,1.0,42,pdb,3BZF,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+6zkw,14.988793,22.787436,precomputed,8,0.8,1.0,1.0,42,pdb,6ZKW,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+7um2,6.8473015,0.6410388,precomputed,8,0.8,1.0,1.0,42,pdb,7UM2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1t1y,10.092482,0.03473624,precomputed,8,0.8,1.0,1.0,42,pdb,1T1Y,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7lg0,2.576749,7.187133,precomputed,8,0.8,1.0,1.0,42,pdb,7LG0,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8zv9,10.762965,6.2565775,precomputed,8,0.8,1.0,1.0,42,pdb,8ZV9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1hhk,7.9532704,5.115679,precomputed,8,0.8,1.0,1.0,42,pdb,1HHK,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5wwu,10.0387745,6.585808,precomputed,8,0.8,1.0,1.0,42,pdb,5WWU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5xov,8.887393,6.768298,precomputed,8,0.8,1.0,1.0,42,pdb,5XOV,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7zuc,0.98357743,0.68244135,precomputed,8,0.8,1.0,1.0,42,pdb,7ZUC,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6z9w,5.829738,4.0669966,precomputed,8,0.8,1.0,1.0,42,pdb,6Z9W,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5vwd,4.7957034,13.429604,precomputed,8,0.8,1.0,1.0,42,pdb,5VWD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1t1z,10.367622,0.11554787,precomputed,8,0.8,1.0,1.0,42,pdb,1T1Z,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8ye4,11.072579,6.1067615,precomputed,8,0.8,1.0,1.0,42,pdb,8YE4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7sis,6.558842,-0.39549825,precomputed,8,0.8,1.0,1.0,42,pdb,7SIS,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5txs,0.9879591,12.766317,precomputed,8,0.8,1.0,1.0,42,pdb,5TXS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4f7p,11.746308,6.082688,precomputed,8,0.8,1.0,1.0,42,pdb,4F7P,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7nme,12.329337,6.2928576,precomputed,8,0.8,1.0,1.0,42,pdb,7NME,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5hgb,8.307652,6.715896,precomputed,8,0.8,1.0,1.0,42,pdb,5HGB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5vwf,4.7337985,13.758468,precomputed,8,0.8,1.0,1.0,42,pdb,5VWF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6p23,-1.1591492,9.739241,precomputed,8,0.8,1.0,1.0,42,pdb,6P23,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7u1r,6.9567833,-0.06458032,precomputed,8,0.8,1.0,1.0,42,pdb,7U1R,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7n6e,6.2460723,2.8052392,precomputed,8,0.8,1.0,1.0,42,pdb,7N6E,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3vxs,11.7302065,5.34913,precomputed,8,0.8,1.0,1.0,42,pdb,3VXS,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5hhq,7.3189507,-0.8698336,precomputed,8,0.8,1.0,1.0,42,pdb,5HHQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7bbg,4.9283357,4.583425,precomputed,8,0.8,1.0,1.0,42,pdb,7BBG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7rtd,7.2608066,-1.07575,precomputed,8,0.8,1.0,1.0,42,pdb,7RTD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2f54,5.20434,4.421912,precomputed,8,0.8,1.0,1.0,42,pdb,2F54,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5xot,1.707252,14.803762,precomputed,8,0.8,1.0,1.0,42,pdb,5XOT,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2esv,13.268186,23.157667,precomputed,8,0.8,1.0,1.0,42,pdb,2ESV,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+3rl2,1.7475469,3.9256191,precomputed,8,0.8,1.0,1.0,42,pdb,3RL2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1t21,10.025455,-0.3155231,precomputed,8,0.8,1.0,1.0,42,pdb,1T21,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6mtm,3.0992131,11.392093,precomputed,8,0.8,1.0,1.0,42,pdb,6MTM,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4no0,5.831881,4.121205,precomputed,8,0.8,1.0,1.0,42,pdb,4NO0,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1qsf,3.4655101,1.0718529,precomputed,8,0.8,1.0,1.0,42,pdb,1QSF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3gsw,9.56057,0.31864923,precomputed,8,0.8,1.0,1.0,42,pdb,3GSW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1a9e,1.4958038,14.444039,precomputed,8,0.8,1.0,1.0,42,pdb,1A9E,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7nmd,10.89166,5.741067,precomputed,8,0.8,1.0,1.0,42,pdb,7NMD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1hhh,5.7780704,-0.8961865,precomputed,8,0.8,1.0,1.0,42,pdb,1HHH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1akj,4.2964544,5.2494817,precomputed,8,0.8,1.0,1.0,42,pdb,1AKJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7p4b,15.739047,21.845032,precomputed,8,0.8,1.0,1.0,42,pdb,7P4B,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+7jyx,11.393003,5.359985,precomputed,8,0.8,1.0,1.0,42,pdb,7JYX,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1t1x,9.821714,-0.40276325,precomputed,8,0.8,1.0,1.0,42,pdb,1T1X,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8qfy,15.056314,22.521585,precomputed,8,0.8,1.0,1.0,42,pdb,8QFY,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+1q94,10.067453,3.4967797,precomputed,8,0.8,1.0,1.0,42,pdb,1Q94,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7ndq,14.082311,21.671305,precomputed,8,0.8,1.0,1.0,42,pdb,7NDQ,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+5wjl,11.267446,3.3393009,precomputed,8,0.8,1.0,1.0,42,pdb,5WJL,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8en8,0.37714705,14.925392,precomputed,8,0.8,1.0,1.0,42,pdb,8EN8,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4qok,3.1112008,3.7951038,precomputed,8,0.8,1.0,1.0,42,pdb,4QOK,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6uz1,3.4425426,3.8941147,precomputed,8,0.8,1.0,1.0,42,pdb,6UZ1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7tr4,6.285647,3.8372245,precomputed,8,0.8,1.0,1.0,42,pdb,7TR4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7mja,11.9704075,6.060539,precomputed,8,0.8,1.0,1.0,42,pdb,7MJA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3d3v,3.6864092,1.4575921,precomputed,8,0.8,1.0,1.0,42,pdb,3D3V,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7f4w,11.432109,6.1457624,precomputed,8,0.8,1.0,1.0,42,pdb,7F4W,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5w6a,3.2649937,12.280626,precomputed,8,0.8,1.0,1.0,42,pdb,5W6A,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3fqt,7.6528945,0.46887925,precomputed,8,0.8,1.0,1.0,42,pdb,3FQT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1xr9,-0.47129834,12.6359625,precomputed,8,0.8,1.0,1.0,42,pdb,1XR9,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1i4f,9.115601,-1.087249,precomputed,8,0.8,1.0,1.0,42,pdb,1I4F,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6w51,4.2036557,2.837309,precomputed,8,0.8,1.0,1.0,42,pdb,6W51,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4f7m,9.981465,6.2902894,precomputed,8,0.8,1.0,1.0,42,pdb,4F7M,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3pwp,4.154201,2.7000086,precomputed,8,0.8,1.0,1.0,42,pdb,3PWP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6mt3,2.2403114,13.485366,precomputed,8,0.8,1.0,1.0,42,pdb,6MT3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8ryo,9.331737,4.1334195,precomputed,8,0.8,1.0,1.0,42,pdb,8RYO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7s8s,8.625558,1.027957,precomputed,8,0.8,1.0,1.0,42,pdb,7S8S,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6j2a,8.538679,1.2924111,precomputed,8,0.8,1.0,1.0,42,pdb,6J2A,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rbv,6.8580647,-0.1621948,precomputed,8,0.8,1.0,1.0,42,pdb,8RBV,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7wj2,2.788963,10.997886,precomputed,8,0.8,1.0,1.0,42,pdb,7WJ2,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3wlb,10.028282,6.338835,precomputed,8,0.8,1.0,1.0,42,pdb,3WLB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7s7e,0.94114715,7.985386,precomputed,8,0.8,1.0,1.0,42,pdb,7S7E,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3i6l,10.020611,6.4274535,precomputed,8,0.8,1.0,1.0,42,pdb,3I6L,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6uj7,1.2731693,8.335027,precomputed,8,0.8,1.0,1.0,42,pdb,6UJ7,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2xpg,2.8606312,4.4663687,precomputed,8,0.8,1.0,1.0,42,pdb,2XPG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1t1w,9.79828,-0.029035762,precomputed,8,0.8,1.0,1.0,42,pdb,1T1W,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6j1v,10.008121,5.0202374,precomputed,8,0.8,1.0,1.0,42,pdb,6J1V,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7jyu,9.63898,6.589678,precomputed,8,0.8,1.0,1.0,42,pdb,7JYU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7kgo,6.704114,0.9988277,precomputed,8,0.8,1.0,1.0,42,pdb,7KGO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3kxf,1.0935344,13.705997,precomputed,8,0.8,1.0,1.0,42,pdb,3KXF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7rtr,7.2504663,3.1635969,precomputed,8,0.8,1.0,1.0,42,pdb,7RTR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5wsh,7.7349625,-0.11454598,precomputed,8,0.8,1.0,1.0,42,pdb,5WSH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5wwj,10.851614,5.6370625,precomputed,8,0.8,1.0,1.0,42,pdb,5WWJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3v5k,7.976326,4.184972,precomputed,8,0.8,1.0,1.0,42,pdb,3V5K,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6ghn,15.068038,21.902834,precomputed,8,0.8,1.0,1.0,42,pdb,6GHN,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+8xkc,7.5881877,4.436786,precomputed,8,0.8,1.0,1.0,42,pdb,8XKC,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7rk7,5.4953337,5.0113993,precomputed,8,0.8,1.0,1.0,42,pdb,7RK7,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5hhn,7.580444,-1.1094226,precomputed,8,0.8,1.0,1.0,42,pdb,5HHN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vm8,6.536624,-0.47879425,precomputed,8,0.8,1.0,1.0,42,pdb,6VM8,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6zky,14.959161,23.015783,precomputed,8,0.8,1.0,1.0,42,pdb,6ZKY,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+3h9s,4.540834,3.8846884,precomputed,8,0.8,1.0,1.0,42,pdb,3H9S,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6zkz,14.634523,23.04453,precomputed,8,0.8,1.0,1.0,42,pdb,6ZKZ,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+4qrr,-0.5048241,14.55887,precomputed,8,0.8,1.0,1.0,42,pdb,4QRR,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4o2f,1.8820705,13.405135,precomputed,8,0.8,1.0,1.0,42,pdb,4O2F,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6zkx,14.236291,23.248007,precomputed,8,0.8,1.0,1.0,42,pdb,6ZKX,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+3vxp,8.967573,6.5089607,precomputed,8,0.8,1.0,1.0,42,pdb,3VXP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1ydp,3.6631298,10.102607,precomputed,8,0.8,1.0,1.0,42,pdb,1YDP,HLA-G,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+2nx5,-0.6033494,14.760383,precomputed,8,0.8,1.0,1.0,42,pdb,2NX5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5vz5,1.401606,12.896596,precomputed,8,0.8,1.0,1.0,42,pdb,5VZ5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3v5d,7.825601,4.199562,precomputed,8,0.8,1.0,1.0,42,pdb,3V5D,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1s8d,9.872302,-0.15121165,precomputed,8,0.8,1.0,1.0,42,pdb,1S8D,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4jfp,3.9605796,2.2332017,precomputed,8,0.8,1.0,1.0,42,pdb,4JFP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1duy,7.6736107,5.5449095,precomputed,8,0.8,1.0,1.0,42,pdb,1DUY,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3utt,6.948372,5.8224463,precomputed,8,0.8,1.0,1.0,42,pdb,3UTT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7pbe,2.5710754,1.8352884,precomputed,8,0.8,1.0,1.0,42,pdb,7PBE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3wl9,9.685804,6.4028287,precomputed,8,0.8,1.0,1.0,42,pdb,3WL9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7ejm,10.179509,7.0519147,precomputed,8,0.8,1.0,1.0,42,pdb,7EJM,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1a9b,1.4492059,14.431375,precomputed,8,0.8,1.0,1.0,42,pdb,1A9B,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5iue,5.3081064,6.860864,precomputed,8,0.8,1.0,1.0,42,pdb,5IUE,HLA-F,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+2clr,7.4611015,5.0791373,precomputed,8,0.8,1.0,1.0,42,pdb,2CLR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6uli,2.1088858,10.836293,precomputed,8,0.8,1.0,1.0,42,pdb,6ULI,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3qfj,3.8798118,1.7810878,precomputed,8,0.8,1.0,1.0,42,pdb,3QFJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7lg2,6.0401106,5.5438066,precomputed,8,0.8,1.0,1.0,42,pdb,7LG2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3ox8,7.398017,-0.34995633,precomputed,8,0.8,1.0,1.0,42,pdb,3OX8,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1cg9,1.632824,14.634178,precomputed,8,0.8,1.0,1.0,42,pdb,1CG9,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mgt,5.4891286,6.311438,precomputed,8,0.8,1.0,1.0,42,pdb,3MGT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6ggm,15.671364,22.07,precomputed,8,0.8,1.0,1.0,42,pdb,6GGM,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+3fqw,7.1905046,1.0299171,precomputed,8,0.8,1.0,1.0,42,pdb,3FQW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3c9n,0.08963099,12.331407,precomputed,8,0.8,1.0,1.0,42,pdb,3C9N,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5enw,7.7627764,-0.88443613,precomputed,8,0.8,1.0,1.0,42,pdb,5ENW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7s8q,10.923829,3.79135,precomputed,8,0.8,1.0,1.0,42,pdb,7S8Q,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7kgs,6.8014393,-0.50754434,precomputed,8,0.8,1.0,1.0,42,pdb,7KGS,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1s9y,8.387625,4.631421,precomputed,8,0.8,1.0,1.0,42,pdb,1S9Y,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5f9j,6.2431035,-2.0931995,precomputed,8,0.8,1.0,1.0,42,pdb,5F9J,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3ft2,7.337439,-1.0959951,precomputed,8,0.8,1.0,1.0,42,pdb,3FT2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1hhg,6.975594,5.594627,precomputed,8,0.8,1.0,1.0,42,pdb,1HHG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1t20,10.269543,-0.13455999,precomputed,8,0.8,1.0,1.0,42,pdb,1T20,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5hga,7.762685,6.84338,precomputed,8,0.8,1.0,1.0,42,pdb,5HGA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2bvp,5.2893605,14.072164,precomputed,8,0.8,1.0,1.0,42,pdb,2BVP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4jff,3.654323,4.0269265,precomputed,8,0.8,1.0,1.0,42,pdb,4JFF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4wu5,7.9987435,6.702871,precomputed,8,0.8,1.0,1.0,42,pdb,4WU5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5nmk,7.435262,-0.06544402,precomputed,8,0.8,1.0,1.0,42,pdb,5NMK,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6jp3,10.801715,3.0423758,precomputed,8,0.8,1.0,1.0,42,pdb,6JP3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6aee,3.3373997,10.155992,precomputed,8,0.8,1.0,1.0,42,pdb,6AEE,HLA-G,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+5d9s,5.569124,-1.0999866,precomputed,8,0.8,1.0,1.0,42,pdb,5D9S,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7n2r,7.575894,19.133722,precomputed,8,0.8,1.0,1.0,42,pdb,7N2R,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4nqv,9.60945,2.8080974,precomputed,8,0.8,1.0,1.0,42,pdb,4NQV,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rlt,15.64609,22.410723,precomputed,8,0.8,1.0,1.0,42,pdb,8RLT,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+8enh,1.0550022,14.841871,precomputed,8,0.8,1.0,1.0,42,pdb,8ENH,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7n1b,4.966538,4.5873036,precomputed,8,0.8,1.0,1.0,42,pdb,7N1B,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rh6,6.560255,1.0656558,precomputed,8,0.8,1.0,1.0,42,pdb,8RH6,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5im7,5.0443873,11.80982,precomputed,8,0.8,1.0,1.0,42,pdb,5IM7,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1mhe,13.314286,22.869452,precomputed,8,0.8,1.0,1.0,42,pdb,1MHE,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+7sa2,6.5436296,0.6326872,precomputed,8,0.8,1.0,1.0,42,pdb,7SA2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6gh4,15.244145,21.411415,precomputed,8,0.8,1.0,1.0,42,pdb,6GH4,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+7s8f,0.99955595,7.19115,precomputed,8,0.8,1.0,1.0,42,pdb,7S8F,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rym,9.219334,4.3701224,precomputed,8,0.8,1.0,1.0,42,pdb,8RYM,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7n1e,6.023664,4.9164233,precomputed,8,0.8,1.0,1.0,42,pdb,7N1E,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7lg3,7.0794187,5.0777335,precomputed,8,0.8,1.0,1.0,42,pdb,7LG3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6d2b,4.5689077,14.371643,precomputed,8,0.8,1.0,1.0,42,pdb,6D2B,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6mpp,10.663897,2.8713682,precomputed,8,0.8,1.0,1.0,42,pdb,6MPP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7s79,0.6334426,7.0020742,precomputed,8,0.8,1.0,1.0,42,pdb,7S79,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rng,2.5466824,13.998777,precomputed,8,0.8,1.0,1.0,42,pdb,8RNG,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vxn,8.958788,7.0890756,precomputed,8,0.8,1.0,1.0,42,pdb,3VXN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5jhd,6.6997523,4.0722656,precomputed,8,0.8,1.0,1.0,42,pdb,5JHD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7kgp,6.6160564,-0.0032634123,precomputed,8,0.8,1.0,1.0,42,pdb,7KGP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4o2c,3.15307,13.435916,precomputed,8,0.8,1.0,1.0,42,pdb,4O2C,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1eey,6.127618,5.6603055,precomputed,8,0.8,1.0,1.0,42,pdb,1EEY,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2x4n,8.794816,3.6720111,precomputed,8,0.8,1.0,1.0,42,pdb,2X4N,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rop,2.2487638,13.839898,precomputed,8,0.8,1.0,1.0,42,pdb,8ROP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3o3b,5.8828707,3.6400542,precomputed,8,0.8,1.0,1.0,42,pdb,3O3B,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2f53,7.5187907,4.0786242,precomputed,8,0.8,1.0,1.0,42,pdb,2F53,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7s7f,0.99262875,8.029646,precomputed,8,0.8,1.0,1.0,42,pdb,7S7F,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rhq,6.8452406,1.476421,precomputed,8,0.8,1.0,1.0,42,pdb,8RHQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7kgq,6.5124383,0.22376673,precomputed,8,0.8,1.0,1.0,42,pdb,7KGQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6p2s,-1.40795,10.090492,precomputed,8,0.8,1.0,1.0,42,pdb,6P2S,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5w1v,13.913804,22.948158,precomputed,8,0.8,1.0,1.0,42,pdb,5W1V,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+6tdq,5.6913986,3.2160249,precomputed,8,0.8,1.0,1.0,42,pdb,6TDQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7wt4,9.835511,6.6549387,precomputed,8,0.8,1.0,1.0,42,pdb,7WT4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4f7t,10.184844,6.48663,precomputed,8,0.8,1.0,1.0,42,pdb,4F7T,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3rew,6.314353,4.4059343,precomputed,8,0.8,1.0,1.0,42,pdb,3REW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7wkj,7.407474,0.4162439,precomputed,8,0.8,1.0,1.0,42,pdb,7WKJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1qew,4.0181355,3.6077433,precomputed,8,0.8,1.0,1.0,42,pdb,1QEW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5isz,6.082728,4.348057,precomputed,8,0.8,1.0,1.0,42,pdb,5ISZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1qvo,9.861013,2.494572,precomputed,8,0.8,1.0,1.0,42,pdb,1QVO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1s9x,8.313786,4.6452804,precomputed,8,0.8,1.0,1.0,42,pdb,1S9X,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1qrn,3.6235626,0.89468455,precomputed,8,0.8,1.0,1.0,42,pdb,1QRN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6vb1,1.9496936,13.084644,precomputed,8,0.8,1.0,1.0,42,pdb,6VB1,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5hgd,7.698843,7.499205,precomputed,8,0.8,1.0,1.0,42,pdb,5HGD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8ryq,10.001855,4.3229465,precomputed,8,0.8,1.0,1.0,42,pdb,8RYQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3ft4,9.234421,-1.7791308,precomputed,8,0.8,1.0,1.0,42,pdb,3FT4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7rzd,0.90565366,7.1369863,precomputed,8,0.8,1.0,1.0,42,pdb,7RZD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6avf,2.164989,7.4873915,precomputed,8,0.8,1.0,1.0,42,pdb,6AVF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8ryp,9.533714,4.4253993,precomputed,8,0.8,1.0,1.0,42,pdb,8RYP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8xfz,10.130674,5.76211,precomputed,8,0.8,1.0,1.0,42,pdb,8XFZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5wjn,11.128255,2.8071697,precomputed,8,0.8,1.0,1.0,42,pdb,5WJN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6gl1,15.661552,21.578178,precomputed,8,0.8,1.0,1.0,42,pdb,6GL1,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+6uzq,-0.3632669,12.234329,precomputed,8,0.8,1.0,1.0,42,pdb,6UZQ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6mt4,4.2246094,12.571611,precomputed,8,0.8,1.0,1.0,42,pdb,6MT4,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5fdw,10.239316,0.30402806,precomputed,8,0.8,1.0,1.0,42,pdb,5FDW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6pag,1.9012337,12.273657,precomputed,8,0.8,1.0,1.0,42,pdb,6PAG,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4no5,10.10741,0.21464828,precomputed,8,0.8,1.0,1.0,42,pdb,4NO5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5eu3,5.039062,-1.6579145,precomputed,8,0.8,1.0,1.0,42,pdb,5EU3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6id4,9.738553,4.4813538,precomputed,8,0.8,1.0,1.0,42,pdb,6ID4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8eb2,6.727302,4.7466617,precomputed,8,0.8,1.0,1.0,42,pdb,8EB2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6tdr,6.1319366,2.9589555,precomputed,8,0.8,1.0,1.0,42,pdb,6TDR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-unbound
+6vm9,4.713297,3.5527685,precomputed,8,0.8,1.0,1.0,42,pdb,6VM9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3fqx,7.131663,0.9032093,precomputed,8,0.8,1.0,1.0,42,pdb,3FQX,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7p3e,0.79654205,0.6278841,precomputed,8,0.8,1.0,1.0,42,pdb,7P3E,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8ryn,9.479106,4.5768743,precomputed,8,0.8,1.0,1.0,42,pdb,8RYN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8roo,2.741014,13.764113,precomputed,8,0.8,1.0,1.0,42,pdb,8ROO,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6am5,3.8484807,4.407693,precomputed,8,0.8,1.0,1.0,42,pdb,6AM5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5hyj,4.6984754,0.5314674,precomputed,8,0.8,1.0,1.0,42,pdb,5HYJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8rlu,15.531911,22.468222,precomputed,8,0.8,1.0,1.0,42,pdb,8RLU,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+6joz,10.889511,3.5185988,precomputed,8,0.8,1.0,1.0,42,pdb,6JOZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5w69,2.8388216,11.832026,precomputed,8,0.8,1.0,1.0,42,pdb,5W69,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7mkb,6.3924623,5.5836926,precomputed,8,0.8,1.0,1.0,42,pdb,7MKB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6gh1,15.310851,21.85847,precomputed,8,0.8,1.0,1.0,42,pdb,6GH1,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+1hsb,7.979042,0.78508174,precomputed,8,0.8,1.0,1.0,42,pdb,1HSB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3h9h,5.4860663,4.8683715,precomputed,8,0.8,1.0,1.0,42,pdb,3H9H,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7nmf,12.411229,6.2738757,precomputed,8,0.8,1.0,1.0,42,pdb,7NMF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4n8v,9.947033,4.5692253,precomputed,8,0.8,1.0,1.0,42,pdb,4N8V,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8gon,7.200726,3.692173,precomputed,8,0.8,1.0,1.0,42,pdb,8GON,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8dvg,1.0853078,4.944703,precomputed,8,0.8,1.0,1.0,42,pdb,8DVG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7ow4,10.467945,2.4934454,precomputed,8,0.8,1.0,1.0,42,pdb,7OW4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7p3d,10.051602,0.61230785,precomputed,8,0.8,1.0,1.0,42,pdb,7P3D,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4jfe,3.7221787,3.6570742,precomputed,8,0.8,1.0,1.0,42,pdb,4JFE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5t6y,4.327865,13.44066,precomputed,8,0.8,1.0,1.0,42,pdb,5T6Y,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5hgh,8.4924,7.260381,precomputed,8,0.8,1.0,1.0,42,pdb,5HGH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mgo,5.1599407,5.8690515,precomputed,8,0.8,1.0,1.0,42,pdb,3MGO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7s7d,0.67424697,7.165102,precomputed,8,0.8,1.0,1.0,42,pdb,7S7D,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5v5l,5.2266564,11.829583,precomputed,8,0.8,1.0,1.0,42,pdb,5V5L,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4nqx,9.963044,3.0151236,precomputed,8,0.8,1.0,1.0,42,pdb,4NQX,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4prn,-0.998788,14.049434,precomputed,8,0.8,1.0,1.0,42,pdb,4PRN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6amt,6.52469,3.2305455,precomputed,8,0.8,1.0,1.0,42,pdb,6AMT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6j29,8.628693,0.93459123,precomputed,8,0.8,1.0,1.0,42,pdb,6J29,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6jtp,1.6703101,11.685563,precomputed,8,0.8,1.0,1.0,42,pdb,6JTP,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1i7t,6.2091665,6.012961,precomputed,8,0.8,1.0,1.0,42,pdb,1I7T,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5hhm,1.8825737,1.1958433,precomputed,8,0.8,1.0,1.0,42,pdb,5HHM,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1hhi,6.1160865,6.15182,precomputed,8,0.8,1.0,1.0,42,pdb,1HHI,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7pb2,11.25215,2.4406242,precomputed,8,0.8,1.0,1.0,42,pdb,7PB2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5vuf,4.8538327,14.266256,precomputed,8,0.8,1.0,1.0,42,pdb,5VUF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7s8e,0.8663423,7.119317,precomputed,8,0.8,1.0,1.0,42,pdb,7S8E,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5t6x,4.409457,13.801191,precomputed,8,0.8,1.0,1.0,42,pdb,5T6X,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5c07,4.5945354,0.6895762,precomputed,8,0.8,1.0,1.0,42,pdb,5C07,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3nfn,8.355834,7.294706,precomputed,8,0.8,1.0,1.0,42,pdb,3NFN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5vue,4.4280853,13.61886,precomputed,8,0.8,1.0,1.0,42,pdb,5VUE,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3gjf,7.157577,4.2477994,precomputed,8,0.8,1.0,1.0,42,pdb,3GJF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8isn,11.106453,5.474895,precomputed,8,0.8,1.0,1.0,42,pdb,8ISN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7mj7,9.610535,-1.8710082,precomputed,8,0.8,1.0,1.0,42,pdb,7MJ7,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5brz,9.374317,1.2541224,precomputed,8,0.8,1.0,1.0,42,pdb,5BRZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5c0c,4.7357907,0.421409,precomputed,8,0.8,1.0,1.0,42,pdb,5C0C,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3vfn,-1.836725,13.975124,precomputed,8,0.8,1.0,1.0,42,pdb,3VFN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3oxr,7.471614,-0.27223387,precomputed,8,0.8,1.0,1.0,42,pdb,3OXR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5wkf,10.840203,4.3502026,precomputed,8,0.8,1.0,1.0,42,pdb,5WKF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2bvo,2.9833436,15.190087,precomputed,8,0.8,1.0,1.0,42,pdb,2BVO,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7mj9,6.5854297,-1.0507115,precomputed,8,0.8,1.0,1.0,42,pdb,7MJ9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4xxc,2.702077,13.709593,precomputed,8,0.8,1.0,1.0,42,pdb,4XXC,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7kgt,6.6336837,0.18952902,precomputed,8,0.8,1.0,1.0,42,pdb,7KGT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7lgd,5.39566,14.84765,precomputed,8,0.8,1.0,1.0,42,pdb,7LGD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8tbw,6.9828024,3.7868092,precomputed,8,0.8,1.0,1.0,42,pdb,8TBW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3o4l,6.32708,3.9253635,precomputed,8,0.8,1.0,1.0,42,pdb,3O4L,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6ssa,4.087872,1.5938394,precomputed,8,0.8,1.0,1.0,42,pdb,6SSA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5w1w,13.935519,22.899374,precomputed,8,0.8,1.0,1.0,42,pdb,5W1W,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+6z9x,5.4406786,2.9442873,precomputed,8,0.8,1.0,1.0,42,pdb,6Z9X,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2x70,8.649183,3.510534,precomputed,8,0.8,1.0,1.0,42,pdb,2X70,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8utc,2.0525434,7.598079,precomputed,8,0.8,1.0,1.0,42,pdb,8UTC,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2vll,6.815117,5.5226936,precomputed,8,0.8,1.0,1.0,42,pdb,2VLL,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vfp,-1.880367,13.312191,precomputed,8,0.8,1.0,1.0,42,pdb,3VFP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6p64,9.512197,-1.1206946,precomputed,8,0.8,1.0,1.0,42,pdb,6P64,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3gso,5.206007,-1.7851118,precomputed,8,0.8,1.0,1.0,42,pdb,3GSO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5swq,9.348381,-1.5363312,precomputed,8,0.8,1.0,1.0,42,pdb,5SWQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rbu,7.092288,1.5934196,precomputed,8,0.8,1.0,1.0,42,pdb,8RBU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4g8g,8.55309,18.299124,precomputed,8,0.8,1.0,1.0,42,pdb,4G8G,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3ixa,5.609402,4.794218,precomputed,8,0.8,1.0,1.0,42,pdb,3IXA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6p2c,-0.9157959,10.195011,precomputed,8,0.8,1.0,1.0,42,pdb,6P2C,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7t5m,5.9499207,4.287765,precomputed,8,0.8,1.0,1.0,42,pdb,7T5M,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9bl6,10.508915,7.4245605,precomputed,8,0.8,1.0,1.0,42,pdb,9BL6,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7s8a,0.29798272,9.834488,precomputed,8,0.8,1.0,1.0,42,pdb,7S8A,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7ow5,10.700635,2.2037363,precomputed,8,0.8,1.0,1.0,42,pdb,7OW5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7jyv,10.741838,4.786875,precomputed,8,0.8,1.0,1.0,42,pdb,7JYV,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vfu,-2.0493953,14.055872,precomputed,8,0.8,1.0,1.0,42,pdb,3VFU,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mrb,5.0439777,-1.3452032,precomputed,8,0.8,1.0,1.0,42,pdb,3MRB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5hho,2.0403726,1.6385546,precomputed,8,0.8,1.0,1.0,42,pdb,5HHO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8f5a,4.7016068,13.801806,precomputed,8,0.8,1.0,1.0,42,pdb,8F5A,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7r7x,5.217962,12.00053,precomputed,8,0.8,1.0,1.0,42,pdb,7R7X,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3ln4,0.5661808,11.374229,precomputed,8,0.8,1.0,1.0,42,pdb,3LN4,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6uj8,1.312729,7.86633,precomputed,8,0.8,1.0,1.0,42,pdb,6UJ8,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vb2,1.7329434,13.066793,precomputed,8,0.8,1.0,1.0,42,pdb,6VB2,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8xg2,9.733628,5.4932346,precomputed,8,0.8,1.0,1.0,42,pdb,8XG2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3pwl,4.015474,5.6444664,precomputed,8,0.8,1.0,1.0,42,pdb,3PWL,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3x13,0.05303,9.4385395,precomputed,8,0.8,1.0,1.0,42,pdb,3X13,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8z08,12.331599,6.3106713,precomputed,8,0.8,1.0,1.0,42,pdb,8Z08,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7pbc,7.6674943,3.415848,precomputed,8,0.8,1.0,1.0,42,pdb,7PBC,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2x4s,7.4855733,4.922967,precomputed,8,0.8,1.0,1.0,42,pdb,2X4S,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7wj3,1.5767121,13.108625,precomputed,8,0.8,1.0,1.0,42,pdb,7WJ3,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6rp9,6.524646,4.636522,precomputed,8,0.8,1.0,1.0,42,pdb,6RP9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8tuh,1.4807158,8.0439,precomputed,8,0.8,1.0,1.0,42,pdb,8TUH,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1a1n,-0.6486078,15.274298,precomputed,8,0.8,1.0,1.0,42,pdb,1A1N,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6mt6,4.051599,12.49333,precomputed,8,0.8,1.0,1.0,42,pdb,6MT6,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4jqv,2.7803779,13.250969,precomputed,8,0.8,1.0,1.0,42,pdb,4JQV,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8sbk,9.946676,5.515758,precomputed,8,0.8,1.0,1.0,42,pdb,8SBK,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6r2l,6.099088,2.2946846,precomputed,8,0.8,1.0,1.0,42,pdb,6R2L,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4wuu,4.7725186,4.9003158,precomputed,8,0.8,1.0,1.0,42,pdb,4WUU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2vlk,2.9190683,2.1911223,precomputed,8,0.8,1.0,1.0,42,pdb,2VLK,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5fa4,8.104521,0.91363615,precomputed,8,0.8,1.0,1.0,42,pdb,5FA4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4o2e,2.381571,13.436929,precomputed,8,0.8,1.0,1.0,42,pdb,4O2E,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8e8i,-2.9230149,9.8047085,precomputed,8,0.8,1.0,1.0,42,pdb,8E8I,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6pte,5.0242286,4.5515203,precomputed,8,0.8,1.0,1.0,42,pdb,6PTE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mrq,5.9315686,-1.1802976,precomputed,8,0.8,1.0,1.0,42,pdb,3MRQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5c08,4.9125066,0.6059364,precomputed,8,0.8,1.0,1.0,42,pdb,5C08,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8shi,3.114971,11.830897,precomputed,8,0.8,1.0,1.0,42,pdb,8SHI,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1w72,9.926394,3.6670632,precomputed,8,0.8,1.0,1.0,42,pdb,1W72,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5hhp,7.3303857,-1.3501781,precomputed,8,0.8,1.0,1.0,42,pdb,5HHP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5e9d,4.2708063,2.452515,precomputed,8,0.8,1.0,1.0,42,pdb,5E9D,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8xes,10.38848,5.194759,precomputed,8,0.8,1.0,1.0,42,pdb,8XES,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6tro,8.310003,1.7338076,precomputed,8,0.8,1.0,1.0,42,pdb,6TRO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6o4z,9.297906,-0.0035326115,precomputed,8,0.8,1.0,1.0,42,pdb,6O4Z,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6g3j,4.511727,1.8933818,precomputed,8,0.8,1.0,1.0,42,pdb,6G3J,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2p5e,4.2325096,5.0727186,precomputed,8,0.8,1.0,1.0,42,pdb,2P5E,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2dyp,3.5000606,9.985869,precomputed,8,0.8,1.0,1.0,42,pdb,2DYP,HLA-G,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+3hpj,4.7817144,5.177838,precomputed,8,0.8,1.0,1.0,42,pdb,3HPJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7lgt,5.067373,14.004651,precomputed,8,0.8,1.0,1.0,42,pdb,7LGT,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6o4y,5.236258,-1.803912,precomputed,8,0.8,1.0,1.0,42,pdb,6O4Y,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3v5h,7.980712,3.6558447,precomputed,8,0.8,1.0,1.0,42,pdb,3V5H,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3o3e,6.3707848,3.3871655,precomputed,8,0.8,1.0,1.0,42,pdb,3O3E,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3pwn,4.8184505,4.9904532,precomputed,8,0.8,1.0,1.0,42,pdb,3PWN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9skp,6.535699,-1.5825841,precomputed,8,0.8,1.0,1.0,42,pdb,9SKP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9wk0,7.145546,-1.0302835,precomputed,8,0.8,1.0,1.0,42,pdb,9WK0,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2gj6,4.1026874,2.0110078,precomputed,8,0.8,1.0,1.0,42,pdb,2GJ6,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5wkh,10.725633,4.404826,precomputed,8,0.8,1.0,1.0,42,pdb,5WKH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8i5e,9.706265,5.1082487,precomputed,8,0.8,1.0,1.0,42,pdb,8I5E,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vrj,3.9217107,14.773651,precomputed,8,0.8,1.0,1.0,42,pdb,3VRJ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3sjv,-4.182771,10.317971,precomputed,8,0.8,1.0,1.0,42,pdb,3SJV,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3mrm,4.574486,-1.066667,precomputed,8,0.8,1.0,1.0,42,pdb,3MRM,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4pra,-0.99935657,15.011522,precomputed,8,0.8,1.0,1.0,42,pdb,4PRA,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6rsy,5.3783083,4.728648,precomputed,8,0.8,1.0,1.0,42,pdb,6RSY,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5wmp,0.27106693,9.980284,precomputed,8,0.8,1.0,1.0,42,pdb,5WMP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6bxp,4.910218,13.623419,precomputed,8,0.8,1.0,1.0,42,pdb,6BXP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8fu4,6.73617,0.123554274,precomputed,8,0.8,1.0,1.0,42,pdb,8FU4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8u9g,6.4040484,3.0254066,precomputed,8,0.8,1.0,1.0,42,pdb,8U9G,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bxn,3.7911365,13.196424,precomputed,8,0.8,1.0,1.0,42,pdb,3BXN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5men,3.6957455,2.5904455,precomputed,8,0.8,1.0,1.0,42,pdb,5MEN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6trn,6.158193,-0.79420143,precomputed,8,0.8,1.0,1.0,42,pdb,6TRN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6o9c,1.556927,4.7613297,precomputed,8,0.8,1.0,1.0,42,pdb,6O9C,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vfv,-1.6592683,13.706246,precomputed,8,0.8,1.0,1.0,42,pdb,3VFV,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bh8,3.334376,4.9602475,precomputed,8,0.8,1.0,1.0,42,pdb,3BH8,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8yzz,12.6646805,6.2353354,precomputed,8,0.8,1.0,1.0,42,pdb,8YZZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1i1f,5.667673,6.0840564,precomputed,8,0.8,1.0,1.0,42,pdb,1I1F,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5wmn,0.74735755,9.120095,precomputed,8,0.8,1.0,1.0,42,pdb,5WMN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8tbv,7.461996,5.560046,precomputed,8,0.8,1.0,1.0,42,pdb,8TBV,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7wt5,8.847339,6.863008,precomputed,8,0.8,1.0,1.0,42,pdb,7WT5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3d39,3.511539,2.074454,precomputed,8,0.8,1.0,1.0,42,pdb,3D39,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6ss9,3.6122508,1.5530392,precomputed,8,0.8,1.0,1.0,42,pdb,6SS9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7l1c,1.8715521,5.007862,precomputed,8,0.8,1.0,1.0,42,pdb,7L1C,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8emg,-0.9403469,16.629087,precomputed,8,0.8,1.0,1.0,42,pdb,8EMG,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5v5m,4.449787,13.503771,precomputed,8,0.8,1.0,1.0,42,pdb,5V5M,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1s9w,8.518162,4.524236,precomputed,8,0.8,1.0,1.0,42,pdb,1S9W,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5iro,4.612055,5.1815233,precomputed,8,0.8,1.0,1.0,42,pdb,5IRO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6v2p,4.323456,13.222371,precomputed,8,0.8,1.0,1.0,42,pdb,6V2P,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7rrg,8.6280775,2.0996916,precomputed,8,0.8,1.0,1.0,42,pdb,7RRG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5n6b,3.6548202,1.3770086,precomputed,8,0.8,1.0,1.0,42,pdb,5N6B,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3ln5,0.7027901,12.176427,precomputed,8,0.8,1.0,1.0,42,pdb,3LN5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vma,4.653565,3.675548,precomputed,8,0.8,1.0,1.0,42,pdb,6VMA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7wzz,3.8344398,11.507324,precomputed,8,0.8,1.0,1.0,42,pdb,7WZZ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7rm4,3.8876994,3.3647263,precomputed,8,0.8,1.0,1.0,42,pdb,7RM4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2av1,7.6904573,5.647507,precomputed,8,0.8,1.0,1.0,42,pdb,2AV1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8yzr,12.674459,6.4597273,precomputed,8,0.8,1.0,1.0,42,pdb,8YZR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8eo8,1.29213,14.3156595,precomputed,8,0.8,1.0,1.0,42,pdb,8EO8,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3gsx,5.6361356,-2.1287189,precomputed,8,0.8,1.0,1.0,42,pdb,3GSX,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7dzn,0.8659283,8.942049,precomputed,8,0.8,1.0,1.0,42,pdb,7DZN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3l3k,7.1178317,12.737346,precomputed,8,0.8,1.0,1.0,42,pdb,3L3K,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4u6y,9.941777,-1.4944017,precomputed,8,0.8,1.0,1.0,42,pdb,4U6Y,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8es9,6.306207,1.5684634,precomputed,8,0.8,1.0,1.0,42,pdb,8ES9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5t6w,4.3075423,13.59678,precomputed,8,0.8,1.0,1.0,42,pdb,5T6W,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5c0b,4.815586,0.8246424,precomputed,8,0.8,1.0,1.0,42,pdb,5C0B,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6vb0,2.1722627,13.214384,precomputed,8,0.8,1.0,1.0,42,pdb,6VB0,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8e2z,-2.7255635,9.880953,precomputed,8,0.8,1.0,1.0,42,pdb,8E2Z,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2guo,4.7282777,4.1671886,precomputed,8,0.8,1.0,1.0,42,pdb,2GUO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4u1i,0.18480231,10.262176,precomputed,8,0.8,1.0,1.0,42,pdb,4U1I,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3uts,6.8472214,2.7577946,precomputed,8,0.8,1.0,1.0,42,pdb,3UTS,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9bl5,10.280926,7.7899504,precomputed,8,0.8,1.0,1.0,42,pdb,9BL5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5ieh,3.4107234,13.169652,precomputed,8,0.8,1.0,1.0,42,pdb,5IEH,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4uq3,6.3091335,3.112585,precomputed,8,0.8,1.0,1.0,42,pdb,4UQ3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5wxc,10.791031,5.8027005,precomputed,8,0.8,1.0,1.0,42,pdb,5WXC,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6jtn,2.118774,11.313819,precomputed,8,0.8,1.0,1.0,42,pdb,6JTN,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7srk,7.769257,6.93024,precomputed,8,0.8,1.0,1.0,42,pdb,7SRK,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+9sko,7.02493,0.56070435,precomputed,8,0.8,1.0,1.0,42,pdb,9SKO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mr9,5.50518,-2.048174,precomputed,8,0.8,1.0,1.0,42,pdb,3MR9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3hcv,6.4577603,16.828876,precomputed,8,0.8,1.0,1.0,42,pdb,3HCV,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1oga,6.266512,5.4838486,precomputed,8,0.8,1.0,1.0,42,pdb,1OGA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6d2t,4.6074905,14.339371,precomputed,8,0.8,1.0,1.0,42,pdb,6D2T,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6pbh,7.547099,1.0690049,precomputed,8,0.8,1.0,1.0,42,pdb,6PBH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8es8,5.917828,1.3287492,precomputed,8,0.8,1.0,1.0,42,pdb,8ES8,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1b0g,6.4858165,5.7789373,precomputed,8,0.8,1.0,1.0,42,pdb,1B0G,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7rzj,0.71487296,7.2775903,precomputed,8,0.8,1.0,1.0,42,pdb,7RZJ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6mtl,7.5846915,13.070496,precomputed,8,0.8,1.0,1.0,42,pdb,6MTL,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7wt3,9.0281515,6.554216,precomputed,8,0.8,1.0,1.0,42,pdb,7WT3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1b0r,6.565229,4.4855175,precomputed,8,0.8,1.0,1.0,42,pdb,1B0R,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4l29,7.12632,3.8971283,precomputed,8,0.8,1.0,1.0,42,pdb,4L29,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3gsq,5.8729424,-1.7861869,precomputed,8,0.8,1.0,1.0,42,pdb,3GSQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vb7,-0.51972526,12.469771,precomputed,8,0.8,1.0,1.0,42,pdb,6VB7,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2gtw,4.100744,5.7551026,precomputed,8,0.8,1.0,1.0,42,pdb,2GTW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9obf,7.6246166,2.0142384,precomputed,8,0.8,1.0,1.0,42,pdb,9OBF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mrc,9.441022,-1.6278293,precomputed,8,0.8,1.0,1.0,42,pdb,3MRC,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7n6d,1.103787,0.8654911,precomputed,8,0.8,1.0,1.0,42,pdb,7N6D,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3pwj,6.7571454,5.2481294,precomputed,8,0.8,1.0,1.0,42,pdb,3PWJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6ewc,5.035533,4.9070315,precomputed,8,0.8,1.0,1.0,42,pdb,6EWC,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3kpo,7.5099616,13.8614025,precomputed,8,0.8,1.0,1.0,42,pdb,3KPO,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7kgr,6.0837083,-1.5887803,precomputed,8,0.8,1.0,1.0,42,pdb,7KGR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4e5x,6.7443748,5.7555456,precomputed,8,0.8,1.0,1.0,42,pdb,4E5X,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1agf,-0.5243424,8.884184,precomputed,8,0.8,1.0,1.0,42,pdb,1AGF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1agd,-0.97712415,9.0612,precomputed,8,0.8,1.0,1.0,42,pdb,1AGD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4jrx,1.1520334,13.729959,precomputed,8,0.8,1.0,1.0,42,pdb,4JRX,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3i6g,3.280699,2.4379892,precomputed,8,0.8,1.0,1.0,42,pdb,3I6G,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3gsr,6.48218,-1.7024974,precomputed,8,0.8,1.0,1.0,42,pdb,3GSR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6bj2,5.105552,12.39705,precomputed,8,0.8,1.0,1.0,42,pdb,6BJ2,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3gsu,6.019832,-1.8799067,precomputed,8,0.8,1.0,1.0,42,pdb,3GSU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4i4w,2.9710817,2.2033043,precomputed,8,0.8,1.0,1.0,42,pdb,4I4W,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7ndu,14.688297,21.490482,precomputed,8,0.8,1.0,1.0,42,pdb,7NDU,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+5eu4,6.8322344,0.0014117651,precomputed,8,0.8,1.0,1.0,42,pdb,5EU4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rji,11.165951,5.795561,precomputed,8,0.8,1.0,1.0,42,pdb,8RJI,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5c09,5.010088,0.20125146,precomputed,8,0.8,1.0,1.0,42,pdb,5C09,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3mrj,6.8881526,-0.91065174,precomputed,8,0.8,1.0,1.0,42,pdb,3MRJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1ao7,3.857746,0.7726396,precomputed,8,0.8,1.0,1.0,42,pdb,1AO7,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7sih,-0.28033137,14.094857,precomputed,8,0.8,1.0,1.0,42,pdb,7SIH,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3hae,7.0363417,2.1004462,precomputed,8,0.8,1.0,1.0,42,pdb,3HAE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3h7b,6.704433,4.6902537,precomputed,8,0.8,1.0,1.0,42,pdb,3H7B,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9j4v,2.5991888,7.6371775,precomputed,8,0.8,1.0,1.0,42,pdb,9J4V,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6uzn,0.36784,12.762311,precomputed,8,0.8,1.0,1.0,42,pdb,6UZN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7q98,4.032467,2.0190501,precomputed,8,0.8,1.0,1.0,42,pdb,7Q98,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7jyw,10.464732,4.7229176,precomputed,8,0.8,1.0,1.0,42,pdb,7JYW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1tvh,5.1709623,3.830112,precomputed,8,0.8,1.0,1.0,42,pdb,1TVH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bze,13.528475,23.200165,precomputed,8,0.8,1.0,1.0,42,pdb,3BZE,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+7ejn,10.477649,6.2568994,precomputed,8,0.8,1.0,1.0,42,pdb,7EJN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6uzs,-0.24385275,11.824819,precomputed,8,0.8,1.0,1.0,42,pdb,6UZS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4ftv,3.6351175,1.3252674,precomputed,8,0.8,1.0,1.0,42,pdb,4FTV,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7u21,6.789074,2.9313998,precomputed,8,0.8,1.0,1.0,42,pdb,7U21,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vm7,6.2510095,-0.7438274,precomputed,8,0.8,1.0,1.0,42,pdb,6VM7,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6v3j,10.687236,11.662427,precomputed,8,0.8,1.0,1.0,42,pdb,6V3J,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1qr1,5.207571,5.8476987,precomputed,8,0.8,1.0,1.0,42,pdb,1QR1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6tdp,4.7632165,-1.7702172,precomputed,8,0.8,1.0,1.0,42,pdb,6TDP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7q9a,3.4729178,4.120626,precomputed,8,0.8,1.0,1.0,42,pdb,7Q9A,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5ddh,5.547067,-0.27087894,precomputed,8,0.8,1.0,1.0,42,pdb,5DDH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5nmf,6.2307253,-0.2580883,precomputed,8,0.8,1.0,1.0,42,pdb,5NMF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6z9v,2.2328212,0.8357265,precomputed,8,0.8,1.0,1.0,42,pdb,6Z9V,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+22ee,8.075299,0.2576078,precomputed,8,0.8,1.0,1.0,42,pdb,22EE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2av7,7.748236,5.798515,precomputed,8,0.8,1.0,1.0,42,pdb,2AV7,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vri,3.9676838,14.845141,precomputed,8,0.8,1.0,1.0,42,pdb,3VRI,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7nmg,12.077894,6.0249915,precomputed,8,0.8,1.0,1.0,42,pdb,7NMG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7n1f,3.4034216,2.5579953,precomputed,8,0.8,1.0,1.0,42,pdb,7N1F,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6pyv,7.8939223,16.106058,precomputed,8,0.8,1.0,1.0,42,pdb,6PYV,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8emk,-0.9983485,15.552702,precomputed,8,0.8,1.0,1.0,42,pdb,8EMK,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8ek5,11.706904,5.153599,precomputed,8,0.8,1.0,1.0,42,pdb,8EK5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7m8t,10.593942,3.7474124,precomputed,8,0.8,1.0,1.0,42,pdb,7M8T,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6d2r,4.3595476,13.982329,precomputed,8,0.8,1.0,1.0,42,pdb,6D2R,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2bnr,7.0303135,3.4162726,precomputed,8,0.8,1.0,1.0,42,pdb,2BNR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7q9b,4.193966,-0.50373334,precomputed,8,0.8,1.0,1.0,42,pdb,7Q9B,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3mrh,7.7191653,-1.4196113,precomputed,8,0.8,1.0,1.0,42,pdb,3MRH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vfs,-1.4903227,13.548756,precomputed,8,0.8,1.0,1.0,42,pdb,3VFS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9eiq,4.400106,13.108404,precomputed,8,0.8,1.0,1.0,42,pdb,9EIQ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vb6,-0.30858907,12.551174,precomputed,8,0.8,1.0,1.0,42,pdb,6VB6,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6ujo,5.909571,4.8167605,precomputed,8,0.8,1.0,1.0,42,pdb,6UJO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4u1l,1.6121364,7.683404,precomputed,8,0.8,1.0,1.0,42,pdb,4U1L,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2bck,10.023012,5.842218,precomputed,8,0.8,1.0,1.0,42,pdb,2BCK,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2rfx,4.6160445,13.737035,precomputed,8,0.8,1.0,1.0,42,pdb,2RFX,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3l3j,7.3746033,13.713805,precomputed,8,0.8,1.0,1.0,42,pdb,3L3J,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4gks,2.2470856,0.74090576,precomputed,8,0.8,1.0,1.0,42,pdb,4GKS,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5eot,8.010658,2.0369945,precomputed,8,0.8,1.0,1.0,42,pdb,5EOT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6iex,0.20935671,11.176925,precomputed,8,0.8,1.0,1.0,42,pdb,6IEX,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4qrs,-3.4117649,10.00795,precomputed,8,0.8,1.0,1.0,42,pdb,4QRS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3kyn,3.8048267,9.588914,precomputed,8,0.8,1.0,1.0,42,pdb,3KYN,HLA-G,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+6uj9,1.4433981,9.363937,precomputed,8,0.8,1.0,1.0,42,pdb,6UJ9,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7mj8,7.568289,0.08623653,precomputed,8,0.8,1.0,1.0,42,pdb,7MJ8,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7qpj,6.685004,4.5193896,precomputed,8,0.8,1.0,1.0,42,pdb,7QPJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1age,-0.9653623,8.850012,precomputed,8,0.8,1.0,1.0,42,pdb,1AGE,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4hwz,8.159269,0.9450755,precomputed,8,0.8,1.0,1.0,42,pdb,4HWZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5euo,6.118456,5.0741253,precomputed,8,0.8,1.0,1.0,42,pdb,5EUO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3kpp,6.552534,13.786363,precomputed,8,0.8,1.0,1.0,42,pdb,3KPP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3ft3,8.883522,-1.7523208,precomputed,8,0.8,1.0,1.0,42,pdb,3FT3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5n1y,6.11619,0.33001179,precomputed,8,0.8,1.0,1.0,42,pdb,5N1Y,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7n2o,7.2399397,18.71947,precomputed,8,0.8,1.0,1.0,42,pdb,7N2O,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4mji,5.4632874,12.313392,precomputed,8,0.8,1.0,1.0,42,pdb,4MJI,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1i7u,5.7572255,5.8059664,precomputed,8,0.8,1.0,1.0,42,pdb,1I7U,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8sbl,11.628828,6.035932,precomputed,8,0.8,1.0,1.0,42,pdb,8SBL,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7sif,-0.51523453,14.721154,precomputed,8,0.8,1.0,1.0,42,pdb,7SIF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5mep,6.058653,0.9071501,precomputed,8,0.8,1.0,1.0,42,pdb,5MEP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bhb,9.803207,-0.06465759,precomputed,8,0.8,1.0,1.0,42,pdb,3BHB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rnh,2.3094356,13.699013,precomputed,8,0.8,1.0,1.0,42,pdb,8RNH,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6ss7,4.103428,1.4306027,precomputed,8,0.8,1.0,1.0,42,pdb,6SS7,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6p2f,-0.48459682,10.398935,precomputed,8,0.8,1.0,1.0,42,pdb,6P2F,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5fa3,8.757347,1.5479157,precomputed,8,0.8,1.0,1.0,42,pdb,5FA3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8udr,5.6745834,-0.1721297,precomputed,8,0.8,1.0,1.0,42,pdb,8UDR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3lko,-0.3781818,15.599761,precomputed,8,0.8,1.0,1.0,42,pdb,3LKO,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6uzp,0.14254004,12.005439,precomputed,8,0.8,1.0,1.0,42,pdb,6UZP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3hg1,3.2891433,3.6374657,precomputed,8,0.8,1.0,1.0,42,pdb,3HG1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7sr5,4.5188274,3.9589057,precomputed,8,0.8,1.0,1.0,42,pdb,7SR5,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+3rl1,9.516392,3.1740794,precomputed,8,0.8,1.0,1.0,42,pdb,3RL1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2hjl,3.213643,15.367074,precomputed,8,0.8,1.0,1.0,42,pdb,2HJL,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9yzh,7.7128787,2.4649274,precomputed,8,0.8,1.0,1.0,42,pdb,9YZH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mrg,5.3167944,-1.3141242,precomputed,8,0.8,1.0,1.0,42,pdb,3MRG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4nny,6.8027167,0.63699174,precomputed,8,0.8,1.0,1.0,42,pdb,4NNY,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vxm,9.37093,4.6836424,precomputed,8,0.8,1.0,1.0,42,pdb,3VXM,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6xqa,11.559188,5.7208657,precomputed,8,0.8,1.0,1.0,42,pdb,6XQA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1i7r,6.248299,5.28989,precomputed,8,0.8,1.0,1.0,42,pdb,1I7R,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mv9,0.84851575,16.797895,precomputed,8,0.8,1.0,1.0,42,pdb,3MV9,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5c0e,9.11413,-0.07234902,precomputed,8,0.8,1.0,1.0,42,pdb,5C0E,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7su9,1.7930301,11.334066,precomputed,8,0.8,1.0,1.0,42,pdb,7SU9,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5w67,2.9408545,12.123514,precomputed,8,0.8,1.0,1.0,42,pdb,5W67,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mrp,4.670184,-1.2218649,precomputed,8,0.8,1.0,1.0,42,pdb,3MRP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5c0f,9.396735,-0.20542234,precomputed,8,0.8,1.0,1.0,42,pdb,5C0F,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vb5,-0.22750701,12.368453,precomputed,8,0.8,1.0,1.0,42,pdb,6VB5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4jry,1.6579556,13.79925,precomputed,8,0.8,1.0,1.0,42,pdb,4JRY,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5c0d,4.2465067,-1.2521844,precomputed,8,0.8,1.0,1.0,42,pdb,5C0D,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6ulk,2.3531446,10.318748,precomputed,8,0.8,1.0,1.0,42,pdb,6ULK,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7mj6,7.3116226,-0.037273508,precomputed,8,0.8,1.0,1.0,42,pdb,7MJ6,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bh9,3.316178,4.828012,precomputed,8,0.8,1.0,1.0,42,pdb,3BH9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1jf1,3.500951,2.072381,precomputed,8,0.8,1.0,1.0,42,pdb,1JF1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3lkn,-1.1788336,16.410896,precomputed,8,0.8,1.0,1.0,42,pdb,3LKN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6uzo,-1.0331305,11.868074,precomputed,8,0.8,1.0,1.0,42,pdb,6UZO,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8tub,1.2300258,8.4293785,precomputed,8,0.8,1.0,1.0,42,pdb,8TUB,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4u6x,9.671803,-1.6417805,precomputed,8,0.8,1.0,1.0,42,pdb,4U6X,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mro,4.856888,-1.1772044,precomputed,8,0.8,1.0,1.0,42,pdb,3MRO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7q99,3.4981878,3.8603566,precomputed,8,0.8,1.0,1.0,42,pdb,7Q99,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8emj,-0.6424857,16.645008,precomputed,8,0.8,1.0,1.0,42,pdb,8EMJ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5wmo,1.2688844,10.025116,precomputed,8,0.8,1.0,1.0,42,pdb,5WMO,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3gsv,5.9442863,-1.8683335,precomputed,8,0.8,1.0,1.0,42,pdb,3GSV,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5tez,1.5489184,0.3328466,precomputed,8,0.8,1.0,1.0,42,pdb,5TEZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2bnq,6.578409,3.7292888,precomputed,8,0.8,1.0,1.0,42,pdb,2BNQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2hn7,8.727273,1.0245997,precomputed,8,0.8,1.0,1.0,42,pdb,2HN7,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7n2s,8.012567,18.552187,precomputed,8,0.8,1.0,1.0,42,pdb,7N2S,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3oxs,6.631865,-0.22112826,precomputed,8,0.8,1.0,1.0,42,pdb,3OXS,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3qfd,4.1654286,5.6493936,precomputed,8,0.8,1.0,1.0,42,pdb,3QFD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3utq,4.335052,-1.3494278,precomputed,8,0.8,1.0,1.0,42,pdb,3UTQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3o3a,6.742004,2.8848934,precomputed,8,0.8,1.0,1.0,42,pdb,3O3A,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6amu,4.3094172,4.330332,precomputed,8,0.8,1.0,1.0,42,pdb,6AMU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6vmx,1.3702382,9.539537,precomputed,8,0.8,1.0,1.0,42,pdb,6VMX,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6ewo,5.515822,4.808789,precomputed,8,0.8,1.0,1.0,42,pdb,6EWO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6bxq,4.6496453,13.1304655,precomputed,8,0.8,1.0,1.0,42,pdb,6BXQ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4mj6,10.7085,3.4092572,precomputed,8,0.8,1.0,1.0,42,pdb,4MJ6,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1n2r,7.2236147,12.573917,precomputed,8,0.8,1.0,1.0,42,pdb,1N2R,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3fqn,7.8706317,0.73039895,precomputed,8,0.8,1.0,1.0,42,pdb,3FQN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vfr,-1.8203775,13.787524,precomputed,8,0.8,1.0,1.0,42,pdb,3VFR,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4wj5,5.604111,6.1506057,precomputed,8,0.8,1.0,1.0,42,pdb,4WJ5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6opd,6.965881,3.6747458,precomputed,8,0.8,1.0,1.0,42,pdb,6OPD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9nw7,14.735269,22.082586,precomputed,8,0.8,1.0,1.0,42,pdb,9NW7,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+7x1c,4.3912964,11.465969,precomputed,8,0.8,1.0,1.0,42,pdb,7X1C,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4i48,9.106475,5.4670687,precomputed,8,0.8,1.0,1.0,42,pdb,4I48,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5ind,4.849174,11.366348,precomputed,8,0.8,1.0,1.0,42,pdb,5IND,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3kla,7.5651283,4.244245,precomputed,8,0.8,1.0,1.0,42,pdb,3KLA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9ejd,1.1825165,9.651784,precomputed,8,0.8,1.0,1.0,42,pdb,9EJD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5vwj,4.354428,11.116649,precomputed,8,0.8,1.0,1.0,42,pdb,5VWJ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bwa,-0.6002954,13.697495,precomputed,8,0.8,1.0,1.0,42,pdb,3BWA,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7sr0,5.1075697,3.2601352,precomputed,8,0.8,1.0,1.0,42,pdb,7SR0,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+6o9b,1.5774765,4.98204,precomputed,8,0.8,1.0,1.0,42,pdb,6O9B,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mrk,9.016662,-1.553747,precomputed,8,0.8,1.0,1.0,42,pdb,3MRK,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8z06,12.390182,6.104374,precomputed,8,0.8,1.0,1.0,42,pdb,8Z06,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8esh,9.038962,2.125062,precomputed,8,0.8,1.0,1.0,42,pdb,8ESH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4qrp,-3.4883947,9.636671,precomputed,8,0.8,1.0,1.0,42,pdb,4QRP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5inc,4.6608973,11.411856,precomputed,8,0.8,1.0,1.0,42,pdb,5INC,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9bl2,10.658328,11.626594,precomputed,8,0.8,1.0,1.0,42,pdb,9BL2,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3lkp,-0.8411661,16.185411,precomputed,8,0.8,1.0,1.0,42,pdb,3LKP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vxo,8.062071,7.4928327,precomputed,8,0.8,1.0,1.0,42,pdb,3VXO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5eu6,7.232588,2.8665805,precomputed,8,0.8,1.0,1.0,42,pdb,5EU6,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8rne,14.856882,21.786133,precomputed,8,0.8,1.0,1.0,42,pdb,8RNE,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+4pr5,-0.81182224,14.286209,precomputed,8,0.8,1.0,1.0,42,pdb,4PR5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6ss8,4.0475354,1.2545521,precomputed,8,0.8,1.0,1.0,42,pdb,6SS8,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3qzw,8.412431,7.4101024,precomputed,8,0.8,1.0,1.0,42,pdb,3QZW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9dl1,5.7575846,6.2001786,precomputed,8,0.8,1.0,1.0,42,pdb,9DL1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1x7q,8.203591,0.88511723,precomputed,8,0.8,1.0,1.0,42,pdb,1X7Q,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mre,9.555693,-1.1262891,precomputed,8,0.8,1.0,1.0,42,pdb,3MRE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6viu,-1.0281434,11.961073,precomputed,8,0.8,1.0,1.0,42,pdb,6VIU,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8xke,9.405012,3.5254881,precomputed,8,0.8,1.0,1.0,42,pdb,8XKE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7sr3,5.581011,2.1649857,precomputed,8,0.8,1.0,1.0,42,pdb,7SR3,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+1mi5,-4.1370406,9.824881,precomputed,8,0.8,1.0,1.0,42,pdb,1MI5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6vb4,-1.2813566,12.147563,precomputed,8,0.8,1.0,1.0,42,pdb,6VB4,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vqz,6.7574353,18.11344,precomputed,8,0.8,1.0,1.0,42,pdb,6VQZ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9sl0,6.537361,0.44647673,precomputed,8,0.8,1.0,1.0,42,pdb,9SL0,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1k5n,6.3693843,16.054182,precomputed,8,0.8,1.0,1.0,42,pdb,1K5N,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3kyo,3.4489744,10.332775,precomputed,8,0.8,1.0,1.0,42,pdb,3KYO,HLA-G,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+8v8q,2.657216,7.431945,precomputed,8,0.8,1.0,1.0,42,pdb,8V8Q,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2axg,0.12079761,14.776656,precomputed,8,0.8,1.0,1.0,42,pdb,2AXG,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7mle,0.9711921,4.5872655,precomputed,8,0.8,1.0,1.0,42,pdb,7MLE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8emf,-0.9945982,16.360756,precomputed,8,0.8,1.0,1.0,42,pdb,8EMF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7n2p,7.697016,18.952032,precomputed,8,0.8,1.0,1.0,42,pdb,7N2P,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6at5,0.7144447,10.076218,precomputed,8,0.8,1.0,1.0,42,pdb,6AT5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4jfd,3.6519837,3.7674232,precomputed,8,0.8,1.0,1.0,42,pdb,4JFD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3to2,3.551667,2.7410657,precomputed,8,0.8,1.0,1.0,42,pdb,3TO2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7yg3,4.253581,10.750738,precomputed,8,0.8,1.0,1.0,42,pdb,7YG3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3fqr,7.898088,0.25487322,precomputed,8,0.8,1.0,1.0,42,pdb,3FQR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3myj,5.777545,5.107099,precomputed,8,0.8,1.0,1.0,42,pdb,3MYJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9min,6.9556303,4.9607515,precomputed,8,0.8,1.0,1.0,42,pdb,9MIN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3kpq,7.066365,12.730442,precomputed,8,0.8,1.0,1.0,42,pdb,3KPQ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mrd,4.952417,-1.7607456,precomputed,8,0.8,1.0,1.0,42,pdb,3MRD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6o51,9.557001,0.41331446,precomputed,8,0.8,1.0,1.0,42,pdb,6O51,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6mt5,4.509177,12.440512,precomputed,8,0.8,1.0,1.0,42,pdb,6MT5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6eqa,3.0918827,4.0699024,precomputed,8,0.8,1.0,1.0,42,pdb,6EQA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3mrf,9.211851,-0.9774565,precomputed,8,0.8,1.0,1.0,42,pdb,3MRF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7n1a,1.2535454,0.91004753,precomputed,8,0.8,1.0,1.0,42,pdb,7N1A,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3am8,14.361179,22.422585,precomputed,8,0.8,1.0,1.0,42,pdb,3AM8,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+3dx6,6.9108224,13.39878,precomputed,8,0.8,1.0,1.0,42,pdb,3DX6,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mrr,5.308231,-0.97016084,precomputed,8,0.8,1.0,1.0,42,pdb,3MRR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5eu5,8.463342,-0.2961492,precomputed,8,0.8,1.0,1.0,42,pdb,5EU5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vxr,11.81425,5.3311987,precomputed,8,0.8,1.0,1.0,42,pdb,3VXR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6bj3,1.48677,13.863684,precomputed,8,0.8,1.0,1.0,42,pdb,6BJ3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5meo,3.0692225,2.643293,precomputed,8,0.8,1.0,1.0,42,pdb,5MEO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vqy,6.6870475,18.31679,precomputed,8,0.8,1.0,1.0,42,pdb,6VQY,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7xf3,0.18016203,12.22881,precomputed,8,0.8,1.0,1.0,42,pdb,7XF3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5nmh,6.9199333,0.2359022,precomputed,8,0.8,1.0,1.0,42,pdb,5NMH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5vud,4.455142,14.021996,precomputed,8,0.8,1.0,1.0,42,pdb,5VUD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9mda,-0.9570043,9.956928,precomputed,8,0.8,1.0,1.0,42,pdb,9MDA,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2v2x,6.4245276,4.8524327,precomputed,8,0.8,1.0,1.0,42,pdb,2V2X,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5t6z,10.555447,11.650584,precomputed,8,0.8,1.0,1.0,42,pdb,5T6Z,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7sr4,5.271858,2.3378744,precomputed,8,0.8,1.0,1.0,42,pdb,7SR4,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+3qdm,4.9668345,3.5490851,precomputed,8,0.8,1.0,1.0,42,pdb,3QDM,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5eo0,0.8920747,10.02191,precomputed,8,0.8,1.0,1.0,42,pdb,5EO0,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1agb,-1.1269786,8.977718,precomputed,8,0.8,1.0,1.0,42,pdb,1AGB,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9nfb,5.134112,5.5358357,precomputed,8,0.8,1.0,1.0,42,pdb,9NFB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9dy8,2.644879,13.525065,precomputed,8,0.8,1.0,1.0,42,pdb,9DY8,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6jto,2.6853626,11.124908,precomputed,8,0.8,1.0,1.0,42,pdb,6JTO,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2fz3,-0.9779583,15.049725,precomputed,8,0.8,1.0,1.0,42,pdb,2FZ3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6tdo,4.1788816,-1.7368344,precomputed,8,0.8,1.0,1.0,42,pdb,6TDO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3giv,6.858534,3.9743955,precomputed,8,0.8,1.0,1.0,42,pdb,3GIV,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4wu7,8.266451,6.886778,precomputed,8,0.8,1.0,1.0,42,pdb,4WU7,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6rpb,7.416566,2.9332263,precomputed,8,0.8,1.0,1.0,42,pdb,6RPB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6avg,1.3792276,7.8391213,precomputed,8,0.8,1.0,1.0,42,pdb,6AVG,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1agc,-1.117246,8.959597,precomputed,8,0.8,1.0,1.0,42,pdb,1AGC,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3spv,-3.11235,9.672728,precomputed,8,0.8,1.0,1.0,42,pdb,3SPV,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4l3e,3.2104409,0.87536776,precomputed,8,0.8,1.0,1.0,42,pdb,4L3E,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4u1m,0.4570187,9.63148,precomputed,8,0.8,1.0,1.0,42,pdb,4U1M,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3d25,5.5275,-1.695352,precomputed,8,0.8,1.0,1.0,42,pdb,3D25,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mrn,3.9814343,0.10736447,precomputed,8,0.8,1.0,1.0,42,pdb,3MRN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8z07,10.864753,6.397101,precomputed,8,0.8,1.0,1.0,42,pdb,8Z07,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6v2q,4.380821,13.22261,precomputed,8,0.8,1.0,1.0,42,pdb,6V2Q,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5c0a,5.298176,0.679753,precomputed,8,0.8,1.0,1.0,42,pdb,5C0A,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1a1o,2.4699495,14.725229,precomputed,8,0.8,1.0,1.0,42,pdb,1A1O,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rjh,10.923787,5.7192965,precomputed,8,0.8,1.0,1.0,42,pdb,8RJH,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9ytd,7.001331,2.8285937,precomputed,8,0.8,1.0,1.0,42,pdb,9YTD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7ow3,10.866202,2.1642423,precomputed,8,0.8,1.0,1.0,42,pdb,7OW3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4hx1,10.410224,3.7174006,precomputed,8,0.8,1.0,1.0,42,pdb,4HX1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7tlt,7.2157316,6.3597546,precomputed,8,0.8,1.0,1.0,42,pdb,7TLT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vmc,4.832909,3.494918,precomputed,8,0.8,1.0,1.0,42,pdb,6VMC,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4nt6,2.4835458,9.71152,precomputed,8,0.8,1.0,1.0,42,pdb,4NT6,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4pri,0.7785149,17.04533,precomputed,8,0.8,1.0,1.0,42,pdb,4PRI,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3vfw,-2.1321592,13.329448,precomputed,8,0.8,1.0,1.0,42,pdb,3VFW,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5c0j,8.992897,-0.22187506,precomputed,8,0.8,1.0,1.0,42,pdb,5C0J,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1duz,8.009069,5.376814,precomputed,8,0.8,1.0,1.0,42,pdb,1DUZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7tuc,6.41008,12.782522,precomputed,8,0.8,1.0,1.0,42,pdb,7TUC,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8v51,-0.4507583,16.134619,precomputed,8,0.8,1.0,1.0,42,pdb,8V51,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2gt9,4.197231,5.6755657,precomputed,8,0.8,1.0,1.0,42,pdb,2GT9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mri,9.290081,-1.8991437,precomputed,8,0.8,1.0,1.0,42,pdb,3MRI,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1tvb,5.4355288,3.6652157,precomputed,8,0.8,1.0,1.0,42,pdb,1TVB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5bs0,9.127107,1.6255759,precomputed,8,0.8,1.0,1.0,42,pdb,5BS0,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2git,7.501348,5.5925727,precomputed,8,0.8,1.0,1.0,42,pdb,2GIT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3i6k,5.9793234,5.341963,precomputed,8,0.8,1.0,1.0,42,pdb,3I6K,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5f7d,8.019366,1.5259392,precomputed,8,0.8,1.0,1.0,42,pdb,5F7D,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2h6p,-0.55008614,15.64184,precomputed,8,0.8,1.0,1.0,42,pdb,2H6P,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5yxn,4.341029,3.473604,precomputed,8,0.8,1.0,1.0,42,pdb,5YXN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7m8s,5.7068915,3.21935,precomputed,8,0.8,1.0,1.0,42,pdb,7M8S,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7m8u,-0.80613637,16.155815,precomputed,8,0.8,1.0,1.0,42,pdb,7M8U,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6uln,1.7913324,12.606253,precomputed,8,0.8,1.0,1.0,42,pdb,6ULN,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8frt,5.014698,-0.46363866,precomputed,8,0.8,1.0,1.0,42,pdb,8FRT,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+4prp,0.6823048,16.982286,precomputed,8,0.8,1.0,1.0,42,pdb,4PRP,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6pyj,7.874468,16.443253,precomputed,8,0.8,1.0,1.0,42,pdb,6PYJ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3dx7,6.853859,12.485539,precomputed,8,0.8,1.0,1.0,42,pdb,3DX7,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5knm,5.3896785,4.337693,precomputed,8,0.8,1.0,1.0,42,pdb,5KNM,HLA-F,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+1im3,6.006376,3.455699,precomputed,8,0.8,1.0,1.0,42,pdb,1IM3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3sko,-3.7972386,9.750991,precomputed,8,0.8,1.0,1.0,42,pdb,3SKO,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vft,-1.6061746,13.353524,precomputed,8,0.8,1.0,1.0,42,pdb,3VFT,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7r7v,4.006459,10.844202,precomputed,8,0.8,1.0,1.0,42,pdb,7R7V,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9j4u,7.1412177,3.2737873,precomputed,8,0.8,1.0,1.0,42,pdb,9J4U,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3x14,0.63838154,9.366354,precomputed,8,0.8,1.0,1.0,42,pdb,3X14,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2ypl,3.0406032,15.520237,precomputed,8,0.8,1.0,1.0,42,pdb,2YPL,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8fja,5.7422104,1.1535325,precomputed,8,0.8,1.0,1.0,42,pdb,8FJA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5nqk,3.8435044,3.1531568,precomputed,8,0.8,1.0,1.0,42,pdb,5NQK,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2gtz,4.1028233,5.4489646,precomputed,8,0.8,1.0,1.0,42,pdb,2GTZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5u98,3.7684548,15.149719,precomputed,8,0.8,1.0,1.0,42,pdb,5U98,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8emi,-1.0729854,16.219315,precomputed,8,0.8,1.0,1.0,42,pdb,8EMI,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9bla,10.528808,7.796161,precomputed,8,0.8,1.0,1.0,42,pdb,9BLA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6ptb,6.0405946,5.1910706,precomputed,8,0.8,1.0,1.0,42,pdb,6PTB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1xh3,-0.36296597,14.2537775,precomputed,8,0.8,1.0,1.0,42,pdb,1XH3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6d7g,5.784588,2.6854184,precomputed,8,0.8,1.0,1.0,42,pdb,6D7G,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-BL
+5wwi,10.434029,6.5543265,precomputed,8,0.8,1.0,1.0,42,pdb,5WWI,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3l3g,6.895404,13.408829,precomputed,8,0.8,1.0,1.0,42,pdb,3L3G,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bw9,-0.20363913,14.102085,precomputed,8,0.8,1.0,1.0,42,pdb,3BW9,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7x00,3.9912055,11.68197,precomputed,8,0.8,1.0,1.0,42,pdb,7X00,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7sig,-0.3244759,14.896668,precomputed,8,0.8,1.0,1.0,42,pdb,7SIG,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7ur1,6.077704,-2.0200307,precomputed,8,0.8,1.0,1.0,42,pdb,7UR1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bgm,3.4435856,4.8915324,precomputed,8,0.8,1.0,1.0,42,pdb,3BGM,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5c0g,6.5151668,-0.13340342,precomputed,8,0.8,1.0,1.0,42,pdb,5C0G,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4no2,3.2286787,4.904778,precomputed,8,0.8,1.0,1.0,42,pdb,4NO2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1sys,7.7291403,13.532215,precomputed,8,0.8,1.0,1.0,42,pdb,1SYS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2v2w,7.102245,4.482297,precomputed,8,0.8,1.0,1.0,42,pdb,2V2W,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3w39,5.57555,12.067999,precomputed,8,0.8,1.0,1.0,42,pdb,3W39,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5c0i,5.9210296,0.05098186,precomputed,8,0.8,1.0,1.0,42,pdb,5C0I,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5wxd,10.415646,6.370835,precomputed,8,0.8,1.0,1.0,42,pdb,5WXD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2x4p,8.577366,3.9153812,precomputed,8,0.8,1.0,1.0,42,pdb,2X4P,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4nnx,6.479977,0.5194307,precomputed,8,0.8,1.0,1.0,42,pdb,4NNX,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8yzw,12.574553,6.540314,precomputed,8,0.8,1.0,1.0,42,pdb,8YZW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9uv8,9.084995,1.1770431,precomputed,8,0.8,1.0,1.0,42,pdb,9UV8,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5nht,3.64418,2.5337164,precomputed,8,0.8,1.0,1.0,42,pdb,5NHT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9gv6,6.9554877,4.3022447,precomputed,8,0.8,1.0,1.0,42,pdb,9GV6,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7l1b,1.8778125,4.9080515,precomputed,8,0.8,1.0,1.0,42,pdb,7L1B,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9o55,10.969518,3.000458,precomputed,8,0.8,1.0,1.0,42,pdb,9O55,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4u1n,0.5590698,9.675893,precomputed,8,0.8,1.0,1.0,42,pdb,4U1N,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4prh,0.76393056,16.883001,precomputed,8,0.8,1.0,1.0,42,pdb,4PRH,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7n2n,8.231144,18.690483,precomputed,8,0.8,1.0,1.0,42,pdb,7N2N,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7dzm,0.72885245,8.525291,precomputed,8,0.8,1.0,1.0,42,pdb,7DZM,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1eez,7.0274534,4.917678,precomputed,8,0.8,1.0,1.0,42,pdb,1EEZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7s8r,2.1672308,4.7602773,precomputed,8,0.8,1.0,1.0,42,pdb,7S8R,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6o53,8.505821,1.2447406,precomputed,8,0.8,1.0,1.0,42,pdb,6O53,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bvn,3.384236,13.0751505,precomputed,8,0.8,1.0,1.0,42,pdb,3BVN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3w0w,7.307914,6.3876476,precomputed,8,0.8,1.0,1.0,42,pdb,3W0W,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4prb,-0.71905303,14.177607,precomputed,8,0.8,1.0,1.0,42,pdb,4PRB,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2fyy,-0.6373368,15.148305,precomputed,8,0.8,1.0,1.0,42,pdb,2FYY,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6tds,6.530364,2.5781193,precomputed,8,0.8,1.0,1.0,42,pdb,6TDS,HLA-A,HLA Class Ia,Classical MHC-I,MHC-unbound
+1syv,6.7698135,12.452595,precomputed,8,0.8,1.0,1.0,42,pdb,1SYV,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9o5s,4.9644976,4.894548,precomputed,8,0.8,1.0,1.0,42,pdb,9O5S,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5vwh,3.7859406,11.238736,precomputed,8,0.8,1.0,1.0,42,pdb,5VWH,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9ek4,1.6702852,8.301232,precomputed,8,0.8,1.0,1.0,42,pdb,9EK4,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1a1m,4.5317693,10.904256,precomputed,8,0.8,1.0,1.0,42,pdb,1A1M,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7uc5,1.9004264,4.383307,precomputed,8,0.8,1.0,1.0,42,pdb,7UC5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3kpl,7.379503,13.607972,precomputed,8,0.8,1.0,1.0,42,pdb,3KPL,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5yxu,4.9463778,2.8782957,precomputed,8,0.8,1.0,1.0,42,pdb,5YXU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6ulr,1.7944313,11.631845,precomputed,8,0.8,1.0,1.0,42,pdb,6ULR,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3d18,7.4469295,16.282627,precomputed,8,0.8,1.0,1.0,42,pdb,3D18,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6ujq,5.8176436,4.68466,precomputed,8,0.8,1.0,1.0,42,pdb,6UJQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vrm,4.806097,2.7748253,precomputed,8,0.8,1.0,1.0,42,pdb,6VRM,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4u1j,0.7200748,9.554689,precomputed,8,0.8,1.0,1.0,42,pdb,4U1J,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8vcl,1.7703142,4.5597973,precomputed,8,0.8,1.0,1.0,42,pdb,8VCL,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1jht,3.563297,1.7185163,precomputed,8,0.8,1.0,1.0,42,pdb,1JHT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2vlj,2.8319337,2.2296665,precomputed,8,0.8,1.0,1.0,42,pdb,2VLJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8cx4,7.9233336,18.80987,precomputed,8,0.8,1.0,1.0,42,pdb,8CX4,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2x4q,8.24123,4.1645427,precomputed,8,0.8,1.0,1.0,42,pdb,2X4Q,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8gom,6.040961,4.5159564,precomputed,8,0.8,1.0,1.0,42,pdb,8GOM,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4no3,3.425176,4.9721217,precomputed,8,0.8,1.0,1.0,42,pdb,4NO3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3cdg,13.050068,23.240387,precomputed,8,0.8,1.0,1.0,42,pdb,3CDG,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+4uq2,10.077474,2.2916212,precomputed,8,0.8,1.0,1.0,42,pdb,4UQ2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7tue,5.985006,12.535771,precomputed,8,0.8,1.0,1.0,42,pdb,7TUE,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-B
+1zhk,-0.05997608,15.43133,precomputed,8,0.8,1.0,1.0,42,pdb,1ZHK,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6d29,4.0269837,13.511552,precomputed,8,0.8,1.0,1.0,42,pdb,6D29,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7l1d,8.617086,2.8747015,precomputed,8,0.8,1.0,1.0,42,pdb,7L1D,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9nmw,1.5100685,0.49681696,precomputed,8,0.8,1.0,1.0,42,pdb,9NMW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4u1s,0.3213631,10.199823,precomputed,8,0.8,1.0,1.0,42,pdb,4U1S,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3lkq,-0.6891953,16.501957,precomputed,8,0.8,1.0,1.0,42,pdb,3LKQ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9gv7,4.4964476,2.9849772,precomputed,8,0.8,1.0,1.0,42,pdb,9GV7,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7stg,5.411078,2.5122797,precomputed,8,0.8,1.0,1.0,42,pdb,7STG,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-unbound
+1xr8,0.5445356,12.250294,precomputed,8,0.8,1.0,1.0,42,pdb,1XR8,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6rpa,5.545731,-1.8776433,precomputed,8,0.8,1.0,1.0,42,pdb,6RPA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7re8,6.863177,4.537867,precomputed,8,0.8,1.0,1.0,42,pdb,7RE8,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vr5,3.7408752,3.9634924,precomputed,8,0.8,1.0,1.0,42,pdb,6VR5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5nme,5.6231327,1.527415,precomputed,8,0.8,1.0,1.0,42,pdb,5NME,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3kpm,6.985352,13.744627,precomputed,8,0.8,1.0,1.0,42,pdb,3KPM,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vq2,7.6705375,17.919476,precomputed,8,0.8,1.0,1.0,42,pdb,6VQ2,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7pdw,7.5166855,3.3301635,precomputed,8,0.8,1.0,1.0,42,pdb,7PDW,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7r7w,4.345476,11.072157,precomputed,8,0.8,1.0,1.0,42,pdb,7R7W,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6dkp,3.189955,0.30529168,precomputed,8,0.8,1.0,1.0,42,pdb,6DKP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7k81,10.406318,8.086492,precomputed,8,0.8,1.0,1.0,42,pdb,7K81,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9asf,1.741466,4.8410187,precomputed,8,0.8,1.0,1.0,42,pdb,9ASF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6at9,9.785313,2.6233072,precomputed,8,0.8,1.0,1.0,42,pdb,6AT9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2x4t,8.682155,3.5018353,precomputed,8,0.8,1.0,1.0,42,pdb,2X4T,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5iek,3.526183,12.886706,precomputed,8,0.8,1.0,1.0,42,pdb,5IEK,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3ffc,-4.11899,10.186442,precomputed,8,0.8,1.0,1.0,42,pdb,3FFC,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5gsd,11.099913,3.4424942,precomputed,8,0.8,1.0,1.0,42,pdb,5GSD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4mj5,9.496903,3.7625349,precomputed,8,0.8,1.0,1.0,42,pdb,4MJ5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+28il,10.780595,6.422154,precomputed,8,0.8,1.0,1.0,42,pdb,28IL,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6v2o,4.1901636,14.072071,precomputed,8,0.8,1.0,1.0,42,pdb,6V2O,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9nw8,14.849525,21.944536,precomputed,8,0.8,1.0,1.0,42,pdb,9NW8,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+6pz5,7.8880506,16.157705,precomputed,8,0.8,1.0,1.0,42,pdb,6PZ5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4pre,-1.1994243,13.940385,precomputed,8,0.8,1.0,1.0,42,pdb,4PRE,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4jfq,5.390806,3.91387,precomputed,8,0.8,1.0,1.0,42,pdb,4JFQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3dtx,5.920815,18.1856,precomputed,8,0.8,1.0,1.0,42,pdb,3DTX,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5meq,7.07986,-1.6286235,precomputed,8,0.8,1.0,1.0,42,pdb,5MEQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6k60,3.7009804,9.928133,precomputed,8,0.8,1.0,1.0,42,pdb,6K60,HLA-G,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+5t70,10.20572,11.800224,precomputed,8,0.8,1.0,1.0,42,pdb,5T70,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6bj8,1.6811081,13.947497,precomputed,8,0.8,1.0,1.0,42,pdb,6BJ8,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8rni,1.0975283,4.732741,precomputed,8,0.8,1.0,1.0,42,pdb,8RNI,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8ref,4.078387,10.6522255,precomputed,8,0.8,1.0,1.0,42,pdb,8REF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3dx8,7.647765,12.8624525,precomputed,8,0.8,1.0,1.0,42,pdb,3DX8,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1zsd,0.09816325,14.358323,precomputed,8,0.8,1.0,1.0,42,pdb,1ZSD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9cx0,2.1941943,4.640225,precomputed,8,0.8,1.0,1.0,42,pdb,9CX0,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vqo,4.0726795,3.1302202,precomputed,8,0.8,1.0,1.0,42,pdb,6VQO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6tmo,3.6032753,3.3129191,precomputed,8,0.8,1.0,1.0,42,pdb,6TMO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3mv7,0.7039115,16.880648,precomputed,8,0.8,1.0,1.0,42,pdb,3MV7,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3lks,-0.94851017,16.79317,precomputed,8,0.8,1.0,1.0,42,pdb,3LKS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7r80,4.78613,11.162232,precomputed,8,0.8,1.0,1.0,42,pdb,7R80,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9nmy,1.781514,0.17006257,precomputed,8,0.8,1.0,1.0,42,pdb,9NMY,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4lnr,-0.60953295,14.494969,precomputed,8,0.8,1.0,1.0,42,pdb,4LNR,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3mrl,6.0155115,-1.4641273,precomputed,8,0.8,1.0,1.0,42,pdb,3MRL,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7r7y,4.549242,14.474635,precomputed,8,0.8,1.0,1.0,42,pdb,7R7Y,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7k80,10.249975,7.6643496,precomputed,8,0.8,1.0,1.0,42,pdb,7K80,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6uzm,-0.6558002,11.903749,precomputed,8,0.8,1.0,1.0,42,pdb,6UZM,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4jfo,5.0379925,5.96658,precomputed,8,0.8,1.0,1.0,42,pdb,4JFO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4qrq,-3.229364,9.927374,precomputed,8,0.8,1.0,1.0,42,pdb,4QRQ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8f7m,4.1907477,13.334027,precomputed,8,0.8,1.0,1.0,42,pdb,8F7M,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1zhl,-1.4423198,13.531933,precomputed,8,0.8,1.0,1.0,42,pdb,1ZHL,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1jgd,6.145223,17.535748,precomputed,8,0.8,1.0,1.0,42,pdb,1JGD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9cwy,1.3921542,4.635845,precomputed,8,0.8,1.0,1.0,42,pdb,9CWY,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9cx1,1.6247022,4.705122,precomputed,8,0.8,1.0,1.0,42,pdb,9CX1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1w0w,6.5457964,16.02052,precomputed,8,0.8,1.0,1.0,42,pdb,1W0W,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6q3k,6.3592644,-2.1212275,precomputed,8,0.8,1.0,1.0,42,pdb,6Q3K,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9k2i,7.2472506,2.389502,precomputed,8,0.8,1.0,1.0,42,pdb,9K2I,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6vr1,3.67235,4.092743,precomputed,8,0.8,1.0,1.0,42,pdb,6VR1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2ypk,2.8059824,15.049233,precomputed,8,0.8,1.0,1.0,42,pdb,2YPK,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vcl,1.0911324,8.665612,precomputed,8,0.8,1.0,1.0,42,pdb,3VCL,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8dnt,7.583838,3.0802834,precomputed,8,0.8,1.0,1.0,42,pdb,8DNT,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8k50,10.886625,2.799996,precomputed,8,0.8,1.0,1.0,42,pdb,8K50,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6ewa,5.1704197,5.2786627,precomputed,8,0.8,1.0,1.0,42,pdb,6EWA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7phr,6.4865026,5.9235473,precomputed,8,0.8,1.0,1.0,42,pdb,7PHR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5vgd,2.3848891,12.370784,precomputed,8,0.8,1.0,1.0,42,pdb,5VGD,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6pyl,8.040916,16.770851,precomputed,8,0.8,1.0,1.0,42,pdb,6PYL,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7stf,7.6552963,4.750098,precomputed,8,0.8,1.0,1.0,42,pdb,7STF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7eu2,8.159659,-0.57459885,precomputed,8,0.8,1.0,1.0,42,pdb,7EU2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5wmq,-3.6421638,10.249663,precomputed,8,0.8,1.0,1.0,42,pdb,5WMQ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9asg,1.4283233,4.1695776,precomputed,8,0.8,1.0,1.0,42,pdb,9ASG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9llu,4.751276,3.3516424,precomputed,8,0.8,1.0,1.0,42,pdb,9LLU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6nca,6.859183,4.0897007,precomputed,8,0.8,1.0,1.0,42,pdb,6NCA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1m6o,6.6154633,13.702801,precomputed,8,0.8,1.0,1.0,42,pdb,1M6O,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8k4t,10.6672945,3.0887265,precomputed,8,0.8,1.0,1.0,42,pdb,8K4T,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9hkq,6.0910687,5.771147,precomputed,8,0.8,1.0,1.0,42,pdb,9HKQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8z05,7.1885786,0.45084205,precomputed,8,0.8,1.0,1.0,42,pdb,8Z05,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9bl3,10.300723,11.837538,precomputed,8,0.8,1.0,1.0,42,pdb,9BL3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9rcv,4.3494344,4.6902537,precomputed,8,0.8,1.0,1.0,42,pdb,9RCV,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-B
+3vfo,-2.1026611,13.301016,precomputed,8,0.8,1.0,1.0,42,pdb,3VFO,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6y26,6.4832873,16.328783,precomputed,8,0.8,1.0,1.0,42,pdb,6Y26,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5xos,0.22250812,13.519668,precomputed,8,0.8,1.0,1.0,42,pdb,5XOS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5grg,10.8785925,2.9502833,precomputed,8,0.8,1.0,1.0,42,pdb,5GRG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5def,6.706399,16.698627,precomputed,8,0.8,1.0,1.0,42,pdb,5DEF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2ak4,1.3127255,14.047724,precomputed,8,0.8,1.0,1.0,42,pdb,2AK4,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6pa1,1.6246166,12.1638365,precomputed,8,0.8,1.0,1.0,42,pdb,6PA1,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1i1y,5.7784104,5.904835,precomputed,8,0.8,1.0,1.0,42,pdb,1I1Y,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9nmu,1.5946289,0.89550894,precomputed,8,0.8,1.0,1.0,42,pdb,9NMU,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4u1h,0.6399321,9.44905,precomputed,8,0.8,1.0,1.0,42,pdb,4U1H,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1hhj,5.819284,6.3220925,precomputed,8,0.8,1.0,1.0,42,pdb,1HHJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3hla,10.197905,-0.2796934,precomputed,8,0.8,1.0,1.0,42,pdb,3HLA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-unbound
+7alo,6.46018,18.57643,precomputed,8,0.8,1.0,1.0,42,pdb,7ALO,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7st3,5.3607264,2.0294218,precomputed,8,0.8,1.0,1.0,42,pdb,7ST3,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+2pye,3.9371629,4.638934,precomputed,8,0.8,1.0,1.0,42,pdb,2PYE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5b38,10.204522,11.242102,precomputed,8,0.8,1.0,1.0,42,pdb,5B38,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3kps,6.705728,13.110005,precomputed,8,0.8,1.0,1.0,42,pdb,3KPS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3vh8,10.601047,11.030093,precomputed,8,0.8,1.0,1.0,42,pdb,3VH8,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9nw9,14.750785,21.596771,precomputed,8,0.8,1.0,1.0,42,pdb,9NW9,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+1w0v,6.928888,16.316616,precomputed,8,0.8,1.0,1.0,42,pdb,1W0V,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2hjk,3.3279138,15.095509,precomputed,8,0.8,1.0,1.0,42,pdb,2HJK,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vqe,7.945663,17.570122,precomputed,8,0.8,1.0,1.0,42,pdb,6VQE,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3b3i,5.967067,16.171497,precomputed,8,0.8,1.0,1.0,42,pdb,3B3I,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3l3i,6.4894147,13.094267,precomputed,8,0.8,1.0,1.0,42,pdb,3L3I,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2x4o,8.363469,3.375534,precomputed,8,0.8,1.0,1.0,42,pdb,2X4O,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8v4z,-0.13215753,16.482822,precomputed,8,0.8,1.0,1.0,42,pdb,8V4Z,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9xjd,9.067781,5.352576,precomputed,8,0.8,1.0,1.0,42,pdb,9XJD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3lkr,-1.0484139,15.673017,precomputed,8,0.8,1.0,1.0,42,pdb,3LKR,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5grd,11.096228,3.8500674,precomputed,8,0.8,1.0,1.0,42,pdb,5GRD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vrn,3.8180382,1.2584118,precomputed,8,0.8,1.0,1.0,42,pdb,6VRN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6g3k,4.513433,2.2298675,precomputed,8,0.8,1.0,1.0,42,pdb,6G3K,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2x4r,8.340207,3.82013,precomputed,8,0.8,1.0,1.0,42,pdb,2X4R,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8gvb,9.046757,4.2894034,precomputed,8,0.8,1.0,1.0,42,pdb,8GVB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5nmg,5.731472,1.1288104,precomputed,8,0.8,1.0,1.0,42,pdb,5NMG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4qru,-3.3501189,10.146851,precomputed,8,0.8,1.0,1.0,42,pdb,4QRU,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8vjz,1.5604764,4.9015665,precomputed,8,0.8,1.0,1.0,42,pdb,8VJZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4prd,-1.0616941,14.085375,precomputed,8,0.8,1.0,1.0,42,pdb,4PRD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2cik,-0.5794664,15.369118,precomputed,8,0.8,1.0,1.0,42,pdb,2CIK,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4l3c,7.0414095,3.5327487,precomputed,8,0.8,1.0,1.0,42,pdb,4L3C,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3kww,-0.001437196,14.95798,precomputed,8,0.8,1.0,1.0,42,pdb,3KWW,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4k7f,7.4102707,3.075254,precomputed,8,0.8,1.0,1.0,42,pdb,4K7F,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6d78,2.2556007,0.12718135,precomputed,8,0.8,1.0,1.0,42,pdb,6D78,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2bvq,3.0054216,15.017927,precomputed,8,0.8,1.0,1.0,42,pdb,2BVQ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9bl9,10.471192,8.051861,precomputed,8,0.8,1.0,1.0,42,pdb,9BL9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8tnj,3.8082707,8.567229,precomputed,8,0.8,1.0,1.0,42,pdb,8TNJ,HLA-B_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-BL
+7t0l,7.927456,18.343283,precomputed,8,0.8,1.0,1.0,42,pdb,7T0L,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4jqx,6.240847,13.586303,precomputed,8,0.8,1.0,1.0,42,pdb,4JQX,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3kpr,6.5428615,13.051811,precomputed,8,0.8,1.0,1.0,42,pdb,3KPR,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5mer,2.1707673,1.2699742,precomputed,8,0.8,1.0,1.0,42,pdb,5MER,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7sqp,5.4855275,1.9807397,precomputed,8,0.8,1.0,1.0,42,pdb,7SQP,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+7ssh,5.2896514,2.0941896,precomputed,8,0.8,1.0,1.0,42,pdb,7SSH,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+2bss,8.3059635,17.786388,precomputed,8,0.8,1.0,1.0,42,pdb,2BSS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9j4t,2.7490914,7.8528504,precomputed,8,0.8,1.0,1.0,42,pdb,9J4T,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9bl4,10.000627,11.727962,precomputed,8,0.8,1.0,1.0,42,pdb,9BL4,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3l3d,6.935951,13.969697,precomputed,8,0.8,1.0,1.0,42,pdb,3L3D,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3vfm,-1.9108621,13.720025,precomputed,8,0.8,1.0,1.0,42,pdb,3VFM,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2nw3,-0.15841606,14.177278,precomputed,8,0.8,1.0,1.0,42,pdb,2NW3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vb3,-0.1996376,12.144441,precomputed,8,0.8,1.0,1.0,42,pdb,6VB3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9c6x,5.809086,13.627776,precomputed,8,0.8,1.0,1.0,42,pdb,9C6X,HLA-B_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+3qdg,2.9691472,0.15029322,precomputed,8,0.8,1.0,1.0,42,pdb,3QDG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5d2l,7.935177,2.613262,precomputed,8,0.8,1.0,1.0,42,pdb,5D2L,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7x1b,4.0426974,11.567798,precomputed,8,0.8,1.0,1.0,42,pdb,7X1B,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9nmv,1.937532,0.6439345,precomputed,8,0.8,1.0,1.0,42,pdb,9NMV,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9nw6,14.454791,22.22382,precomputed,8,0.8,1.0,1.0,42,pdb,9NW6,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+3qeq,4.7874193,2.4176145,precomputed,8,0.8,1.0,1.0,42,pdb,3QEQ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6pyw,7.701101,16.447163,precomputed,8,0.8,1.0,1.0,42,pdb,6PYW,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3dxa,7.2604065,12.386895,precomputed,8,0.8,1.0,1.0,42,pdb,3DXA,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2bst,7.429443,17.575594,precomputed,8,0.8,1.0,1.0,42,pdb,2BST,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5ib5,6.5575895,17.420008,precomputed,8,0.8,1.0,1.0,42,pdb,5IB5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rj5,10.893945,6.2779384,precomputed,8,0.8,1.0,1.0,42,pdb,8RJ5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4qrt,-3.241858,9.606726,precomputed,8,0.8,1.0,1.0,42,pdb,4QRT,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9wbd,2.8214457,8.009172,precomputed,8,0.8,1.0,1.0,42,pdb,9WBD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2p5w,3.773289,4.9869647,precomputed,8,0.8,1.0,1.0,42,pdb,2P5W,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8fjb,6.0572333,1.7516447,precomputed,8,0.8,1.0,1.0,42,pdb,8FJB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8gvg,9.249267,4.4015355,precomputed,8,0.8,1.0,1.0,42,pdb,8GVG,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3o3d,5.8970404,3.220545,precomputed,8,0.8,1.0,1.0,42,pdb,3O3D,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9wvf,10.349286,2.1511629,precomputed,8,0.8,1.0,1.0,42,pdb,9WVF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9cwz,1.4982991,4.842772,precomputed,8,0.8,1.0,1.0,42,pdb,9CWZ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7cir,8.21146,17.480953,precomputed,8,0.8,1.0,1.0,42,pdb,7CIR,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6eqb,3.4254482,3.2174137,precomputed,8,0.8,1.0,1.0,42,pdb,6EQB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+4gkn,2.634515,1.0330486,precomputed,8,0.8,1.0,1.0,42,pdb,4GKN,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6y2b,6.2622786,16.303774,precomputed,8,0.8,1.0,1.0,42,pdb,6Y2B,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9cx2,1.4685105,4.2853746,precomputed,8,0.8,1.0,1.0,42,pdb,9CX2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9nmx,1.7497575,0.5728212,precomputed,8,0.8,1.0,1.0,42,pdb,9NMX,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3mv8,0.8815575,16.628994,precomputed,8,0.8,1.0,1.0,42,pdb,3MV8,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3wuw,10.505847,11.326729,precomputed,8,0.8,1.0,1.0,42,pdb,3WUW,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5b39,10.42919,11.091768,precomputed,8,0.8,1.0,1.0,42,pdb,5B39,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3upr,3.8939972,15.193833,precomputed,8,0.8,1.0,1.0,42,pdb,3UPR,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2c7u,7.298257,4.352666,precomputed,8,0.8,1.0,1.0,42,pdb,2C7U,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1ktl,13.150212,22.52401,precomputed,8,0.8,1.0,1.0,42,pdb,1KTL,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+2x4u,8.541839,3.5206697,precomputed,8,0.8,1.0,1.0,42,pdb,2X4U,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9nfc,9.27808,2.8029134,precomputed,8,0.8,1.0,1.0,42,pdb,9NFC,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3skm,-3.635061,9.821045,precomputed,8,0.8,1.0,1.0,42,pdb,3SKM,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rcv,4.395163,10.4928665,precomputed,8,0.8,1.0,1.0,42,pdb,8RCV,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6y29,6.9478946,16.380941,precomputed,8,0.8,1.0,1.0,42,pdb,6Y29,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4eup,3.8619301,2.9958699,precomputed,8,0.8,1.0,1.0,42,pdb,4EUP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3lv3,8.5811205,17.748102,precomputed,8,0.8,1.0,1.0,42,pdb,3LV3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9d95,6.026782,12.198888,precomputed,8,0.8,1.0,1.0,42,pdb,9D95,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7re7,5.513077,3.963422,precomputed,8,0.8,1.0,1.0,42,pdb,7RE7,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+2axf,0.09458304,14.3389845,precomputed,8,0.8,1.0,1.0,42,pdb,2AXF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bp7,7.376741,16.989532,precomputed,8,0.8,1.0,1.0,42,pdb,3BP7,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2vlr,2.386733,1.6573623,precomputed,8,0.8,1.0,1.0,42,pdb,2VLR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3kpn,7.426701,13.642991,precomputed,8,0.8,1.0,1.0,42,pdb,3KPN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8vra,9.8893175,3.5968153,precomputed,8,0.8,1.0,1.0,42,pdb,8VRA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1tmc,10.461195,3.6221771,precomputed,8,0.8,1.0,1.0,42,pdb,1TMC,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vqd,7.8098016,16.95672,precomputed,8,0.8,1.0,1.0,42,pdb,6VQD,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1m05,-4.292481,9.934718,precomputed,8,0.8,1.0,1.0,42,pdb,1M05,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3qdj,2.4850016,0.23584747,precomputed,8,0.8,1.0,1.0,42,pdb,3QDJ,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5wmr,-3.4328938,9.457898,precomputed,8,0.8,1.0,1.0,42,pdb,5WMR,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8k4v,9.811961,2.5302012,precomputed,8,0.8,1.0,1.0,42,pdb,8K4V,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5deg,6.143703,16.576063,precomputed,8,0.8,1.0,1.0,42,pdb,5DEG,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5ib1,6.526115,18.524,precomputed,8,0.8,1.0,1.0,42,pdb,5IB1,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4g9d,8.21115,17.968884,precomputed,8,0.8,1.0,1.0,42,pdb,4G9D,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9pbh,8.291438,18.521587,precomputed,8,0.8,1.0,1.0,42,pdb,9PBH,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1kpr,13.49708,22.169807,precomputed,8,0.8,1.0,1.0,42,pdb,1KPR,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+4g9f,8.642681,18.00881,precomputed,8,0.8,1.0,1.0,42,pdb,4G9F,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3bp4,7.1210117,17.429438,precomputed,8,0.8,1.0,1.0,42,pdb,3BP4,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8hn4,7.560781,3.7992449,precomputed,8,0.8,1.0,1.0,42,pdb,8HN4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7dyn,8.137959,17.540861,precomputed,8,0.8,1.0,1.0,42,pdb,7DYN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+3bo8,9.947281,3.0950975,precomputed,8,0.8,1.0,1.0,42,pdb,3BO8,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6y28,6.2747145,16.435366,precomputed,8,0.8,1.0,1.0,42,pdb,6Y28,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6y27,6.845842,16.510578,precomputed,8,0.8,1.0,1.0,42,pdb,6Y27,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9xmr,9.385673,5.251034,precomputed,8,0.8,1.0,1.0,42,pdb,9XMR,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8rro,9.120699,2.895729,precomputed,8,0.8,1.0,1.0,42,pdb,8RRO,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9fe1,7.6656184,2.8065407,precomputed,8,0.8,1.0,1.0,42,pdb,9FE1,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7cis,7.9706817,18.227215,precomputed,8,0.8,1.0,1.0,42,pdb,7CIS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9wve,10.35645,2.0267384,precomputed,8,0.8,1.0,1.0,42,pdb,9WVE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9c6w,5.6382575,13.513871,precomputed,8,0.8,1.0,1.0,42,pdb,9C6W,HLA-B_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+1hsa,3.481554,15.562799,precomputed,8,0.8,1.0,1.0,42,pdb,1HSA,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5d2n,6.614896,3.0887558,precomputed,8,0.8,1.0,1.0,42,pdb,5D2N,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6ei2,6.5349975,0.6462331,precomputed,8,0.8,1.0,1.0,42,pdb,6EI2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8esb,5.6238866,1.4257725,precomputed,8,0.8,1.0,1.0,42,pdb,8ESB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4g8i,8.437776,18.364864,precomputed,8,0.8,1.0,1.0,42,pdb,4G8I,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6vpz,8.179944,17.714153,precomputed,8,0.8,1.0,1.0,42,pdb,6VPZ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2a83,5.678757,18.008196,precomputed,8,0.8,1.0,1.0,42,pdb,2A83,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9wj6,2.52162,10.477919,precomputed,8,0.8,1.0,1.0,42,pdb,9WJ6,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8t7r,9.170448,1.8660375,precomputed,8,0.8,1.0,1.0,42,pdb,8T7R,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1uxw,6.247977,17.62567,precomputed,8,0.8,1.0,1.0,42,pdb,1UXW,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8yiv,10.215334,2.728735,precomputed,8,0.8,1.0,1.0,42,pdb,8YIV,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3czf,5.8088527,17.766705,precomputed,8,0.8,1.0,1.0,42,pdb,3CZF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5vge,1.5440048,12.767158,precomputed,8,0.8,1.0,1.0,42,pdb,5VGE,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+5ib4,6.142705,17.958452,precomputed,8,0.8,1.0,1.0,42,pdb,5IB4,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9l48,1.9415472,11.942718,precomputed,8,0.8,1.0,1.0,42,pdb,9L48,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2bsr,6.4875555,16.93432,precomputed,8,0.8,1.0,1.0,42,pdb,2BSR,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8vr9,9.971147,2.8247507,precomputed,8,0.8,1.0,1.0,42,pdb,8VR9,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9nds,5.667799,2.7734325,precomputed,8,0.8,1.0,1.0,42,pdb,9NDS,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8t6m,7.1845737,2.4488797,precomputed,8,0.8,1.0,1.0,42,pdb,8T6M,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3b6s,7.1191125,16.67387,precomputed,8,0.8,1.0,1.0,42,pdb,3B6S,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+1of2,5.739733,18.427822,precomputed,8,0.8,1.0,1.0,42,pdb,1OF2,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+7ciq,7.7837443,17.452852,precomputed,8,0.8,1.0,1.0,42,pdb,7CIQ,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9nnf,5.446441,5.157867,precomputed,8,0.8,1.0,1.0,42,pdb,9NNF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1ogt,5.6922226,18.483315,precomputed,8,0.8,1.0,1.0,42,pdb,1OGT,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8v50,-0.14486519,16.374542,precomputed,8,0.8,1.0,1.0,42,pdb,8V50,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6uon,2.217187,10.460922,precomputed,8,0.8,1.0,1.0,42,pdb,6UON,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8yj2,10.298366,3.0416183,precomputed,8,0.8,1.0,1.0,42,pdb,8YJ2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5ib2,6.2964883,18.344725,precomputed,8,0.8,1.0,1.0,42,pdb,5IB2,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8tq5,5.834611,12.607153,precomputed,8,0.8,1.0,1.0,42,pdb,8TQ5,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9yw4,8.237986,2.7314696,precomputed,8,0.8,1.0,1.0,42,pdb,9YW4,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9zcl,1.134999,5.016415,precomputed,8,0.8,1.0,1.0,42,pdb,9ZCL,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9c6v,5.3932405,13.870845,precomputed,8,0.8,1.0,1.0,42,pdb,9C6V,HLA-B_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+7n2q,7.4342375,18.86785,precomputed,8,0.8,1.0,1.0,42,pdb,7N2Q,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+6y2a,6.5955324,15.907646,precomputed,8,0.8,1.0,1.0,42,pdb,6Y2A,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8gvi,9.44609,4.440192,precomputed,8,0.8,1.0,1.0,42,pdb,8GVI,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+3cii,13.108919,23.38264,precomputed,8,0.8,1.0,1.0,42,pdb,3CII,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-bound-BL
+1jge,7.983694,17.202839,precomputed,8,0.8,1.0,1.0,42,pdb,1JGE,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+4u1k,1.4999765,8.262959,precomputed,8,0.8,1.0,1.0,42,pdb,4U1K,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6apn,6.114673,2.060461,precomputed,8,0.8,1.0,1.0,42,pdb,6APN,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-L
+9k2t,1.464119,11.405755,precomputed,8,0.8,1.0,1.0,42,pdb,9K2T,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9d97,10.101052,11.104217,precomputed,8,0.8,1.0,1.0,42,pdb,9D97,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7qpd,4.8729954,4.314059,precomputed,8,0.8,1.0,1.0,42,pdb,7QPD,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-B
+9qqf,6.241702,-1.006423,precomputed,8,0.8,1.0,1.0,42,pdb,9QQF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9d73,5.2407417,13.163712,precomputed,8,0.8,1.0,1.0,42,pdb,9D73,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1uxs,5.98727,18.15881,precomputed,8,0.8,1.0,1.0,42,pdb,1UXS,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9j4s,2.287283,8.095331,precomputed,8,0.8,1.0,1.0,42,pdb,9J4S,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9l4i,2.066235,10.672789,precomputed,8,0.8,1.0,1.0,42,pdb,9L4I,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9ytf,8.851131,1.6713084,precomputed,8,0.8,1.0,1.0,42,pdb,9YTF,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9l4g,2.3956387,10.698799,precomputed,8,0.8,1.0,1.0,42,pdb,9L4G,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9l4a,1.1724659,12.06272,precomputed,8,0.8,1.0,1.0,42,pdb,9L4A,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9d96,9.826391,11.449072,precomputed,8,0.8,1.0,1.0,42,pdb,9D96,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9d74,5.1257906,12.653113,precomputed,8,0.8,1.0,1.0,42,pdb,9D74,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+7duu,1.694703,11.135564,precomputed,8,0.8,1.0,1.0,42,pdb,7DUU,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9hlj,0.98159236,12.529459,precomputed,8,0.8,1.0,1.0,42,pdb,9HLJ,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8tmu,1.0633476,9.409391,precomputed,8,0.8,1.0,1.0,42,pdb,8TMU,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9l4h,2.2314703,10.825335,precomputed,8,0.8,1.0,1.0,42,pdb,9L4H,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1efx,2.3294814,12.736716,precomputed,8,0.8,1.0,1.0,42,pdb,1EFX,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5ib3,5.8782253,18.09274,precomputed,8,0.8,1.0,1.0,42,pdb,5IB3,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9f13,2.478897,11.596844,precomputed,8,0.8,1.0,1.0,42,pdb,9F13,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9l49,2.5552633,12.045882,precomputed,8,0.8,1.0,1.0,42,pdb,9L49,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8esa,5.759448,1.5293525,precomputed,8,0.8,1.0,1.0,42,pdb,8ESA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+2hla,8.229793,1.2601165,precomputed,8,0.8,1.0,1.0,42,pdb,2HLA,HLA-A,HLA Class Ia,Classical MHC-I,MHC-unbound
+8vrb,10.42216,2.9575765,precomputed,8,0.8,1.0,1.0,42,pdb,8VRB,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1im9,1.5252899,9.715946,precomputed,8,0.8,1.0,1.0,42,pdb,1IM9,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9l47,1.811236,11.891902,precomputed,8,0.8,1.0,1.0,42,pdb,9L47,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9mef,-1.5221198,10.348272,precomputed,8,0.8,1.0,1.0,42,pdb,9MEF,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9nyn,-2.915346,9.745789,precomputed,8,0.8,1.0,1.0,42,pdb,9NYN,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9k2s,2.3118205,11.449694,precomputed,8,0.8,1.0,1.0,42,pdb,9K2S,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+1qqd,1.7356836,10.549473,precomputed,8,0.8,1.0,1.0,42,pdb,1QQD,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9qqe,7.3954625,5.450699,precomputed,8,0.8,1.0,1.0,42,pdb,9QQE,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9meg,-2.1691282,9.929344,precomputed,8,0.8,1.0,1.0,42,pdb,9MEG,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9rxm,10.2588005,5.097853,precomputed,8,0.8,1.0,1.0,42,pdb,9RXM,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9k2u,1.7530442,11.425984,precomputed,8,0.8,1.0,1.0,42,pdb,9K2U,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9k2r,2.0662856,12.35223,precomputed,8,0.8,1.0,1.0,42,pdb,9K2R,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5e6i,4.1443214,2.4594169,precomputed,8,0.8,1.0,1.0,42,pdb,5E6I,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9rwi,3.4911535,9.3652115,precomputed,8,0.8,1.0,1.0,42,pdb,9RWI,HLA-G,HLA Class Ib,Non-classical MHC-I,MHC-bound-L
+9c96,6.636088,7.3390336,precomputed,8,0.8,1.0,1.0,42,pdb,9C96,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9rup,3.5156565,7.1121464,precomputed,8,0.8,1.0,1.0,42,pdb,9RUP,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9ru5,8.503073,5.00818,precomputed,8,0.8,1.0,1.0,42,pdb,9RU5,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9nkh,-2.022507,10.044256,precomputed,8,0.8,1.0,1.0,42,pdb,9NKH,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+6pui,17.666723,8.598687,precomputed,8,0.8,1.0,1.0,42,pdb,6PUI,MR1,MR1,MHC-I like,MHC-bound-BL
+9c3e,6.2695413,2.0733113,precomputed,8,0.8,1.0,1.0,42,pdb,9C3E,HLA-A_SC,HLA Class Ia SC,Classical MHC-I SC,MHC-bound-BL
+6xqp,14.9481735,10.798352,precomputed,8,0.8,1.0,1.0,42,pdb,6XQP,MR1,MR1,MHC-I like,MHC-bound-BL
+7zt8,15.823232,14.382057,precomputed,8,0.8,1.0,1.0,42,pdb,7ZT8,MR1,MR1,MHC-I like,MHC-bound-BL
+5u1r,17.529348,11.405923,precomputed,8,0.8,1.0,1.0,42,pdb,5U1R,MR1,MR1,MHC-I like,MHC-bound-BL
+9ek6,17.377583,11.814664,precomputed,8,0.8,1.0,1.0,42,pdb,9EK6,MR1,MR1,MHC-I like,MHC-bound-BL
+9btx,17.306114,11.549262,precomputed,8,0.8,1.0,1.0,42,pdb,9BTX,MR1,MR1,MHC-I like,MHC-bound-BL
+5u72,17.150219,11.400446,precomputed,8,0.8,1.0,1.0,42,pdb,5U72,MR1,MR1,MHC-I like,MHC-bound-B
+5u16,17.53446,11.540085,precomputed,8,0.8,1.0,1.0,42,pdb,5U16,MR1,MR1,MHC-I like,MHC-bound-BL
+4l4v,16.162226,14.425768,precomputed,8,0.8,1.0,1.0,42,pdb,4L4V,MR1,MR1,MHC-I like,MHC-bound-BL
+5u6q,17.78771,11.82157,precomputed,8,0.8,1.0,1.0,42,pdb,5U6Q,MR1,MR1,MHC-I like,MHC-bound-BL
+6pul,17.539238,8.122554,precomputed,8,0.8,1.0,1.0,42,pdb,6PUL,MR1,MR1,MHC-I like,MHC-bound-BL
+6pum,17.748037,11.231537,precomputed,8,0.8,1.0,1.0,42,pdb,6PUM,MR1,MR1,MHC-I like,MHC-bound-BL
+6puj,17.677464,11.343337,precomputed,8,0.8,1.0,1.0,42,pdb,6PUJ,MR1,MR1,MHC-I like,MHC-bound-BL
+6pud,17.1411,8.439423,precomputed,8,0.8,1.0,1.0,42,pdb,6PUD,MR1,MR1,MHC-I like,MHC-bound-BL
+5d7i,15.381433,10.126523,precomputed,8,0.8,1.0,1.0,42,pdb,5D7I,MR1,MR1,MHC-I like,MHC-bound-BL
+4pjf,15.063888,10.369355,precomputed,8,0.8,1.0,1.0,42,pdb,4PJF,MR1,MR1,MHC-I like,MHC-bound-BL
+9o08,17.465448,8.786681,precomputed,8,0.8,1.0,1.0,42,pdb,9O08,MR1,MR1,MHC-I like,MHC-bound-BL
+9c42,17.100325,9.3287,precomputed,8,0.8,1.0,1.0,42,pdb,9C42,MR1,MR1,MHC-I like,MHC-bound-BL
+6puf,17.261358,11.077826,precomputed,8,0.8,1.0,1.0,42,pdb,6PUF,MR1,MR1,MHC-I like,MHC-bound-BL
+6puc,17.335562,8.083546,precomputed,8,0.8,1.0,1.0,42,pdb,6PUC,MR1,MR1,MHC-I like,MHC-bound-BL
+6w9u,17.11969,8.520763,precomputed,8,0.8,1.0,1.0,42,pdb,6W9U,MR1,MR1,MHC-I like,MHC-bound-BL
+6puh,17.475145,8.045404,precomputed,8,0.8,1.0,1.0,42,pdb,6PUH,MR1,MR1,MHC-I like,MHC-bound-BL
+8y6x,15.784892,13.96759,precomputed,8,0.8,1.0,1.0,42,pdb,8Y6X,MR1,MR1,MHC-I like,MHC-bound-BL
+4pji,15.612335,10.519926,precomputed,8,0.8,1.0,1.0,42,pdb,4PJI,MR1,MR1,MHC-I like,MHC-bound-BL
+9o05,17.191502,8.50222,precomputed,8,0.8,1.0,1.0,42,pdb,9O05,MR1,MR1,MHC-I like,MHC-bound-BL
+9o06,15.112593,11.0182705,precomputed,8,0.8,1.0,1.0,42,pdb,9O06,MR1,MR1,MHC-I like,MHC-bound-BL
+9cgr,17.259256,9.132658,precomputed,8,0.8,1.0,1.0,42,pdb,9CGR,MR1,MR1,MHC-I like,MHC-bound-BL
+6pvd,17.638773,11.180776,precomputed,8,0.8,1.0,1.0,42,pdb,6PVD,MR1,MR1,MHC-I like,MHC-bound-BL
+6pvc,17.332027,8.591471,precomputed,8,0.8,1.0,1.0,42,pdb,6PVC,MR1,MR1,MHC-I like,MHC-bound-BL
+6pug,16.996191,8.807379,precomputed,8,0.8,1.0,1.0,42,pdb,6PUG,MR1,MR1,MHC-I like,MHC-bound-BL
+9o07,16.265629,14.348674,precomputed,8,0.8,1.0,1.0,42,pdb,9O07,MR1,MR1,MHC-I like,MHC-bound-BL
+7zt3,15.919073,14.682995,precomputed,8,0.8,1.0,1.0,42,pdb,7ZT3,MR1,MR1,MHC-I like,MHC-bound-B
+4nqe,16.264524,13.294565,precomputed,8,0.8,1.0,1.0,42,pdb,4NQE,MR1,MR1,MHC-I like,MHC-bound-BL
+5u2v,16.568314,13.93145,precomputed,8,0.8,1.0,1.0,42,pdb,5U2V,MR1,MR1,MHC-I like,MHC-bound-BL
+4pj5,15.2619705,10.209263,precomputed,8,0.8,1.0,1.0,42,pdb,4PJ5,MR1,MR1,MHC-I like,MHC-bound-BL
+9bty,17.488398,9.01552,precomputed,8,0.8,1.0,1.0,42,pdb,9BTY,MR1,MR1,MHC-I like,MHC-bound-BL
+4pj9,15.550161,13.541897,precomputed,8,0.8,1.0,1.0,42,pdb,4PJ9,MR1,MR1,MHC-I like,MHC-bound-BL
+9btz,16.396338,10.807681,precomputed,8,0.8,1.0,1.0,42,pdb,9BTZ,MR1,MR1,MHC-I like,MHC-bound-BL
+6pue,17.51342,8.291785,precomputed,8,0.8,1.0,1.0,42,pdb,6PUE,MR1,MR1,MHC-I like,MHC-bound-BL
+9c9d,15.855127,13.840081,precomputed,8,0.8,1.0,1.0,42,pdb,9C9D,MR1,MR1,MHC-I like,MHC-bound-BL
+5u17,16.282461,14.30981,precomputed,8,0.8,1.0,1.0,42,pdb,5U17,MR1,MR1,MHC-I like,MHC-bound-BL
+9y0w,15.767681,13.160331,precomputed,8,0.8,1.0,1.0,42,pdb,9Y0W,MR1,MR1,MHC-I like,MHC-bound-BL
+5d7j,16.984797,10.908238,precomputed,8,0.8,1.0,1.0,42,pdb,5D7J,MR1,MR1,MHC-I like,MHC-bound-BL
+4pje,15.825412,10.333622,precomputed,8,0.8,1.0,1.0,42,pdb,4PJE,MR1,MR1,MHC-I like,MHC-bound-BL
+9y0u,15.445909,11.524469,precomputed,8,0.8,1.0,1.0,42,pdb,9Y0U,MR1,MR1,MHC-I like,MHC-bound-BL
+4pjc,15.594747,11.101447,precomputed,8,0.8,1.0,1.0,42,pdb,4PJC,MR1,MR1,MHC-I like,MHC-bound-BL
+4pjh,15.321933,10.419564,precomputed,8,0.8,1.0,1.0,42,pdb,4PJH,MR1,MR1,MHC-I like,MHC-bound-BL
+6w9v,17.270628,8.888463,precomputed,8,0.8,1.0,1.0,42,pdb,6W9V,MR1,MR1,MHC-I like,MHC-bound-B
+7ufj,15.237092,11.328101,precomputed,8,0.8,1.0,1.0,42,pdb,7UFJ,MR1,MR1,MHC-I like,MHC-bound-BL
+6puk,17.479385,11.564102,precomputed,8,0.8,1.0,1.0,42,pdb,6PUK,MR1,MR1,MHC-I like,MHC-bound-BL
+9bu0,17.61565,11.613713,precomputed,8,0.8,1.0,1.0,42,pdb,9BU0,MR1,MR1,MHC-I like,MHC-bound-BL
+9ms0,15.842859,12.056539,precomputed,8,0.8,1.0,1.0,42,pdb,9MS0,MR1,MR1,MHC-I like,MHC-bound-BL
+9y0v,15.047191,11.53654,precomputed,8,0.8,1.0,1.0,42,pdb,9Y0V,MR1,MR1,MHC-I like,MHC-bound-B
+7zt2,15.996556,14.760699,precomputed,8,0.8,1.0,1.0,42,pdb,7ZT2,MR1,MR1,MHC-I like,MHC-bound-BL
+4pjg,15.445728,10.710841,precomputed,8,0.8,1.0,1.0,42,pdb,4PJG,MR1,MR1,MHC-I like,MHC-bound-BL
+9z4r,17.721676,11.034676,precomputed,8,0.8,1.0,1.0,42,pdb,9Z4R,MR1,MR1,MHC-I like,MHC-bound-BL
+4pjx,15.49861,11.560016,precomputed,8,0.8,1.0,1.0,42,pdb,4PJX,MR1,MR1,MHC-I like,MHC-bound-BL
+4pj7,15.418143,11.300327,precomputed,8,0.8,1.0,1.0,42,pdb,4PJ7,MR1,MR1,MHC-I like,MHC-bound-BL
+7zt7,14.690139,11.308826,precomputed,8,0.8,1.0,1.0,42,pdb,7ZT7,MR1,MR1,MHC-I like,MHC-bound-BL
+9ek7,17.1063,11.3572855,precomputed,8,0.8,1.0,1.0,42,pdb,9EK7,MR1,MR1,MHC-I like,MHC-bound-BL
+4pja,15.118679,11.377384,precomputed,8,0.8,1.0,1.0,42,pdb,4PJA,MR1,MR1,MHC-I like,MHC-bound-BL
+9hi7,15.481467,12.354977,precomputed,8,0.8,1.0,1.0,42,pdb,9HI7,MR1,MR1,MHC-I like,MHC-bound-B
+4lcw,15.209557,11.150378,precomputed,8,0.8,1.0,1.0,42,pdb,4LCW,MR1,MR1,MHC-I like,MHC-bound-BL
+7zt5,14.787965,11.260086,precomputed,8,0.8,1.0,1.0,42,pdb,7ZT5,MR1,MR1,MHC-I like,MHC-bound-BL
+4pjd,15.862965,13.550225,precomputed,8,0.8,1.0,1.0,42,pdb,4PJD,MR1,MR1,MHC-I like,MHC-bound-BL
+7zt4,14.837123,11.065421,precomputed,8,0.8,1.0,1.0,42,pdb,7ZT4,MR1,MR1,MHC-I like,MHC-bound-BL
+8bp6,15.515491,13.075025,precomputed,8,0.8,1.0,1.0,42,pdb,8BP6,MR1_SC,MR1 SC,MHC-I like SC,MHC-bound-L
+9bys,15.622475,13.610297,precomputed,8,0.8,1.0,1.0,42,pdb,9BYS,MR1,MR1,MHC-I like,MHC-bound-BL
+7lli,15.736957,13.693933,precomputed,8,0.8,1.0,1.0,42,pdb,7LLI,MR1,MR1,MHC-I like,MHC-bound-BL
+6mwr,15.694801,13.081046,precomputed,8,0.8,1.0,1.0,42,pdb,6MWR,MR1,MR1,MHC-I like,MHC-bound-L
+4l4t,16.352695,13.741252,precomputed,8,0.8,1.0,1.0,42,pdb,4L4T,MR1,MR1,MHC-I like,MHC-bound-BL
+1t7y,13.012299,9.8389015,precomputed,8,0.8,1.0,1.0,42,pdb,1T7Y,ZAG,ZAG,MHC-I like,MHC-unbound
+7umg,15.970838,11.067116,precomputed,8,0.8,1.0,1.0,42,pdb,7UMG,MR1,MR1,MHC-I like,MHC-bound-L
+1t7z,12.823633,9.892171,precomputed,8,0.8,1.0,1.0,42,pdb,1T7Z,ZAG,ZAG,MHC-I like,MHC-unbound
+7zt9,16.190788,13.915389,precomputed,8,0.8,1.0,1.0,42,pdb,7ZT9,MR1,MR1,MHC-I like,MHC-bound-BL
+1t80,13.062849,9.458368,precomputed,8,0.8,1.0,1.0,42,pdb,1T80,ZAG,ZAG,MHC-I like,MHC-unbound
+4gup,15.604344,13.005408,precomputed,8,0.8,1.0,1.0,42,pdb,4GUP,MR1,MR1,MHC-I like,MHC-bound-L
+1de4,13.034191,7.5220475,precomputed,8,0.8,1.0,1.0,42,pdb,1DE4,HFE,HFE,MHC-I like,MHC-bound-B
+4pjb,15.595576,13.182378,precomputed,8,0.8,1.0,1.0,42,pdb,4PJB,MR1,MR1,MHC-I like,MHC-bound-BL
+7llj,15.223968,13.658318,precomputed,8,0.8,1.0,1.0,42,pdb,7LLJ,MR1,MR1,MHC-I like,MHC-bound-BL
+1t7v,12.469759,9.680518,precomputed,8,0.8,1.0,1.0,42,pdb,1T7V,ZAG,ZAG,MHC-I like,MHC-bound-L
+1a6z,12.822481,7.350285,precomputed,8,0.8,1.0,1.0,42,pdb,1A6Z,HFE,HFE,MHC-I like,MHC-unbound
+6nha,-7.107845,-3.4935265,precomputed,8,0.8,1.0,1.0,42,pdb,6NHA,FcRn,FcRn,MHC-I like,MHC-unbound
+1t7x,12.808808,9.595114,precomputed,8,0.8,1.0,1.0,42,pdb,1T7X,ZAG,ZAG,MHC-I like,MHC-unbound
+1zag,12.914242,9.518375,precomputed,8,0.8,1.0,1.0,42,pdb,1ZAG,ZAG,ZAG,MHC-I like,MHC-unbound
+6r2u,13.259656,9.22016,precomputed,8,0.8,1.0,1.0,42,pdb,6R2U,ZAG,ZAG,MHC-I like,MHC-unbound
+1t7w,12.7907,9.600445,precomputed,8,0.8,1.0,1.0,42,pdb,1T7W,ZAG,ZAG,MHC-I like,MHC-unbound
+13br,12.610201,9.7847,precomputed,8,0.8,1.0,1.0,42,pdb,13BR,ZAG,ZAG,MHC-I like,MHC-bound-B
+6c98,-5.83657,-3.0190823,precomputed,8,0.8,1.0,1.0,42,pdb,6C98,FcRn,FcRn,MHC-I like,MHC-unbound
+9wyd,-5.900525,-3.4711847,precomputed,8,0.8,1.0,1.0,42,pdb,9WYD,FcRn,FcRn,MHC-I like,MHC-bound-B
+7q15,-6.0780287,-3.75425,precomputed,8,0.8,1.0,1.0,42,pdb,7Q15,FcRn,FcRn,MHC-I like,MHC-bound-B
+6wol,-5.340839,-3.248925,precomputed,8,0.8,1.0,1.0,42,pdb,6WOL,FcRn,FcRn,MHC-I like,MHC-bound-B
+6wna,-5.2232294,-3.0574768,precomputed,8,0.8,1.0,1.0,42,pdb,6WNA,FcRn,FcRn,MHC-I like,MHC-bound-B
+9oc7,-6.1921124,-3.2257676,precomputed,8,0.8,1.0,1.0,42,pdb,9OC7,FcRn,FcRn,MHC-I like,MHC-bound-B
+6c97,-5.7126746,-3.3649971,precomputed,8,0.8,1.0,1.0,42,pdb,6C97,FcRn,FcRn,MHC-I like,MHC-unbound
+9dbt,-6.4272437,-3.1822941,precomputed,8,0.8,1.0,1.0,42,pdb,9DBT,FcRn,FcRn,MHC-I like,MHC-bound-B
+2wy3,15.743302,-0.30002424,precomputed,8,0.8,1.0,1.0,42,pdb,2WY3,MICB,MIC,MHC-I like,MHC-bound-B
+9nav,-5.9936194,-3.3699942,precomputed,8,0.8,1.0,1.0,42,pdb,9NAV,FcRn,FcRn,MHC-I like,MHC-bound-B
+4n0u,-5.6264467,-3.0667374,precomputed,8,0.8,1.0,1.0,42,pdb,4N0U,FcRn,FcRn,MHC-I like,MHC-bound-B
+9oc6,-6.9622927,-3.2415328,precomputed,8,0.8,1.0,1.0,42,pdb,9OC6,FcRn,FcRn,MHC-I like,MHC-unbound
+6c99,-6.272648,-3.708256,precomputed,8,0.8,1.0,1.0,42,pdb,6C99,FcRn,FcRn,MHC-I like,MHC-unbound
+6ilm,-6.556248,-2.7386773,precomputed,8,0.8,1.0,1.0,42,pdb,6ILM,FcRn,FcRn,MHC-I like,MHC-bound-B
+6qio,-5.2745013,-3.8603761,precomputed,8,0.8,1.0,1.0,42,pdb,6QIO,FcRn,FcRn,MHC-I like,MHC-bound-B
+4n0f,-5.264901,-3.3478003,precomputed,8,0.8,1.0,1.0,42,pdb,4N0F,FcRn,FcRn,MHC-I like,MHC-bound-B
+9mi6,-6.0330286,-3.7755103,precomputed,8,0.8,1.0,1.0,42,pdb,9MI6,FcRn,FcRn,MHC-I like,MHC-bound-B
+6fgb,-5.4929,-4.0127053,precomputed,8,0.8,1.0,1.0,42,pdb,6FGB,FcRn,FcRn,MHC-I like,MHC-bound-B
+1je6,15.434717,-0.20542264,precomputed,8,0.8,1.0,1.0,42,pdb,1JE6,MICB,MIC,MHC-I like,MHC-unbound
+6qip,-5.205625,-3.781107,precomputed,8,0.8,1.0,1.0,42,pdb,6QIP,FcRn,FcRn,MHC-I like,MHC-bound-B
+6v7y,-11.458894,1.1968763,precomputed,8,0.8,1.0,1.0,42,pdb,6V7Y,CD1d,CD1,MHC-I like,MHC-bound-BL
+8tm0,15.49435,-0.98331857,precomputed,8,0.8,1.0,1.0,42,pdb,8TM0,MICA,MIC,MHC-I like,MHC-bound-B
+6la6,-6.48416,-2.4189625,precomputed,8,0.8,1.0,1.0,42,pdb,6LA6,FcRn,FcRn,MHC-I like,MHC-bound-B
+8tm2,15.372252,-0.65213424,precomputed,8,0.8,1.0,1.0,42,pdb,8TM2,MICA,MIC,MHC-I like,MHC-bound-B
+5bxf,-6.3876457,-3.029764,precomputed,8,0.8,1.0,1.0,42,pdb,5BXF,FcRn,FcRn,MHC-I like,MHC-unbound
+4wo4,-10.8787155,0.38184428,precomputed,8,0.8,1.0,1.0,42,pdb,4WO4,CD1d,CD1,MHC-I like,MHC-bound-BL
+4k71,-5.814454,-3.5489185,precomputed,8,0.8,1.0,1.0,42,pdb,4K71,FcRn,FcRn,MHC-I like,MHC-bound-B
+5whk,-6.962352,-3.5647926,precomputed,8,0.8,1.0,1.0,42,pdb,5WHK,FcRn,FcRn,MHC-I like,MHC-bound-B
+8tlz,15.151722,-0.79248995,precomputed,8,0.8,1.0,1.0,42,pdb,8TLZ,MICA,MIC,MHC-I like,MHC-unbound
+3sdx,-11.501596,0.12860875,precomputed,8,0.8,1.0,1.0,42,pdb,3SDX,CD1d,CD1,MHC-I like,MHC-bound-BL
+1onq,-10.867832,4.139611,precomputed,8,0.8,1.0,1.0,42,pdb,1ONQ,CD1a,CD1,MHC-I like,MHC-bound-L
+7mx4,-15.078072,-2.305164,precomputed,8,0.8,1.0,1.0,42,pdb,7MX4,CD1c_chimera,CD chimera,MHC-I like chimera,MHC-bound-L
+4s0u,1.659945,-10.895918,precomputed,8,0.8,1.0,1.0,42,pdb,4S0U,ULBP,ULBP,MHC-I like,MHC-bound-B
+1exu,-6.5057263,-2.9528985,precomputed,8,0.8,1.0,1.0,42,pdb,1EXU,FcRn,FcRn,MHC-I like,MHC-unbound
+6la7,-6.4576936,-2.692434,precomputed,8,0.8,1.0,1.0,42,pdb,6LA7,FcRn,FcRn,MHC-I like,MHC-bound-B
+1kcg,1.5565939,-10.929152,precomputed,8,0.8,1.0,1.0,42,pdb,1KCG,ULBP,ULBP,MHC-I like,MHC-bound-B
+8sos,-11.613497,0.18266408,precomputed,8,0.8,1.0,1.0,42,pdb,8SOS,CD1d,CD1,MHC-I like,MHC-bound-BL
+7mxf,-15.230206,-2.3345902,precomputed,8,0.8,1.0,1.0,42,pdb,7MXF,CD1c_chimera,CD chimera,MHC-I like chimera,MHC-bound-L
+3u0p,-11.734298,0.18295892,precomputed,8,0.8,1.0,1.0,42,pdb,3U0P,CD1d,CD1,MHC-I like,MHC-bound-L
+7c9v,-6.8053727,-2.5258646,precomputed,8,0.8,1.0,1.0,42,pdb,7C9V,FcRn,FcRn,MHC-I like,MHC-bound-B
+9rse,-11.287038,0.41693726,precomputed,8,0.8,1.0,1.0,42,pdb,9RSE,CD1d,CD1,MHC-I like,MHC-bound-L
+4ww2,-10.922202,0.6027283,precomputed,8,0.8,1.0,1.0,42,pdb,4WW2,CD1d,CD1,MHC-I like,MHC-bound-BL
+1xz0,-10.56843,4.2361073,precomputed,8,0.8,1.0,1.0,42,pdb,1XZ0,CD1a,CD1,MHC-I like,MHC-bound-L
+3huj,-10.966756,0.27329078,precomputed,8,0.8,1.0,1.0,42,pdb,3HUJ,CD1d,CD1,MHC-I like,MHC-bound-BL
+9tjx,-1.70416,-4.415525,precomputed,8,0.8,1.0,1.0,42,pdb,9TJX,EPCR,EPCR,MHC-I like,MHC-bound-BL
+6v7z,-11.930233,0.5216029,precomputed,8,0.8,1.0,1.0,42,pdb,6V7Z,CD1d,CD1,MHC-I like,MHC-bound-BL
+4lhu,-11.535059,1.0408951,precomputed,8,0.8,1.0,1.0,42,pdb,4LHU,CD1d,CD1,MHC-I like,MHC-bound-BL
+8sgm,-11.814784,0.9825583,precomputed,8,0.8,1.0,1.0,42,pdb,8SGM,CD1d,CD1,MHC-I like,MHC-bound-BL
+6sny,-1.4566004,-4.7539144,precomputed,8,0.8,1.0,1.0,42,pdb,6SNY,EPCR,EPCR,MHC-I like,MHC-bound-BL
+8dv3,-8.433861,2.0706701,precomputed,8,0.8,1.0,1.0,42,pdb,8DV3,CD1b,CD1,MHC-I like,MHC-bound-BL
+9oi0,-8.30041,1.9343108,precomputed,8,0.8,1.0,1.0,42,pdb,9OI0,CD1b,CD1,MHC-I like,MHC-bound-L
+3d2u,2.403869,8.176289,precomputed,8,0.8,1.0,1.0,42,pdb,3D2U,UL18,UL18,MHC mimetics,MHC-bound-L
+3vwk,-11.564659,0.9541946,precomputed,8,0.8,1.0,1.0,42,pdb,3VWK,CD1d,CD1,MHC-I like,MHC-bound-BL
+7ryn,-11.064951,4.4727006,precomputed,8,0.8,1.0,1.0,42,pdb,7RYN,CD1a,CD1,MHC-I like,MHC-bound-L
+8gle,-8.680952,2.0162654,precomputed,8,0.8,1.0,1.0,42,pdb,8GLE,CD1b,CD1,MHC-I like,MHC-bound-L
+7ryo,-10.804022,4.111307,precomputed,8,0.8,1.0,1.0,42,pdb,7RYO,CD1a,CD1,MHC-I like,MHC-bound-BL
+3tzv,-11.292664,1.2816685,precomputed,8,0.8,1.0,1.0,42,pdb,3TZV,CD1d,CD1,MHC-I like,MHC-bound-BL
+7mxh,-15.2630005,-2.5703182,precomputed,8,0.8,1.0,1.0,42,pdb,7MXH,CD1c_chimera,CD chimera,MHC-I like chimera,MHC-bound-L
+1l8j,-2.0247295,-4.829651,precomputed,8,0.8,1.0,1.0,42,pdb,1L8J,EPCR,EPCR,MHC-I like,MHC-bound-L
+7fi9,15.219602,-0.88121706,precomputed,8,0.8,1.0,1.0,42,pdb,7FI9,MICA,MIC,MHC-I like,MHC-bound-B
+5l2j,-8.559301,1.5860575,precomputed,8,0.8,1.0,1.0,42,pdb,5L2J,CD1b,CD1,MHC-I like,MHC-bound-L
+4en3,-11.951536,1.117422,precomputed,8,0.8,1.0,1.0,42,pdb,4EN3,CD1d,CD1,MHC-I like,MHC-bound-BL
+7fi6,15.167199,-0.75526196,precomputed,8,0.8,1.0,1.0,42,pdb,7FI6,MICA,MIC,MHC-I like,MHC-bound-B
+8glf,-8.373216,1.5655458,precomputed,8,0.8,1.0,1.0,42,pdb,8GLF,CD1b,CD1,MHC-I like,MHC-bound-L
+4mng,-11.8867035,0.17390206,precomputed,8,0.8,1.0,1.0,42,pdb,4MNG,CD1d_chimera,CD chimera,MHC-I like chimera,MHC-bound-BL
+8glh,-7.9021544,2.0394585,precomputed,8,0.8,1.0,1.0,42,pdb,8GLH,CD1b,CD1,MHC-I like,MHC-bound-L
+1hyr,15.24056,-0.8800385,precomputed,8,0.8,1.0,1.0,42,pdb,1HYR,MICA,MIC,MHC-I like,MHC-bound-B
+7kp1,-9.730004,5.203608,precomputed,8,0.8,1.0,1.0,42,pdb,7KP1,CD1a,CD1,MHC-I like,MHC-bound-L
+7kp0,-10.1549225,4.794389,precomputed,8,0.8,1.0,1.0,42,pdb,7KP0,CD1a,CD1,MHC-I like,MHC-bound-L
+7fi5,14.733068,-1.1379585,precomputed,8,0.8,1.0,1.0,42,pdb,7FI5,MICA,MIC,MHC-I like,MHC-bound-B
+7oks,-1.3644575,-4.5094767,precomputed,8,0.8,1.0,1.0,42,pdb,7OKS,EPCR,EPCR,MHC-I like,MHC-bound-L
+5wl1,-8.408094,2.4340186,precomputed,8,0.8,1.0,1.0,42,pdb,5WL1,CD1b,CD1,MHC-I like,MHC-bound-L
+8sgb,-12.036727,0.73781765,precomputed,8,0.8,1.0,1.0,42,pdb,8SGB,CD1d,CD1,MHC-I like,MHC-bound-BL
+6nux,-9.987423,5.069284,precomputed,8,0.8,1.0,1.0,42,pdb,6NUX,CD1a,CD1,MHC-I like,MHC-bound-L
+1gzp,-8.700806,3.0361032,precomputed,8,0.8,1.0,1.0,42,pdb,1GZP,CD1b,CD1,MHC-I like,MHC-bound-L
+7oku,-1.8575289,-5.070751,precomputed,8,0.8,1.0,1.0,42,pdb,7OKU,EPCR,EPCR,MHC-I like,MHC-bound-L
+8rwb,1.7965921,-11.038745,precomputed,8,0.8,1.0,1.0,42,pdb,8RWB,ULBP,ULBP,MHC-I like,MHC-bound-B
+7rym,-10.887575,4.599001,precomputed,8,0.8,1.0,1.0,42,pdb,7RYM,CD1a,CD1,MHC-I like,MHC-bound-B
+4x6d,-10.374298,4.3084702,precomputed,8,0.8,1.0,1.0,42,pdb,4X6D,CD1a,CD1,MHC-I like,MHC-bound-BL
+3t8x,-8.149519,2.3459969,precomputed,8,0.8,1.0,1.0,42,pdb,3T8X,CD1b,CD1,MHC-I like,MHC-bound-L
+4v3e,-1.6137539,-4.9175353,precomputed,8,0.8,1.0,1.0,42,pdb,4V3E,EPCR,EPCR,MHC-I like,MHC-bound-BL
+6c09,-15.454145,-1.7655836,precomputed,8,0.8,1.0,1.0,42,pdb,6C09,CD1c,CD1,MHC-I like,MHC-bound-BL
+8gli,-8.336135,1.7378086,precomputed,8,0.8,1.0,1.0,42,pdb,8GLI,CD1b,CD1,MHC-I like,MHC-bound-L
+3ov6,-14.646813,-2.2365315,precomputed,8,0.8,1.0,1.0,42,pdb,3OV6,CD1c_SC,CD SC,MHC-I like SC,MHC-bound-L
+6d64,-8.5343,2.4680068,precomputed,8,0.8,1.0,1.0,42,pdb,6D64,CD1b,CD1,MHC-I like,MHC-bound-L
+5c9j,-15.454537,-1.7032254,precomputed,8,0.8,1.0,1.0,42,pdb,5C9J,CD1c_chimera,CD chimera,MHC-I like chimera,MHC-bound-L
+7fi7,14.732376,-1.1433533,precomputed,8,0.8,1.0,1.0,42,pdb,7FI7,MICA,MIC,MHC-I like,MHC-bound-B
+7sh4,-9.601155,4.9367204,precomputed,8,0.8,1.0,1.0,42,pdb,7SH4,CD1a,CD1,MHC-I like,MHC-bound-L
+4v3d,-1.6132116,-5.096108,precomputed,8,0.8,1.0,1.0,42,pdb,4V3D,EPCR,EPCR,MHC-I like,MHC-bound-BL
+1gzq,-7.889379,2.8337166,precomputed,8,0.8,1.0,1.0,42,pdb,1GZQ,CD1b,CD1,MHC-I like,MHC-bound-L
+7q5d,-2.0552623,-5.1555843,precomputed,8,0.8,1.0,1.0,42,pdb,7Q5D,EPCR,EPCR,MHC-I like,MHC-bound-L
+9qwk,-15.6970005,-1.6927744,precomputed,8,0.8,1.0,1.0,42,pdb,9QWK,CD1c_SC,CD SC,MHC-I like SC,MHC-bound-B
+9ohz,-10.704629,4.8686,precomputed,8,0.8,1.0,1.0,42,pdb,9OHZ,CD1a,CD1,MHC-I like,MHC-bound-L
+8glg,-7.783925,2.4775786,precomputed,8,0.8,1.0,1.0,42,pdb,8GLG,CD1b,CD1,MHC-I like,MHC-bound-L
+4wwk,-10.893237,0.55695796,precomputed,8,0.8,1.0,1.0,42,pdb,4WWK,CD1d,CD1,MHC-I like,MHC-bound-BL
+3vwj,-11.288317,1.507321,precomputed,8,0.8,1.0,1.0,42,pdb,3VWJ,CD1d,CD1,MHC-I like,MHC-bound-BL
+2po6,-11.419862,0.7490942,precomputed,8,0.8,1.0,1.0,42,pdb,2PO6,CD1d,CD1,MHC-I like,MHC-bound-BL
+5j1a,-10.040139,4.6619196,precomputed,8,0.8,1.0,1.0,42,pdb,5J1A,CD1a,CD1,MHC-I like,MHC-bound-L
+4x6e,-10.756761,4.998367,precomputed,8,0.8,1.0,1.0,42,pdb,4X6E,CD1a,CD1,MHC-I like,MHC-bound-L
+5wkg,-8.925174,2.7889001,precomputed,8,0.8,1.0,1.0,42,pdb,5WKG,CD1b,CD1,MHC-I like,MHC-bound-L
+7okv,-1.7201182,-4.9896812,precomputed,8,0.8,1.0,1.0,42,pdb,7OKV,EPCR,EPCR,MHC-I like,MHC-unbound
+6v80,-11.864708,0.29545113,precomputed,8,0.8,1.0,1.0,42,pdb,6V80,CD1d,CD1,MHC-I like,MHC-bound-BL
+9qwj,-15.571988,-1.5725943,precomputed,8,0.8,1.0,1.0,42,pdb,9QWJ,CD1c_SC,CD SC,MHC-I like SC,MHC-bound-B
+6cug,-8.603431,2.5627742,precomputed,8,0.8,1.0,1.0,42,pdb,6CUG,CD1b,CD1,MHC-I like,MHC-bound-BL
+2h26,-8.416206,2.9893222,precomputed,8,0.8,1.0,1.0,42,pdb,2H26,CD1b,CD1,MHC-I like,MHC-bound-L
+5l2k,-9.006868,3.040174,precomputed,8,0.8,1.0,1.0,42,pdb,5L2K,CD1b,CD1,MHC-I like,MHC-bound-BL
+7okt,-1.569635,-4.7976184,precomputed,8,0.8,1.0,1.0,42,pdb,7OKT,EPCR,EPCR,MHC-I like,MHC-bound-L
+5wki,-7.9225936,2.6346242,precomputed,8,0.8,1.0,1.0,42,pdb,5WKI,CD1b,CD1,MHC-I like,MHC-bound-BL
+7koz,-9.714628,5.344984,precomputed,8,0.8,1.0,1.0,42,pdb,7KOZ,CD1a,CD1,MHC-I like,MHC-bound-L
+5wke,-8.56837,2.9915218,precomputed,8,0.8,1.0,1.0,42,pdb,5WKE,CD1b,CD1,MHC-I like,MHC-bound-L
+1zt4,-11.5026045,0.96351254,precomputed,8,0.8,1.0,1.0,42,pdb,1ZT4,CD1d,CD1,MHC-I like,MHC-bound-L
+1uqs,-8.549364,3.3090804,precomputed,8,0.8,1.0,1.0,42,pdb,1UQS,CD1b,CD1,MHC-I like,MHC-bound-L
+4x6c,-10.144065,4.5478067,precomputed,8,0.8,1.0,1.0,42,pdb,4X6C,CD1a,CD1,MHC-I like,MHC-bound-BL
+4mq7,-11.11103,0.50284684,precomputed,8,0.8,1.0,1.0,42,pdb,4MQ7,CD1d_chimera,CD chimera,MHC-I like chimera,MHC-bound-L
+7fi8,14.883422,-1.0831282,precomputed,8,0.8,1.0,1.0,42,pdb,7FI8,MICA,MIC,MHC-I like,MHC-bound-B
+8c44,-1.4242321,-5.2460675,precomputed,8,0.8,1.0,1.0,42,pdb,8C44,EPCR,EPCR,MHC-I like,MHC-bound-BL
+3it8,-8.48132,1.006212,precomputed,8,0.8,1.0,1.0,42,pdb,3IT8,2L,2L,MHC mimetics,MHC-bound-B
+4ono,-14.869318,-2.255076,precomputed,8,0.8,1.0,1.0,42,pdb,4ONO,CD1c_SC,CD SC,MHC-I like SC,MHC-bound-L
+4x6f,-10.401514,4.745315,precomputed,8,0.8,1.0,1.0,42,pdb,4X6F,CD1a,CD1,MHC-I like,MHC-bound-L
+8zox,-8.645919,2.6658375,precomputed,8,0.8,1.0,1.0,42,pdb,8ZOX,CD1b,CD1,MHC-I like,MHC-bound-BL
+4ffe,-5.834623,-4.0778127,precomputed,8,0.8,1.0,1.0,42,pdb,4FFE,OMCP,OMCP,MHC mimetics,MHC-unbound
+6c15,-15.392163,-1.5871968,precomputed,8,0.8,1.0,1.0,42,pdb,6C15,CD1c,CD1,MHC-I like,MHC-bound-L
+7xxa,-6.3507514,-3.360746,precomputed,8,0.8,1.0,1.0,42,pdb,7XXA,FcRn,FcRn,MHC-I like,MHC-bound-B
+4pdc,-6.013288,-4.1949644,precomputed,8,0.8,1.0,1.0,42,pdb,4PDC,OMCP,OMCP,MHC mimetics,MHC-bound-B
+3s6c,-9.223602,3.133433,precomputed,8,0.8,1.0,1.0,42,pdb,3S6C,CD1e_SC,CD SC,MHC-I like SC,MHC-unbound
+7nui,-3.966605,10.270812,precomputed,8,0.8,1.0,1.0,42,pdb,7NUI,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+8elg,2.5821157,13.2457485,precomputed,8,0.8,1.0,1.0,42,pdb,8ELG,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8erx,8.76209,0.4642534,precomputed,8,0.8,1.0,1.0,42,pdb,8ERX,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-L
+8elh,2.6333158,13.277901,precomputed,8,0.8,1.0,1.0,42,pdb,8ELH,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9wc2,5.1106734,4.59043,precomputed,8,0.8,1.0,1.0,42,pdb,9WC2,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+24st,0.70912695,9.148517,precomputed,8,0.8,1.0,1.0,42,pdb,24ST,HLA-B,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+9wc3,5.0104065,4.0251713,precomputed,8,0.8,1.0,1.0,42,pdb,9WC3,HLA-A,HLA Class Ia,Classical MHC-I,MHC-bound-BL
+5xs3,2.0290868,10.913314,precomputed,8,0.8,1.0,1.0,42,pdb,5XS3,HLA-C,HLA Class Ia,Classical MHC-I,MHC-bound-L
+9ohu,-15.192908,-2.3538716,precomputed,8,0.8,1.0,1.0,42,pdb,9OHU,CD1c,CD1,MHC-I like,MHC-bound-L
+9ohx,-14.695934,-2.3253994,precomputed,8,0.8,1.0,1.0,42,pdb,9OHX,CD1c,CD1,MHC-I like,MHC-bound-L
+9ohv,-15.007413,-2.6453648,precomputed,8,0.8,1.0,1.0,42,pdb,9OHV,CD1c,CD1,MHC-I like,MHC-bound-L
+9ohw,-14.825608,-2.173874,precomputed,8,0.8,1.0,1.0,42,pdb,9OHW,CD1c,CD1,MHC-I like,MHC-bound-L
+9ohy,-14.63706,-2.4674933,precomputed,8,0.8,1.0,1.0,42,pdb,9OHY,CD1c,CD1,MHC-I like,MHC-bound-L
+9oht,-14.915874,-2.0540946,precomputed,8,0.8,1.0,1.0,42,pdb,9OHT,CD1c,CD1,MHC-I like,MHC-bound-L
+p13747,2.0552564,8.982756,precomputed,8,0.8,1.0,1.0,42,af,AF-P13747-F1-model_v6,HLA-E,HLA Class Ib,Non-classical MHC-I,MHC-unbound
+p01889,1.1078477,8.992618,precomputed,8,0.8,1.0,1.0,42,af,AF-P01889-F1-model_v6,HLA-B,HLA Class Ia,Classical MHC-I,MHC-unbound
+p04439,10.144907,3.3018985,precomputed,8,0.8,1.0,1.0,42,af,AF-P04439-F1-model_v6,HLA-A,HLA Class Ia,Classical MHC-I,MHC-unbound
+p30511,4.338442,7.9374113,precomputed,8,0.8,1.0,1.0,42,af,AF-P30511-F1-model_v6,HLA-F,HLA Class Ib,Non-classical MHC-I,MHC-unbound
+p17693,3.7956834,8.843375,precomputed,8,0.8,1.0,1.0,42,af,AF-P17693-F1-model_v6,HLA-G,HLA Class Ib,Non-classical MHC-I,MHC-unbound
+p10321,1.6357204,8.924511,precomputed,8,0.8,1.0,1.0,42,af,AF-P10321-F1-model_v6,HLA-C,HLA Class Ia,Classical MHC-I,MHC-unbound
+p01893,1.3653095,9.317207,precomputed,8,0.8,1.0,1.0,42,af,AF-P01893-F1-model_v6,HLA-H,HLA Class Ib,Non-classical MHC-I,MHC-unbound
+q95460,15.733876,13.487056,precomputed,8,0.8,1.0,1.0,42,af,AF-Q95460-F1-model_v6,MR1,MR1,MHC-I like,MHC-unbound
+p25311,12.8789015,9.409269,precomputed,8,0.8,1.0,1.0,42,af,AF-P25311-F1-model_v6,ZAG,ZAG,MHC-I like,MHC-unbound
+q30201,13.321616,8.264055,precomputed,8,0.8,1.0,1.0,42,af,AF-Q30201-F1-model_v6,HFE,HFE,MHC-I like,MHC-unbound
+q29980,15.715195,-0.42341393,precomputed,8,0.8,1.0,1.0,42,af,AF-Q29980-F1-model_v6,MICB,MIC,MHC-I like,MHC-unbound
+q8td07,1.8900229,-11.021005,precomputed,8,0.8,1.0,1.0,42,af,AF-Q8TD07-F1-model_v6,ULBP,ULBP,MHC-I like,MHC-unbound
+p55899,-5.765879,-3.3912559,precomputed,8,0.8,1.0,1.0,42,af,AF-P55899-F1-model_v6,FcRn,FcRn,MHC-I like,MHC-unbound
+q6h3x3,2.0177524,-10.846525,precomputed,8,0.8,1.0,1.0,42,af,AF-Q6H3X3-F1-model_v6,ULBP,ULBP,MHC-I like,MHC-unbound
+q5vy80,1.6241975,-11.290422,precomputed,8,0.8,1.0,1.0,42,af,AF-Q5VY80-F1-model_v6,ULBP,ULBP,MHC-I like,MHC-unbound
+q29983,15.533262,-0.6265996,precomputed,8,0.8,1.0,1.0,42,af,AF-Q29983-F1-model_v6,MICA,MIC,MHC-I like,MHC-unbound
+p06126,-10.117853,3.899188,precomputed,8,0.8,1.0,1.0,42,af,AF-P06126-F1-model_v6,CD1a,CD1,MHC-I like,MHC-unbound
+q9bzm6,1.6932762,-11.242503,precomputed,8,0.8,1.0,1.0,42,af,AF-Q9BZM6-F1-model_v6,ULBP,ULBP,MHC-I like,MHC-unbound
+q9bzm4,1.7828181,-11.085906,precomputed,8,0.8,1.0,1.0,42,af,AF-Q9BZM4-F1-model_v6,ULBP,ULBP,MHC-I like,MHC-unbound
+q9bzm5,1.9367263,-11.307911,precomputed,8,0.8,1.0,1.0,42,af,AF-Q9BZM5-F1-model_v6,ULBP,ULBP,MHC-I like,MHC-unbound
+q9unn8,-1.767948,-4.653504,precomputed,8,0.8,1.0,1.0,42,af,AF-Q9UNN8-F1-model_v6,EPCR,EPCR,MHC-I like,MHC-unbound
+p15812,-9.643799,3.137088,precomputed,8,0.8,1.0,1.0,42,af,AF-P15812-F1-model_v6,CD1e,CD1,MHC-I like,MHC-unbound
+p29017,-15.478796,-1.9066055,precomputed,8,0.8,1.0,1.0,42,af,AF-P29017-F1-model_v6,CD1c,CD1,MHC-I like,MHC-unbound
+p15813,-11.744038,0.6555308,precomputed,8,0.8,1.0,1.0,42,af,AF-P15813-F1-model_v6,CD1d,CD1,MHC-I like,MHC-unbound
+p29016,-8.888748,2.6461847,precomputed,8,0.8,1.0,1.0,42,af,AF-P29016-F1-model_v6,CD1b,CD1,MHC-I like,MHC-unbound

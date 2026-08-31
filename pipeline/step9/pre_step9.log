@@ -1,0 +1,67 @@
+=== Prepare modified full complexes for step9 ===
+Step7 input folder exists:     True
+Step8 remodeled folder exists: True
+Modified output folder:        modified_pdbs
+Input CSV:                     removals.csv
+
+[SUMMARY CSV] edited copies written
+[SUMMARY CSV] step7_binders: rows=729, removed=24
+[SUMMARY CSV] step7_ligands: rows=1129, removed=0
+
+[SOURCE] 1LP9: using step7 file
+[REQUEST] 1LP9: remove chains D,E
+[OK] 1LP9: modified full complex written; removed=2, not_found=0
+[SOURCE] 2J8U: using step7 file
+[REQUEST] 2J8U: remove chains D,E
+[OK] 2J8U: modified full complex written; removed=2, not_found=0
+[SOURCE] 2JCC: using step7 file
+[REQUEST] 2JCC: remove chains E,D
+[OK] 2JCC: modified full complex written; removed=2, not_found=0
+[SOURCE] 2UWE: using step7 file
+[REQUEST] 2UWE: remove chains D,E
+[OK] 2UWE: modified full complex written; removed=2, not_found=0
+[SOURCE] 3DTX: using step7 file
+[REQUEST] 3DTX: remove chains C
+[OK] 3DTX: modified full complex written; removed=1, not_found=0
+[ERROR] 4MNQ: no step7 PDB found for 4MNQ
+[SOURCE] 6V7Z: using step7 file
+[REQUEST] 6V7Z: remove chains C
+[OK] 6V7Z: modified full complex written; removed=1, not_found=0
+[SOURCE] 6V80: using step7 file
+[REQUEST] 6V80: remove chains E
+[OK] 6V80: modified full complex written; removed=1, not_found=0
+[SOURCE] 7DZM: using step7 file
+[REQUEST] 7DZM: remove chains B
+[OK] 7DZM: modified full complex written; removed=1, not_found=0
+[SOURCE] 7NDT: using step7 file
+[REQUEST] 7NDT: remove chains F
+[OK] 7NDT: modified full complex written; removed=1, not_found=0
+[SOURCE] 7NUI: using step7 file
+[REQUEST] 7NUI: remove chains B
+[OK] 7NUI: modified full complex written; removed=1, not_found=0
+[SOURCE] 8DV3: using step7 file
+[REQUEST] 8DV3: remove chains B
+[OK] 8DV3: modified full complex written; removed=1, not_found=0
+[SOURCE] 8I5C: using step7 file
+[REQUEST] 8I5C: remove chains D,E
+[OK] 8I5C: modified full complex written; removed=2, not_found=0
+[SOURCE] 8I5D: using step7 file
+[REQUEST] 8I5D: remove chains B,C
+[OK] 8I5D: modified full complex written; removed=2, not_found=0
+[SOURCE] 8WTE: using step7 file
+[REQUEST] 8WTE: remove chains C,B
+[OK] 8WTE: modified full complex written; removed=2, not_found=0
+[SOURCE] 8WUL: using step7 file
+[REQUEST] 8WUL: remove chains C,B
+[OK] 8WUL: modified full complex written; removed=2, not_found=0
+
+=== Pre-step9 summary ===
+PDBs requested:        16
+PDBs with output:      15
+Chain removals done:   23
+Chain requests missing:1
+Modified PDB folder:   modified_pdbs
+Path-free log:         modified_pdbs_log.csv
+Edited binders CSV:    step9_binders.csv
+Edited ligands CSV:    step9_ligands.csv
+[DONE] Pre-step9 finished

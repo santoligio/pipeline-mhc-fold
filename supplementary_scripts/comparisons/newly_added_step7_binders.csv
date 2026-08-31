@@ -1,3 +1,0 @@
-pdb,chain_id,chain_residue_count,min_distance_to_mhc_helix,min_distance_to_ligand,nearest_ligand_chain,binder_contact_source,classification
-3VXM,E,243,,3.309,C,ligand,binder
-4JRX,E,238,,2.887,C,ligand,binder

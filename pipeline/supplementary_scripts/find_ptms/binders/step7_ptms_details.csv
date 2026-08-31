@@ -1,0 +1,84 @@
+pdb_id,chain_id,chain_type,resname,resseq,icode,hetflag,ptm_type,removal_risk
+1LQV,B,binder,CGU,6,,HETATM,carboxylation,may_leave_backbone_gap
+1LQV,B,binder,CGU,7,,HETATM,carboxylation,may_leave_backbone_gap
+1LQV,B,binder,CGU,14,,HETATM,carboxylation,may_leave_backbone_gap
+1LQV,B,binder,CGU,16,,HETATM,carboxylation,may_leave_backbone_gap
+1LQV,B,binder,CGU,19,,HETATM,carboxylation,may_leave_backbone_gap
+1LQV,B,binder,CGU,20,,HETATM,carboxylation,may_leave_backbone_gap
+1LQV,B,binder,CGU,25,,HETATM,carboxylation,may_leave_backbone_gap
+1LQV,B,binder,CGU,26,,HETATM,carboxylation,may_leave_backbone_gap
+1LQV,B,binder,CGU,29,,HETATM,carboxylation,may_leave_backbone_gap
+3JTC,B,binder,CGU,6,,HETATM,carboxylation,may_leave_backbone_gap
+3JTC,B,binder,CGU,7,,HETATM,carboxylation,may_leave_backbone_gap
+3JTC,B,binder,CGU,14,,HETATM,carboxylation,may_leave_backbone_gap
+3JTC,B,binder,CGU,16,,HETATM,carboxylation,may_leave_backbone_gap
+3JTC,B,binder,CGU,19,,HETATM,carboxylation,may_leave_backbone_gap
+3JTC,B,binder,CGU,20,,HETATM,carboxylation,may_leave_backbone_gap
+3JTC,B,binder,CGU,25,,HETATM,carboxylation,may_leave_backbone_gap
+3JTC,B,binder,CGU,26,,HETATM,carboxylation,may_leave_backbone_gap
+3JTC,B,binder,CGU,29,,HETATM,carboxylation,may_leave_backbone_gap
+6BJ2,D,binder,PCA,1,,HETATM,pyroglutamate formation,may_leave_backbone_gap
+7RNO,C,binder,3X9,30,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+1B0R,C,ligand,CDE,709,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+2X4N,C,ligand,PRV,5,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+2X4P,C,ligand,MSE,1,,HETATM,selenomethionine substitution,may_leave_backbone_gap
+2X4P,C,ligand,PRV,5,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+2X4P,C,ligand,PRQ,8,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+2X4Q,C,ligand,MSE,1,,HETATM,selenomethionine substitution,may_leave_backbone_gap
+2X4Q,C,ligand,PRV,5,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+2X4Q,C,ligand,PRQ,8,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+2X70,C,ligand,PRV,5,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+2X70,C,ligand,PRQ,8,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+3B3I,C,ligand,CIR,5,,HETATM,citrullination,may_leave_backbone_gap
+3B6S,C,ligand,CIR,5,,HETATM,citrullination,may_leave_backbone_gap
+3BGM,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+3BH8,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+3BH9,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+3BHB,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+3D39,C,ligand,PFF,5,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+3D3V,C,ligand,F2F,5,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+3DTX,E,ligand,CIR,5,,HETATM,citrullination,may_leave_backbone_gap
+3DTX,E,ligand,CIR,6,,HETATM,citrullination,may_leave_backbone_gap
+3FQR,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+3FQU,C,ligand,SEP,5,,HETATM,phosphorylation,may_leave_backbone_gap
+3FQX,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+3FT2,C,ligand,CIR,3,,HETATM,citrullination,may_leave_backbone_gap
+3HCV,C,ligand,CIR,5,,HETATM,citrullination,may_leave_backbone_gap
+3HCV,C,ligand,CIR,6,,HETATM,citrullination,may_leave_backbone_gap
+3O3A,C,ligand,BAL,1,,HETATM,beta-amino acid / peptide-like residue,may_leave_backbone_gap
+3O3A,C,ligand,GIC,4,,HETATM,peptide-like residue,may_leave_backbone_gap
+3O3A,C,ligand,3AZ,5,,HETATM,peptide-like residue,may_leave_backbone_gap
+3O3B,C,ligand,GIC,4,,HETATM,peptide-like residue,may_leave_backbone_gap
+3O3B,C,ligand,3AZ,5,,HETATM,peptide-like residue,may_leave_backbone_gap
+3O3D,C,ligand,TIG,4,,HETATM,amino-acid analog,may_leave_backbone_gap
+3O3D,C,ligand,3AZ,5,,HETATM,peptide-like residue,may_leave_backbone_gap
+3O3E,C,ligand,BAL,1,,HETATM,beta-amino acid / peptide-like residue,may_leave_backbone_gap
+3O3E,C,ligand,TIG,4,,HETATM,amino-acid analog,may_leave_backbone_gap
+3O3E,C,ligand,3AZ,5,,HETATM,peptide-like residue,may_leave_backbone_gap
+4NNX,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+4NO2,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+4NO3,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+4UQ3,C,ligand,XFW,5,,HETATM,peptide-like residue,may_leave_backbone_gap
+4WJ5,C,ligand,NVA,1,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+4WJ5,C,ligand,LPH,9,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+5IEH,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+5W67,C,ligand,ABA,6,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+6BXP,C,ligand,KYN,10,,HETATM,kynurenine substitution,may_leave_backbone_gap
+6ZKY,C,ligand,QMB,9,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+6ZKZ,C,ligand,QM8,9,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+7ALO,C,ligand,PRQ,8,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+7CIR,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+7CIS,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+7CIS,C,ligand,SEP,6,,HETATM,phosphorylation,may_leave_backbone_gap
+7DYN,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+7DYN,C,ligand,SEP,6,,HETATM,phosphorylation,may_leave_backbone_gap
+7NDT,C,ligand,QM8,9,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+7NDU,C,ligand,QM8,9,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+7RZJ,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+7S7D,C,ligand,OSE,4,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+7S7F,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+7S8A,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+7S8E,C,ligand,SEP,4,,HETATM,phosphorylation,may_leave_backbone_gap
+8SHI,C,ligand,ABA,6,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+9ASF,C,ligand,4OG,6,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
+9ASG,C,ligand,4OG,6,,HETATM,modified/unknown peptide residue,may_leave_backbone_gap
