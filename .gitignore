@@ -20,6 +20,11 @@ mhc_all-vs_all*
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
 
 # Virtual environments
 venv/
@@ -40,3 +45,19 @@ venv/
 # Cavity files
 # =========================
 *.toml
+
+# =========================
+# Redundancy analysis
+# =========================
+# Large reproducible intermediates and local RCSB cache. Keep the compact
+# grouping, removal, validation, and summary outputs under version control.
+analysis/redundancy/outputs/complex_catalog.csv
+analysis/redundancy/outputs/component_sequences.csv
+analysis/redundancy/outputs/rcsb_resolution_cache.csv
+
+# =========================
+# Operating-system metadata
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini

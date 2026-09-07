@@ -1,0 +1,30 @@
+{
+  "analysis_universe": "PDB IDs present in final 5_mhc_complex directory after explicit exclusions",
+  "assembly_cifs_ignored_without_final_complex": 564,
+  "available_assembly_cifs": 1829,
+  "binder_chains": 838,
+  "excluded_final_complexes": 2,
+  "excluded_pdb_ids": [
+    "7Q15",
+    "9OHX"
+  ],
+  "final_complexes": 1265,
+  "input_paths": {
+    "binders": "export_para_giovanna/step9_binders.csv",
+    "cif_dir": "export_para_giovanna/1_assemblies",
+    "complex_dir": "export_para_giovanna/5_mhc_complex",
+    "ligands": "export_para_giovanna/step9_ligands.csv",
+    "resname_map": "export_para_giovanna/resname_map.csv",
+    "trim_ranges": "export_para_giovanna/pdb_assemblies_remapped.csv"
+  },
+  "invalid_complexes": 0,
+  "issues_by_severity": {
+    "ERROR": 0,
+    "INFO": 118,
+    "WARNING": 0
+  },
+  "ligand_basis": "exact multiset of peptide sequences and nonpeptide CCD residue IDs",
+  "ligand_chains": 1231,
+  "matching_peptide_basis": "canonical residue sequence; CCD parent used for modified amino acids",
+  "valid_complexes": 1265
+}

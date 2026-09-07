@@ -1,0 +1,119 @@
+pdb_id,severity,code,component,chain_id,details,treatment
+13BR,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=170 expected=[157],final MHC retained as authoritative trimmed sequence
+1EXU,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=169 expected=[161],final MHC retained as authoritative trimmed sequence
+1KCG,INFO,manual_override_applied,mhc,A,residue_id=CGL; occurrences=1; positions=101,Glutathionylated cysteine contributes C to the MHC sequence while glutathione is retained separately as ligand GSH
+1KCG,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=178 expected=[170],final MHC retained as authoritative trimmed sequence
+1KCG,INFO,supplemental_ligand_descriptor_added,mhc,A,residue_id=CGL; occurrences=1; positions=101; descriptor=N:GSH,modified residue retained as its parent amino acid and chemical adduct retained in ligand signature
+1M05,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=180 expected=[172],final MHC retained as authoritative trimmed sequence
+28IL,INFO,classified_chain_absent_in_final,binder,C,expected_residues=100,CSV classification ignored because 5_mhc_complex prevails
+2WY3,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=174 expected=[171],final MHC retained as authoritative trimmed sequence
+3OV6,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=177 expected=[174],final MHC retained as authoritative trimmed sequence
+3S6C,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=170 expected=[167],final MHC retained as authoritative trimmed sequence
+3SKM,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[173],final MHC retained as authoritative trimmed sequence
+3SKO,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[176],final MHC retained as authoritative trimmed sequence
+3VWJ,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[168],final MHC retained as authoritative trimmed sequence
+3VWK,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=175 expected=[170],final MHC retained as authoritative trimmed sequence
+4EN3,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=175 expected=[173],final MHC retained as authoritative trimmed sequence
+4L4V,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=177 expected=[176],final MHC retained as authoritative trimmed sequence
+4MQ7,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[168],final MHC retained as authoritative trimmed sequence
+4ONO,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=177 expected=[172],final MHC retained as authoritative trimmed sequence
+4PJE,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=174 expected=[172],final MHC retained as authoritative trimmed sequence
+4PJH,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=175 expected=[174],final MHC retained as authoritative trimmed sequence
+4PJI,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=175 expected=[174],final MHC retained as authoritative trimmed sequence
+4PJX,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=174 expected=[172],final MHC retained as authoritative trimmed sequence
+4QRQ,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[172],final MHC retained as authoritative trimmed sequence
+4V3E,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=168 expected=[165],final MHC retained as authoritative trimmed sequence
+4X6C,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[164],final MHC retained as authoritative trimmed sequence
+4X6D,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=175 expected=[170],final MHC retained as authoritative trimmed sequence
+4X6E,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=175 expected=[163],final MHC retained as authoritative trimmed sequence
+4X6F,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[162],final MHC retained as authoritative trimmed sequence
+5J1A,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=174 expected=[167],final MHC retained as authoritative trimmed sequence
+5U72,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[171],final MHC retained as authoritative trimmed sequence
+5WHK,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=162 expected=[157],final MHC retained as authoritative trimmed sequence
+5WKI,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=177 expected=[175],final MHC retained as authoritative trimmed sequence
+5WMR,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[170],final MHC retained as authoritative trimmed sequence
+5XS3,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[177],final MHC retained as authoritative trimmed sequence
+6BJ2,INFO,manual_override_applied,binder,D,residue_id=PCA; occurrences=1; positions=1,N-terminal pyroglutamine contributes Q to the canonical binder sequence while PCA remains part of the redundancy signature
+6C15,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=171 expected=[167],final MHC retained as authoritative trimmed sequence
+6C98,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=170 expected=[168],final MHC retained as authoritative trimmed sequence
+6ILM,INFO,nonpeptide_ignored_in_protein_chain,binder,B,SPH,not part of peptide-sequence matching
+6ILM,INFO,nonpeptide_ignored_in_protein_chain,binder,C,SPH,not part of peptide-sequence matching
+6K60,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[174],final MHC retained as authoritative trimmed sequence
+6NHA,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=163 expected=[161],final MHC retained as authoritative trimmed sequence
+6NUX,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[166],final MHC retained as authoritative trimmed sequence
+6QIO,INFO,nonpeptide_ignored_in_protein_chain,binder,B,JG5,not part of peptide-sequence matching
+6QIP,INFO,nonpeptide_ignored_in_protein_chain,binder,B,JG5,not part of peptide-sequence matching
+6ZKX,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=178 expected=[177],final MHC retained as authoritative trimmed sequence
+7DZM,INFO,classified_chain_absent_in_final,binder,B,expected_residues=100,CSV classification ignored because 5_mhc_complex prevails
+7FI5,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=175 expected=[162],final MHC retained as authoritative trimmed sequence
+7FI6,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=176 expected=[165],final MHC retained as authoritative trimmed sequence
+7FI7,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=174 expected=[163],final MHC retained as authoritative trimmed sequence
+7FI8,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=175 expected=[162],final MHC retained as authoritative trimmed sequence
+7FI9,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=174 expected=[159],final MHC retained as authoritative trimmed sequence
+7KOZ,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=174 expected=[170],final MHC retained as authoritative trimmed sequence
+7KP0,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=175 expected=[171],final MHC retained as authoritative trimmed sequence
+7KP1,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[169],final MHC retained as authoritative trimmed sequence
+7NDT,INFO,classified_chain_absent_in_final,binder,F,expected_residues=241,CSV classification ignored because 5_mhc_complex prevails
+7NUI,INFO,classified_chain_absent_in_final,binder,B,expected_residues=99,CSV classification ignored because 5_mhc_complex prevails
+7OKS,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=168 expected=[166],final MHC retained as authoritative trimmed sequence
+7OKT,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=165 expected=[161],final MHC retained as authoritative trimmed sequence
+7OKV,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=166 expected=[164],final MHC retained as authoritative trimmed sequence
+7RYM,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=174 expected=[170],final MHC retained as authoritative trimmed sequence
+7RYN,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=174 expected=[171],final MHC retained as authoritative trimmed sequence
+7SH4,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=174 expected=[169],final MHC retained as authoritative trimmed sequence
+7XXA,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=165 expected=[143],final MHC retained as authoritative trimmed sequence
+7ZT9,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=176 expected=[174],final MHC retained as authoritative trimmed sequence
+8C44,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=166 expected=[163],final MHC retained as authoritative trimmed sequence
+8DV3,INFO,classified_chain_absent_in_final,binder,B,expected_residues=100,CSV classification ignored because 5_mhc_complex prevails
+8E2Z,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[173],final MHC retained as authoritative trimmed sequence
+8ESH,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[177],final MHC retained as authoritative trimmed sequence
+8SGM,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=175 expected=[174],final MHC retained as authoritative trimmed sequence
+8SGM,INFO,pdb_resname_restored,ligand,G,AHF->A1AHF,used full CCD ID recorded by step6 resname_map.csv
+8TLZ,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[162],final MHC retained as authoritative trimmed sequence
+8TM0,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[161],final MHC retained as authoritative trimmed sequence
+8TM2,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=177 expected=[164],final MHC retained as authoritative trimmed sequence
+8UDR,INFO,nonpeptide_ignored_in_protein_chain,binder,D,MOV,not part of peptide-sequence matching
+8VR9,INFO,nonpeptide_ignored_in_protein_chain,binder,E,MOV,not part of peptide-sequence matching
+8VRA,INFO,nonpeptide_ignored_in_protein_chain,binder,D,MOV,not part of peptide-sequence matching
+8VRB,INFO,nonpeptide_ignored_in_protein_chain,binder,E,MOV,not part of peptide-sequence matching
+8Y6X,INFO,pdb_resname_restored,ligand,E,LXU->A1LXU,used full CCD ID recorded by step6 resname_map.csv
+8ZOX,INFO,pdb_resname_restored,ligand,F,L2B->A1L2B,used full CCD ID recorded by step6 resname_map.csv
+9C3E,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=178 expected=[159],final MHC retained as authoritative trimmed sequence
+9D95,INFO,nonpeptide_ignored_in_protein_chain,binder,D,P6G,not part of peptide-sequence matching
+9F13,INFO,classified_chain_absent_in_final,binder,D,expected_residues=100,CSV classification ignored because 5_mhc_complex prevails
+9HKQ,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=180 expected=[179],final MHC retained as authoritative trimmed sequence
+9J4S,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=177 expected=[176],final MHC retained as authoritative trimmed sequence
+9K2R,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=177 expected=[173],final MHC retained as authoritative trimmed sequence
+9K2S,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=177 expected=[175],final MHC retained as authoritative trimmed sequence
+9K2U,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[174],final MHC retained as authoritative trimmed sequence
+9L47,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[173],final MHC retained as authoritative trimmed sequence
+9L49,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[176],final MHC retained as authoritative trimmed sequence
+9L4G,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=178 expected=[176],final MHC retained as authoritative trimmed sequence
+9L4I,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[178],final MHC retained as authoritative trimmed sequence
+9MEF,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[168],final MHC retained as authoritative trimmed sequence
+9MEG,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[168],final MHC retained as authoritative trimmed sequence
+9NFB,INFO,pdb_resname_restored,ligand,C,AWR->A1AWR,used full CCD ID recorded by step6 resname_map.csv
+9NFC,INFO,pdb_resname_restored,ligand,C,AWR->A1AWR,used full CCD ID recorded by step6 resname_map.csv
+9NKH,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=169 expected=[136],final MHC retained as authoritative trimmed sequence
+9NW9,INFO,classified_chain_absent_in_final,binder,B,expected_residues=100,CSV classification ignored because 5_mhc_complex prevails
+9NYN,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[165],final MHC retained as authoritative trimmed sequence
+9O06,INFO,pdb_resname_restored,ligand,G,B7N->A1B7N,used full CCD ID recorded by step6 resname_map.csv
+9OC6,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=163 expected=[159],final MHC retained as authoritative trimmed sequence
+9OHT,INFO,pdb_resname_restored,ligand,C,CB4->A1CB4,used full CCD ID recorded by step6 resname_map.csv
+9OHT,INFO,pdb_resname_restored,ligand,D,CB5->A1CB5,used full CCD ID recorded by step6 resname_map.csv
+9OHU,INFO,pdb_resname_restored,ligand,C,CB5->A1CB5,used full CCD ID recorded by step6 resname_map.csv
+9OHU,INFO,pdb_resname_restored,ligand,D,CB6->A1CB6,used full CCD ID recorded by step6 resname_map.csv
+9OHV,INFO,pdb_resname_restored,ligand,D,CB4->A1CB4,used full CCD ID recorded by step6 resname_map.csv
+9OHW,INFO,pdb_resname_restored,ligand,D,CB7->A1CB7,used full CCD ID recorded by step6 resname_map.csv
+9OHZ,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[167],final MHC retained as authoritative trimmed sequence
+9OHZ,INFO,pdb_resname_restored,ligand,C,CB9->A1CB9,used full CCD ID recorded by step6 resname_map.csv
+9OI0,INFO,pdb_resname_restored,ligand,E,CDL->A1CDL,used full CCD ID recorded by step6 resname_map.csv
+9RU5,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=173 expected=[169],final MHC retained as authoritative trimmed sequence
+9RWI,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=179 expected=[173],final MHC retained as authoritative trimmed sequence
+9TJX,INFO,manual_override_applied,binder,B,residue_id=CGU; occurrences=9; positions=6;7;14;16;19;20;25;26;29,Gamma-carboxyglutamate contributes E to the canonical binder sequence while CGU remains part of the redundancy signature
+9TJX,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=169 expected=[168],final MHC retained as authoritative trimmed sequence
+9WBD,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=177 expected=[176],final MHC retained as authoritative trimmed sequence
+9WYD,INFO,mhc_length_differs_from_trim_span,mhc,A,observed=171 expected=[169],final MHC retained as authoritative trimmed sequence
+9Y0U,INFO,classified_chain_absent_in_final,binder,F,expected_residues=244,CSV classification ignored because 5_mhc_complex prevails
+9Y0W,INFO,classified_chain_absent_in_final,binder,F,expected_residues=244,CSV classification ignored because 5_mhc_complex prevails
+9Z4R,INFO,pdb_resname_restored,ligand,E,C0R->A1C0R,used full CCD ID recorded by step6 resname_map.csv

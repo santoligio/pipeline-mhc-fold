@@ -1,0 +1,17 @@
+{
+  "assigned_groups_including_singletons": 1170,
+  "grouping_rule": "representative-anchored partition; every removed PDB directly matches its representative",
+  "mixed_component_direction_pairs": 1,
+  "redundant_groups": 64,
+  "redundant_pairs": 151,
+  "representative_rule": "greatest trimmed MHC length, then lowest numeric resolution, then greatest total binder peptide length, then PDB ID",
+  "representative_selection_reasons": {
+    "best_resolution": 52,
+    "greatest_mhc_length": 7,
+    "pdb_id_tiebreak_same_mhc_same_resolution_and_binder_length": 5
+  },
+  "representatives": 64,
+  "run_signature_sha256_16": "c8e81a9c5b6228cc",
+  "structures_marked_for_removal": 95,
+  "valid_complexes": 1265
+}

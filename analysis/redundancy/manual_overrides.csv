@@ -1,0 +1,4 @@
+pdb_id,residue_id,classification,canonical_token,ligand_descriptor,reason
+1KCG,CGL,peptide,C,N:GSH,Glutathionylated cysteine contributes C to the MHC sequence while glutathione is retained separately as ligand GSH
+6BJ2,PCA,peptide,Q,,N-terminal pyroglutamine contributes Q to the canonical binder sequence while PCA remains part of the redundancy signature
+9TJX,CGU,peptide,E,,Gamma-carboxyglutamate contributes E to the canonical binder sequence while CGU remains part of the redundancy signature

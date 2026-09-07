@@ -1,0 +1,11 @@
+{
+  "catalog_rows": 1265,
+  "component_rows": 3334,
+  "groups": 1170,
+  "invalid_pdbs": 0,
+  "pair_rows": 151,
+  "redundant_groups": 64,
+  "removal_rows": 95,
+  "status": "passed",
+  "valid_pdbs": 1265
+}
