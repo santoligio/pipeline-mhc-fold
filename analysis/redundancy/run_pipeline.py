@@ -10,6 +10,7 @@ from pathlib import Path
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
+DEFAULT_CLASS_REPRESENTATIVES = SCRIPT_DIR / "top1_representatives_tm_score.csv"
 
 
 def main() -> None:
@@ -21,6 +22,10 @@ def main() -> None:
     parser.add_argument("--cif-dir", type=Path)
     parser.add_argument("--resname-map", type=Path)
     parser.add_argument("--overrides", type=Path)
+    parser.add_argument(
+        "--class-representatives", type=Path, default=DEFAULT_CLASS_REPRESENTATIVES,
+        help="CSV containing the curated representatives by structural class",
+    )
     parser.add_argument("--final-source-label")
     parser.add_argument(
         "--exclude-pdb", action="append", default=[], metavar="PDB_ID",
@@ -50,10 +55,12 @@ def main() -> None:
         sys.executable, str(SCRIPT_DIR / "map_redundancy.py"),
         "--catalog", str(args.output_dir / "complex_catalog.csv"),
         "--output-dir", str(args.output_dir),
+        "--class-representatives", str(args.class_representatives),
     ], check=True)
     subprocess.run([
         sys.executable, str(SCRIPT_DIR / "validate_outputs.py"),
         "--output-dir", str(args.output_dir),
+        "--class-representatives", str(args.class_representatives),
     ], check=True)
 
 

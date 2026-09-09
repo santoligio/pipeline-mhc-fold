@@ -1,0 +1,22 @@
+analysis_group,mapped_class,gene_name,pdb_id,mean_tm_score_avg,n_pairs,n_structures,audit_status,redundancy_group,group_size,is_redundancy_representative,standard_rank_representative,class_priority_changed_selection,representative_selection_reason
+2L,2L,,3IT8,1.0,0,1,representative_singleton,RED01003,1,yes,3IT8,no,singleton
+UL18,UL18,,3D2U,1.0,0,1,representative_singleton,RED00001,1,yes,3D2U,no,singleton
+MR1,MR1,,4PJA,0.9903149333333332,75,76,representative_singleton,RED01089,1,yes,4PJA,no,singleton
+HLA Class Ia / HLA-A,HLA Class Ia,HLA-A,3H7B,0.9897344939965695,583,584,representative_singleton,RED00260,1,yes,3H7B,no,singleton
+CD1 / CD1b,CD1,CD1b,6D64,0.9896547619047619,21,22,representative_singleton,RED01056,1,yes,6D64,no,singleton
+HLA Class Ia / HLA-B,HLA Class Ia,HLA-B,6V2Q,0.9886782240437157,366,367,representative_singleton,RED00107,1,yes,6V2Q,no,singleton
+HLA Class Ib / HLA-G,HLA Class Ib,HLA-G,6AEE,0.9885937499999999,8,9,representative_redundant_group,RED00824,2,yes,1YDP,yes,class_representative_priority_changed_selection
+ZAG,ZAG,,1T7V,0.9873688888888889,9,10,representative_singleton,RED01065,1,yes,1T7V,no,singleton
+HLA Class Ia / HLA-C,HLA Class Ia,HLA-C,7SU9,0.9843720512820513,39,40,representative_singleton,RED00832,1,yes,7SU9,no,singleton
+HLA Class Ib / HLA-F,HLA Class Ib,HLA-F,5IUE,0.982665,2,3,representative_singleton,RED00892,1,yes,5IUE,no,singleton
+CD1 / CD1d,CD1,CD1d,6V7Y,0.9805315,20,21,representative_singleton,RED01082,1,yes,6V7Y,no,singleton
+EPCR,EPCR,,4V3D,0.9796009090909091,11,12,representative_singleton,RED01162,1,yes,4V3D,no,singleton
+HLA Class Ib / HLA-E,HLA Class Ib,HLA-E,9NW7,0.9784694285714285,35,36,representative_singleton,RED00935,1,yes,9NW7,no,singleton
+CD1 / CD1c,CD1,CD1c,9OHT,0.97470125,8,9,representative_singleton,RED01009,1,yes,9OHT,no,singleton
+OMCP,OMCP,,4FFE,0.96561,1,2,representative_singleton,RED01170,1,yes,4FFE,no,singleton
+FcRn,FcRn,,4N0U,0.9645459259259259,27,28,representative_singleton,RED01154,1,yes,4N0U,no,singleton
+CD1 / CD1a,CD1,CD1a,7KP0,0.961435,16,17,representative_singleton,RED01035,1,yes,7KP0,no,singleton
+MIC / MICB,MIC,MICB,2WY3,0.95931,2,3,representative_singleton,RED01057,1,yes,2WY3,no,singleton
+HFE,HFE,,1DE4,0.946825,2,3,representative_singleton,RED00948,1,yes,1DE4,no,singleton
+MIC / MICA,MIC,MICA,1HYR,0.9324055555555556,9,10,representative_singleton,RED01043,1,yes,1HYR,no,singleton
+ULBP,ULBP,,4S0U,0.913075,8,9,representative_singleton,RED01080,1,yes,4S0U,no,singleton

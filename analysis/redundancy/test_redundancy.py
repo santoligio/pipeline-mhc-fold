@@ -12,7 +12,10 @@ from build_catalog import (
     classify_residue, load_overrides, load_resname_aliases,
     redundancy_peptide_token,
 )
-from map_redundancy import representative_key, selection_reason
+from map_redundancy import (
+    build_groups, prioritized_representative_key, representative_key,
+    selection_reason,
+)
 
 
 class RedundancyCoreTests(unittest.TestCase):
@@ -139,6 +142,51 @@ class RedundancyCoreTests(unittest.TestCase):
             self.ranking_row("AAAA", 180, "2.5", [1]),
         ]
         self.assertEqual(min(rows, key=representative_key)["pdb_id"], "AAAA")
+
+    def test_class_representative_has_absolute_priority(self):
+        rows = [
+            self.ranking_row("AAAA", 181, "1.2", [200]),
+            self.ranking_row("BBBB", 180, "3.0", [1]),
+        ]
+        records = {row["pdb_id"]: row for row in rows}
+        class_representatives = {"BBBB"}
+        self.assertEqual(
+            min(
+                rows,
+                key=lambda row: prioritized_representative_key(
+                    row, class_representatives
+                ),
+            )["pdb_id"],
+            "BBBB",
+        )
+        groups = build_groups(
+            records,
+            {"AAAA": {"BBBB"}, "BBBB": {"AAAA"}},
+            class_representatives,
+        )
+        self.assertEqual(groups[0]["representative"], "BBBB")
+        self.assertEqual(set(groups[0]["members"]), {"AAAA", "BBBB"})
+        self.assertEqual(
+            selection_reason("BBBB", groups[0]["members"], records, class_representatives),
+            "class_representative_priority_changed_selection",
+        )
+
+    def test_redundant_class_representatives_are_never_removed_by_each_other(self):
+        rows = [
+            self.ranking_row("AAAA", 181, "1.2", [200]),
+            self.ranking_row("BBBB", 180, "3.0", [1]),
+            self.ranking_row("CCCC", 179, "4.0", [1]),
+        ]
+        records = {row["pdb_id"]: row for row in rows}
+        adjacency = {
+            "AAAA": {"BBBB", "CCCC"},
+            "BBBB": {"AAAA", "CCCC"},
+            "CCCC": {"AAAA", "BBBB"},
+        }
+        groups = build_groups(records, adjacency, {"AAAA", "BBBB"})
+        representatives = {group["representative"] for group in groups}
+        self.assertTrue({"AAAA", "BBBB"} <= representatives)
+        self.assertEqual(len(groups), 2)
 
 
 if __name__ == "__main__":

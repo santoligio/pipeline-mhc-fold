@@ -1,17 +1,24 @@
 {
   "assigned_groups_including_singletons": 1170,
-  "grouping_rule": "representative-anchored partition; every removed PDB directly matches its representative",
+  "class_priority_changed_representative": 1,
+  "class_representative_source": "top1_representatives_tm_score.csv",
+  "class_representatives_in_redundant_groups": 1,
+  "class_representatives_in_valid_catalog": 21,
+  "class_representatives_listed": 21,
+  "class_representatives_not_in_valid_catalog": 0,
+  "grouping_rule": "representative-anchored partition; every removed PDB directly matches its representative; curated class representatives cannot remove each other",
   "mixed_component_direction_pairs": 1,
   "redundant_groups": 64,
   "redundant_pairs": 151,
-  "representative_rule": "greatest trimmed MHC length, then lowest numeric resolution, then greatest total binder peptide length, then PDB ID",
+  "representative_rule": "curated class representative, then greatest trimmed MHC length, then lowest numeric resolution, then greatest total binder peptide length, then PDB ID",
   "representative_selection_reasons": {
-    "best_resolution": 52,
+    "best_resolution": 51,
+    "class_representative_priority_changed_selection": 1,
     "greatest_mhc_length": 7,
     "pdb_id_tiebreak_same_mhc_same_resolution_and_binder_length": 5
   },
   "representatives": 64,
-  "run_signature_sha256_16": "c8e81a9c5b6228cc",
+  "run_signature_sha256_16": "163a0ada11db4713",
   "structures_marked_for_removal": 95,
   "valid_complexes": 1265
 }

@@ -1,5 +1,9 @@
 {
   "catalog_rows": 1265,
+  "class_priority_changed_representative": 1,
+  "class_representatives_in_redundant_groups": 1,
+  "class_representatives_in_valid_catalog": 21,
+  "class_representatives_listed": 21,
   "component_rows": 3334,
   "groups": 1170,
   "invalid_pdbs": 0,

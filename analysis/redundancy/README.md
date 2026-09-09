@@ -21,6 +21,9 @@ separately in `outputs/`.
   shortened to three characters by PDB-format output.
 - `manual_overrides.csv`: small, documented exception table. An override is
   never silent; its use is written to `validation_issues.csv`.
+- `top1_representatives_tm_score.csv`: curated top TM-score representative for
+  each structural class. A listed PDB has absolute priority when representatives
+  are selected for redundancy groups.
 - RCSB Data API: `rcsb_entry_info.resolution_combined` and experimental method.
   Results are persisted in `outputs/rcsb_resolution_cache.csv`.
 
@@ -48,7 +51,7 @@ For a new dataset, pass any changed paths explicitly, for example:
 ```powershell
 python run_pipeline.py --complex-dir PATH --binders FILE.csv --ligands FILE.csv `
   --trim-ranges FILE.csv --cif-dir PATH --resname-map FILE.csv --output-dir PATH `
-  --final-source-label exported_final
+  --class-representatives FILE.csv --final-source-label exported_final
 ```
 
 Specific structures can be excluded explicitly and reproducibly without
@@ -122,10 +125,19 @@ all edges, including valid edges that cross two assigned groups.
 
 Representatives are ordered by:
 
-1. greatest trimmed MHC peptide length;
-2. lowest numeric RCSB resolution in ångström;
-3. greatest combined peptide length across all binder chains;
-4. lexicographically smallest PDB ID as deterministic final tie-breaker.
+1. membership in the curated class-representative list;
+2. greatest trimmed MHC peptide length;
+3. lowest numeric RCSB resolution in ångström;
+4. greatest combined peptide length across all binder chains;
+5. lexicographically smallest PDB ID as deterministic final tie-breaker.
+
+The first criterion is absolute. If two curated class representatives are
+directly redundant, neither can remove the other: each anchors a separate
+group and their cross-group edge remains recorded in `redundant_pairs.csv`.
+This preserves the requirement that every listed structure remains a
+representative. `class_representative_audit.csv` records every source-list PDB,
+whether it is present, its assigned group, the representative that the ordinary
+criteria would have selected, and whether class priority changed the result.
 
 Missing resolution (for example NMR) ranks after available numeric resolution
 when sequence length ties.
@@ -150,13 +162,16 @@ does not include the MHC or peptide ligands.
   trim spans are checked rather than applied a second time.
 - `map_redundancy.py` uses `relation_details()` to require MHC, binder, and
   ligand agreement, writes every redundant pair, builds representative-anchored
-  groups, and produces the minimal removal index.
+  groups, protects curated class representatives in `build_groups()`, and
+  produces the minimal removal index and class-priority audit.
 - `validate_outputs.py` independently rechecks sequences, binder matching,
   ligand equality, group sizes, direct member-to-representative edges,
-  representative ranking, and disjointness between representatives/removals.
+  class-representative priority, representative ranking, and disjointness
+  between representatives/removals.
 - `run_pipeline.py` executes the three stages in order and stops on any failure.
 - `test_redundancy.py` tests parsing, modified-residue parent normalization,
-  contiguous-only matching, and multiset matching.
+  contiguous-only and multiset matching, class-representative priority, and
+  protection between redundant curated representatives.
 
 ## Outputs
 
@@ -175,12 +190,19 @@ therefore excluded by `.gitignore`.
 - `group_membership.csv`: all valid PDBs, including singleton groups, with the
   selected representative and ranking fields.
 - `representatives.csv`: representatives only for groups with more than one PDB.
+- `class_representative_audit.csv`: one row per curated class representative,
+  including presence/status, redundancy group, ordinary-rank representative,
+  and whether the priority criterion changed the selection.
 - `removal_index.csv`: downstream deletion index. It intentionally contains
   exactly `PDB_ID,redundancy_group` and only non-representatives.
 - `*_summary.json`: machine-readable run and validation summaries.
 
 ## Current documented special handling
 
+- `6AEE`: it is the curated representative of `HLA Class Ib / HLA-G` and
+  therefore represents redundancy group `RED00824`. The ordinary ranking would
+  select `1YDP` because of its better resolution (1.90 Å versus 3.303 Å), so
+  class priority moves `1YDP`—rather than `6AEE`—to `removal_index.csv`.
 - `1KCG/CGL`: treated as a glutathionylated cysteine. It contributes canonical
   `C` to the MHC peptide sequence, remains `[CGL>C]` in the redundancy sequence,
   while `N:GSH` is added independently to the exact ligand signature. These
