@@ -24,6 +24,7 @@ step9_residues.csv:
      Only rows where at least one flag is "yes" are written.
 """
 
+import os
 import shutil
 from pathlib import Path
 from typing import Dict, Iterable, List, Set, Tuple
@@ -35,7 +36,10 @@ from Bio.PDB import PDBIO, PDBParser, Select, is_aa
 # Configuration
 # =========================================================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(
+    os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent))
+)
 
 DATABASE = "pdb"
 
@@ -46,14 +50,10 @@ STEP7_SUMMARY_DIR = STEP7_DIR / "summaries"
 BINDERS_CSV = STEP7_SUMMARY_DIR / "step7_binders.csv"
 LIGANDS_CSV = STEP7_SUMMARY_DIR / "step7_ligands.csv"
 
-ANNOTATIONS_CSV = (
-    PIPELINE_DIR
-    / "step2-1"
-    / "pdb"
-    / "filtered"
-    / "pdb_mhc_annotations_filtered.csv"
-)
+ANNOTATIONS_CSV = PIPELINE_DIR / "step2-1" / "pdb" / "filtered" / "pdb_mhc_annotations_filtered.csv"
 ANNOTATIONS_OUT_CSV = STEP9_DIR / "step9_annotations.csv"
+
+EXCLUDED_PDBS_CSV = STEP9_DIR / "step9_excluded_pdbs.csv"
 
 
 STEP8_REMODELED_DIR = PIPELINE_DIR / "step8" / DATABASE / "1_mhc_remodeled"
@@ -196,6 +196,7 @@ def validate_inputs() -> None:
     log(f"RESIDUES_CSV:           {RESIDUES_CSV}")
     log(f"ANNOTATIONS_CSV:        {ANNOTATIONS_CSV} | exists={ANNOTATIONS_CSV.is_file()}")
     log(f"ANNOTATIONS_OUT_CSV:    {ANNOTATIONS_OUT_CSV}")
+    log(f"EXCLUDED_PDBS_CSV:      {EXCLUDED_PDBS_CSV} | exists={EXCLUDED_PDBS_CSV.is_file()}")
     log("")
 
     if not INPUT_PDB_DIR.is_dir():
@@ -210,6 +211,8 @@ def validate_inputs() -> None:
         log("[INFO] STEP8_REMODELED_DIR not found – structures without manual edits will be taken from step7.")
     if not MODIFIED_PDB_DIR.is_dir():
         log("[INFO] MODIFIED_PDB_DIR not found – no manually edited complexes will be used.")
+    if not EXCLUDED_PDBS_CSV.is_file():
+        log("[INFO] EXCLUDED_PDBS_CSV not found – no PDBs excluded via manual exclusion list.")
 
 
 # =========================================================
@@ -222,6 +225,37 @@ def normalize_pdb_id(value) -> str:
 
 def pdb_id_from_path(path: Path) -> str:
     return path.name.split("_")[0].strip().upper()
+
+
+def load_excluded_pdbs(csv_path: Path) -> Dict[str, str]:
+    """
+    Load PDB IDs to fully exclude from step9 processing (manual curation:
+    gaps too large, wrong assembly, incomplete assembly1, PTMs, etc.).
+
+    Expects at least a 'pdb_id' column. A 'reason' column is used for
+    logging if present; other columns (class, binder, ligand, obs) are
+    ignored here and are free-form documentation for humans reading the CSV.
+
+    Returns {pdb_id: reason}. Missing file -> empty dict (no exclusions).
+    """
+    if not csv_path.is_file():
+        return {}
+
+    df = pd.read_csv(csv_path)
+    if "pdb_id" not in df.columns:
+        raise SystemExit(f"ERROR: {csv_path} missing required column 'pdb_id'")
+
+    excluded: Dict[str, str] = {}
+    for _, row in df.iterrows():
+        pdb_id = normalize_pdb_id(row["pdb_id"])
+        if not pdb_id or pdb_id == "NAN":
+            continue
+        reason = str(row.get("reason", "")).strip()
+        if not reason or reason.lower() == "nan":
+            reason = "not provided"
+        excluded[pdb_id] = reason
+
+    return excluded
 
 
 def resolve_pdb_path(pdb_id: str, step7_path: Path) -> Tuple[Path, str]:
@@ -535,6 +569,35 @@ def main() -> None:
     log(f"[INPUT] PDBs with ligands:    {len(ligands)}")
     log(f"[INPUT] PTM residues tracked: {len(PTM_RESIDUES)}")
     log("")
+
+    # ---------------------------------------------------------
+    # Apply manual full-PDB exclusion list (gaps too large, wrong
+    # assembly, incomplete assembly1, unmodeled PTMs, etc.).
+    # This runs before any processing, so excluded PDBs never reach
+    # any output folder, step9_residues.csv, or step9_annotations.csv.
+    # ---------------------------------------------------------
+    excluded_pdbs = load_excluded_pdbs(EXCLUDED_PDBS_CSV)
+    if excluded_pdbs:
+        present_ids = {pdb_id_from_path(p) for p in pdb_files}
+        pdb_files = [
+            p for p in pdb_files
+            if pdb_id_from_path(p) not in excluded_pdbs
+        ]
+        matched = sorted(pid for pid in excluded_pdbs if pid in present_ids)
+        not_present = sorted(pid for pid in excluded_pdbs if pid not in present_ids)
+
+        log(f"[EXCLUSION] {len(matched)} PDB(s) excluded via {EXCLUDED_PDBS_CSV.name}")
+        for pdb_id in matched:
+            log(f"[EXCLUSION]   {pdb_id}: {excluded_pdbs[pdb_id]}")
+        if not_present:
+            log(
+                f"[EXCLUSION] {len(not_present)} PDB(s) listed in {EXCLUDED_PDBS_CSV.name} "
+                f"were not found in INPUT_PDB_DIR (already removed upstream, or typo?):"
+            )
+            for pdb_id in not_present:
+                log(f"[EXCLUSION]   {pdb_id}: {excluded_pdbs[pdb_id]}")
+    log("")
+
     log("=== STEP9 separating structures ===")
 
     all_residue_rows: List[dict] = []
@@ -572,7 +635,7 @@ def main() -> None:
         pd.DataFrame(columns=cols).to_csv(RESIDUES_CSV, index=False)
 
     # ---------------------------------------------------------
-    # Write annotated copy of the step2-1 annotations CSV.
+    # Write annotated copy of the step2_1 annotations CSV.
     # ---------------------------------------------------------
     write_annotated_csv(
         binders=binders,

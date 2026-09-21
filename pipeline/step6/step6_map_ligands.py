@@ -7,6 +7,7 @@ Writes merged cavity files and CSVs; final trimming is done in step6.1.
 Manual correction is restricted to amino-acid MHC chain A contacts.
 """
 
+import os
 import shutil
 import re
 from pathlib import Path
@@ -22,7 +23,10 @@ from Bio.PDB.Polypeptide import is_aa
 # Configuration
 # =========================================================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(
+    os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent))
+)
 
 # Inputs
 STEP5_PDB_DIR = PIPELINE_DIR / "step5" / "pdb" / "1_mhc_configured"
@@ -133,21 +137,25 @@ def format_atom_name(atom_name: str) -> str:
 def parse_occupancy_bfactor(tokens: List[str]) -> Tuple[float, float]:
     """
     Parse occupancy and B-factor, including glued values such as 1.00102.41.
+
+    NOTE: `tokens` here is the small "rest_tokens" list returned by
+    split_atom_hetatm_line() -- everything AFTER record/serial/atom_name/
+    altloc+resname/chain/resseq/x/y/z has already been extracted. Occupancy
+    and B-factor are therefore at index 0 and 1 of this list, not 9 and 10.
     """
-    if len(tokens) >= 11:
+    if len(tokens) >= 2:
         try:
-            return float(tokens[9]), float(tokens[10])
+            return float(tokens[0]), float(tokens[1])
         except ValueError:
             pass
 
-    glued = tokens[9] if len(tokens) > 9 else ""
+    glued = tokens[0] if tokens else ""
     match = re.match(r"^(-?\d+\.\d{2})(-?\d+\.\d{2})$", glued)
 
     if match:
         return float(match.group(1)), float(match.group(2))
 
     raise ValueError(f"Could not parse occupancy/B-factor from tokens: {tokens}")
-
 
 def split_altloc_resname(raw_resname: str) -> Tuple[str, str, str]:
     """
@@ -167,20 +175,79 @@ def split_altloc_resname(raw_resname: str) -> Tuple[str, str, str]:
         resname = raw[1:]
         return altloc, resname, resname
 
+    # NOVO: tokenized altloc + 5-character CCD code, e.g. AA1B7N (altloc "A"
+    # + CCD "A1B7N"). Unambiguous: extended CCD IDs are at most 5 characters,
+    # so a 6-character token can only be altloc + CCD, never a bare resname.
+    if len(raw) == 6 and raw[0].isalpha():
+        altloc = raw[0]
+        resname = raw[1:]
+        return altloc, resname[-3:], resname
+
     # True long residue name. Keep the last 3 characters for PDB output.
     return " ", raw[-3:], raw
+
+
+def split_atom_hetatm_line(line: str) -> Optional[dict]:
+    """
+    Robust, atom-name-width-independent tokenizer for ATOM/HETATM lines.
+
+    Extracts the atom name via the fixed PDB column (line[12:16]), which is
+    reliable regardless of residue-name overflow, then tokenizes only the
+    remainder of the line by whitespace. This avoids the bug where a 3-4
+    character atom name (e.g. "C10") sits with zero separating whitespace
+    next to the altloc+resname field, causing line.split() to glue them
+    into a single token and shift every subsequent field by one position.
+    """
+    if len(line) < 17:
+        return None
+
+    record = line[0:6].strip()
+    atom_name = line[12:16].strip()
+    remainder = line[16:].split()
+
+    if len(remainder) < 6:
+        return None
+
+    raw_altloc_resname = remainder[0]
+    chain_id = remainder[1][0] if remainder[1] else ""
+
+    try:
+        resseq = int(remainder[2])
+        x = float(remainder[3])
+        y = float(remainder[4])
+        z = float(remainder[5])
+    except (ValueError, IndexError):
+        return None
+
+    try:
+        serial = int(line[6:11])
+    except ValueError:
+        return None
+
+    return {
+        "record": record,
+        "serial": serial,
+        "atom_name": atom_name,
+        "raw_altloc_resname": raw_altloc_resname,
+        "chain_id": chain_id,
+        "resseq": resseq,
+        "x": x,
+        "y": y,
+        "z": z,
+        "rest_tokens": remainder[6:],
+    }
 
 
 def atom_line_needs_resname_fix(line: str) -> bool:
     """
     Detect true residue-name overflow while ignoring altloc + 3-letter resname.
     """
-    tokens = line.split()
+    parsed = split_atom_hetatm_line(line)
 
-    if len(tokens) < 6:
+    if parsed is None:
         return False
 
-    raw = tokens[3]
+    raw = parsed["raw_altloc_resname"]
 
     if len(raw) <= 3:
         return False
@@ -189,7 +256,6 @@ def atom_line_needs_resname_fix(line: str) -> bool:
         return False
 
     return True
-
 
 def ter_line_needs_resname_fix(line: str) -> bool:
     tokens = line.split()
@@ -215,25 +281,24 @@ def rebuild_atom_line_from_tokens(line: str) -> Tuple[str, Optional[dict]]:
     PDB residue names have 3 columns. Long names are permanently shortened
     to their last 3 characters in step6 outputs.
     """
-    tokens = line.split()
+    parsed = split_atom_hetatm_line(line)
 
-    if len(tokens) < 11:
+    if parsed is None:
         return line, None
 
-    record = tokens[0]
-    serial = int(tokens[1])
-    atom_name = tokens[2]
-    altloc, new_resname, old_resname = split_altloc_resname(tokens[3])
-    chain_id = tokens[4][0]
-    resseq = int(tokens[5])
-    x = float(tokens[6])
-    y = float(tokens[7])
-    z = float(tokens[8])
-    occupancy, bfactor = parse_occupancy_bfactor(tokens)
+    record = parsed["record"]
+    serial = parsed["serial"]
+    atom_name = parsed["atom_name"]
+    altloc, new_resname, old_resname = split_altloc_resname(parsed["raw_altloc_resname"])
+    chain_id = parsed["chain_id"]
+    resseq = parsed["resseq"]
+    x, y, z = parsed["x"], parsed["y"], parsed["z"]
 
-    element = ""
-    if tokens[-1].isalpha() and len(tokens[-1]) <= 2:
-        element = tokens[-1].upper()
+    occupancy, bfactor = parse_occupancy_bfactor(parsed["rest_tokens"])
+
+    rest = parsed["rest_tokens"]
+    if rest and rest[-1].isalpha() and len(rest[-1]) <= 2:
+        element = rest[-1].upper()
     else:
         element = "".join(ch for ch in atom_name if ch.isalpha())[:1].upper() or "C"
 
@@ -255,7 +320,6 @@ def rebuild_atom_line_from_tokens(line: str) -> Tuple[str, Optional[dict]]:
         }
 
     return fixed_line, mapping
-
 
 def rebuild_ter_line_from_tokens(line: str) -> Tuple[str, Optional[dict]]:
     """

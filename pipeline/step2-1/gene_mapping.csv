@@ -162,3 +162,5 @@ ULBP1,ULBP,ULBP,MHC-I like,afdb
 CD1C,CD1c,CD1,MHC-I like,afdb
 PROCR,EPCR,EPCR,MHC-I like,afdb
 CD1B,CD1b,CD1,MHC-I like,afdb
+CD1c_chimera,CD1c_chimera,CD chimera,MHC-I like chimera,pdb
+CD1c_SC,CD1c_SC,CD SC,MHC-I like SC,pdb

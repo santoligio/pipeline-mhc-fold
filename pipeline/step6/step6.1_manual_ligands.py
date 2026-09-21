@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from pathlib import Path
 from typing import Dict, Optional, Set, Tuple, List
+import os
 import string
 import re
 
@@ -13,14 +14,17 @@ from Bio.PDB.Polypeptide import is_aa
 # Configuration
 # =========================================================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(
+    os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent))
+)
 
 STEP1_CSV = PIPELINE_DIR / "step1" / "pdb" / "pdb_assemblies.csv"
 STEP5_REMAP_CSV = PIPELINE_DIR / "step5" / "pdb" / "pdb_assemblies_remapped.csv"
 STEP5_CHAIN_MAP_CSV = PIPELINE_DIR / "step5" / "pdb" / "chain_map.csv"
 STEP5_PDB_DIR = PIPELINE_DIR / "step5" / "pdb" / "1_mhc_configured"
 
-STEP6_1_DIR = PIPELINE_DIR / "step6_fix" / "pdb"
+STEP6_1_DIR = PIPELINE_DIR / "step6" / "pdb"
 TRIMMED_MHC_DIR = STEP6_1_DIR / "2_trimmed_mhc"
 SUMMARY_DIR = STEP6_1_DIR / "summaries"
 
@@ -442,20 +446,24 @@ def format_atom_name(atom_name: str) -> str:
 
 
 def parse_occupancy_bfactor(tokens: List[str]) -> Tuple[float, float]:
-    if len(tokens) >= 11:
+    """
+    NOTE: `tokens` here is the small "rest_tokens" list returned by
+    split_atom_hetatm_line() -- occupancy and B-factor are at index 0
+    and 1 of this list, not 9 and 10.
+    """
+    if len(tokens) >= 2:
         try:
-            return float(tokens[9]), float(tokens[10])
+            return float(tokens[0]), float(tokens[1])
         except ValueError:
             pass
 
-    glued = tokens[9] if len(tokens) > 9 else ""
+    glued = tokens[0] if tokens else ""
     match = re.match(r"^(-?\d+\.\d{2})(-?\d+\.\d{2})$", glued)
 
     if match:
         return float(match.group(1)), float(match.group(2))
 
     raise ValueError(f"Could not parse occupancy/B-factor from tokens: {tokens}")
-
 
 def split_altloc_resname(raw_resname: str) -> Tuple[str, str, str]:
     raw = str(raw_resname).strip()
@@ -466,16 +474,67 @@ def split_altloc_resname(raw_resname: str) -> Tuple[str, str, str]:
     if len(raw) == 4 and raw[0].isalpha():
         return raw[0], raw[1:], raw[1:]
 
+    # NOVO: tokenized altloc + 5-character CCD code, e.g. AA1B7N (altloc "A"
+    # + CCD "A1B7N"). Unambiguous: extended CCD IDs are at most 5 characters,
+    # so a 6-character token can only be altloc + CCD, never a bare resname.
+    if len(raw) == 6 and raw[0].isalpha():
+        return raw[0], raw[1:][-3:], raw[1:]
+
     return " ", raw[-3:], raw
 
 
-def atom_line_needs_resname_fix(line: str) -> bool:
-    tokens = line.split()
+def split_atom_hetatm_line(line: str) -> Optional[dict]:
+    """
+    Robust, atom-name-width-independent tokenizer for ATOM/HETATM lines.
+    See step6_map_ligands.py for the full explanation of the bug this fixes.
+    """
+    if len(line) < 17:
+        return None
 
-    if len(tokens) < 6:
+    record = line[0:6].strip()
+    atom_name = line[12:16].strip()
+    remainder = line[16:].split()
+
+    if len(remainder) < 6:
+        return None
+
+    raw_altloc_resname = remainder[0]
+    chain_id = remainder[1][0] if remainder[1] else ""
+
+    try:
+        resseq = int(remainder[2])
+        x = float(remainder[3])
+        y = float(remainder[4])
+        z = float(remainder[5])
+    except (ValueError, IndexError):
+        return None
+
+    try:
+        serial = int(line[6:11])
+    except ValueError:
+        return None
+
+    return {
+        "record": record,
+        "serial": serial,
+        "atom_name": atom_name,
+        "raw_altloc_resname": raw_altloc_resname,
+        "chain_id": chain_id,
+        "resseq": resseq,
+        "x": x,
+        "y": y,
+        "z": z,
+        "rest_tokens": remainder[6:],
+    }
+
+
+def atom_line_needs_resname_fix(line: str) -> bool:
+    parsed = split_atom_hetatm_line(line)
+
+    if parsed is None:
         return False
 
-    raw = tokens[3]
+    raw = parsed["raw_altloc_resname"]
 
     if len(raw) <= 3:
         return False
@@ -484,7 +543,6 @@ def atom_line_needs_resname_fix(line: str) -> bool:
         return False
 
     return True
-
 
 def ter_line_needs_resname_fix(line: str) -> bool:
     tokens = line.split()
@@ -504,24 +562,24 @@ def ter_line_needs_resname_fix(line: str) -> bool:
 
 
 def rebuild_atom_line_from_tokens(line: str) -> str:
-    tokens = line.split()
+    parsed = split_atom_hetatm_line(line)
 
-    if len(tokens) < 11:
+    if parsed is None:
         return line
 
-    record = tokens[0]
-    serial = int(tokens[1])
-    atom_name = tokens[2]
-    altloc, new_resname, _old_resname = split_altloc_resname(tokens[3])
-    chain_id = tokens[4][0]
-    resseq = int(tokens[5])
-    x = float(tokens[6])
-    y = float(tokens[7])
-    z = float(tokens[8])
-    occupancy, bfactor = parse_occupancy_bfactor(tokens)
+    record = parsed["record"]
+    serial = parsed["serial"]
+    atom_name = parsed["atom_name"]
+    altloc, new_resname, _old_resname = split_altloc_resname(parsed["raw_altloc_resname"])
+    chain_id = parsed["chain_id"]
+    resseq = parsed["resseq"]
+    x, y, z = parsed["x"], parsed["y"], parsed["z"]
 
-    if tokens[-1].isalpha() and len(tokens[-1]) <= 2:
-        element = tokens[-1].upper()
+    occupancy, bfactor = parse_occupancy_bfactor(parsed["rest_tokens"])
+
+    rest = parsed["rest_tokens"]
+    if rest and rest[-1].isalpha() and len(rest[-1]) <= 2:
+        element = rest[-1].upper()
     else:
         element = "".join(ch for ch in atom_name if ch.isalpha())[:1].upper() or "C"
 
@@ -532,7 +590,6 @@ def rebuild_atom_line_from_tokens(line: str) -> str:
         f"{occupancy:6.2f}{bfactor:6.2f}          "
         f"{element:>2}\n"
     )
-
 
 def rebuild_ter_line_from_tokens(line: str) -> str:
     tokens = line.split()

@@ -1,4 +1,9 @@
 pdb,chain_id,chain_residue_count,residue,resname,resseq,hetflag,cavity_ids,min_distance_to_cavity,contact_basis,is_amino_acid
+9HI7,D,245,D:LEU:99:ATOM,LEU,99,ATOM,KAB,0.31,backbone,True
+9HI7,D,245,D:ALA:100:ATOM,ALA,100,ATOM,KAB,0.23,backbone,True
+9HI7,D,245,D:GLY:98:ATOM,GLY,98,ATOM,KAB,0.126,backbone,True
+13BR,B,121,B:LEU:104:ATOM,LEU,104,ATOM,KAB,0.297,backbone,True
+13BR,B,121,B:LEU:103:ATOM,LEU,103,ATOM,KAB,0.195,backbone,True
 2PO6,C,204,C:AGH:301:H_AGH,AGH,301,H_AGH,KAC,0.061,all_atoms,False
 6CUG,C,187,C:POV:301:H_POV,POV,301,H_POV,KAB,0.11,all_atoms,False
 5L2K,D,243,D:70E:303:H_70E,70E,303,H_70E,KAA,0.138,all_atoms,False

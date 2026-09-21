@@ -6,6 +6,7 @@ Reads original step2 assemblies, keeps chains near the MHC, renames chains,
 renumber MHC chain, and applies the step4 alignment matrix.
 """
 
+import os
 import string
 from pathlib import Path
 from typing import Dict, Optional, Tuple
@@ -19,9 +20,10 @@ from Bio.PDB import MMCIFParser, PDBIO, NeighborSearch
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent)))
 
-INPUT_CIF_DIR = PIPELINE_DIR / "step2" / "pdb" / "1_assemblies"
+INPUT_CIF_DIR = Path(os.environ.get("INPUT_CIF_DIR", str(PIPELINE_DIR / "step2" / "pdb" / "1_assemblies")))
 INPUT_CSV = PIPELINE_DIR / "step2-1" / "pdb" / "filtered" / "pdb_assemblies_filtered.csv"
 
 MATRIX_DIR = PIPELINE_DIR / "step4" / "pdb" / "1_aligned" / "matrices"

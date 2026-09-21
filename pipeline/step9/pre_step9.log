@@ -2,34 +2,15 @@
 Step7 input folder exists:     True
 Step8 remodeled folder exists: True
 Modified output folder:        modified_pdbs
-Input CSV:                     removals.csv
+Input CSV:                     /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/binder_removals.csv
 
 [SUMMARY CSV] edited copies written
-[SUMMARY CSV] step7_binders: rows=729, removed=24
-[SUMMARY CSV] step7_ligands: rows=1129, removed=0
+[SUMMARY CSV] step7_binders: rows=851, removed=10
+[SUMMARY CSV] step7_ligands: rows=1234, removed=0
 
-[SOURCE] 1LP9: using step7 file
-[REQUEST] 1LP9: remove chains D,E
-[OK] 1LP9: modified full complex written; removed=2, not_found=0
-[SOURCE] 2J8U: using step7 file
-[REQUEST] 2J8U: remove chains D,E
-[OK] 2J8U: modified full complex written; removed=2, not_found=0
-[SOURCE] 2JCC: using step7 file
-[REQUEST] 2JCC: remove chains E,D
-[OK] 2JCC: modified full complex written; removed=2, not_found=0
-[SOURCE] 2UWE: using step7 file
-[REQUEST] 2UWE: remove chains D,E
-[OK] 2UWE: modified full complex written; removed=2, not_found=0
-[SOURCE] 3DTX: using step7 file
-[REQUEST] 3DTX: remove chains C
-[OK] 3DTX: modified full complex written; removed=1, not_found=0
-[ERROR] 4MNQ: no step7 PDB found for 4MNQ
-[SOURCE] 6V7Z: using step7 file
-[REQUEST] 6V7Z: remove chains C
-[OK] 6V7Z: modified full complex written; removed=1, not_found=0
-[SOURCE] 6V80: using step7 file
-[REQUEST] 6V80: remove chains E
-[OK] 6V80: modified full complex written; removed=1, not_found=0
+[SOURCE] 28IL: using step7 file
+[REQUEST] 28IL: remove chains C
+[OK] 28IL: modified full complex written; removed=1, not_found=0
 [SOURCE] 7DZM: using step7 file
 [REQUEST] 7DZM: remove chains B
 [OK] 7DZM: modified full complex written; removed=1, not_found=0
@@ -42,23 +23,27 @@ Input CSV:                     removals.csv
 [SOURCE] 8DV3: using step7 file
 [REQUEST] 8DV3: remove chains B
 [OK] 8DV3: modified full complex written; removed=1, not_found=0
-[SOURCE] 8I5C: using step7 file
-[REQUEST] 8I5C: remove chains D,E
-[OK] 8I5C: modified full complex written; removed=2, not_found=0
-[SOURCE] 8I5D: using step7 file
-[REQUEST] 8I5D: remove chains B,C
-[OK] 8I5D: modified full complex written; removed=2, not_found=0
-[SOURCE] 8WTE: using step7 file
-[REQUEST] 8WTE: remove chains C,B
-[OK] 8WTE: modified full complex written; removed=2, not_found=0
-[SOURCE] 8WUL: using step7 file
-[REQUEST] 8WUL: remove chains C,B
-[OK] 8WUL: modified full complex written; removed=2, not_found=0
+[SOURCE] 9F13: using step7 file
+[REQUEST] 9F13: remove chains D
+[OK] 9F13: modified full complex written; removed=1, not_found=0
+[SOURCE] 9NW9: using step7 file
+[REQUEST] 9NW9: remove chains B
+[OK] 9NW9: modified full complex written; removed=1, not_found=0
+[SOURCE] 9O06: using step7 file
+[REQUEST] 9O06: remove chains F
+[OK] 9O06: modified full complex written; removed=1, not_found=0
+[ERROR] 9Y0T: no step7 PDB found for 9Y0T
+[SOURCE] 9Y0U: using step7 file
+[REQUEST] 9Y0U: remove chains F
+[OK] 9Y0U: modified full complex written; removed=1, not_found=0
+[SOURCE] 9Y0W: using step7 file
+[REQUEST] 9Y0W: remove chains F
+[OK] 9Y0W: modified full complex written; removed=1, not_found=0
 
 === Pre-step9 summary ===
-PDBs requested:        16
-PDBs with output:      15
-Chain removals done:   23
+PDBs requested:        11
+PDBs with output:      10
+Chain removals done:   10
 Chain requests missing:1
 Modified PDB folder:   modified_pdbs
 Path-free log:         modified_pdbs_log.csv

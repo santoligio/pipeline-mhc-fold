@@ -21,7 +21,8 @@ from Bio.PDB import PDBParser, PDBIO
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent)))
 
 INPUT_PDB_DIR = PIPELINE_DIR / "step3" / "pdb" / "1_mhc_only"
 STEP4_DIR = PIPELINE_DIR / "step4"
@@ -37,7 +38,9 @@ CAVITY_DIR = STEP4_DIR / "pdb" / "3_filtered_cavities"
 SUMMARY_CSV = CAVITY_DIR / "cavities.csv"
 ERROR_LOG = STEP4_DIR / "step4_errors.log"
 
-TMALIGN_EXE = "TMalign"
+# NOVO: TMALIGN_EXE configurável via env var (para outra máquina, ex: TMALIGN_EXE=TMalign se estiver no PATH);
+# fallback mantém o binário absoluto atual, pra não quebrar a execução nesta máquina.
+TMALIGN_EXE = os.environ.get("TMALIGN_EXE", "/home/rocio.maidana/programas/TMalign")
 INPUT_PATTERN = "*.pdb"
 
 PROBE_IN = 1.4

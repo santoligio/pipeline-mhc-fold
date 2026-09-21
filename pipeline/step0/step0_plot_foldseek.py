@@ -3,6 +3,7 @@
 Plot Foldseek score distributions for PDB or AFDB alignments.
 """
 
+import os
 from pathlib import Path
 
 import numpy as np
@@ -14,17 +15,19 @@ import matplotlib.pyplot as plt
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
-WORKSPACE_DIR = PIPELINE_DIR.parent.parent
-VERSION_02_DIR = WORKSPACE_DIR / "version_02"
+# NOVO: alinhamento do Foldseek migrado de version5_chain_name para version6
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+# Atenção: aqui PIPELINE_DIR aponta para pdb_data/ (não pdb_data/filter/ como nos demais steps) —
+# inconsistência pré-existente no script original, mantida para não mudar o comportamento atual.
+PIPELINE_DIR = Path(os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent.parent)))
 DATASET = "pdb"  # "pdb" or "afdb"
 
 FOLDSEEK_ALN = {
-    "pdb": VERSION_02_DIR / "pdb" / "dbs_pdb_aln",
-    "afdb": VERSION_02_DIR / "alphafold" / "3mre_afdb_aln",
+    "pdb": PIPELINE_DIR / "foldseek_alignment" / "dbs_pdb_aln_helder_chainname",
+    "afdb": PIPELINE_DIR / "alphafold" / "3mre_afdb_aln",
 }
 
-OUT_DIR = PIPELINE_DIR / "step0" / DATASET
+OUT_DIR = PIPELINE_DIR / "filter" / "step0" / DATASET
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 FIGSIZE = (7, 5)

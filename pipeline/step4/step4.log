@@ -1,5 +1,6 @@
 [START] STEP4
-[INPUT] PDBs=1165
+[INPUT] PDBs=1269
+[ALIGNED] 13br: 13br_aligned.pdb
 [ALIGNED] 1a1m: 1a1m_aligned.pdb
 [ALIGNED] 1a1n: 1a1n_aligned.pdb
 [ALIGNED] 1a1o: 1a1o_aligned.pdb
@@ -15,14 +16,11 @@
 [ALIGNED] 1ao7: 1ao7_aligned.pdb
 [ALIGNED] 1b0g: 1b0g_aligned.pdb
 [ALIGNED] 1b0r: 1b0r_aligned.pdb
-[ALIGNED] 1b3j: 1b3j_aligned.pdb
 [ALIGNED] 1bd2: 1bd2_aligned.pdb
 [ALIGNED] 1cg9: 1cg9_aligned.pdb
 [ALIGNED] 1de4: 1de4_aligned.pdb
 [ALIGNED] 1duy: 1duy_aligned.pdb
 [ALIGNED] 1duz: 1duz_aligned.pdb
-[ALIGNED] 1e27: 1e27_aligned.pdb
-[ALIGNED] 1e28: 1e28_aligned.pdb
 [ALIGNED] 1eey: 1eey_aligned.pdb
 [ALIGNED] 1eez: 1eez_aligned.pdb
 [ALIGNED] 1efx: 1efx_aligned.pdb
@@ -55,8 +53,6 @@
 [ALIGNED] 1kpr: 1kpr_aligned.pdb
 [ALIGNED] 1ktl: 1ktl_aligned.pdb
 [ALIGNED] 1l8j: 1l8j_aligned.pdb
-[ALIGNED] 1lp9: 1lp9_aligned.pdb
-[ALIGNED] 1lqv: 1lqv_aligned.pdb
 [ALIGNED] 1m05: 1m05_aligned.pdb
 [ALIGNED] 1m6o: 1m6o_aligned.pdb
 [ALIGNED] 1mhe: 1mhe_aligned.pdb
@@ -114,6 +110,9 @@
 [ALIGNED] 1zhl: 1zhl_aligned.pdb
 [ALIGNED] 1zsd: 1zsd_aligned.pdb
 [ALIGNED] 1zt4: 1zt4_aligned.pdb
+[ALIGNED] 22ee: 22ee_aligned.pdb
+[ALIGNED] 24st: 24st_aligned.pdb
+[ALIGNED] 28il: 28il_aligned.pdb
 [ALIGNED] 2a83: 2a83_aligned.pdb
 [ALIGNED] 2ak4: 2ak4_aligned.pdb
 [ALIGNED] 2av1: 2av1_aligned.pdb
@@ -151,8 +150,6 @@
 [ALIGNED] 2hjl: 2hjl_aligned.pdb
 [ALIGNED] 2hla: 2hla_aligned.pdb
 [ALIGNED] 2hn7: 2hn7_aligned.pdb
-[ALIGNED] 2j8u: 2j8u_aligned.pdb
-[ALIGNED] 2jcc: 2jcc_aligned.pdb
 [ALIGNED] 2nw3: 2nw3_aligned.pdb
 [ALIGNED] 2nx5: 2nx5_aligned.pdb
 [ALIGNED] 2p5e: 2p5e_aligned.pdb
@@ -160,7 +157,6 @@
 [ALIGNED] 2po6: 2po6_aligned.pdb
 [ALIGNED] 2pye: 2pye_aligned.pdb
 [ALIGNED] 2rfx: 2rfx_aligned.pdb
-[ALIGNED] 2uwe: 2uwe_aligned.pdb
 [ALIGNED] 2v2w: 2v2w_aligned.pdb
 [ALIGNED] 2v2x: 2v2x_aligned.pdb
 [ALIGNED] 2vlj: 2vlj_aligned.pdb
@@ -210,7 +206,6 @@
 [ALIGNED] 3dx7: 3dx7_aligned.pdb
 [ALIGNED] 3dx8: 3dx8_aligned.pdb
 [ALIGNED] 3dxa: 3dxa_aligned.pdb
-[ALIGNED] 3es6: 3es6_aligned.pdb
 [ALIGNED] 3ffc: 3ffc_aligned.pdb
 [ALIGNED] 3fqn: 3fqn_aligned.pdb
 [ALIGNED] 3fqr: 3fqr_aligned.pdb
@@ -245,7 +240,6 @@
 [ALIGNED] 3i6l: 3i6l_aligned.pdb
 [ALIGNED] 3it8: 3it8_aligned.pdb
 [ALIGNED] 3ixa: 3ixa_aligned.pdb
-[ALIGNED] 3jtc: 3jtc_aligned.pdb
 [ALIGNED] 3kla: 3kla_aligned.pdb
 [ALIGNED] 3kpl: 3kpl_aligned.pdb
 [ALIGNED] 3kpm: 3kpm_aligned.pdb
@@ -273,8 +267,6 @@
 [ALIGNED] 3ln4: 3ln4_aligned.pdb
 [ALIGNED] 3ln5: 3ln5_aligned.pdb
 [ALIGNED] 3lv3: 3lv3_aligned.pdb
-[ALIGNED] 3m17: 3m17_aligned.pdb
-[ALIGNED] 3m1b: 3m1b_aligned.pdb
 [ALIGNED] 3mgo: 3mgo_aligned.pdb
 [ALIGNED] 3mgt: 3mgt_aligned.pdb
 [ALIGNED] 3mr9: 3mr9_aligned.pdb
@@ -409,14 +401,12 @@
 [ALIGNED] 4l4t: 4l4t_aligned.pdb
 [ALIGNED] 4l4v: 4l4v_aligned.pdb
 [ALIGNED] 4lcw: 4lcw_aligned.pdb
-[ALIGNED] 4lcy: 4lcy_aligned.pdb
 [ALIGNED] 4lhu: 4lhu_aligned.pdb
 [ALIGNED] 4lnr: 4lnr_aligned.pdb
 [ALIGNED] 4mj5: 4mj5_aligned.pdb
 [ALIGNED] 4mj6: 4mj6_aligned.pdb
 [ALIGNED] 4mji: 4mji_aligned.pdb
 [ALIGNED] 4mng: 4mng_aligned.pdb
-[ALIGNED] 4mnq: 4mnq_aligned.pdb
 [ALIGNED] 4mq7: 4mq7_aligned.pdb
 [ALIGNED] 4n0f: 4n0f_aligned.pdb
 [ALIGNED] 4n0u: 4n0u_aligned.pdb
@@ -427,8 +417,6 @@
 [ALIGNED] 4no2: 4no2_aligned.pdb
 [ALIGNED] 4no3: 4no3_aligned.pdb
 [ALIGNED] 4no5: 4no5_aligned.pdb
-[ALIGNED] 4nqc: 4nqc_aligned.pdb
-[ALIGNED] 4nqd: 4nqd_aligned.pdb
 [ALIGNED] 4nqe: 4nqe_aligned.pdb
 [ALIGNED] 4nqv: 4nqv_aligned.pdb
 [ALIGNED] 4nqx: 4nqx_aligned.pdb
@@ -440,7 +428,6 @@
 [ALIGNED] 4pdc: 4pdc_aligned.pdb
 [ALIGNED] 4pj5: 4pj5_aligned.pdb
 [ALIGNED] 4pj7: 4pj7_aligned.pdb
-[ALIGNED] 4pj8: 4pj8_aligned.pdb
 [ALIGNED] 4pj9: 4pj9_aligned.pdb
 [ALIGNED] 4pja: 4pja_aligned.pdb
 [ALIGNED] 4pjb: 4pjb_aligned.pdb
@@ -497,7 +484,6 @@
 [ALIGNED] 4xxc: 4xxc_aligned.pdb
 [ALIGNED] 5b38: 5b38_aligned.pdb
 [ALIGNED] 5b39: 5b39_aligned.pdb
-[ALIGNED] 5bjt: 5bjt_aligned.pdb
 [ALIGNED] 5brz: 5brz_aligned.pdb
 [ALIGNED] 5bs0: 5bs0_aligned.pdb
 [ALIGNED] 5bxf: 5bxf_aligned.pdb
@@ -516,15 +502,12 @@
 [ALIGNED] 5c9j: 5c9j_aligned.pdb
 [ALIGNED] 5d2l: 5d2l_aligned.pdb
 [ALIGNED] 5d2n: 5d2n_aligned.pdb
-[ALIGNED] 5d5m: 5d5m_aligned.pdb
 [ALIGNED] 5d7i: 5d7i_aligned.pdb
 [ALIGNED] 5d7j: 5d7j_aligned.pdb
-[ALIGNED] 5d7l: 5d7l_aligned.pdb
 [ALIGNED] 5d9s: 5d9s_aligned.pdb
 [ALIGNED] 5ddh: 5ddh_aligned.pdb
 [ALIGNED] 5def: 5def_aligned.pdb
 [ALIGNED] 5deg: 5deg_aligned.pdb
-[ALIGNED] 5e00: 5e00_aligned.pdb
 [ALIGNED] 5e6i: 5e6i_aligned.pdb
 [ALIGNED] 5e9d: 5e9d_aligned.pdb
 [ALIGNED] 5enw: 5enw_aligned.pdb
@@ -751,7 +734,6 @@
 [ALIGNED] 6pyw: 6pyw_aligned.pdb
 [ALIGNED] 6pz5: 6pz5_aligned.pdb
 [ALIGNED] 6q3k: 6q3k_aligned.pdb
-[ALIGNED] 6q3s: 6q3s_aligned.pdb
 [ALIGNED] 6qio: 6qio_aligned.pdb
 [ALIGNED] 6qip: 6qip_aligned.pdb
 [ALIGNED] 6r2l: 6r2l_aligned.pdb
@@ -778,8 +760,6 @@
 [ALIGNED] 6uj9: 6uj9_aligned.pdb
 [ALIGNED] 6ujo: 6ujo_aligned.pdb
 [ALIGNED] 6ujq: 6ujq_aligned.pdb
-[ALIGNED] 6uk2: 6uk2_aligned.pdb
-[ALIGNED] 6uk4: 6uk4_aligned.pdb
 [ALIGNED] 6uli: 6uli_aligned.pdb
 [ALIGNED] 6ulk: 6ulk_aligned.pdb
 [ALIGNED] 6uln: 6uln_aligned.pdb
@@ -959,7 +939,6 @@
 [ALIGNED] 7re8: 7re8_aligned.pdb
 [ALIGNED] 7rk7: 7rk7_aligned.pdb
 [ALIGNED] 7rm4: 7rm4_aligned.pdb
-[ALIGNED] 7rno: 7rno_aligned.pdb
 [ALIGNED] 7rrg: 7rrg_aligned.pdb
 [ALIGNED] 7rtd: 7rtd_aligned.pdb
 [ALIGNED] 7rtr: 7rtr_aligned.pdb
@@ -1035,13 +1014,10 @@
 [ALIGNED] 8cx4: 8cx4_aligned.pdb
 [ALIGNED] 8dnt: 8dnt_aligned.pdb
 [ALIGNED] 8dv3: 8dv3_aligned.pdb
-[ALIGNED] 8dv4: 8dv4_aligned.pdb
 [ALIGNED] 8dvg: 8dvg_aligned.pdb
-[ALIGNED] 8e13: 8e13_aligned.pdb
 [ALIGNED] 8e2z: 8e2z_aligned.pdb
 [ALIGNED] 8e8i: 8e8i_aligned.pdb
 [ALIGNED] 8eb2: 8eb2_aligned.pdb
-[ALIGNED] 8ec5: 8ec5_aligned.pdb
 [ALIGNED] 8ek5: 8ek5_aligned.pdb
 [ALIGNED] 8elg: 8elg_aligned.pdb
 [ALIGNED] 8elh: 8elh_aligned.pdb
@@ -1076,10 +1052,11 @@
 [ALIGNED] 8gvg: 8gvg_aligned.pdb
 [ALIGNED] 8gvi: 8gvi_aligned.pdb
 [ALIGNED] 8hn4: 8hn4_aligned.pdb
-[ALIGNED] 8i5c: 8i5c_aligned.pdb
-[ALIGNED] 8i5d: 8i5d_aligned.pdb
 [ALIGNED] 8i5e: 8i5e_aligned.pdb
 [ALIGNED] 8isn: 8isn_aligned.pdb
+[ALIGNED] 8k4t: 8k4t_aligned.pdb
+[ALIGNED] 8k4v: 8k4v_aligned.pdb
+[ALIGNED] 8k50: 8k50_aligned.pdb
 [ALIGNED] 8qfy: 8qfy_aligned.pdb
 [ALIGNED] 8rbu: 8rbu_aligned.pdb
 [ALIGNED] 8rbv: 8rbv_aligned.pdb
@@ -1094,12 +1071,13 @@
 [ALIGNED] 8rlu: 8rlu_aligned.pdb
 [ALIGNED] 8rlv: 8rlv_aligned.pdb
 [ALIGNED] 8rne: 8rne_aligned.pdb
-[ALIGNED] 8rnf: 8rnf_aligned.pdb
 [ALIGNED] 8rng: 8rng_aligned.pdb
 [ALIGNED] 8rnh: 8rnh_aligned.pdb
+[ALIGNED] 8rni: 8rni_aligned.pdb
 [ALIGNED] 8roo: 8roo_aligned.pdb
 [ALIGNED] 8rop: 8rop_aligned.pdb
 [ALIGNED] 8rro: 8rro_aligned.pdb
+[ALIGNED] 8rwb: 8rwb_aligned.pdb
 [ALIGNED] 8rym: 8rym_aligned.pdb
 [ALIGNED] 8ryn: 8ryn_aligned.pdb
 [ALIGNED] 8ryo: 8ryo_aligned.pdb
@@ -1120,20 +1098,21 @@
 [ALIGNED] 8tm2: 8tm2_aligned.pdb
 [ALIGNED] 8tmu: 8tmu_aligned.pdb
 [ALIGNED] 8tnj: 8tnj_aligned.pdb
+[ALIGNED] 8tq5: 8tq5_aligned.pdb
 [ALIGNED] 8tub: 8tub_aligned.pdb
 [ALIGNED] 8tuh: 8tuh_aligned.pdb
 [ALIGNED] 8u9g: 8u9g_aligned.pdb
 [ALIGNED] 8udr: 8udr_aligned.pdb
+[ALIGNED] 8utc: 8utc_aligned.pdb
 [ALIGNED] 8v4z: 8v4z_aligned.pdb
 [ALIGNED] 8v50: 8v50_aligned.pdb
 [ALIGNED] 8v51: 8v51_aligned.pdb
+[ALIGNED] 8v8q: 8v8q_aligned.pdb
 [ALIGNED] 8vcl: 8vcl_aligned.pdb
 [ALIGNED] 8vjz: 8vjz_aligned.pdb
 [ALIGNED] 8vr9: 8vr9_aligned.pdb
 [ALIGNED] 8vra: 8vra_aligned.pdb
 [ALIGNED] 8vrb: 8vrb_aligned.pdb
-[ALIGNED] 8wte: 8wte_aligned.pdb
-[ALIGNED] 8wul: 8wul_aligned.pdb
 [ALIGNED] 8xes: 8xes_aligned.pdb
 [ALIGNED] 8xfz: 8xfz_aligned.pdb
 [ALIGNED] 8xg2: 8xg2_aligned.pdb
@@ -1143,6 +1122,13 @@
 [ALIGNED] 8ye4: 8ye4_aligned.pdb
 [ALIGNED] 8yiv: 8yiv_aligned.pdb
 [ALIGNED] 8yj2: 8yj2_aligned.pdb
+[ALIGNED] 8yzr: 8yzr_aligned.pdb
+[ALIGNED] 8yzw: 8yzw_aligned.pdb
+[ALIGNED] 8yzz: 8yzz_aligned.pdb
+[ALIGNED] 8z05: 8z05_aligned.pdb
+[ALIGNED] 8z06: 8z06_aligned.pdb
+[ALIGNED] 8z07: 8z07_aligned.pdb
+[ALIGNED] 8z08: 8z08_aligned.pdb
 [ALIGNED] 8zox: 8zox_aligned.pdb
 [ALIGNED] 8zv9: 8zv9_aligned.pdb
 [ALIGNED] 9asf: 9asf_aligned.pdb
@@ -1158,14 +1144,133 @@
 [ALIGNED] 9bty: 9bty_aligned.pdb
 [ALIGNED] 9btz: 9btz_aligned.pdb
 [ALIGNED] 9bu0: 9bu0_aligned.pdb
+[ALIGNED] 9bys: 9bys_aligned.pdb
 [ALIGNED] 9c3e: 9c3e_aligned.pdb
+[ALIGNED] 9c42: 9c42_aligned.pdb
 [ALIGNED] 9c6v: 9c6v_aligned.pdb
 [ALIGNED] 9c6w: 9c6w_aligned.pdb
 [ALIGNED] 9c6x: 9c6x_aligned.pdb
+[ALIGNED] 9c96: 9c96_aligned.pdb
+[ALIGNED] 9c9d: 9c9d_aligned.pdb
 [ALIGNED] 9cgr: 9cgr_aligned.pdb
-[ALIGNED] 9cgs: 9cgs_aligned.pdb
+[ALIGNED] 9cwy: 9cwy_aligned.pdb
+[ALIGNED] 9cwz: 9cwz_aligned.pdb
+[ALIGNED] 9cx0: 9cx0_aligned.pdb
+[ALIGNED] 9cx1: 9cx1_aligned.pdb
+[ALIGNED] 9cx2: 9cx2_aligned.pdb
+[ALIGNED] 9d73: 9d73_aligned.pdb
+[ALIGNED] 9d74: 9d74_aligned.pdb
+[ALIGNED] 9d95: 9d95_aligned.pdb
+[ALIGNED] 9d96: 9d96_aligned.pdb
+[ALIGNED] 9d97: 9d97_aligned.pdb
+[ALIGNED] 9dbt: 9dbt_aligned.pdb
 [ALIGNED] 9dl1: 9dl1_aligned.pdb
-[ALIGNED] total=1165
+[ALIGNED] 9dy8: 9dy8_aligned.pdb
+[ALIGNED] 9eiq: 9eiq_aligned.pdb
+[ALIGNED] 9ejd: 9ejd_aligned.pdb
+[ALIGNED] 9ek4: 9ek4_aligned.pdb
+[ALIGNED] 9ek6: 9ek6_aligned.pdb
+[ALIGNED] 9ek7: 9ek7_aligned.pdb
+[ALIGNED] 9f13: 9f13_aligned.pdb
+[ALIGNED] 9fe1: 9fe1_aligned.pdb
+[ALIGNED] 9gv6: 9gv6_aligned.pdb
+[ALIGNED] 9gv7: 9gv7_aligned.pdb
+[ALIGNED] 9hi7: 9hi7_aligned.pdb
+[ALIGNED] 9hkq: 9hkq_aligned.pdb
+[ALIGNED] 9hlj: 9hlj_aligned.pdb
+[ALIGNED] 9j4s: 9j4s_aligned.pdb
+[ALIGNED] 9j4t: 9j4t_aligned.pdb
+[ALIGNED] 9j4u: 9j4u_aligned.pdb
+[ALIGNED] 9j4v: 9j4v_aligned.pdb
+[ALIGNED] 9k2i: 9k2i_aligned.pdb
+[ALIGNED] 9k2r: 9k2r_aligned.pdb
+[ALIGNED] 9k2s: 9k2s_aligned.pdb
+[ALIGNED] 9k2t: 9k2t_aligned.pdb
+[ALIGNED] 9k2u: 9k2u_aligned.pdb
+[ALIGNED] 9l47: 9l47_aligned.pdb
+[ALIGNED] 9l48: 9l48_aligned.pdb
+[ALIGNED] 9l49: 9l49_aligned.pdb
+[ALIGNED] 9l4a: 9l4a_aligned.pdb
+[ALIGNED] 9l4g: 9l4g_aligned.pdb
+[ALIGNED] 9l4h: 9l4h_aligned.pdb
+[ALIGNED] 9l4i: 9l4i_aligned.pdb
+[ALIGNED] 9llu: 9llu_aligned.pdb
+[ALIGNED] 9mda: 9mda_aligned.pdb
+[ALIGNED] 9mef: 9mef_aligned.pdb
+[ALIGNED] 9meg: 9meg_aligned.pdb
+[ALIGNED] 9mi6: 9mi6_aligned.pdb
+[ALIGNED] 9min: 9min_aligned.pdb
+[ALIGNED] 9ms0: 9ms0_aligned.pdb
+[ALIGNED] 9nav: 9nav_aligned.pdb
+[ALIGNED] 9nds: 9nds_aligned.pdb
+[ALIGNED] 9nfb: 9nfb_aligned.pdb
+[ALIGNED] 9nfc: 9nfc_aligned.pdb
+[ALIGNED] 9nkh: 9nkh_aligned.pdb
+[ALIGNED] 9nmu: 9nmu_aligned.pdb
+[ALIGNED] 9nmv: 9nmv_aligned.pdb
+[ALIGNED] 9nmw: 9nmw_aligned.pdb
+[ALIGNED] 9nmx: 9nmx_aligned.pdb
+[ALIGNED] 9nmy: 9nmy_aligned.pdb
+[ALIGNED] 9nnf: 9nnf_aligned.pdb
+[ALIGNED] 9nw6: 9nw6_aligned.pdb
+[ALIGNED] 9nw7: 9nw7_aligned.pdb
+[ALIGNED] 9nw8: 9nw8_aligned.pdb
+[ALIGNED] 9nw9: 9nw9_aligned.pdb
+[ALIGNED] 9nyn: 9nyn_aligned.pdb
+[ALIGNED] 9o05: 9o05_aligned.pdb
+[ALIGNED] 9o06: 9o06_aligned.pdb
+[ALIGNED] 9o07: 9o07_aligned.pdb
+[ALIGNED] 9o08: 9o08_aligned.pdb
+[ALIGNED] 9o55: 9o55_aligned.pdb
+[ALIGNED] 9o5s: 9o5s_aligned.pdb
+[ALIGNED] 9obf: 9obf_aligned.pdb
+[ALIGNED] 9oc6: 9oc6_aligned.pdb
+[ALIGNED] 9oc7: 9oc7_aligned.pdb
+[ALIGNED] 9oht: 9oht_aligned.pdb
+[ALIGNED] 9ohu: 9ohu_aligned.pdb
+[ALIGNED] 9ohv: 9ohv_aligned.pdb
+[ALIGNED] 9ohw: 9ohw_aligned.pdb
+[ALIGNED] 9ohx: 9ohx_aligned.pdb
+[ALIGNED] 9ohy: 9ohy_aligned.pdb
+[ALIGNED] 9ohz: 9ohz_aligned.pdb
+[ALIGNED] 9oi0: 9oi0_aligned.pdb
+[ALIGNED] 9pbh: 9pbh_aligned.pdb
+[ALIGNED] 9qqe: 9qqe_aligned.pdb
+[ALIGNED] 9qqf: 9qqf_aligned.pdb
+[ALIGNED] 9qwj: 9qwj_aligned.pdb
+[ALIGNED] 9qwk: 9qwk_aligned.pdb
+[ALIGNED] 9rcv: 9rcv_aligned.pdb
+[ALIGNED] 9rse: 9rse_aligned.pdb
+[ALIGNED] 9ru5: 9ru5_aligned.pdb
+[ALIGNED] 9rup: 9rup_aligned.pdb
+[ALIGNED] 9rwi: 9rwi_aligned.pdb
+[ALIGNED] 9rxm: 9rxm_aligned.pdb
+[ALIGNED] 9sko: 9sko_aligned.pdb
+[ALIGNED] 9skp: 9skp_aligned.pdb
+[ALIGNED] 9sl0: 9sl0_aligned.pdb
+[ALIGNED] 9tjx: 9tjx_aligned.pdb
+[ALIGNED] 9uv8: 9uv8_aligned.pdb
+[ALIGNED] 9wbd: 9wbd_aligned.pdb
+[ALIGNED] 9wc2: 9wc2_aligned.pdb
+[ALIGNED] 9wc3: 9wc3_aligned.pdb
+[ALIGNED] 9wj6: 9wj6_aligned.pdb
+[ALIGNED] 9wk0: 9wk0_aligned.pdb
+[ALIGNED] 9wve: 9wve_aligned.pdb
+[ALIGNED] 9wvf: 9wvf_aligned.pdb
+[ALIGNED] 9wyd: 9wyd_aligned.pdb
+[ALIGNED] 9xjd: 9xjd_aligned.pdb
+[ALIGNED] 9xmr: 9xmr_aligned.pdb
+[ALIGNED] 9y0u: 9y0u_aligned.pdb
+[ALIGNED] 9y0v: 9y0v_aligned.pdb
+[ALIGNED] 9y0w: 9y0w_aligned.pdb
+[ALIGNED] 9ytd: 9ytd_aligned.pdb
+[ALIGNED] 9ytf: 9ytf_aligned.pdb
+[ALIGNED] 9yw4: 9yw4_aligned.pdb
+[ALIGNED] 9yzh: 9yzh_aligned.pdb
+[ALIGNED] 9z4r: 9z4r_aligned.pdb
+[ALIGNED] 9zcl: 9zcl_aligned.pdb
+[ALIGNED] total=1269
+[KVFINDER] 13br
 [KVFINDER] 1a1m
 [KVFINDER] 1a1n
 [KVFINDER] 1a1o
@@ -1181,14 +1286,11 @@
 [KVFINDER] 1ao7
 [KVFINDER] 1b0g
 [KVFINDER] 1b0r
-[KVFINDER] 1b3j
 [KVFINDER] 1bd2
 [KVFINDER] 1cg9
 [KVFINDER] 1de4
 [KVFINDER] 1duy
 [KVFINDER] 1duz
-[KVFINDER] 1e27
-[KVFINDER] 1e28
 [KVFINDER] 1eey
 [KVFINDER] 1eez
 [KVFINDER] 1efx
@@ -1221,8 +1323,6 @@
 [KVFINDER] 1kpr
 [KVFINDER] 1ktl
 [KVFINDER] 1l8j
-[KVFINDER] 1lp9
-[KVFINDER] 1lqv
 [KVFINDER] 1m05
 [KVFINDER] 1m6o
 [KVFINDER] 1mhe
@@ -1280,6 +1380,9 @@
 [KVFINDER] 1zhl
 [KVFINDER] 1zsd
 [KVFINDER] 1zt4
+[KVFINDER] 22ee
+[KVFINDER] 24st
+[KVFINDER] 28il
 [KVFINDER] 2a83
 [KVFINDER] 2ak4
 [KVFINDER] 2av1
@@ -1317,8 +1420,6 @@
 [KVFINDER] 2hjl
 [KVFINDER] 2hla
 [KVFINDER] 2hn7
-[KVFINDER] 2j8u
-[KVFINDER] 2jcc
 [KVFINDER] 2nw3
 [KVFINDER] 2nx5
 [KVFINDER] 2p5e
@@ -1326,7 +1427,6 @@
 [KVFINDER] 2po6
 [KVFINDER] 2pye
 [KVFINDER] 2rfx
-[KVFINDER] 2uwe
 [KVFINDER] 2v2w
 [KVFINDER] 2v2x
 [KVFINDER] 2vlj
@@ -1376,7 +1476,6 @@
 [KVFINDER] 3dx7
 [KVFINDER] 3dx8
 [KVFINDER] 3dxa
-[KVFINDER] 3es6
 [KVFINDER] 3ffc
 [KVFINDER] 3fqn
 [KVFINDER] 3fqr
@@ -1411,7 +1510,6 @@
 [KVFINDER] 3i6l
 [KVFINDER] 3it8
 [KVFINDER] 3ixa
-[KVFINDER] 3jtc
 [KVFINDER] 3kla
 [KVFINDER] 3kpl
 [KVFINDER] 3kpm
@@ -1439,8 +1537,6 @@
 [KVFINDER] 3ln4
 [KVFINDER] 3ln5
 [KVFINDER] 3lv3
-[KVFINDER] 3m17
-[KVFINDER] 3m1b
 [KVFINDER] 3mgo
 [KVFINDER] 3mgt
 [KVFINDER] 3mr9
@@ -1575,14 +1671,12 @@
 [KVFINDER] 4l4t
 [KVFINDER] 4l4v
 [KVFINDER] 4lcw
-[KVFINDER] 4lcy
 [KVFINDER] 4lhu
 [KVFINDER] 4lnr
 [KVFINDER] 4mj5
 [KVFINDER] 4mj6
 [KVFINDER] 4mji
 [KVFINDER] 4mng
-[KVFINDER] 4mnq
 [KVFINDER] 4mq7
 [KVFINDER] 4n0f
 [KVFINDER] 4n0u
@@ -1593,8 +1687,6 @@
 [KVFINDER] 4no2
 [KVFINDER] 4no3
 [KVFINDER] 4no5
-[KVFINDER] 4nqc
-[KVFINDER] 4nqd
 [KVFINDER] 4nqe
 [KVFINDER] 4nqv
 [KVFINDER] 4nqx
@@ -1606,7 +1698,6 @@
 [KVFINDER] 4pdc
 [KVFINDER] 4pj5
 [KVFINDER] 4pj7
-[KVFINDER] 4pj8
 [KVFINDER] 4pj9
 [KVFINDER] 4pja
 [KVFINDER] 4pjb
@@ -1663,7 +1754,6 @@
 [KVFINDER] 4xxc
 [KVFINDER] 5b38
 [KVFINDER] 5b39
-[KVFINDER] 5bjt
 [KVFINDER] 5brz
 [KVFINDER] 5bs0
 [KVFINDER] 5bxf
@@ -1682,15 +1772,12 @@
 [KVFINDER] 5c9j
 [KVFINDER] 5d2l
 [KVFINDER] 5d2n
-[KVFINDER] 5d5m
 [KVFINDER] 5d7i
 [KVFINDER] 5d7j
-[KVFINDER] 5d7l
 [KVFINDER] 5d9s
 [KVFINDER] 5ddh
 [KVFINDER] 5def
 [KVFINDER] 5deg
-[KVFINDER] 5e00
 [KVFINDER] 5e6i
 [KVFINDER] 5e9d
 [KVFINDER] 5enw
@@ -1917,7 +2004,6 @@
 [KVFINDER] 6pyw
 [KVFINDER] 6pz5
 [KVFINDER] 6q3k
-[KVFINDER] 6q3s
 [KVFINDER] 6qio
 [KVFINDER] 6qip
 [KVFINDER] 6r2l
@@ -1944,8 +2030,6 @@
 [KVFINDER] 6uj9
 [KVFINDER] 6ujo
 [KVFINDER] 6ujq
-[KVFINDER] 6uk2
-[KVFINDER] 6uk4
 [KVFINDER] 6uli
 [KVFINDER] 6ulk
 [KVFINDER] 6uln
@@ -2125,7 +2209,6 @@
 [KVFINDER] 7re8
 [KVFINDER] 7rk7
 [KVFINDER] 7rm4
-[KVFINDER] 7rno
 [KVFINDER] 7rrg
 [KVFINDER] 7rtd
 [KVFINDER] 7rtr
@@ -2201,13 +2284,10 @@
 [KVFINDER] 8cx4
 [KVFINDER] 8dnt
 [KVFINDER] 8dv3
-[KVFINDER] 8dv4
 [KVFINDER] 8dvg
-[KVFINDER] 8e13
 [KVFINDER] 8e2z
 [KVFINDER] 8e8i
 [KVFINDER] 8eb2
-[KVFINDER] 8ec5
 [KVFINDER] 8ek5
 [KVFINDER] 8elg
 [KVFINDER] 8elh
@@ -2242,10 +2322,11 @@
 [KVFINDER] 8gvg
 [KVFINDER] 8gvi
 [KVFINDER] 8hn4
-[KVFINDER] 8i5c
-[KVFINDER] 8i5d
 [KVFINDER] 8i5e
 [KVFINDER] 8isn
+[KVFINDER] 8k4t
+[KVFINDER] 8k4v
+[KVFINDER] 8k50
 [KVFINDER] 8qfy
 [KVFINDER] 8rbu
 [KVFINDER] 8rbv
@@ -2260,12 +2341,13 @@
 [KVFINDER] 8rlu
 [KVFINDER] 8rlv
 [KVFINDER] 8rne
-[KVFINDER] 8rnf
 [KVFINDER] 8rng
 [KVFINDER] 8rnh
+[KVFINDER] 8rni
 [KVFINDER] 8roo
 [KVFINDER] 8rop
 [KVFINDER] 8rro
+[KVFINDER] 8rwb
 [KVFINDER] 8rym
 [KVFINDER] 8ryn
 [KVFINDER] 8ryo
@@ -2286,20 +2368,21 @@
 [KVFINDER] 8tm2
 [KVFINDER] 8tmu
 [KVFINDER] 8tnj
+[KVFINDER] 8tq5
 [KVFINDER] 8tub
 [KVFINDER] 8tuh
 [KVFINDER] 8u9g
 [KVFINDER] 8udr
+[KVFINDER] 8utc
 [KVFINDER] 8v4z
 [KVFINDER] 8v50
 [KVFINDER] 8v51
+[KVFINDER] 8v8q
 [KVFINDER] 8vcl
 [KVFINDER] 8vjz
 [KVFINDER] 8vr9
 [KVFINDER] 8vra
 [KVFINDER] 8vrb
-[KVFINDER] 8wte
-[KVFINDER] 8wul
 [KVFINDER] 8xes
 [KVFINDER] 8xfz
 [KVFINDER] 8xg2
@@ -2309,6 +2392,13 @@
 [KVFINDER] 8ye4
 [KVFINDER] 8yiv
 [KVFINDER] 8yj2
+[KVFINDER] 8yzr
+[KVFINDER] 8yzw
+[KVFINDER] 8yzz
+[KVFINDER] 8z05
+[KVFINDER] 8z06
+[KVFINDER] 8z07
+[KVFINDER] 8z08
 [KVFINDER] 8zox
 [KVFINDER] 8zv9
 [KVFINDER] 9asf
@@ -2324,14 +2414,133 @@
 [KVFINDER] 9bty
 [KVFINDER] 9btz
 [KVFINDER] 9bu0
+[KVFINDER] 9bys
 [KVFINDER] 9c3e
+[KVFINDER] 9c42
 [KVFINDER] 9c6v
 [KVFINDER] 9c6w
 [KVFINDER] 9c6x
+[KVFINDER] 9c96
+[KVFINDER] 9c9d
 [KVFINDER] 9cgr
-[KVFINDER] 9cgs
+[KVFINDER] 9cwy
+[KVFINDER] 9cwz
+[KVFINDER] 9cx0
+[KVFINDER] 9cx1
+[KVFINDER] 9cx2
+[KVFINDER] 9d73
+[KVFINDER] 9d74
+[KVFINDER] 9d95
+[KVFINDER] 9d96
+[KVFINDER] 9d97
+[KVFINDER] 9dbt
 [KVFINDER] 9dl1
-[KVFINDER] total=1165
+[KVFINDER] 9dy8
+[KVFINDER] 9eiq
+[KVFINDER] 9ejd
+[KVFINDER] 9ek4
+[KVFINDER] 9ek6
+[KVFINDER] 9ek7
+[KVFINDER] 9f13
+[KVFINDER] 9fe1
+[KVFINDER] 9gv6
+[KVFINDER] 9gv7
+[KVFINDER] 9hi7
+[KVFINDER] 9hkq
+[KVFINDER] 9hlj
+[KVFINDER] 9j4s
+[KVFINDER] 9j4t
+[KVFINDER] 9j4u
+[KVFINDER] 9j4v
+[KVFINDER] 9k2i
+[KVFINDER] 9k2r
+[KVFINDER] 9k2s
+[KVFINDER] 9k2t
+[KVFINDER] 9k2u
+[KVFINDER] 9l47
+[KVFINDER] 9l48
+[KVFINDER] 9l49
+[KVFINDER] 9l4a
+[KVFINDER] 9l4g
+[KVFINDER] 9l4h
+[KVFINDER] 9l4i
+[KVFINDER] 9llu
+[KVFINDER] 9mda
+[KVFINDER] 9mef
+[KVFINDER] 9meg
+[KVFINDER] 9mi6
+[KVFINDER] 9min
+[KVFINDER] 9ms0
+[KVFINDER] 9nav
+[KVFINDER] 9nds
+[KVFINDER] 9nfb
+[KVFINDER] 9nfc
+[KVFINDER] 9nkh
+[KVFINDER] 9nmu
+[KVFINDER] 9nmv
+[KVFINDER] 9nmw
+[KVFINDER] 9nmx
+[KVFINDER] 9nmy
+[KVFINDER] 9nnf
+[KVFINDER] 9nw6
+[KVFINDER] 9nw7
+[KVFINDER] 9nw8
+[KVFINDER] 9nw9
+[KVFINDER] 9nyn
+[KVFINDER] 9o05
+[KVFINDER] 9o06
+[KVFINDER] 9o07
+[KVFINDER] 9o08
+[KVFINDER] 9o55
+[KVFINDER] 9o5s
+[KVFINDER] 9obf
+[KVFINDER] 9oc6
+[KVFINDER] 9oc7
+[KVFINDER] 9oht
+[KVFINDER] 9ohu
+[KVFINDER] 9ohv
+[KVFINDER] 9ohw
+[KVFINDER] 9ohx
+[KVFINDER] 9ohy
+[KVFINDER] 9ohz
+[KVFINDER] 9oi0
+[KVFINDER] 9pbh
+[KVFINDER] 9qqe
+[KVFINDER] 9qqf
+[KVFINDER] 9qwj
+[KVFINDER] 9qwk
+[KVFINDER] 9rcv
+[KVFINDER] 9rse
+[KVFINDER] 9ru5
+[KVFINDER] 9rup
+[KVFINDER] 9rwi
+[KVFINDER] 9rxm
+[KVFINDER] 9sko
+[KVFINDER] 9skp
+[KVFINDER] 9sl0
+[KVFINDER] 9tjx
+[KVFINDER] 9uv8
+[KVFINDER] 9wbd
+[KVFINDER] 9wc2
+[KVFINDER] 9wc3
+[KVFINDER] 9wj6
+[KVFINDER] 9wk0
+[KVFINDER] 9wve
+[KVFINDER] 9wvf
+[KVFINDER] 9wyd
+[KVFINDER] 9xjd
+[KVFINDER] 9xmr
+[KVFINDER] 9y0u
+[KVFINDER] 9y0v
+[KVFINDER] 9y0w
+[KVFINDER] 9ytd
+[KVFINDER] 9ytf
+[KVFINDER] 9yw4
+[KVFINDER] 9yzh
+[KVFINDER] 9z4r
+[KVFINDER] 9zcl
+[KVFINDER] total=1269
+[FILTERED] 13br: kept=1
 [FILTERED] 1a1m: kept=1
 [FILTERED] 1a1n: kept=1
 [FILTERED] 1a1o: kept=1
@@ -2347,14 +2556,11 @@
 [FILTERED] 1ao7: kept=1
 [FILTERED] 1b0g: kept=1
 [FILTERED] 1b0r: kept=1
-[FILTERED] 1b3j: kept=2
 [FILTERED] 1bd2: kept=1
 [FILTERED] 1cg9: kept=1
 [FILTERED] 1de4: kept=1
 [FILTERED] 1duy: kept=1
 [FILTERED] 1duz: kept=1
-[FILTERED] 1e27: kept=1
-[FILTERED] 1e28: kept=1
 [FILTERED] 1eey: kept=1
 [FILTERED] 1eez: kept=1
 [FILTERED] 1efx: kept=1
@@ -2387,8 +2593,6 @@
 [FILTERED] 1kpr: kept=1
 [FILTERED] 1ktl: kept=1
 [FILTERED] 1l8j: kept=1
-[FILTERED] 1lp9: kept=1
-[FILTERED] 1lqv: kept=1
 [FILTERED] 1m05: kept=1
 [FILTERED] 1m6o: kept=1
 [FILTERED] 1mhe: kept=1
@@ -2446,6 +2650,9 @@
 [FILTERED] 1zhl: kept=1
 [FILTERED] 1zsd: kept=1
 [FILTERED] 1zt4: kept=1
+[FILTERED] 22ee: kept=1
+[FILTERED] 24st: kept=1
+[FILTERED] 28il: kept=1
 [FILTERED] 2a83: kept=1
 [FILTERED] 2ak4: kept=1
 [FILTERED] 2av1: kept=1
@@ -2483,8 +2690,6 @@
 [FILTERED] 2hjl: kept=1
 [FILTERED] 2hla: kept=1
 [FILTERED] 2hn7: kept=1
-[FILTERED] 2j8u: kept=1
-[FILTERED] 2jcc: kept=1
 [FILTERED] 2nw3: kept=1
 [FILTERED] 2nx5: kept=1
 [FILTERED] 2p5e: kept=1
@@ -2492,7 +2697,6 @@
 [FILTERED] 2po6: kept=1
 [FILTERED] 2pye: kept=1
 [FILTERED] 2rfx: kept=1
-[FILTERED] 2uwe: kept=1
 [FILTERED] 2v2w: kept=1
 [FILTERED] 2v2x: kept=1
 [FILTERED] 2vlj: kept=1
@@ -2542,7 +2746,6 @@
 [FILTERED] 3dx7: kept=1
 [FILTERED] 3dx8: kept=1
 [FILTERED] 3dxa: kept=1
-[FILTERED] 3es6: kept=2
 [FILTERED] 3ffc: kept=1
 [FILTERED] 3fqn: kept=1
 [FILTERED] 3fqr: kept=1
@@ -2577,7 +2780,6 @@
 [FILTERED] 3i6l: kept=1
 [FILTERED] 3it8: kept=1
 [FILTERED] 3ixa: kept=1
-[FILTERED] 3jtc: kept=1
 [FILTERED] 3kla: kept=1
 [FILTERED] 3kpl: kept=1
 [FILTERED] 3kpm: kept=1
@@ -2605,8 +2807,6 @@
 [FILTERED] 3ln4: kept=1
 [FILTERED] 3ln5: kept=1
 [FILTERED] 3lv3: kept=1
-[FILTERED] 3m17: kept=1
-[FILTERED] 3m1b: kept=2
 [FILTERED] 3mgo: kept=1
 [FILTERED] 3mgt: kept=1
 [FILTERED] 3mr9: kept=1
@@ -2741,14 +2941,12 @@
 [FILTERED] 4l4t: kept=2
 [FILTERED] 4l4v: kept=2
 [FILTERED] 4lcw: kept=1
-[FILTERED] 4lcy: kept=1
 [FILTERED] 4lhu: kept=1
 [FILTERED] 4lnr: kept=1
 [FILTERED] 4mj5: kept=1
 [FILTERED] 4mj6: kept=1
 [FILTERED] 4mji: kept=1
 [FILTERED] 4mng: kept=1
-[FILTERED] 4mnq: kept=1
 [FILTERED] 4mq7: kept=1
 [FILTERED] 4n0f: kept=1
 [FILTERED] 4n0u: kept=1
@@ -2759,8 +2957,6 @@
 [FILTERED] 4no2: kept=1
 [FILTERED] 4no3: kept=1
 [FILTERED] 4no5: kept=1
-[FILTERED] 4nqc: kept=2
-[FILTERED] 4nqd: kept=1
 [FILTERED] 4nqe: kept=1
 [FILTERED] 4nqv: kept=1
 [FILTERED] 4nqx: kept=1
@@ -2772,7 +2968,6 @@
 [FILTERED] 4pdc: kept=1
 [FILTERED] 4pj5: kept=1
 [FILTERED] 4pj7: kept=1
-[FILTERED] 4pj8: kept=1
 [FILTERED] 4pj9: kept=1
 [FILTERED] 4pja: kept=1
 [FILTERED] 4pjb: kept=1
@@ -2829,7 +3024,6 @@
 [FILTERED] 4xxc: kept=1
 [FILTERED] 5b38: kept=1
 [FILTERED] 5b39: kept=1
-[FILTERED] 5bjt: kept=1
 [FILTERED] 5brz: kept=1
 [FILTERED] 5bs0: kept=1
 [FILTERED] 5bxf: kept=1
@@ -2848,15 +3042,12 @@
 [FILTERED] 5c9j: kept=1
 [FILTERED] 5d2l: kept=1
 [FILTERED] 5d2n: kept=1
-[FILTERED] 5d5m: kept=1
 [FILTERED] 5d7i: kept=1
 [FILTERED] 5d7j: kept=1
-[FILTERED] 5d7l: kept=1
 [FILTERED] 5d9s: kept=1
 [FILTERED] 5ddh: kept=1
 [FILTERED] 5def: kept=1
 [FILTERED] 5deg: kept=1
-[FILTERED] 5e00: kept=1
 [FILTERED] 5e6i: kept=1
 [FILTERED] 5e9d: kept=1
 [FILTERED] 5enw: kept=1
@@ -3083,7 +3274,6 @@
 [FILTERED] 6pyw: kept=1
 [FILTERED] 6pz5: kept=1
 [FILTERED] 6q3k: kept=1
-[FILTERED] 6q3s: kept=1
 [FILTERED] 6qio: kept=1
 [FILTERED] 6qip: kept=1
 [FILTERED] 6r2l: kept=1
@@ -3110,8 +3300,6 @@
 [FILTERED] 6uj9: kept=1
 [FILTERED] 6ujo: kept=1
 [FILTERED] 6ujq: kept=1
-[FILTERED] 6uk2: kept=1
-[FILTERED] 6uk4: kept=1
 [FILTERED] 6uli: kept=1
 [FILTERED] 6ulk: kept=1
 [FILTERED] 6uln: kept=1
@@ -3291,7 +3479,6 @@
 [FILTERED] 7re8: kept=1
 [FILTERED] 7rk7: kept=1
 [FILTERED] 7rm4: kept=1
-[FILTERED] 7rno: kept=1
 [FILTERED] 7rrg: kept=1
 [FILTERED] 7rtd: kept=1
 [FILTERED] 7rtr: kept=1
@@ -3367,13 +3554,10 @@
 [FILTERED] 8cx4: kept=1
 [FILTERED] 8dnt: kept=1
 [FILTERED] 8dv3: kept=1
-[FILTERED] 8dv4: kept=1
 [FILTERED] 8dvg: kept=1
-[FILTERED] 8e13: kept=1
 [FILTERED] 8e2z: kept=1
 [FILTERED] 8e8i: kept=1
 [FILTERED] 8eb2: kept=1
-[FILTERED] 8ec5: kept=1
 [FILTERED] 8ek5: kept=1
 [FILTERED] 8elg: kept=1
 [FILTERED] 8elh: kept=1
@@ -3408,10 +3592,11 @@
 [FILTERED] 8gvg: kept=1
 [FILTERED] 8gvi: kept=1
 [FILTERED] 8hn4: kept=1
-[FILTERED] 8i5c: kept=1
-[FILTERED] 8i5d: kept=1
 [FILTERED] 8i5e: kept=1
 [FILTERED] 8isn: kept=1
+[FILTERED] 8k4t: kept=1
+[FILTERED] 8k4v: kept=1
+[FILTERED] 8k50: kept=1
 [FILTERED] 8qfy: kept=1
 [FILTERED] 8rbu: kept=1
 [FILTERED] 8rbv: kept=1
@@ -3426,12 +3611,13 @@
 [FILTERED] 8rlu: kept=1
 [FILTERED] 8rlv: kept=1
 [FILTERED] 8rne: kept=1
-[FILTERED] 8rnf: kept=1
 [FILTERED] 8rng: kept=1
 [FILTERED] 8rnh: kept=1
+[FILTERED] 8rni: kept=1
 [FILTERED] 8roo: kept=1
 [FILTERED] 8rop: kept=1
 [FILTERED] 8rro: kept=1
+[FILTERED] 8rwb: kept=0
 [FILTERED] 8rym: kept=1
 [FILTERED] 8ryn: kept=1
 [FILTERED] 8ryo: kept=1
@@ -3452,20 +3638,21 @@
 [FILTERED] 8tm2: kept=1
 [FILTERED] 8tmu: kept=1
 [FILTERED] 8tnj: kept=1
+[FILTERED] 8tq5: kept=1
 [FILTERED] 8tub: kept=1
 [FILTERED] 8tuh: kept=1
 [FILTERED] 8u9g: kept=1
 [FILTERED] 8udr: kept=1
+[FILTERED] 8utc: kept=1
 [FILTERED] 8v4z: kept=1
 [FILTERED] 8v50: kept=1
 [FILTERED] 8v51: kept=1
+[FILTERED] 8v8q: kept=1
 [FILTERED] 8vcl: kept=1
 [FILTERED] 8vjz: kept=1
 [FILTERED] 8vr9: kept=1
 [FILTERED] 8vra: kept=1
 [FILTERED] 8vrb: kept=1
-[FILTERED] 8wte: kept=1
-[FILTERED] 8wul: kept=1
 [FILTERED] 8xes: kept=1
 [FILTERED] 8xfz: kept=1
 [FILTERED] 8xg2: kept=1
@@ -3475,6 +3662,13 @@
 [FILTERED] 8ye4: kept=1
 [FILTERED] 8yiv: kept=1
 [FILTERED] 8yj2: kept=1
+[FILTERED] 8yzr: kept=1
+[FILTERED] 8yzw: kept=1
+[FILTERED] 8yzz: kept=1
+[FILTERED] 8z05: kept=1
+[FILTERED] 8z06: kept=1
+[FILTERED] 8z07: kept=1
+[FILTERED] 8z08: kept=1
 [FILTERED] 8zox: kept=1
 [FILTERED] 8zv9: kept=1
 [FILTERED] 9asf: kept=1
@@ -3490,13 +3684,131 @@
 [FILTERED] 9bty: kept=2
 [FILTERED] 9btz: kept=1
 [FILTERED] 9bu0: kept=2
+[FILTERED] 9bys: kept=2
 [FILTERED] 9c3e: kept=2
+[FILTERED] 9c42: kept=2
 [FILTERED] 9c6v: kept=1
 [FILTERED] 9c6w: kept=1
 [FILTERED] 9c6x: kept=1
+[FILTERED] 9c96: kept=1
+[FILTERED] 9c9d: kept=1
 [FILTERED] 9cgr: kept=2
-[FILTERED] 9cgs: kept=2
+[FILTERED] 9cwy: kept=1
+[FILTERED] 9cwz: kept=1
+[FILTERED] 9cx0: kept=1
+[FILTERED] 9cx1: kept=1
+[FILTERED] 9cx2: kept=1
+[FILTERED] 9d73: kept=1
+[FILTERED] 9d74: kept=1
+[FILTERED] 9d95: kept=1
+[FILTERED] 9d96: kept=1
+[FILTERED] 9d97: kept=1
+[FILTERED] 9dbt: kept=1
 [FILTERED] 9dl1: kept=1
-[SUMMARY] structures=1165 with_cavity=1162
-[CSV] /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step4/pdb/3_filtered_cavities/cavities.csv
+[FILTERED] 9dy8: kept=1
+[FILTERED] 9eiq: kept=1
+[FILTERED] 9ejd: kept=1
+[FILTERED] 9ek4: kept=1
+[FILTERED] 9ek6: kept=2
+[FILTERED] 9ek7: kept=2
+[FILTERED] 9f13: kept=1
+[FILTERED] 9fe1: kept=1
+[FILTERED] 9gv6: kept=1
+[FILTERED] 9gv7: kept=1
+[FILTERED] 9hi7: kept=1
+[FILTERED] 9hkq: kept=1
+[FILTERED] 9hlj: kept=1
+[FILTERED] 9j4s: kept=1
+[FILTERED] 9j4t: kept=1
+[FILTERED] 9j4u: kept=1
+[FILTERED] 9j4v: kept=1
+[FILTERED] 9k2i: kept=1
+[FILTERED] 9k2r: kept=1
+[FILTERED] 9k2s: kept=1
+[FILTERED] 9k2t: kept=1
+[FILTERED] 9k2u: kept=1
+[FILTERED] 9l47: kept=1
+[FILTERED] 9l48: kept=1
+[FILTERED] 9l49: kept=1
+[FILTERED] 9l4a: kept=1
+[FILTERED] 9l4g: kept=1
+[FILTERED] 9l4h: kept=1
+[FILTERED] 9l4i: kept=1
+[FILTERED] 9llu: kept=1
+[FILTERED] 9mda: kept=1
+[FILTERED] 9mef: kept=1
+[FILTERED] 9meg: kept=1
+[FILTERED] 9mi6: kept=1
+[FILTERED] 9min: kept=1
+[FILTERED] 9ms0: kept=2
+[FILTERED] 9nav: kept=1
+[FILTERED] 9nds: kept=1
+[FILTERED] 9nfb: kept=1
+[FILTERED] 9nfc: kept=1
+[FILTERED] 9nkh: kept=1
+[FILTERED] 9nmu: kept=1
+[FILTERED] 9nmv: kept=1
+[FILTERED] 9nmw: kept=1
+[FILTERED] 9nmx: kept=1
+[FILTERED] 9nmy: kept=1
+[FILTERED] 9nnf: kept=1
+[FILTERED] 9nw6: kept=1
+[FILTERED] 9nw7: kept=1
+[FILTERED] 9nw8: kept=1
+[FILTERED] 9nw9: kept=1
+[FILTERED] 9nyn: kept=1
+[FILTERED] 9o05: kept=2
+[FILTERED] 9o06: kept=2
+[FILTERED] 9o07: kept=2
+[FILTERED] 9o08: kept=2
+[FILTERED] 9o55: kept=1
+[FILTERED] 9o5s: kept=1
+[FILTERED] 9obf: kept=1
+[FILTERED] 9oc6: kept=1
+[FILTERED] 9oc7: kept=1
+[FILTERED] 9oht: kept=1
+[FILTERED] 9ohu: kept=1
+[FILTERED] 9ohv: kept=1
+[FILTERED] 9ohw: kept=1
+[FILTERED] 9ohx: kept=1
+[FILTERED] 9ohy: kept=1
+[FILTERED] 9ohz: kept=1
+[FILTERED] 9oi0: kept=1
+[FILTERED] 9pbh: kept=1
+[FILTERED] 9qqe: kept=1
+[FILTERED] 9qqf: kept=1
+[FILTERED] 9qwj: kept=1
+[FILTERED] 9qwk: kept=1
+[FILTERED] 9rcv: kept=1
+[FILTERED] 9rse: kept=1
+[FILTERED] 9ru5: kept=1
+[FILTERED] 9rup: kept=1
+[FILTERED] 9rwi: kept=1
+[FILTERED] 9rxm: kept=1
+[FILTERED] 9sko: kept=1
+[FILTERED] 9skp: kept=1
+[FILTERED] 9sl0: kept=1
+[FILTERED] 9tjx: kept=1
+[FILTERED] 9uv8: kept=1
+[FILTERED] 9wbd: kept=1
+[FILTERED] 9wc2: kept=1
+[FILTERED] 9wc3: kept=1
+[FILTERED] 9wj6: kept=1
+[FILTERED] 9wk0: kept=1
+[FILTERED] 9wve: kept=1
+[FILTERED] 9wvf: kept=1
+[FILTERED] 9wyd: kept=1
+[FILTERED] 9xjd: kept=1
+[FILTERED] 9xmr: kept=1
+[FILTERED] 9y0u: kept=1
+[FILTERED] 9y0v: kept=1
+[FILTERED] 9y0w: kept=1
+[FILTERED] 9ytd: kept=1
+[FILTERED] 9ytf: kept=1
+[FILTERED] 9yw4: kept=1
+[FILTERED] 9yzh: kept=1
+[FILTERED] 9z4r: kept=2
+[FILTERED] 9zcl: kept=1
+[SUMMARY] structures=1269 with_cavity=1265
+[CSV] /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step4/pdb/3_filtered_cavities/cavities.csv
 [DONE] STEP4

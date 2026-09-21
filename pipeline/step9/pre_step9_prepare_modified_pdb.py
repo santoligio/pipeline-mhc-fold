@@ -6,6 +6,7 @@ and updates step9_binders.csv / step9_ligands.csv.
 """
 
 import csv
+import os
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Set, Tuple
@@ -17,13 +18,16 @@ from Bio.PDB import PDBIO, PDBParser
 # Configuration
 # =========================================================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(
+    os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent))
+)
 
 DATABASE = "pdb"
 
-STEP7_DIR = PIPELINE_DIR / "step7_fix" / DATABASE
-STEP8_REMODELED_DIR = PIPELINE_DIR / "step8" / DATABASE / "mhc_remodeled"
-STEP9_DIR = PIPELINE_DIR / "step9_fix" / DATABASE
+STEP7_DIR = PIPELINE_DIR / "step7" / DATABASE
+STEP8_REMODELED_DIR = PIPELINE_DIR / "step8" / DATABASE / "1_mhc_remodeled"
+STEP9_DIR = PIPELINE_DIR / "step9" / DATABASE
 
 INPUT_PDB_DIR = STEP7_DIR / "1_filtered_structures"
 STEP7_SUMMARY_DIR = STEP7_DIR / "summaries"
@@ -34,7 +38,7 @@ MODIFIED_PDB_DIR = STEP9_DIR / "modified_pdbs"
 MODIFICATION_LOG = MODIFIED_PDB_DIR / "modified_pdbs_log.csv"
 EDITED_BINDERS_CSV = MODIFIED_PDB_DIR / "step9_binders.csv"
 EDITED_LIGANDS_CSV = MODIFIED_PDB_DIR / "step9_ligands.csv"
-BINDER_REMOVALS_CSV = PIPELINE_DIR / "binder_removals.csv"
+BINDER_REMOVALS_CSV = PIPELINE_DIR / "step9" / DATABASE / "binder_removals.csv"
 
 LOG_COLUMNS = [
     "timestamp",

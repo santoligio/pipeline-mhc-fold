@@ -1,10 +1,10 @@
 [CONFIG] STEP5
-[PATH] INPUT_CIF_DIR=/mnt/c/Users/gio/Documents/foldseek/version_02/filter/step2/pdb/1_assemblies
-[PATH] INPUT_CSV=/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step2_1/functional_annotation/pdb/filtered/pdb_assemblies_filtered.csv
-[PATH] MATRIX_DIR=/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step4/pdb/1_aligned/matrices
-[PATH] CONFIGURED_PDB_DIR=/mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step5/pdb/1_mhc_configured
+[PATH] INPUT_CIF_DIR=/home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step2/pdb/1_assemblies
+[PATH] INPUT_CSV=/home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step2-1/pdb/filtered/pdb_assemblies_filtered.csv
+[PATH] MATRIX_DIR=/home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step4/pdb/1_aligned/matrices
+[PATH] CONFIGURED_PDB_DIR=/home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step5/pdb/1_mhc_configured
 
-[CSV] rows=1485 primary=1161
+[CSV] rows=1602 primary=1269
 
 [START] STEP5
 [PROCESSING] 8RLV
@@ -199,8 +199,6 @@
 [SAVED] 6MT3: chains=3->3 matrix=6mt3_matrix.txt output=6mt3_mhc_configured.pdb
 [PROCESSING] 3V5K
 [SAVED] 3V5K: chains=3->3 matrix=3v5k_matrix.txt output=3v5k_mhc_configured.pdb
-[PROCESSING] 6UK2
-[SAVED] 6UK2: chains=3->3 matrix=6uk2_matrix.txt output=6uk2_mhc_configured.pdb
 [PROCESSING] 7KGO
 [SAVED] 7KGO: chains=3->3 matrix=7kgo_matrix.txt output=7kgo_mhc_configured.pdb
 [PROCESSING] 7RTR
@@ -245,8 +243,6 @@
 [SAVED] 4JFP: chains=3->3 matrix=4jfp_matrix.txt output=4jfp_mhc_configured.pdb
 [PROCESSING] 6ZKY
 [SAVED] 6ZKY: chains=5->5 matrix=6zky_matrix.txt output=6zky_mhc_configured.pdb
-[PROCESSING] 8I5D
-[SAVED] 8I5D: chains=5->5 matrix=8i5d_matrix.txt output=8i5d_mhc_configured.pdb
 [PROCESSING] 1DUY
 [SAVED] 1DUY: chains=3->3 matrix=1duy_matrix.txt output=1duy_mhc_configured.pdb
 [PROCESSING] 3UTT
@@ -297,8 +293,6 @@
 [SAVED] 5F9J: chains=3->3 matrix=5f9j_matrix.txt output=5f9j_mhc_configured.pdb
 [PROCESSING] 3OX8
 [SAVED] 3OX8: chains=3->3 matrix=3ox8_matrix.txt output=3ox8_mhc_configured.pdb
-[PROCESSING] 1E27
-[SAVED] 1E27: chains=3->3 matrix=1e27_matrix.txt output=1e27_mhc_configured.pdb
 [PROCESSING] 3FT2
 [SAVED] 3FT2: chains=3->3 matrix=3ft2_matrix.txt output=3ft2_mhc_configured.pdb
 [PROCESSING] 3FQW
@@ -380,10 +374,10 @@
 [PROCESSING] 8RHQ
 [FILTERED] 8RHQ: removed_far_chains=['F', 'H', 'I']
 [SAVED] 8RHQ: chains=9->6 matrix=8rhq_matrix.txt output=8rhq_mhc_configured.pdb
-[PROCESSING] 7S79
-[SAVED] 7S79: chains=3->3 matrix=7s79_matrix.txt output=7s79_mhc_configured.pdb
 [PROCESSING] 6P2S
 [SAVED] 6P2S: chains=3->3 matrix=6p2s_matrix.txt output=6p2s_mhc_configured.pdb
+[PROCESSING] 7S79
+[SAVED] 7S79: chains=3->3 matrix=7s79_matrix.txt output=7s79_mhc_configured.pdb
 [PROCESSING] 4F7T
 [SAVED] 4F7T: chains=3->3 matrix=4f7t_matrix.txt output=4f7t_mhc_configured.pdb
 [PROCESSING] 5JHD
@@ -406,14 +400,10 @@
 [SAVED] 3O3B: chains=3->3 matrix=3o3b_matrix.txt output=3o3b_mhc_configured.pdb
 [PROCESSING] 1S9X
 [SAVED] 1S9X: chains=3->3 matrix=1s9x_matrix.txt output=1s9x_mhc_configured.pdb
-[PROCESSING] 2UWE
-[SAVED] 2UWE: chains=5->5 matrix=2uwe_matrix.txt output=2uwe_mhc_configured.pdb
 [PROCESSING] 5HGD
 [SAVED] 5HGD: chains=3->3 matrix=5hgd_matrix.txt output=5hgd_mhc_configured.pdb
 [PROCESSING] 6VB1
 [SAVED] 6VB1: chains=3->3 matrix=6vb1_matrix.txt output=6vb1_mhc_configured.pdb
-[PROCESSING] 1LP9
-[SAVED] 1LP9: chains=5->5 matrix=1lp9_matrix.txt output=1lp9_mhc_configured.pdb
 [PROCESSING] 8RYQ
 [SAVED] 8RYQ: chains=5->5 matrix=8ryq_matrix.txt output=8ryq_mhc_configured.pdb
 [PROCESSING] 6TDQ
@@ -446,12 +436,8 @@
 [SAVED] 5EU3: chains=3->3 matrix=5eu3_matrix.txt output=5eu3_mhc_configured.pdb
 [PROCESSING] 5FDW
 [SAVED] 5FDW: chains=3->3 matrix=5fdw_matrix.txt output=5fdw_mhc_configured.pdb
-[PROCESSING] 8E13
-[SAVED] 8E13: chains=3->3 matrix=8e13_matrix.txt output=8e13_mhc_configured.pdb
 [PROCESSING] 6TDR
 [SAVED] 6TDR: chains=2->2 matrix=6tdr_matrix.txt output=6tdr_mhc_configured.pdb
-[PROCESSING] 6UZS
-[SAVED] 6UZS: chains=3->3 matrix=6uzs_matrix.txt output=6uzs_mhc_configured.pdb
 [PROCESSING] 3FQX
 [SAVED] 3FQX: chains=3->3 matrix=3fqx_matrix.txt output=3fqx_mhc_configured.pdb
 [PROCESSING] 6VM9
@@ -498,10 +484,10 @@
 [SAVED] 3MGO: chains=3->3 matrix=3mgo_matrix.txt output=3mgo_mhc_configured.pdb
 [PROCESSING] 8RLU
 [SAVED] 8RLU: chains=5->5 matrix=8rlu_matrix.txt output=8rlu_mhc_configured.pdb
-[PROCESSING] 6GH1
-[SAVED] 6GH1: chains=3->3 matrix=6gh1_matrix.txt output=6gh1_mhc_configured.pdb
 [PROCESSING] 5V5L
 [SAVED] 5V5L: chains=3->3 matrix=5v5l_matrix.txt output=5v5l_mhc_configured.pdb
+[PROCESSING] 6GH1
+[SAVED] 6GH1: chains=3->3 matrix=6gh1_matrix.txt output=6gh1_mhc_configured.pdb
 [PROCESSING] 4N8V
 [SAVED] 4N8V: chains=4->4 matrix=4n8v_matrix.txt output=4n8v_mhc_configured.pdb
 [PROCESSING] 3H9H
@@ -520,16 +506,14 @@
 [SAVED] 7PB2: chains=5->5 matrix=7pb2_matrix.txt output=7pb2_mhc_configured.pdb
 [PROCESSING] 3NFN
 [SAVED] 3NFN: chains=3->3 matrix=3nfn_matrix.txt output=3nfn_mhc_configured.pdb
-[PROCESSING] 5HGH
-[SAVED] 5HGH: chains=3->3 matrix=5hgh_matrix.txt output=5hgh_mhc_configured.pdb
 [PROCESSING] 5T6Y
 [SAVED] 5T6Y: chains=3->3 matrix=5t6y_matrix.txt output=5t6y_mhc_configured.pdb
+[PROCESSING] 5HGH
+[SAVED] 5HGH: chains=3->3 matrix=5hgh_matrix.txt output=5hgh_mhc_configured.pdb
 [PROCESSING] 5VUE
 [SAVED] 5VUE: chains=3->3 matrix=5vue_matrix.txt output=5vue_mhc_configured.pdb
 [PROCESSING] 7MJ7
 [SAVED] 7MJ7: chains=3->3 matrix=7mj7_matrix.txt output=7mj7_mhc_configured.pdb
-[PROCESSING] 8I5C
-[SAVED] 8I5C: chains=5->5 matrix=8i5c_matrix.txt output=8i5c_mhc_configured.pdb
 [PROCESSING] 7S7D
 [SAVED] 7S7D: chains=3->3 matrix=7s7d_matrix.txt output=7s7d_mhc_configured.pdb
 [PROCESSING] 5WKF
@@ -602,6 +586,8 @@
 [SAVED] 2VLL: chains=3->3 matrix=2vll_matrix.txt output=2vll_mhc_configured.pdb
 [PROCESSING] 7JYV
 [SAVED] 7JYV: chains=3->3 matrix=7jyv_matrix.txt output=7jyv_mhc_configured.pdb
+[PROCESSING] 8UTC
+[SAVED] 8UTC: chains=3->3 matrix=8utc_matrix.txt output=8utc_mhc_configured.pdb
 [PROCESSING] 3MRB
 [SAVED] 3MRB: chains=3->3 matrix=3mrb_matrix.txt output=3mrb_mhc_configured.pdb
 [PROCESSING] 5SWQ
@@ -628,8 +614,6 @@
 [SAVED] 7T5M: chains=3->3 matrix=7t5m_matrix.txt output=7t5m_mhc_configured.pdb
 [PROCESSING] 3VFU
 [SAVED] 3VFU: chains=3->3 matrix=3vfu_matrix.txt output=3vfu_mhc_configured.pdb
-[PROCESSING] 6Q3S
-[SAVED] 6Q3S: chains=3->3 matrix=6q3s_matrix.txt output=6q3s_mhc_configured.pdb
 [PROCESSING] 1A1N
 [SAVED] 1A1N: chains=3->3 matrix=1a1n_matrix.txt output=1a1n_mhc_configured.pdb
 [PROCESSING] 5HHO
@@ -642,8 +626,6 @@
 [SAVED] 8F5A: chains=5->5 matrix=8f5a_matrix.txt output=8f5a_mhc_configured.pdb
 [PROCESSING] 3LN4
 [SAVED] 3LN4: chains=3->3 matrix=3ln4_matrix.txt output=3ln4_mhc_configured.pdb
-[PROCESSING] 4MNQ
-[SAVED] 4MNQ: chains=5->5 matrix=4mnq_matrix.txt output=4mnq_mhc_configured.pdb
 [PROCESSING] 7R7X
 [SAVED] 7R7X: chains=3->3 matrix=7r7x_matrix.txt output=7r7x_mhc_configured.pdb
 [PROCESSING] 6VB2
@@ -656,14 +638,14 @@
 [SAVED] 8SBK: chains=3->3 matrix=8sbk_matrix.txt output=8sbk_mhc_configured.pdb
 [PROCESSING] 4WUU
 [SAVED] 4WUU: chains=5->5 matrix=4wuu_matrix.txt output=4wuu_mhc_configured.pdb
-[PROCESSING] 5E00
-[SAVED] 5E00: chains=3->3 matrix=5e00_matrix.txt output=5e00_mhc_configured.pdb
 [PROCESSING] 5FA4
 [SAVED] 5FA4: chains=3->3 matrix=5fa4_matrix.txt output=5fa4_mhc_configured.pdb
-[PROCESSING] 8E8I
-[SAVED] 8E8I: chains=3->3 matrix=8e8i_matrix.txt output=8e8i_mhc_configured.pdb
+[PROCESSING] 8Z08
+[SAVED] 8Z08: chains=3->3 matrix=8z08_matrix.txt output=8z08_mhc_configured.pdb
 [PROCESSING] 6MT6
 [SAVED] 6MT6: chains=3->3 matrix=6mt6_matrix.txt output=6mt6_mhc_configured.pdb
+[PROCESSING] 8E8I
+[SAVED] 8E8I: chains=3->3 matrix=8e8i_matrix.txt output=8e8i_mhc_configured.pdb
 [PROCESSING] 3MRQ
 [SAVED] 3MRQ: chains=3->3 matrix=3mrq_matrix.txt output=3mrq_mhc_configured.pdb
 [PROCESSING] 8TUH
@@ -688,8 +670,6 @@
 [SAVED] 6O4Y: chains=3->3 matrix=6o4y_matrix.txt output=6o4y_mhc_configured.pdb
 [PROCESSING] 3PWN
 [SAVED] 3PWN: chains=3->3 matrix=3pwn_matrix.txt output=3pwn_mhc_configured.pdb
-[PROCESSING] 4LCY
-[SAVED] 4LCY: chains=1->1 matrix=4lcy_matrix.txt output=4lcy_mhc_configured.pdb
 [PROCESSING] 6PTE
 [SAVED] 6PTE: chains=3->3 matrix=6pte_matrix.txt output=6pte_mhc_configured.pdb
 [PROCESSING] 5C08
@@ -712,16 +692,20 @@
 [SAVED] 4PRA: chains=3->3 matrix=4pra_matrix.txt output=4pra_mhc_configured.pdb
 [PROCESSING] 8FU4
 [SAVED] 8FU4: chains=3->3 matrix=8fu4_matrix.txt output=8fu4_mhc_configured.pdb
-[PROCESSING] 6BXP
-[SAVED] 6BXP: chains=3->3 matrix=6bxp_matrix.txt output=6bxp_mhc_configured.pdb
 [PROCESSING] 3HPJ
 [SAVED] 3HPJ: chains=3->3 matrix=3hpj_matrix.txt output=3hpj_mhc_configured.pdb
+[PROCESSING] 6BXP
+[SAVED] 6BXP: chains=3->3 matrix=6bxp_matrix.txt output=6bxp_mhc_configured.pdb
 [PROCESSING] 2DYP
 [SAVED] 2DYP: chains=4->4 matrix=2dyp_matrix.txt output=2dyp_mhc_configured.pdb
 [PROCESSING] 3O3E
 [SAVED] 3O3E: chains=3->3 matrix=3o3e_matrix.txt output=3o3e_mhc_configured.pdb
 [PROCESSING] 3V5H
 [SAVED] 3V5H: chains=3->3 matrix=3v5h_matrix.txt output=3v5h_mhc_configured.pdb
+[PROCESSING] 9SKP
+[SAVED] 9SKP: chains=3->3 matrix=9skp_matrix.txt output=9skp_mhc_configured.pdb
+[PROCESSING] 9WK0
+[SAVED] 9WK0: chains=3->3 matrix=9wk0_matrix.txt output=9wk0_mhc_configured.pdb
 [PROCESSING] 5WKH
 [SAVED] 5WKH: chains=5->5 matrix=5wkh_matrix.txt output=5wkh_mhc_configured.pdb
 [PROCESSING] 3SJV
@@ -768,6 +752,8 @@
 [SAVED] 1S9W: chains=3->3 matrix=1s9w_matrix.txt output=1s9w_mhc_configured.pdb
 [PROCESSING] 5N6B
 [SAVED] 5N6B: chains=3->3 matrix=5n6b_matrix.txt output=5n6b_mhc_configured.pdb
+[PROCESSING] 8YZZ
+[SAVED] 8YZZ: chains=3->3 matrix=8yzz_matrix.txt output=8yzz_mhc_configured.pdb
 [PROCESSING] 6VMA
 [SAVED] 6VMA: chains=5->5 matrix=6vma_matrix.txt output=6vma_mhc_configured.pdb
 [PROCESSING] 7WZZ
@@ -788,6 +774,8 @@
 [SAVED] 7RRG: chains=5->5 matrix=7rrg_matrix.txt output=7rrg_mhc_configured.pdb
 [PROCESSING] 2AV1
 [SAVED] 2AV1: chains=3->3 matrix=2av1_matrix.txt output=2av1_mhc_configured.pdb
+[PROCESSING] 8YZR
+[SAVED] 8YZR: chains=3->3 matrix=8yzr_matrix.txt output=8yzr_mhc_configured.pdb
 [PROCESSING] 7DZN
 [SAVED] 7DZN: chains=5->5 matrix=7dzn_matrix.txt output=7dzn_mhc_configured.pdb
 [PROCESSING] 4U6Y
@@ -840,6 +828,8 @@
 [SAVED] 6MTL: chains=3->3 matrix=6mtl_matrix.txt output=6mtl_mhc_configured.pdb
 [PROCESSING] 3MR9
 [SAVED] 3MR9: chains=3->3 matrix=3mr9_matrix.txt output=3mr9_mhc_configured.pdb
+[PROCESSING] 9SKO
+[SAVED] 9SKO: chains=3->3 matrix=9sko_matrix.txt output=9sko_mhc_configured.pdb
 [PROCESSING] 1B0R
 [SAVED] 1B0R: chains=3->3 matrix=1b0r_matrix.txt output=1b0r_mhc_configured.pdb
 [PROCESSING] 3GSQ
@@ -848,6 +838,8 @@
 [SAVED] 2GTW: chains=3->3 matrix=2gtw_matrix.txt output=2gtw_mhc_configured.pdb
 [PROCESSING] 3MRC
 [SAVED] 3MRC: chains=3->3 matrix=3mrc_matrix.txt output=3mrc_mhc_configured.pdb
+[PROCESSING] 9OBF
+[SAVED] 9OBF: chains=3->3 matrix=9obf_matrix.txt output=9obf_mhc_configured.pdb
 [PROCESSING] 3HCV
 [SAVED] 3HCV: chains=3->3 matrix=3hcv_matrix.txt output=3hcv_mhc_configured.pdb
 [PROCESSING] 6EWC
@@ -912,12 +904,14 @@
 [SAVED] 8RJI: chains=3->3 matrix=8rji_matrix.txt output=8rji_mhc_configured.pdb
 [PROCESSING] 3MRJ
 [SAVED] 3MRJ: chains=3->3 matrix=3mrj_matrix.txt output=3mrj_mhc_configured.pdb
-[PROCESSING] 2J8U
-[SAVED] 2J8U: chains=5->5 matrix=2j8u_matrix.txt output=2j8u_mhc_configured.pdb
+[PROCESSING] 6UZS
+[SAVED] 6UZS: chains=3->3 matrix=6uzs_matrix.txt output=6uzs_mhc_configured.pdb
 [PROCESSING] 4FTV
 [SAVED] 4FTV: chains=5->5 matrix=4ftv_matrix.txt output=4ftv_mhc_configured.pdb
 [PROCESSING] 3HAE
 [SAVED] 3HAE: chains=5->5 matrix=3hae_matrix.txt output=3hae_mhc_configured.pdb
+[PROCESSING] 9J4V
+[SAVED] 9J4V: chains=3->3 matrix=9j4v_matrix.txt output=9j4v_mhc_configured.pdb
 [PROCESSING] 6UZN
 [SAVED] 6UZN: chains=3->3 matrix=6uzn_matrix.txt output=6uzn_mhc_configured.pdb
 [PROCESSING] 1QR1
@@ -932,6 +926,8 @@
 [SAVED] 7JYW: chains=3->3 matrix=7jyw_matrix.txt output=7jyw_mhc_configured.pdb
 [PROCESSING] 2AV7
 [SAVED] 2AV7: chains=3->3 matrix=2av7_matrix.txt output=2av7_mhc_configured.pdb
+[PROCESSING] 22EE
+[SAVED] 22EE: chains=3->3 matrix=22ee_matrix.txt output=22ee_mhc_configured.pdb
 [PROCESSING] 6PYV
 [SAVED] 6PYV: chains=3->3 matrix=6pyv_matrix.txt output=6pyv_mhc_configured.pdb
 [PROCESSING] 7N1F
@@ -944,18 +940,20 @@
 [SAVED] 6D2R: chains=3->3 matrix=6d2r_matrix.txt output=6d2r_mhc_configured.pdb
 [PROCESSING] 7U21
 [SAVED] 7U21: chains=3->3 matrix=7u21_matrix.txt output=7u21_mhc_configured.pdb
-[PROCESSING] 6TDP
-[SAVED] 6TDP: chains=2->2 matrix=6tdp_matrix.txt output=6tdp_mhc_configured.pdb
 [PROCESSING] 5DDH
 [SAVED] 5DDH: chains=3->3 matrix=5ddh_matrix.txt output=5ddh_mhc_configured.pdb
+[PROCESSING] 6TDP
+[SAVED] 6TDP: chains=2->2 matrix=6tdp_matrix.txt output=6tdp_mhc_configured.pdb
 [PROCESSING] 7M8T
 [SAVED] 7M8T: chains=3->3 matrix=7m8t_matrix.txt output=7m8t_mhc_configured.pdb
 [PROCESSING] 3VFS
 [SAVED] 3VFS: chains=3->3 matrix=3vfs_matrix.txt output=3vfs_mhc_configured.pdb
-[PROCESSING] 3VRI
-[SAVED] 3VRI: chains=3->3 matrix=3vri_matrix.txt output=3vri_mhc_configured.pdb
+[PROCESSING] 9EIQ
+[SAVED] 9EIQ: chains=3->3 matrix=9eiq_matrix.txt output=9eiq_mhc_configured.pdb
 [PROCESSING] 6Z9V
 [SAVED] 6Z9V: chains=3->3 matrix=6z9v_matrix.txt output=6z9v_mhc_configured.pdb
+[PROCESSING] 3VRI
+[SAVED] 3VRI: chains=3->3 matrix=3vri_matrix.txt output=3vri_mhc_configured.pdb
 [PROCESSING] 4U1L
 [SAVED] 4U1L: chains=3->3 matrix=4u1l_matrix.txt output=4u1l_mhc_configured.pdb
 [PROCESSING] 7NMG
@@ -995,10 +993,10 @@
 [SAVED] 3L3J: chains=3->3 matrix=3l3j_matrix.txt output=3l3j_mhc_configured.pdb
 [PROCESSING] 7SR5
 [SAVED] 7SR5: chains=2->2 matrix=7sr5_matrix.txt output=7sr5_mhc_configured.pdb
-[PROCESSING] 5EOT
-[SAVED] 5EOT: chains=3->3 matrix=5eot_matrix.txt output=5eot_mhc_configured.pdb
 [PROCESSING] 7SIF
 [SAVED] 7SIF: chains=3->3 matrix=7sif_matrix.txt output=7sif_mhc_configured.pdb
+[PROCESSING] 5EOT
+[SAVED] 5EOT: chains=3->3 matrix=5eot_matrix.txt output=5eot_mhc_configured.pdb
 [PROCESSING] 5MEP
 [SAVED] 5MEP: chains=3->3 matrix=5mep_matrix.txt output=5mep_mhc_configured.pdb
 [PROCESSING] 4QRS
@@ -1023,12 +1021,12 @@
 [SAVED] 5FA3: chains=3->3 matrix=5fa3_matrix.txt output=5fa3_mhc_configured.pdb
 [PROCESSING] 3KPP
 [SAVED] 3KPP: chains=3->3 matrix=3kpp_matrix.txt output=3kpp_mhc_configured.pdb
-[PROCESSING] 8UDR
-[SAVED] 8UDR: chains=5->5 matrix=8udr_matrix.txt output=8udr_mhc_configured.pdb
-[PROCESSING] 4MJI
-[SAVED] 4MJI: chains=5->5 matrix=4mji_matrix.txt output=4mji_mhc_configured.pdb
 [PROCESSING] 7N2O
 [SAVED] 7N2O: chains=5->5 matrix=7n2o_matrix.txt output=7n2o_mhc_configured.pdb
+[PROCESSING] 4MJI
+[SAVED] 4MJI: chains=5->5 matrix=4mji_matrix.txt output=4mji_mhc_configured.pdb
+[PROCESSING] 8UDR
+[SAVED] 8UDR: chains=5->5 matrix=8udr_matrix.txt output=8udr_mhc_configured.pdb
 [PROCESSING] 1I7U
 [SAVED] 1I7U: chains=3->3 matrix=1i7u_matrix.txt output=1i7u_mhc_configured.pdb
 [PROCESSING] 8SBL
@@ -1061,12 +1059,12 @@
 [SAVED] 2HJL: chains=3->3 matrix=2hjl_matrix.txt output=2hjl_mhc_configured.pdb
 [PROCESSING] 3LKN
 [SAVED] 3LKN: chains=3->3 matrix=3lkn_matrix.txt output=3lkn_mhc_configured.pdb
-[PROCESSING] 2JCC
-[SAVED] 2JCC: chains=5->5 matrix=2jcc_matrix.txt output=2jcc_mhc_configured.pdb
 [PROCESSING] 6ULK
 [SAVED] 6ULK: chains=3->3 matrix=6ulk_matrix.txt output=6ulk_mhc_configured.pdb
 [PROCESSING] 3MRG
 [SAVED] 3MRG: chains=3->3 matrix=3mrg_matrix.txt output=3mrg_mhc_configured.pdb
+[PROCESSING] 9YZH
+[SAVED] 9YZH: chains=3->3 matrix=9yzh_matrix.txt output=9yzh_mhc_configured.pdb
 [PROCESSING] 7MJ6
 [SAVED] 7MJ6: chains=3->3 matrix=7mj6_matrix.txt output=7mj6_mhc_configured.pdb
 [PROCESSING] 3MV9
@@ -1085,12 +1083,12 @@
 [SAVED] 3MRO: chains=3->3 matrix=3mro_matrix.txt output=3mro_mhc_configured.pdb
 [PROCESSING] 5WMO
 [SAVED] 5WMO: chains=3->3 matrix=5wmo_matrix.txt output=5wmo_mhc_configured.pdb
-[PROCESSING] 5C0D
-[SAVED] 5C0D: chains=3->3 matrix=5c0d_matrix.txt output=5c0d_mhc_configured.pdb
-[PROCESSING] 3GSV
-[SAVED] 3GSV: chains=3->3 matrix=3gsv_matrix.txt output=3gsv_mhc_configured.pdb
 [PROCESSING] 3UTQ
 [SAVED] 3UTQ: chains=3->3 matrix=3utq_matrix.txt output=3utq_mhc_configured.pdb
+[PROCESSING] 3GSV
+[SAVED] 3GSV: chains=3->3 matrix=3gsv_matrix.txt output=3gsv_mhc_configured.pdb
+[PROCESSING] 5C0D
+[SAVED] 5C0D: chains=3->3 matrix=5c0d_matrix.txt output=5c0d_mhc_configured.pdb
 [PROCESSING] 1JF1
 [SAVED] 1JF1: chains=3->3 matrix=1jf1_matrix.txt output=1jf1_mhc_configured.pdb
 [PROCESSING] 2BNQ
@@ -1129,6 +1127,8 @@
 [SAVED] 3O3A: chains=3->3 matrix=3o3a_matrix.txt output=3o3a_mhc_configured.pdb
 [PROCESSING] 6OPD
 [SAVED] 6OPD: chains=3->3 matrix=6opd_matrix.txt output=6opd_mhc_configured.pdb
+[PROCESSING] 9NW7
+[SAVED] 9NW7: chains=5->5 matrix=9nw7_matrix.txt output=9nw7_mhc_configured.pdb
 [PROCESSING] 6AMU
 [SAVED] 6AMU: chains=5->5 matrix=6amu_matrix.txt output=6amu_mhc_configured.pdb
 [PROCESSING] 6EWO
@@ -1159,6 +1159,8 @@
 [SAVED] 9BL2: chains=4->4 matrix=9bl2_matrix.txt output=9bl2_mhc_configured.pdb
 [PROCESSING] 7X1C
 [SAVED] 7X1C: chains=3->3 matrix=7x1c_matrix.txt output=7x1c_mhc_configured.pdb
+[PROCESSING] 9EJD
+[SAVED] 9EJD: chains=3->3 matrix=9ejd_matrix.txt output=9ejd_mhc_configured.pdb
 [PROCESSING] 3MRK
 [SAVED] 3MRK: chains=3->3 matrix=3mrk_matrix.txt output=3mrk_mhc_configured.pdb
 [PROCESSING] 8ESH
@@ -1173,19 +1175,23 @@
 [SAVED] 3LKP: chains=3->3 matrix=3lkp_matrix.txt output=3lkp_mhc_configured.pdb
 [PROCESSING] 6SS8
 [SAVED] 6SS8: chains=3->3 matrix=6ss8_matrix.txt output=6ss8_mhc_configured.pdb
+[PROCESSING] 8Z06
+[SAVED] 8Z06: chains=3->3 matrix=8z06_matrix.txt output=8z06_mhc_configured.pdb
 [PROCESSING] 3VXO
 [SAVED] 3VXO: chains=3->3 matrix=3vxo_matrix.txt output=3vxo_mhc_configured.pdb
+[PROCESSING] 6VIU
+[SAVED] 6VIU: chains=3->3 matrix=6viu_matrix.txt output=6viu_mhc_configured.pdb
 [PROCESSING] 8RNE
 [SAVED] 8RNE: chains=3->3 matrix=8rne_matrix.txt output=8rne_mhc_configured.pdb
 [PROCESSING] 6VB4
 [SAVED] 6VB4: chains=3->3 matrix=6vb4_matrix.txt output=6vb4_mhc_configured.pdb
-[PROCESSING] 6VIU
-[SAVED] 6VIU: chains=3->3 matrix=6viu_matrix.txt output=6viu_mhc_configured.pdb
 [PROCESSING] 3MRE
 [SAVED] 3MRE: chains=3->3 matrix=3mre_matrix.txt output=3mre_mhc_configured.pdb
 [PROCESSING] 9DL1
 [FILTERED] 9DL1: removed_far_chains=['C', 'E']
 [SAVED] 9DL1: chains=8->6 matrix=9dl1_matrix.txt output=9dl1_mhc_configured.pdb
+[PROCESSING] 9SL0
+[SAVED] 9SL0: chains=3->3 matrix=9sl0_matrix.txt output=9sl0_mhc_configured.pdb
 [PROCESSING] 2AXG
 [SAVED] 2AXG: chains=3->3 matrix=2axg_matrix.txt output=2axg_mhc_configured.pdb
 [PROCESSING] 3QZW
@@ -1210,12 +1216,14 @@
 [SAVED] 7SR4: chains=2->2 matrix=7sr4_matrix.txt output=7sr4_mhc_configured.pdb
 [PROCESSING] 6MT5
 [SAVED] 6MT5: chains=3->3 matrix=6mt5_matrix.txt output=6mt5_mhc_configured.pdb
-[PROCESSING] 3KYO
-[SAVED] 3KYO: chains=3->3 matrix=3kyo_matrix.txt output=3kyo_mhc_configured.pdb
 [PROCESSING] 1K5N
 [SAVED] 1K5N: chains=3->3 matrix=1k5n_matrix.txt output=1k5n_mhc_configured.pdb
+[PROCESSING] 3KYO
+[SAVED] 3KYO: chains=3->3 matrix=3kyo_matrix.txt output=3kyo_mhc_configured.pdb
 [PROCESSING] 4JFD
 [SAVED] 4JFD: chains=5->5 matrix=4jfd_matrix.txt output=4jfd_mhc_configured.pdb
+[PROCESSING] 8V8Q
+[SAVED] 8V8Q: chains=3->3 matrix=8v8q_matrix.txt output=8v8q_mhc_configured.pdb
 [PROCESSING] 7MLE
 [SAVED] 7MLE: chains=3->3 matrix=7mle_matrix.txt output=7mle_mhc_configured.pdb
 [PROCESSING] 7N2P
@@ -1234,6 +1242,8 @@
 [SAVED] 3VXR: chains=5->5 matrix=3vxr_matrix.txt output=3vxr_mhc_configured.pdb
 [PROCESSING] 3MYJ
 [SAVED] 3MYJ: chains=3->3 matrix=3myj_matrix.txt output=3myj_mhc_configured.pdb
+[PROCESSING] 9MIN
+[SAVED] 9MIN: chains=5->5 matrix=9min_matrix.txt output=9min_mhc_configured.pdb
 [PROCESSING] 3MRD
 [SAVED] 3MRD: chains=3->3 matrix=3mrd_matrix.txt output=3mrd_mhc_configured.pdb
 [PROCESSING] 5MEO
@@ -1246,18 +1256,24 @@
 [SAVED] 5T6Z: chains=4->4 matrix=5t6z_matrix.txt output=5t6z_mhc_configured.pdb
 [PROCESSING] 1AGB
 [SAVED] 1AGB: chains=3->3 matrix=1agb_matrix.txt output=1agb_mhc_configured.pdb
-[PROCESSING] 7N1A
-[SAVED] 7N1A: chains=3->3 matrix=7n1a_matrix.txt output=7n1a_mhc_configured.pdb
 [PROCESSING] 6O51
 [SAVED] 6O51: chains=3->3 matrix=6o51_matrix.txt output=6o51_mhc_configured.pdb
+[PROCESSING] 7N1A
+[SAVED] 7N1A: chains=3->3 matrix=7n1a_matrix.txt output=7n1a_mhc_configured.pdb
+[PROCESSING] 9NFB
+[SAVED] 9NFB: chains=5->5 matrix=9nfb_matrix.txt output=9nfb_mhc_configured.pdb
 [PROCESSING] 3AM8
 [SAVED] 3AM8: chains=3->3 matrix=3am8_matrix.txt output=3am8_mhc_configured.pdb
+[PROCESSING] 9DY8
+[SAVED] 9DY8: chains=3->3 matrix=9dy8_matrix.txt output=9dy8_mhc_configured.pdb
 [PROCESSING] 5EU5
 [SAVED] 5EU5: chains=3->3 matrix=5eu5_matrix.txt output=5eu5_mhc_configured.pdb
 [PROCESSING] 6BJ3
 [SAVED] 6BJ3: chains=5->5 matrix=6bj3_matrix.txt output=6bj3_mhc_configured.pdb
 [PROCESSING] 5NMH
 [SAVED] 5NMH: chains=3->3 matrix=5nmh_matrix.txt output=5nmh_mhc_configured.pdb
+[PROCESSING] 9MDA
+[SAVED] 9MDA: chains=3->3 matrix=9mda_matrix.txt output=9mda_mhc_configured.pdb
 [PROCESSING] 2FZ3
 [SAVED] 2FZ3: chains=3->3 matrix=2fz3_matrix.txt output=2fz3_mhc_configured.pdb
 [PROCESSING] 6VQY
@@ -1272,10 +1288,10 @@
 [SAVED] 5EO0: chains=3->3 matrix=5eo0_matrix.txt output=5eo0_mhc_configured.pdb
 [PROCESSING] 3QDM
 [SAVED] 3QDM: chains=5->5 matrix=3qdm_matrix.txt output=3qdm_mhc_configured.pdb
-[PROCESSING] 8RNF
-[SAVED] 8RNF: chains=3->3 matrix=8rnf_matrix.txt output=8rnf_mhc_configured.pdb
 [PROCESSING] 4L3E
 [SAVED] 4L3E: chains=5->5 matrix=4l3e_matrix.txt output=4l3e_mhc_configured.pdb
+[PROCESSING] 8Z07
+[SAVED] 8Z07: chains=3->3 matrix=8z07_matrix.txt output=8z07_mhc_configured.pdb
 [PROCESSING] 3MRN
 [SAVED] 3MRN: chains=3->3 matrix=3mrn_matrix.txt output=3mrn_mhc_configured.pdb
 [PROCESSING] 4HX1
@@ -1292,10 +1308,10 @@
 [SAVED] 6VMC: chains=5->5 matrix=6vmc_matrix.txt output=6vmc_mhc_configured.pdb
 [PROCESSING] 8ELH
 [SAVED] 8ELH: chains=3->3 matrix=8elh_matrix.txt output=8elh_mhc_configured.pdb
-[PROCESSING] 1AGC
-[SAVED] 1AGC: chains=3->3 matrix=1agc_matrix.txt output=1agc_mhc_configured.pdb
 [PROCESSING] 6AVG
 [SAVED] 6AVG: chains=5->5 matrix=6avg_matrix.txt output=6avg_mhc_configured.pdb
+[PROCESSING] 1AGC
+[SAVED] 1AGC: chains=3->3 matrix=1agc_matrix.txt output=1agc_mhc_configured.pdb
 [PROCESSING] 3D25
 [SAVED] 3D25: chains=3->3 matrix=3d25_matrix.txt output=3d25_mhc_configured.pdb
 [PROCESSING] 3SPV
@@ -1314,16 +1330,19 @@
 [SAVED] 6V2Q: chains=3->3 matrix=6v2q_matrix.txt output=6v2q_mhc_configured.pdb
 [PROCESSING] 7OW3
 [SAVED] 7OW3: chains=3->3 matrix=7ow3_matrix.txt output=7ow3_mhc_configured.pdb
-[PROCESSING] 7TUC
-[SAVED] 7TUC: chains=3->3 matrix=7tuc_matrix.txt output=7tuc_mhc_configured.pdb
 [PROCESSING] 5C0A
 [SAVED] 5C0A: chains=5->5 matrix=5c0a_matrix.txt output=5c0a_mhc_configured.pdb
+[PROCESSING] 7TUC
+[SAVED] 7TUC: chains=3->3 matrix=7tuc_matrix.txt output=7tuc_mhc_configured.pdb
 [PROCESSING] 8V51
 [SAVED] 8V51: chains=5->5 matrix=8v51_matrix.txt output=8v51_mhc_configured.pdb
 [PROCESSING] 8RJH
 [SAVED] 8RJH: chains=3->3 matrix=8rjh_matrix.txt output=8rjh_mhc_configured.pdb
 [PROCESSING] 1TVB
 [SAVED] 1TVB: chains=3->3 matrix=1tvb_matrix.txt output=1tvb_mhc_configured.pdb
+[PROCESSING] 9YTD
+[FILTERED] 9YTD: removed_far_chains=['D']
+[SAVED] 9YTD: chains=6->5 matrix=9ytd_matrix.txt output=9ytd_mhc_configured.pdb
 [PROCESSING] 2GIT
 [SAVED] 2GIT: chains=3->3 matrix=2git_matrix.txt output=2git_mhc_configured.pdb
 [PROCESSING] 5F7D
@@ -1388,6 +1407,8 @@
 [SAVED] 5U98: chains=3->3 matrix=5u98_matrix.txt output=5u98_mhc_configured.pdb
 [PROCESSING] 2V2W
 [SAVED] 2V2W: chains=3->3 matrix=2v2w_matrix.txt output=2v2w_mhc_configured.pdb
+[PROCESSING] 9J4U
+[SAVED] 9J4U: chains=5->5 matrix=9j4u_matrix.txt output=9j4u_mhc_configured.pdb
 [PROCESSING] 5NQK
 [SAVED] 5NQK: chains=5->5 matrix=5nqk_matrix.txt output=5nqk_mhc_configured.pdb
 [PROCESSING] 6PTB
@@ -1416,8 +1437,8 @@
 [SAVED] 3BGM: chains=3->3 matrix=3bgm_matrix.txt output=3bgm_mhc_configured.pdb
 [PROCESSING] 4NO2
 [SAVED] 4NO2: chains=3->3 matrix=4no2_matrix.txt output=4no2_mhc_configured.pdb
-[PROCESSING] 6UK4
-[SAVED] 6UK4: chains=3->3 matrix=6uk4_matrix.txt output=6uk4_mhc_configured.pdb
+[PROCESSING] 8YZW
+[SAVED] 8YZW: chains=3->3 matrix=8yzw_matrix.txt output=8yzw_mhc_configured.pdb
 [PROCESSING] 7L1B
 [SAVED] 7L1B: chains=3->3 matrix=7l1b_matrix.txt output=7l1b_mhc_configured.pdb
 [PROCESSING] 4U1N
@@ -1442,6 +1463,16 @@
 [SAVED] 7STG: chains=2->2 matrix=7stg_matrix.txt output=7stg_mhc_configured.pdb
 [PROCESSING] 1SYV
 [SAVED] 1SYV: chains=3->3 matrix=1syv_matrix.txt output=1syv_mhc_configured.pdb
+[PROCESSING] 9UV8
+[SAVED] 9UV8: chains=3->3 matrix=9uv8_matrix.txt output=9uv8_mhc_configured.pdb
+[PROCESSING] 9GV6
+[SAVED] 9GV6: chains=5->5 matrix=9gv6_matrix.txt output=9gv6_mhc_configured.pdb
+[PROCESSING] 9O5S
+[SAVED] 9O5S: chains=5->5 matrix=9o5s_matrix.txt output=9o5s_mhc_configured.pdb
+[PROCESSING] 1A1M
+[SAVED] 1A1M: chains=3->3 matrix=1a1m_matrix.txt output=1a1m_mhc_configured.pdb
+[PROCESSING] 9O55
+[SAVED] 9O55: chains=4->4 matrix=9o55_matrix.txt output=9o55_mhc_configured.pdb
 [PROCESSING] 3W0W
 [SAVED] 3W0W: chains=5->5 matrix=3w0w_matrix.txt output=3w0w_mhc_configured.pdb
 [PROCESSING] 7DZM
@@ -1468,22 +1499,20 @@
 [SAVED] 1JHT: chains=3->3 matrix=1jht_matrix.txt output=1jht_mhc_configured.pdb
 [PROCESSING] 5VWH
 [SAVED] 5VWH: chains=3->3 matrix=5vwh_matrix.txt output=5vwh_mhc_configured.pdb
+[PROCESSING] 9EK4
+[SAVED] 9EK4: chains=3->3 matrix=9ek4_matrix.txt output=9ek4_mhc_configured.pdb
 [PROCESSING] 2VLJ
 [SAVED] 2VLJ: chains=5->5 matrix=2vlj_matrix.txt output=2vlj_mhc_configured.pdb
-[PROCESSING] 1E28
-[SAVED] 1E28: chains=3->3 matrix=1e28_matrix.txt output=1e28_mhc_configured.pdb
 [PROCESSING] 7UC5
 [SAVED] 7UC5: chains=3->3 matrix=7uc5_matrix.txt output=7uc5_mhc_configured.pdb
-[PROCESSING] 5YXU
-[SAVED] 5YXU: chains=5->5 matrix=5yxu_matrix.txt output=5yxu_mhc_configured.pdb
 [PROCESSING] 2X4Q
 [SAVED] 2X4Q: chains=3->3 matrix=2x4q_matrix.txt output=2x4q_mhc_configured.pdb
+[PROCESSING] 5YXU
+[SAVED] 5YXU: chains=5->5 matrix=5yxu_matrix.txt output=5yxu_mhc_configured.pdb
 [PROCESSING] 4NO3
 [SAVED] 4NO3: chains=3->3 matrix=4no3_matrix.txt output=4no3_mhc_configured.pdb
 [PROCESSING] 3CDG
 [SAVED] 3CDG: chains=5->5 matrix=3cdg_matrix.txt output=3cdg_mhc_configured.pdb
-[PROCESSING] 8WUL
-[SAVED] 8WUL: chains=5->5 matrix=8wul_matrix.txt output=8wul_mhc_configured.pdb
 [PROCESSING] 3D18
 [SAVED] 3D18: chains=3->3 matrix=3d18_matrix.txt output=3d18_mhc_configured.pdb
 [PROCESSING] 4UQ2
@@ -1516,25 +1545,33 @@
 [SAVED] 3KPM: chains=3->3 matrix=3kpm_matrix.txt output=3kpm_mhc_configured.pdb
 [PROCESSING] 7TUE
 [SAVED] 7TUE: chains=3->3 matrix=7tue_matrix.txt output=7tue_mhc_configured.pdb
+[PROCESSING] 9NMW
+[SAVED] 9NMW: chains=5->5 matrix=9nmw_matrix.txt output=9nmw_mhc_configured.pdb
 [PROCESSING] 3FFC
 [SAVED] 3FFC: chains=5->5 matrix=3ffc_matrix.txt output=3ffc_mhc_configured.pdb
 [PROCESSING] 7PDW
 [SAVED] 7PDW: chains=5->5 matrix=7pdw_matrix.txt output=7pdw_mhc_configured.pdb
-[PROCESSING] 4MJ5
-[SAVED] 4MJ5: chains=3->3 matrix=4mj5_matrix.txt output=4mj5_mhc_configured.pdb
 [PROCESSING] 6AT9
 [SAVED] 6AT9: chains=3->3 matrix=6at9_matrix.txt output=6at9_mhc_configured.pdb
+[PROCESSING] 4MJ5
+[SAVED] 4MJ5: chains=3->3 matrix=4mj5_matrix.txt output=4mj5_mhc_configured.pdb
+[PROCESSING] 9GV7
+[SAVED] 9GV7: chains=5->5 matrix=9gv7_matrix.txt output=9gv7_mhc_configured.pdb
 [PROCESSING] 1XR8
 [SAVED] 1XR8: chains=3->3 matrix=1xr8_matrix.txt output=1xr8_mhc_configured.pdb
+[PROCESSING] 9NW8
+[SAVED] 9NW8: chains=5->5 matrix=9nw8_matrix.txt output=9nw8_mhc_configured.pdb
 [PROCESSING] 4JFQ
 [SAVED] 4JFQ: chains=3->3 matrix=4jfq_matrix.txt output=4jfq_mhc_configured.pdb
 [PROCESSING] 7RE8
 [SAVED] 7RE8: chains=3->3 matrix=7re8_matrix.txt output=7re8_mhc_configured.pdb
 [PROCESSING] 3DTX
-[FILTERED] 3DTX: removed_far_chains=['C']
-[SAVED] 3DTX: chains=6->5 matrix=3dtx_matrix.txt output=3dtx_mhc_configured.pdb
+[FILTERED] 3DTX: removed_far_chains=['B-2', 'C-2']
+[SAVED] 3DTX: chains=6->4 matrix=3dtx_matrix.txt output=3dtx_mhc_configured.pdb
 [PROCESSING] 5T70
 [SAVED] 5T70: chains=4->4 matrix=5t70_matrix.txt output=5t70_mhc_configured.pdb
+[PROCESSING] 8RNI
+[SAVED] 8RNI: chains=3->3 matrix=8rni_matrix.txt output=8rni_mhc_configured.pdb
 [PROCESSING] 7R7W
 [SAVED] 7R7W: chains=3->3 matrix=7r7w_matrix.txt output=7r7w_mhc_configured.pdb
 [PROCESSING] 6VQ2
@@ -1553,10 +1590,15 @@
 [SAVED] 3DX8: chains=3->3 matrix=3dx8_matrix.txt output=3dx8_mhc_configured.pdb
 [PROCESSING] 5GSD
 [SAVED] 5GSD: chains=3->3 matrix=5gsd_matrix.txt output=5gsd_mhc_configured.pdb
+[PROCESSING] 9CX0
+[SAVED] 9CX0: chains=3->3 matrix=9cx0_matrix.txt output=9cx0_mhc_configured.pdb
 [PROCESSING] 6VQO
 [SAVED] 6VQO: chains=5->5 matrix=6vqo_matrix.txt output=6vqo_mhc_configured.pdb
 [PROCESSING] 6V2O
 [SAVED] 6V2O: chains=3->3 matrix=6v2o_matrix.txt output=6v2o_mhc_configured.pdb
+[PROCESSING] 28IL
+[FILTERED] 28IL: removed_far_chains=['C', 'D']
+[SAVED] 28IL: chains=10->8 matrix=28il_matrix.txt output=28il_mhc_configured.pdb
 [PROCESSING] 6PZ5
 [SAVED] 6PZ5: chains=3->3 matrix=6pz5_matrix.txt output=6pz5_mhc_configured.pdb
 [PROCESSING] 5MEQ
@@ -1583,8 +1625,12 @@
 [SAVED] 1ZSD: chains=3->3 matrix=1zsd_matrix.txt output=1zsd_mhc_configured.pdb
 [PROCESSING] 4QRQ
 [SAVED] 4QRQ: chains=3->3 matrix=4qrq_matrix.txt output=4qrq_mhc_configured.pdb
+[PROCESSING] 9NMY
+[SAVED] 9NMY: chains=5->5 matrix=9nmy_matrix.txt output=9nmy_mhc_configured.pdb
 [PROCESSING] 3MV7
 [SAVED] 3MV7: chains=5->5 matrix=3mv7_matrix.txt output=3mv7_mhc_configured.pdb
+[PROCESSING] 9CX1
+[SAVED] 9CX1: chains=3->3 matrix=9cx1_matrix.txt output=9cx1_mhc_configured.pdb
 [PROCESSING] 1JGD
 [SAVED] 1JGD: chains=3->3 matrix=1jgd_matrix.txt output=1jgd_mhc_configured.pdb
 [PROCESSING] 6TMO
@@ -1595,6 +1641,8 @@
 [SAVED] 7K80: chains=4->4 matrix=7k80_matrix.txt output=7k80_mhc_configured.pdb
 [PROCESSING] 6Q3K
 [SAVED] 6Q3K: chains=3->3 matrix=6q3k_matrix.txt output=6q3k_mhc_configured.pdb
+[PROCESSING] 9K2I
+[SAVED] 9K2I: chains=5->5 matrix=9k2i_matrix.txt output=9k2i_mhc_configured.pdb
 [PROCESSING] 1ZHL
 [SAVED] 1ZHL: chains=3->3 matrix=1zhl_matrix.txt output=1zhl_mhc_configured.pdb
 [PROCESSING] 2YPK
@@ -1605,6 +1653,10 @@
 [SAVED] 7R7Y: chains=3->3 matrix=7r7y_matrix.txt output=7r7y_mhc_configured.pdb
 [PROCESSING] 8F7M
 [SAVED] 8F7M: chains=3->3 matrix=8f7m_matrix.txt output=8f7m_mhc_configured.pdb
+[PROCESSING] 8K50
+[SAVED] 8K50: chains=3->3 matrix=8k50_matrix.txt output=8k50_mhc_configured.pdb
+[PROCESSING] 9CWY
+[SAVED] 9CWY: chains=3->3 matrix=9cwy_matrix.txt output=9cwy_mhc_configured.pdb
 [PROCESSING] 8DNT
 [SAVED] 8DNT: chains=5->5 matrix=8dnt_matrix.txt output=8dnt_mhc_configured.pdb
 [PROCESSING] 1W0W
@@ -1614,8 +1666,6 @@
 [SAVED] 7PHR: chains=11->5 matrix=7phr_matrix.txt output=7phr_mhc_configured.pdb
 [PROCESSING] 5VGD
 [SAVED] 5VGD: chains=3->3 matrix=5vgd_matrix.txt output=5vgd_mhc_configured.pdb
-[PROCESSING] 8WTE
-[SAVED] 8WTE: chains=5->5 matrix=8wte_matrix.txt output=8wte_mhc_configured.pdb
 [PROCESSING] 7STF
 [SAVED] 7STF: chains=5->5 matrix=7stf_matrix.txt output=7stf_mhc_configured.pdb
 [PROCESSING] 7EU2
@@ -1624,6 +1674,8 @@
 [SAVED] 9ASG: chains=3->3 matrix=9asg_matrix.txt output=9asg_mhc_configured.pdb
 [PROCESSING] 6VR1
 [SAVED] 6VR1: chains=3->3 matrix=6vr1_matrix.txt output=6vr1_mhc_configured.pdb
+[PROCESSING] 9LLU
+[SAVED] 9LLU: chains=5->5 matrix=9llu_matrix.txt output=9llu_mhc_configured.pdb
 [PROCESSING] 1M6O
 [SAVED] 1M6O: chains=3->3 matrix=1m6o_matrix.txt output=1m6o_mhc_configured.pdb
 [PROCESSING] 9BL3
@@ -1650,8 +1702,18 @@
 [SAVED] 6NCA: chains=3->3 matrix=6nca_matrix.txt output=6nca_mhc_configured.pdb
 [PROCESSING] 4U1H
 [SAVED] 4U1H: chains=3->3 matrix=4u1h_matrix.txt output=4u1h_mhc_configured.pdb
+[PROCESSING] 8K4T
+[SAVED] 8K4T: chains=3->3 matrix=8k4t_matrix.txt output=8k4t_mhc_configured.pdb
+[PROCESSING] 9HKQ
+[FILTERED] 9HKQ: removed_far_chains=['D', 'E']
+[SAVED] 9HKQ: chains=6->4 matrix=9hkq_matrix.txt output=9hkq_mhc_configured.pdb
 [PROCESSING] 3VH8
 [SAVED] 3VH8: chains=4->4 matrix=3vh8_matrix.txt output=3vh8_mhc_configured.pdb
+[PROCESSING] 8Z05
+[SAVED] 8Z05: chains=3->3 matrix=8z05_matrix.txt output=8z05_mhc_configured.pdb
+[PROCESSING] 9RCV
+[FILTERED] 9RCV: removed_far_chains=['A', 'B', 'C', 'D', 'I', 'J', 'K']
+[SAVED] 9RCV: chains=11->4 matrix=9rcv_matrix.txt output=9rcv_mhc_configured.pdb
 [PROCESSING] 1W0V
 [SAVED] 1W0V: chains=3->3 matrix=1w0v_matrix.txt output=1w0v_mhc_configured.pdb
 [PROCESSING] 5GRG
@@ -1672,6 +1734,8 @@
 [SAVED] 2X4O: chains=3->3 matrix=2x4o_matrix.txt output=2x4o_mhc_configured.pdb
 [PROCESSING] 9C6X
 [SAVED] 9C6X: chains=1->1 matrix=9c6x_matrix.txt output=9c6x_mhc_configured.pdb
+[PROCESSING] 9NMU
+[SAVED] 9NMU: chains=5->5 matrix=9nmu_matrix.txt output=9nmu_mhc_configured.pdb
 [PROCESSING] 1HHJ
 [SAVED] 1HHJ: chains=3->3 matrix=1hhj_matrix.txt output=1hhj_mhc_configured.pdb
 [PROCESSING] 7ALO
@@ -1686,6 +1750,10 @@
 [SAVED] 3KPS: chains=5->5 matrix=3kps_matrix.txt output=3kps_mhc_configured.pdb
 [PROCESSING] 3LKR
 [SAVED] 3LKR: chains=3->3 matrix=3lkr_matrix.txt output=3lkr_mhc_configured.pdb
+[PROCESSING] 9NW9
+[SAVED] 9NW9: chains=5->5 matrix=9nw9_matrix.txt output=9nw9_mhc_configured.pdb
+[PROCESSING] 9XJD
+[SAVED] 9XJD: chains=3->3 matrix=9xjd_matrix.txt output=9xjd_mhc_configured.pdb
 [PROCESSING] 6VQE
 [SAVED] 6VQE: chains=3->3 matrix=6vqe_matrix.txt output=6vqe_mhc_configured.pdb
 [PROCESSING] 3B3I
@@ -1714,10 +1782,10 @@
 [SAVED] 8TNJ: chains=5->5 matrix=8tnj_matrix.txt output=8tnj_mhc_configured.pdb
 [PROCESSING] 5NMG
 [SAVED] 5NMG: chains=5->5 matrix=5nmg_matrix.txt output=5nmg_mhc_configured.pdb
-[PROCESSING] 9BL9
-[SAVED] 9BL9: chains=4->4 matrix=9bl9_matrix.txt output=9bl9_mhc_configured.pdb
 [PROCESSING] 4QRU
 [SAVED] 4QRU: chains=3->3 matrix=4qru_matrix.txt output=4qru_mhc_configured.pdb
+[PROCESSING] 9BL9
+[SAVED] 9BL9: chains=4->4 matrix=9bl9_matrix.txt output=9bl9_mhc_configured.pdb
 [PROCESSING] 3KPR
 [SAVED] 3KPR: chains=5->5 matrix=3kpr_matrix.txt output=3kpr_mhc_configured.pdb
 [PROCESSING] 2CIK
@@ -1746,6 +1814,10 @@
 [SAVED] 4JQX: chains=3->3 matrix=4jqx_matrix.txt output=4jqx_mhc_configured.pdb
 [PROCESSING] 5MER
 [SAVED] 5MER: chains=3->3 matrix=5mer_matrix.txt output=5mer_mhc_configured.pdb
+[PROCESSING] 9J4T
+[SAVED] 9J4T: chains=5->5 matrix=9j4t_matrix.txt output=9j4t_mhc_configured.pdb
+[PROCESSING] 9NMV
+[SAVED] 9NMV: chains=5->5 matrix=9nmv_matrix.txt output=9nmv_mhc_configured.pdb
 [PROCESSING] 3DXA
 [SAVED] 3DXA: chains=5->5 matrix=3dxa_matrix.txt output=3dxa_mhc_configured.pdb
 [PROCESSING] 2BST
@@ -1762,8 +1834,12 @@
 [SAVED] 8FJB: chains=5->5 matrix=8fjb_matrix.txt output=8fjb_mhc_configured.pdb
 [PROCESSING] 5D2L
 [SAVED] 5D2L: chains=5->5 matrix=5d2l_matrix.txt output=5d2l_mhc_configured.pdb
+[PROCESSING] 9WVF
+[SAVED] 9WVF: chains=3->3 matrix=9wvf_matrix.txt output=9wvf_mhc_configured.pdb
 [PROCESSING] 6EQB
 [SAVED] 6EQB: chains=5->5 matrix=6eqb_matrix.txt output=6eqb_mhc_configured.pdb
+[PROCESSING] 9NW6
+[SAVED] 9NW6: chains=5->5 matrix=9nw6_matrix.txt output=9nw6_mhc_configured.pdb
 [PROCESSING] 6PYW
 [SAVED] 6PYW: chains=3->3 matrix=6pyw_matrix.txt output=6pyw_mhc_configured.pdb
 [PROCESSING] 3QEQ
@@ -1774,10 +1850,16 @@
 [SAVED] 5IB5: chains=3->3 matrix=5ib5_matrix.txt output=5ib5_mhc_configured.pdb
 [PROCESSING] 2P5W
 [SAVED] 2P5W: chains=5->5 matrix=2p5w_matrix.txt output=2p5w_mhc_configured.pdb
+[PROCESSING] 9CX2
+[SAVED] 9CX2: chains=3->3 matrix=9cx2_matrix.txt output=9cx2_mhc_configured.pdb
 [PROCESSING] 3MV8
 [SAVED] 3MV8: chains=5->5 matrix=3mv8_matrix.txt output=3mv8_mhc_configured.pdb
+[PROCESSING] 9NMX
+[SAVED] 9NMX: chains=5->5 matrix=9nmx_matrix.txt output=9nmx_mhc_configured.pdb
 [PROCESSING] 3WUW
 [SAVED] 3WUW: chains=4->4 matrix=3wuw_matrix.txt output=3wuw_mhc_configured.pdb
+[PROCESSING] 9WBD
+[SAVED] 9WBD: chains=5->5 matrix=9wbd_matrix.txt output=9wbd_mhc_configured.pdb
 [PROCESSING] 5B39
 [SAVED] 5B39: chains=4->4 matrix=5b39_matrix.txt output=5b39_mhc_configured.pdb
 [PROCESSING] 3UPR
@@ -1786,6 +1868,8 @@
 [SAVED] 3O3D: chains=3->3 matrix=3o3d_matrix.txt output=3o3d_mhc_configured.pdb
 [PROCESSING] 8GVG
 [SAVED] 8GVG: chains=5->5 matrix=8gvg_matrix.txt output=8gvg_mhc_configured.pdb
+[PROCESSING] 9CWZ
+[SAVED] 9CWZ: chains=3->3 matrix=9cwz_matrix.txt output=9cwz_mhc_configured.pdb
 [PROCESSING] 2C7U
 [SAVED] 2C7U: chains=3->3 matrix=2c7u_matrix.txt output=2c7u_mhc_configured.pdb
 [PROCESSING] 4GKN
@@ -1796,6 +1880,8 @@
 [SAVED] 6Y2B: chains=3->3 matrix=6y2b_matrix.txt output=6y2b_mhc_configured.pdb
 [PROCESSING] 2X4U
 [SAVED] 2X4U: chains=3->3 matrix=2x4u_matrix.txt output=2x4u_mhc_configured.pdb
+[PROCESSING] 9NFC
+[SAVED] 9NFC: chains=5->5 matrix=9nfc_matrix.txt output=9nfc_mhc_configured.pdb
 [PROCESSING] 3SKM
 [SAVED] 3SKM: chains=3->3 matrix=3skm_matrix.txt output=3skm_mhc_configured.pdb
 [PROCESSING] 8RCV
@@ -1806,6 +1892,8 @@
 [SAVED] 4EUP: chains=5->5 matrix=4eup_matrix.txt output=4eup_mhc_configured.pdb
 [PROCESSING] 3LV3
 [SAVED] 3LV3: chains=3->3 matrix=3lv3_matrix.txt output=3lv3_mhc_configured.pdb
+[PROCESSING] 9D95
+[SAVED] 9D95: chains=5->5 matrix=9d95_matrix.txt output=9d95_mhc_configured.pdb
 [PROCESSING] 2AXF
 [SAVED] 2AXF: chains=3->3 matrix=2axf_matrix.txt output=2axf_mhc_configured.pdb
 [PROCESSING] 3BP7
@@ -1818,6 +1906,8 @@
 [SAVED] 3QDJ: chains=5->5 matrix=3qdj_matrix.txt output=3qdj_mhc_configured.pdb
 [PROCESSING] 5WMR
 [SAVED] 5WMR: chains=3->3 matrix=5wmr_matrix.txt output=5wmr_mhc_configured.pdb
+[PROCESSING] 8K4V
+[SAVED] 8K4V: chains=3->3 matrix=8k4v_matrix.txt output=8k4v_mhc_configured.pdb
 [PROCESSING] 7RE7
 [SAVED] 7RE7: chains=5->5 matrix=7re7_matrix.txt output=7re7_mhc_configured.pdb
 [PROCESSING] 5DEG
@@ -1830,8 +1920,12 @@
 [SAVED] 8VRA: chains=5->5 matrix=8vra_matrix.txt output=8vra_mhc_configured.pdb
 [PROCESSING] 2VLR
 [SAVED] 2VLR: chains=5->5 matrix=2vlr_matrix.txt output=2vlr_mhc_configured.pdb
+[PROCESSING] 9PBH
+[SAVED] 9PBH: chains=5->5 matrix=9pbh_matrix.txt output=9pbh_mhc_configured.pdb
 [PROCESSING] 3BP4
 [SAVED] 3BP4: chains=3->3 matrix=3bp4_matrix.txt output=3bp4_mhc_configured.pdb
+[PROCESSING] 9WC2
+[SAVED] 9WC2: chains=5->5 matrix=9wc2_matrix.txt output=9wc2_mhc_configured.pdb
 [PROCESSING] 6VQD
 [SAVED] 6VQD: chains=3->3 matrix=6vqd_matrix.txt output=6vqd_mhc_configured.pdb
 [PROCESSING] 8HN4
@@ -1840,18 +1934,22 @@
 [SAVED] 1M05: chains=3->3 matrix=1m05_matrix.txt output=1m05_mhc_configured.pdb
 [PROCESSING] 7DYN
 [SAVED] 7DYN: chains=3->3 matrix=7dyn_matrix.txt output=7dyn_mhc_configured.pdb
+[PROCESSING] 9XMR
+[SAVED] 9XMR: chains=3->3 matrix=9xmr_matrix.txt output=9xmr_mhc_configured.pdb
 [PROCESSING] 6Y28
 [SAVED] 6Y28: chains=3->3 matrix=6y28_matrix.txt output=6y28_mhc_configured.pdb
+[PROCESSING] 9FE1
+[SAVED] 9FE1: chains=4->4 matrix=9fe1_matrix.txt output=9fe1_mhc_configured.pdb
 [PROCESSING] 7CIS
 [SAVED] 7CIS: chains=3->3 matrix=7cis_matrix.txt output=7cis_mhc_configured.pdb
+[PROCESSING] 9WVE
+[SAVED] 9WVE: chains=3->3 matrix=9wve_matrix.txt output=9wve_mhc_configured.pdb
 [PROCESSING] 1KPR
 [SAVED] 1KPR: chains=3->3 matrix=1kpr_matrix.txt output=1kpr_mhc_configured.pdb
 [PROCESSING] 4G9F
 [SAVED] 4G9F: chains=5->5 matrix=4g9f_matrix.txt output=4g9f_mhc_configured.pdb
 [PROCESSING] 5D2N
 [SAVED] 5D2N: chains=5->5 matrix=5d2n_matrix.txt output=5d2n_mhc_configured.pdb
-[PROCESSING] 1A1M
-[SAVED] 1A1M: chains=3->3 matrix=1a1m_matrix.txt output=1a1m_mhc_configured.pdb
 [PROCESSING] 3BO8
 [SAVED] 3BO8: chains=3->3 matrix=3bo8_matrix.txt output=3bo8_mhc_configured.pdb
 [PROCESSING] 9C6W
@@ -1868,6 +1966,8 @@
 [SAVED] 8RRO: chains=5->5 matrix=8rro_matrix.txt output=8rro_mhc_configured.pdb
 [PROCESSING] 6VPZ
 [SAVED] 6VPZ: chains=3->3 matrix=6vpz_matrix.txt output=6vpz_mhc_configured.pdb
+[PROCESSING] 9ZCL
+[SAVED] 9ZCL: chains=5->5 matrix=9zcl_matrix.txt output=9zcl_mhc_configured.pdb
 [PROCESSING] 6APN
 [SAVED] 6APN: chains=1->1 matrix=6apn_matrix.txt output=6apn_mhc_configured.pdb
 [PROCESSING] 1UXW
@@ -1880,15 +1980,23 @@
 [SAVED] 3CZF: chains=3->3 matrix=3czf_matrix.txt output=3czf_mhc_configured.pdb
 [PROCESSING] 1HSA
 [SAVED] 1HSA: chains=3->3 matrix=1hsa_matrix.txt output=1hsa_mhc_configured.pdb
+[PROCESSING] 9YW4
+[SAVED] 9YW4: chains=5->5 matrix=9yw4_matrix.txt output=9yw4_mhc_configured.pdb
 [PROCESSING] 5IB4
 [SAVED] 5IB4: chains=3->3 matrix=5ib4_matrix.txt output=5ib4_mhc_configured.pdb
 [PROCESSING] 2A83
 [SAVED] 2A83: chains=3->3 matrix=2a83_matrix.txt output=2a83_mhc_configured.pdb
 [PROCESSING] 2BSR
 [SAVED] 2BSR: chains=3->3 matrix=2bsr_matrix.txt output=2bsr_mhc_configured.pdb
+[PROCESSING] 9WJ6
+[SAVED] 9WJ6: chains=5->5 matrix=9wj6_matrix.txt output=9wj6_mhc_configured.pdb
 [PROCESSING] 8T7R
 [FILTERED] 8T7R: removed_far_chains=['0', '1', '2', '3', '4', '5', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'b', 'd', 'f', 'k', 'l', 'o', 'p', 's', 't']
 [SAVED] 8T7R: chains=50->9 matrix=8t7r_matrix.txt output=8t7r_mhc_configured.pdb
+[PROCESSING] 24ST
+[SAVED] 24ST: chains=5->5 matrix=24st_matrix.txt output=24st_mhc_configured.pdb
+[PROCESSING] 9L48
+[SAVED] 9L48: chains=3->3 matrix=9l48_matrix.txt output=9l48_mhc_configured.pdb
 [PROCESSING] 1OF2
 [SAVED] 1OF2: chains=3->3 matrix=1of2_matrix.txt output=1of2_mhc_configured.pdb
 [PROCESSING] 8VR9
@@ -1899,14 +2007,22 @@
 [SAVED] 7CIQ: chains=3->3 matrix=7ciq_matrix.txt output=7ciq_mhc_configured.pdb
 [PROCESSING] 5VGE
 [SAVED] 5VGE: chains=3->3 matrix=5vge_matrix.txt output=5vge_mhc_configured.pdb
+[PROCESSING] 8TQ5
+[SAVED] 8TQ5: chains=5->5 matrix=8tq5_matrix.txt output=8tq5_mhc_configured.pdb
 [PROCESSING] 6UON
 [SAVED] 6UON: chains=5->5 matrix=6uon_matrix.txt output=6uon_mhc_configured.pdb
 [PROCESSING] 8YJ2
 [SAVED] 8YJ2: chains=5->5 matrix=8yj2_matrix.txt output=8yj2_mhc_configured.pdb
+[PROCESSING] 9WC3
+[SAVED] 9WC3: chains=5->5 matrix=9wc3_matrix.txt output=9wc3_mhc_configured.pdb
 [PROCESSING] 5IB2
 [SAVED] 5IB2: chains=3->3 matrix=5ib2_matrix.txt output=5ib2_mhc_configured.pdb
 [PROCESSING] 3B6S
 [SAVED] 3B6S: chains=3->3 matrix=3b6s_matrix.txt output=3b6s_mhc_configured.pdb
+[PROCESSING] 9NDS
+[SAVED] 9NDS: chains=4->4 matrix=9nds_matrix.txt output=9nds_mhc_configured.pdb
+[PROCESSING] 9NNF
+[SAVED] 9NNF: chains=4->4 matrix=9nnf_matrix.txt output=9nnf_mhc_configured.pdb
 [PROCESSING] 1OGT
 [SAVED] 1OGT: chains=3->3 matrix=1ogt_matrix.txt output=1ogt_mhc_configured.pdb
 [PROCESSING] 7N2Q
@@ -1922,41 +2038,100 @@
 [PROCESSING] 7QPD
 [FILTERED] 7QPD: removed_far_chains=['A']
 [SAVED] 7QPD: chains=7->6 matrix=7qpd_matrix.txt output=7qpd_mhc_configured.pdb
+[PROCESSING] 9D73
+[SAVED] 9D73: chains=5->5 matrix=9d73_matrix.txt output=9d73_mhc_configured.pdb
 [PROCESSING] 4U1K
 [SAVED] 4U1K: chains=3->3 matrix=4u1k_matrix.txt output=4u1k_mhc_configured.pdb
+[PROCESSING] 9L4I
+[SAVED] 9L4I: chains=4->4 matrix=9l4i_matrix.txt output=9l4i_mhc_configured.pdb
+[PROCESSING] 9J4S
+[FILTERED] 9J4S: removed_far_chains=['I']
+[SAVED] 9J4S: chains=5->4 matrix=9j4s_matrix.txt output=9j4s_mhc_configured.pdb
 [PROCESSING] 1JGE
 [SAVED] 1JGE: chains=3->3 matrix=1jge_matrix.txt output=1jge_mhc_configured.pdb
 [PROCESSING] 8ESA
 [SAVED] 8ESA: chains=3->3 matrix=8esa_matrix.txt output=8esa_mhc_configured.pdb
+[PROCESSING] 9D97
+[SAVED] 9D97: chains=4->4 matrix=9d97_matrix.txt output=9d97_mhc_configured.pdb
+[PROCESSING] 9YTF
+[SAVED] 9YTF: chains=6->6 matrix=9ytf_matrix.txt output=9ytf_mhc_configured.pdb
+[PROCESSING] 9L4A
+[SAVED] 9L4A: chains=3->3 matrix=9l4a_matrix.txt output=9l4a_mhc_configured.pdb
+[PROCESSING] 9K2T
+[SAVED] 9K2T: chains=3->3 matrix=9k2t_matrix.txt output=9k2t_mhc_configured.pdb
+[PROCESSING] 9D74
+[SAVED] 9D74: chains=5->5 matrix=9d74_matrix.txt output=9d74_mhc_configured.pdb
+[PROCESSING] 9HLJ
+[SAVED] 9HLJ: chains=5->5 matrix=9hlj_matrix.txt output=9hlj_mhc_configured.pdb
 [PROCESSING] 5IB3
 [SAVED] 5IB3: chains=3->3 matrix=5ib3_matrix.txt output=5ib3_mhc_configured.pdb
 [PROCESSING] 1UXS
 [SAVED] 1UXS: chains=3->3 matrix=1uxs_matrix.txt output=1uxs_mhc_configured.pdb
+[PROCESSING] 9F13
+[FILTERED] 9F13: removed_far_chains=['C-2']
+[SAVED] 9F13: chains=6->5 matrix=9f13_matrix.txt output=9f13_mhc_configured.pdb
+[PROCESSING] 9L4H
+[SAVED] 9L4H: chains=4->4 matrix=9l4h_matrix.txt output=9l4h_mhc_configured.pdb
+[PROCESSING] 9QQF
+[SAVED] 9QQF: chains=5->5 matrix=9qqf_matrix.txt output=9qqf_mhc_configured.pdb
 [PROCESSING] 2HLA
 [SAVED] 2HLA: chains=2->2 matrix=2hla_matrix.txt output=2hla_mhc_configured.pdb
-[PROCESSING] 8EC5
-[SAVED] 8EC5: chains=3->3 matrix=8ec5_matrix.txt output=8ec5_mhc_configured.pdb
+[PROCESSING] 9L4G
+[SAVED] 9L4G: chains=3->3 matrix=9l4g_matrix.txt output=9l4g_mhc_configured.pdb
 [PROCESSING] 8VRB
 [SAVED] 8VRB: chains=5->5 matrix=8vrb_matrix.txt output=8vrb_mhc_configured.pdb
+[PROCESSING] 9MEF
+[SAVED] 9MEF: chains=3->3 matrix=9mef_matrix.txt output=9mef_mhc_configured.pdb
 [PROCESSING] 1QQD
 [SAVED] 1QQD: chains=3->3 matrix=1qqd_matrix.txt output=1qqd_mhc_configured.pdb
+[PROCESSING] 9D96
+[SAVED] 9D96: chains=4->4 matrix=9d96_matrix.txt output=9d96_mhc_configured.pdb
 [PROCESSING] 7DUU
 [SAVED] 7DUU: chains=4->4 matrix=7duu_matrix.txt output=7duu_mhc_configured.pdb
 [PROCESSING] 1EFX
 [FILTERED] 1EFX: removed_far_chains=['E']
 [SAVED] 1EFX: chains=5->4 matrix=1efx_matrix.txt output=1efx_mhc_configured.pdb
+[PROCESSING] 9QQE
+[SAVED] 9QQE: chains=5->5 matrix=9qqe_matrix.txt output=9qqe_mhc_configured.pdb
 [PROCESSING] 8TMU
 [SAVED] 8TMU: chains=4->4 matrix=8tmu_matrix.txt output=8tmu_mhc_configured.pdb
+[PROCESSING] 9L49
+[SAVED] 9L49: chains=3->3 matrix=9l49_matrix.txt output=9l49_mhc_configured.pdb
 [PROCESSING] 5XS3
 [SAVED] 5XS3: chains=3->3 matrix=5xs3_matrix.txt output=5xs3_mhc_configured.pdb
+[PROCESSING] 9MEG
+[SAVED] 9MEG: chains=3->3 matrix=9meg_matrix.txt output=9meg_mhc_configured.pdb
 [PROCESSING] 1IM9
 [FILTERED] 1IM9: removed_far_chains=['F']
 [SAVED] 1IM9: chains=7->6 matrix=1im9_matrix.txt output=1im9_mhc_configured.pdb
+[PROCESSING] 9L47
+[SAVED] 9L47: chains=3->3 matrix=9l47_matrix.txt output=9l47_mhc_configured.pdb
+[PROCESSING] 9RXM
+[SAVED] 9RXM: chains=5->5 matrix=9rxm_matrix.txt output=9rxm_mhc_configured.pdb
+[PROCESSING] 9NYN
+[SAVED] 9NYN: chains=3->3 matrix=9nyn_matrix.txt output=9nyn_mhc_configured.pdb
+[PROCESSING] 9K2S
+[SAVED] 9K2S: chains=4->4 matrix=9k2s_matrix.txt output=9k2s_mhc_configured.pdb
 [PROCESSING] 5E6I
 [SAVED] 5E6I: chains=5->5 matrix=5e6i_matrix.txt output=5e6i_mhc_configured.pdb
+[PROCESSING] 9K2U
+[SAVED] 9K2U: chains=3->3 matrix=9k2u_matrix.txt output=9k2u_mhc_configured.pdb
+[PROCESSING] 9K2R
+[SAVED] 9K2R: chains=5->5 matrix=9k2r_matrix.txt output=9k2r_mhc_configured.pdb
+[PROCESSING] 9RWI
+[SAVED] 9RWI: chains=5->5 matrix=9rwi_matrix.txt output=9rwi_mhc_configured.pdb
+[PROCESSING] 9C96
+[SAVED] 9C96: chains=4->4 matrix=9c96_matrix.txt output=9c96_mhc_configured.pdb
+[PROCESSING] 9RUP
+[FILTERED] 9RUP: removed_far_chains=['a', 'd']
+[SAVED] 9RUP: chains=10->8 matrix=9rup_matrix.txt output=9rup_mhc_configured.pdb
+[PROCESSING] 9RU5
+[SAVED] 9RU5: chains=4->4 matrix=9ru5_matrix.txt output=9ru5_mhc_configured.pdb
 [PROCESSING] 9C3E
 [FILTERED] 9C3E: removed_far_chains=['D', 'E', 'F', 'G', 'N', 'X', 'Y']
 [SAVED] 9C3E: chains=10->3 matrix=9c3e_matrix.txt output=9c3e_mhc_configured.pdb
+[PROCESSING] 9NKH
+[SAVED] 9NKH: chains=3->3 matrix=9nkh_matrix.txt output=9nkh_mhc_configured.pdb
 [PROCESSING] 6PUI
 [SAVED] 6PUI: chains=4->4 matrix=6pui_matrix.txt output=6pui_mhc_configured.pdb
 [PROCESSING] 5U1R
@@ -1973,12 +2148,16 @@
 [SAVED] 6XQP: chains=4->4 matrix=6xqp_matrix.txt output=6xqp_mhc_configured.pdb
 [PROCESSING] 7ZT8
 [SAVED] 7ZT8: chains=4->4 matrix=7zt8_matrix.txt output=7zt8_mhc_configured.pdb
+[PROCESSING] 9EK6
+[SAVED] 9EK6: chains=4->4 matrix=9ek6_matrix.txt output=9ek6_mhc_configured.pdb
 [PROCESSING] 9BTX
 [SAVED] 9BTX: chains=4->4 matrix=9btx_matrix.txt output=9btx_mhc_configured.pdb
+[PROCESSING] 9O08
+[SAVED] 9O08: chains=4->4 matrix=9o08_matrix.txt output=9o08_mhc_configured.pdb
 [PROCESSING] 5U6Q
 [SAVED] 5U6Q: chains=4->4 matrix=5u6q_matrix.txt output=5u6q_mhc_configured.pdb
-[PROCESSING] 4NQD
-[SAVED] 4NQD: chains=2->2 matrix=4nqd_matrix.txt output=4nqd_mhc_configured.pdb
+[PROCESSING] 9C42
+[SAVED] 9C42: chains=4->4 matrix=9c42_matrix.txt output=9c42_mhc_configured.pdb
 [PROCESSING] 6PUM
 [SAVED] 6PUM: chains=4->4 matrix=6pum_matrix.txt output=6pum_mhc_configured.pdb
 [PROCESSING] 4L4V
@@ -1991,26 +2170,31 @@
 [SAVED] 6W9U: chains=4->4 matrix=6w9u_matrix.txt output=6w9u_mhc_configured.pdb
 [PROCESSING] 6PUH
 [SAVED] 6PUH: chains=4->4 matrix=6puh_matrix.txt output=6puh_mhc_configured.pdb
-[PROCESSING] 9CGR
-[SAVED] 9CGR: chains=4->4 matrix=9cgr_matrix.txt output=9cgr_mhc_configured.pdb
 [PROCESSING] 8Y6X
 [SAVED] 8Y6X: chains=4->4 matrix=8y6x_matrix.txt output=8y6x_mhc_configured.pdb
-[PROCESSING] 4PJF
-[SAVED] 4PJF: chains=4->4 matrix=4pjf_matrix.txt output=4pjf_mhc_configured.pdb
+[PROCESSING] 9CGR
+[SAVED] 9CGR: chains=4->4 matrix=9cgr_matrix.txt output=9cgr_mhc_configured.pdb
+[PROCESSING] 9O06
+[FILTERED] 9O06: removed_far_chains=['A', 'B']
+[SAVED] 9O06: chains=8->6 matrix=9o06_matrix.txt output=9o06_mhc_configured.pdb
 [PROCESSING] 5D7I
 [SAVED] 5D7I: chains=4->4 matrix=5d7i_matrix.txt output=5d7i_mhc_configured.pdb
+[PROCESSING] 4PJF
+[SAVED] 4PJF: chains=4->4 matrix=4pjf_matrix.txt output=4pjf_mhc_configured.pdb
 [PROCESSING] 6PVD
 [SAVED] 6PVD: chains=4->4 matrix=6pvd_matrix.txt output=6pvd_mhc_configured.pdb
 [PROCESSING] 6PVC
 [SAVED] 6PVC: chains=4->4 matrix=6pvc_matrix.txt output=6pvc_mhc_configured.pdb
 [PROCESSING] 6PUF
 [SAVED] 6PUF: chains=4->4 matrix=6puf_matrix.txt output=6puf_mhc_configured.pdb
+[PROCESSING] 9O05
+[SAVED] 9O05: chains=4->4 matrix=9o05_matrix.txt output=9o05_mhc_configured.pdb
 [PROCESSING] 4PJI
 [SAVED] 4PJI: chains=4->4 matrix=4pji_matrix.txt output=4pji_mhc_configured.pdb
+[PROCESSING] 9O07
+[SAVED] 9O07: chains=4->4 matrix=9o07_matrix.txt output=9o07_mhc_configured.pdb
 [PROCESSING] 4NQE
 [SAVED] 4NQE: chains=4->4 matrix=4nqe_matrix.txt output=4nqe_mhc_configured.pdb
-[PROCESSING] 4NQC
-[SAVED] 4NQC: chains=2->2 matrix=4nqc_matrix.txt output=4nqc_mhc_configured.pdb
 [PROCESSING] 5U2V
 [SAVED] 5U2V: chains=4->4 matrix=5u2v_matrix.txt output=5u2v_mhc_configured.pdb
 [PROCESSING] 4PJ5
@@ -2022,20 +2206,20 @@
 [SAVED] 6PUG: chains=4->4 matrix=6pug_matrix.txt output=6pug_mhc_configured.pdb
 [PROCESSING] 6PUE
 [SAVED] 6PUE: chains=4->4 matrix=6pue_matrix.txt output=6pue_mhc_configured.pdb
+[PROCESSING] 9C9D
+[SAVED] 9C9D: chains=5->5 matrix=9c9d_matrix.txt output=9c9d_mhc_configured.pdb
 [PROCESSING] 5U17
 [SAVED] 5U17: chains=4->4 matrix=5u17_matrix.txt output=5u17_mhc_configured.pdb
 [PROCESSING] 7ZT3
 [SAVED] 7ZT3: chains=4->4 matrix=7zt3_matrix.txt output=7zt3_mhc_configured.pdb
 [PROCESSING] 4PJE
 [SAVED] 4PJE: chains=4->4 matrix=4pje_matrix.txt output=4pje_mhc_configured.pdb
-[PROCESSING] 4PJ8
-[SAVED] 4PJ8: chains=4->4 matrix=4pj8_matrix.txt output=4pj8_mhc_configured.pdb
-[PROCESSING] 5D7L
-[SAVED] 5D7L: chains=2->2 matrix=5d7l_matrix.txt output=5d7l_mhc_configured.pdb
 [PROCESSING] 6PUK
 [SAVED] 6PUK: chains=4->4 matrix=6puk_matrix.txt output=6puk_mhc_configured.pdb
 [PROCESSING] 6W9V
 [SAVED] 6W9V: chains=4->4 matrix=6w9v_matrix.txt output=6w9v_mhc_configured.pdb
+[PROCESSING] 9Y0V
+[SAVED] 9Y0V: chains=4->4 matrix=9y0v_matrix.txt output=9y0v_mhc_configured.pdb
 [PROCESSING] 7ZT2
 [SAVED] 7ZT2: chains=4->4 matrix=7zt2_matrix.txt output=7zt2_mhc_configured.pdb
 [PROCESSING] 4PJ9
@@ -2044,6 +2228,14 @@
 [SAVED] 9BTZ: chains=4->4 matrix=9btz_matrix.txt output=9btz_mhc_configured.pdb
 [PROCESSING] 4PJG
 [SAVED] 4PJG: chains=4->4 matrix=4pjg_matrix.txt output=4pjg_mhc_configured.pdb
+[PROCESSING] 9Z4R
+[SAVED] 9Z4R: chains=4->4 matrix=9z4r_matrix.txt output=9z4r_mhc_configured.pdb
+[PROCESSING] 9Y0W
+[FILTERED] 9Y0W: removed_far_chains=['A', 'B']
+[SAVED] 9Y0W: chains=8->6 matrix=9y0w_matrix.txt output=9y0w_mhc_configured.pdb
+[PROCESSING] 9Y0U
+[FILTERED] 9Y0U: removed_far_chains=['A', 'B']
+[SAVED] 9Y0U: chains=8->6 matrix=9y0u_matrix.txt output=9y0u_mhc_configured.pdb
 [PROCESSING] 4PJC
 [SAVED] 4PJC: chains=4->4 matrix=4pjc_matrix.txt output=4pjc_mhc_configured.pdb
 [PROCESSING] 7UFJ
@@ -2055,24 +2247,30 @@
 [PROCESSING] 9BU0
 [FILTERED] 9BU0: removed_far_chains=['C', 'D', 'E', 'F']
 [SAVED] 9BU0: chains=8->4 matrix=9bu0_matrix.txt output=9bu0_mhc_configured.pdb
+[PROCESSING] 9EK7
+[SAVED] 9EK7: chains=4->4 matrix=9ek7_matrix.txt output=9ek7_mhc_configured.pdb
 [PROCESSING] 4PJH
 [SAVED] 4PJH: chains=4->4 matrix=4pjh_matrix.txt output=4pjh_mhc_configured.pdb
-[PROCESSING] 5D5M
-[SAVED] 5D5M: chains=2->2 matrix=5d5m_matrix.txt output=5d5m_mhc_configured.pdb
+[PROCESSING] 9MS0
+[SAVED] 9MS0: chains=4->4 matrix=9ms0_matrix.txt output=9ms0_mhc_configured.pdb
 [PROCESSING] 8BP6
 [SAVED] 8BP6: chains=1->1 matrix=8bp6_matrix.txt output=8bp6_mhc_configured.pdb
 [PROCESSING] 7ZT5
 [SAVED] 7ZT5: chains=4->4 matrix=7zt5_matrix.txt output=7zt5_mhc_configured.pdb
 [PROCESSING] 4PJD
 [SAVED] 4PJD: chains=4->4 matrix=4pjd_matrix.txt output=4pjd_mhc_configured.pdb
-[PROCESSING] 7ZT7
-[SAVED] 7ZT7: chains=4->4 matrix=7zt7_matrix.txt output=7zt7_mhc_configured.pdb
 [PROCESSING] 4PJX
 [SAVED] 4PJX: chains=4->4 matrix=4pjx_matrix.txt output=4pjx_mhc_configured.pdb
+[PROCESSING] 7ZT7
+[SAVED] 7ZT7: chains=4->4 matrix=7zt7_matrix.txt output=7zt7_mhc_configured.pdb
 [PROCESSING] 7ZT4
 [SAVED] 7ZT4: chains=4->4 matrix=7zt4_matrix.txt output=7zt4_mhc_configured.pdb
+[PROCESSING] 9BYS
+[SAVED] 9BYS: chains=4->4 matrix=9bys_matrix.txt output=9bys_mhc_configured.pdb
 [PROCESSING] 4PJA
 [SAVED] 4PJA: chains=4->4 matrix=4pja_matrix.txt output=4pja_mhc_configured.pdb
+[PROCESSING] 9HI7
+[SAVED] 9HI7: chains=4->4 matrix=9hi7_matrix.txt output=9hi7_mhc_configured.pdb
 [PROCESSING] 7LLI
 [SAVED] 7LLI: chains=4->4 matrix=7lli_matrix.txt output=7lli_mhc_configured.pdb
 [PROCESSING] 4LCW
@@ -2095,8 +2293,6 @@
 [SAVED] 6MWR: chains=4->4 matrix=6mwr_matrix.txt output=6mwr_mhc_configured.pdb
 [PROCESSING] 1T7Y
 [SAVED] 1T7Y: chains=2->2 matrix=1t7y_matrix.txt output=1t7y_mhc_configured.pdb
-[PROCESSING] 3ES6
-[SAVED] 3ES6: chains=2->2 matrix=3es6_matrix.txt output=3es6_mhc_configured.pdb
 [PROCESSING] 1T7Z
 [SAVED] 1T7Z: chains=2->2 matrix=1t7z_matrix.txt output=1t7z_mhc_configured.pdb
 [PROCESSING] 1T80
@@ -2117,44 +2313,64 @@
 [PROCESSING] 6NHA
 [FILTERED] 6NHA: removed_far_chains=['H-2']
 [SAVED] 6NHA: chains=4->3 matrix=6nha_matrix.txt output=6nha_mhc_configured.pdb
+[PROCESSING] 13BR
+[SAVED] 13BR: chains=3->3 matrix=13br_matrix.txt output=13br_mhc_configured.pdb
 [PROCESSING] 6C98
 [SAVED] 6C98: chains=2->2 matrix=6c98_matrix.txt output=6c98_mhc_configured.pdb
+[PROCESSING] 9WYD
+[SAVED] 9WYD: chains=3->3 matrix=9wyd_matrix.txt output=9wyd_mhc_configured.pdb
 [PROCESSING] 7Q15
 [FILTERED] 7Q15: removed_far_chains=['C', 'D', 'F', 'G', 'H']
 [SAVED] 7Q15: chains=8->3 matrix=7q15_matrix.txt output=7q15_mhc_configured.pdb
 [PROCESSING] 6WNA
 [FILTERED] 6WNA: removed_far_chains=['C']
 [SAVED] 6WNA: chains=4->3 matrix=6wna_matrix.txt output=6wna_mhc_configured.pdb
+[PROCESSING] 9OC7
+[FILTERED] 9OC7: removed_far_chains=['D', 'E', 'F']
+[SAVED] 9OC7: chains=6->3 matrix=9oc7_matrix.txt output=9oc7_mhc_configured.pdb
 [PROCESSING] 6C97
 [SAVED] 6C97: chains=2->2 matrix=6c97_matrix.txt output=6c97_mhc_configured.pdb
 [PROCESSING] 6WOL
 [FILTERED] 6WOL: removed_far_chains=['C']
 [SAVED] 6WOL: chains=4->3 matrix=6wol_matrix.txt output=6wol_mhc_configured.pdb
+[PROCESSING] 9DBT
+[FILTERED] 9DBT: removed_far_chains=['C', 'D', 'E']
+[SAVED] 9DBT: chains=6->3 matrix=9dbt_matrix.txt output=9dbt_mhc_configured.pdb
 [PROCESSING] 2WY3
 [SAVED] 2WY3: chains=2->2 matrix=2wy3_matrix.txt output=2wy3_mhc_configured.pdb
+[PROCESSING] 9OC6
+[FILTERED] 9OC6: removed_far_chains=['A', 'C', 'D']
+[SAVED] 9OC6: chains=6->3 matrix=9oc6_matrix.txt output=9oc6_mhc_configured.pdb
 [PROCESSING] 6QIO
 [SAVED] 6QIO: chains=3->3 matrix=6qio_matrix.txt output=6qio_mhc_configured.pdb
-[PROCESSING] 5BJT
-[SAVED] 5BJT: chains=2->2 matrix=5bjt_matrix.txt output=5bjt_mhc_configured.pdb
 [PROCESSING] 6C99
 [SAVED] 6C99: chains=2->2 matrix=6c99_matrix.txt output=6c99_mhc_configured.pdb
 [PROCESSING] 4N0F
 [SAVED] 4N0F: chains=3->3 matrix=4n0f_matrix.txt output=4n0f_mhc_configured.pdb
+[PROCESSING] 9MI6
+[SAVED] 9MI6: chains=4->4 matrix=9mi6_matrix.txt output=9mi6_mhc_configured.pdb
+[PROCESSING] 9OHU
+[SAVED] 9OHU: chains=2->2 matrix=9ohu_matrix.txt output=9ohu_mhc_configured.pdb
 [PROCESSING] 4N0U
 [FILTERED] 4N0U: removed_far_chains=['A-2', 'B-2', 'C', 'C-2', 'D-2', 'E-2']
 [SAVED] 4N0U: chains=10->4 matrix=4n0u_matrix.txt output=4n0u_mhc_configured.pdb
+[PROCESSING] 9NAV
+[FILTERED] 9NAV: removed_far_chains=['A', 'B', 'C', 'E', 'F', 'G', 'H']
+[SAVED] 9NAV: chains=10->3 matrix=9nav_matrix.txt output=9nav_mhc_configured.pdb
 [PROCESSING] 6FGB
 [SAVED] 6FGB: chains=4->4 matrix=6fgb_matrix.txt output=6fgb_mhc_configured.pdb
 [PROCESSING] 6LA6
-[FILTERED] 6LA6: removed_far_chains=['A', 'A-10', 'A-11', 'A-12', 'A-13', 'A-14', 'A-15', 'A-16', 'A-17', 'A-18', 'A-19', 'A-2', 'A-20', 'A-21', 'A-22', 'A-23', 'A-24', 'A-25', 'A-26', 'A-27', 'A-28', 'A-29', 'A-3', 'A-30', 'A-31', 'A-32', 'A-33', 'A-34', 'A-35', 'A-36', 'A-37', 'A-38', 'A-39', 'A-40', 'A-41', 'A-42', 'A-43', 'A-44', 'A-45', 'A-46', 'A-47', 'A-48', 'A-49', 'A-50', 'A-51', 'A-52', 'A-53', 'A-54', 'A-55', 'A-56', 'A-57', 'A-58', 'A-59', 'A-6', 'A-60', 'A-7', 'A-8', 'A-9', 'B', 'B-10', 'B-11', 'B-12', 'B-13', 'B-14', 'B-15', 'B-16', 'B-17', 'B-18', 'B-19', 'B-2', 'B-20', 'B-21', 'B-22', 'B-23', 'B-24', 'B-25', 'B-26', 'B-27', 'B-28', 'B-29', 'B-3', 'B-30', 'B-31', 'B-32', 'B-33', 'B-34', 'B-35', 'B-36', 'B-37', 'B-38', 'B-39', 'B-40', 'B-41', 'B-42', 'B-43', 'B-44', 'B-45', 'B-46', 'B-47', 'B-48', 'B-49', 'B-5', 'B-50', 'B-51', 'B-52', 'B-53', 'B-54', 'B-55', 'B-56', 'B-57', 'B-58', 'B-59', 'B-6', 'B-60', 'B-7', 'B-8', 'B-9', 'C', 'C-10', 'C-11', 'C-12', 'C-13', 'C-14', 'C-15', 'C-16', 'C-17', 'C-18', 'C-19', 'C-2', 'C-20', 'C-21', 'C-22', 'C-23', 'C-24', 'C-25', 'C-26', 'C-27', 'C-28', 'C-29', 'C-3', 'C-30', 'C-31', 'C-32', 'C-33', 'C-34', 'C-35', 'C-36', 'C-37', 'C-38', 'C-39', 'C-40', 'C-41', 'C-42', 'C-43', 'C-44', 'C-45', 'C-46', 'C-47', 'C-48', 'C-49', 'C-50', 'C-51', 'C-52', 'C-53', 'C-54', 'C-55', 'C-56', 'C-57', 'C-58', 'C-59', 'C-6', 'C-60', 'C-7', 'C-8', 'C-9', 'D', 'D-10', 'D-11', 'D-12', 'D-13', 'D-14', 'D-15', 'D-16', 'D-17', 'D-18', 'D-19', 'D-2', 'D-20', 'D-21', 'D-22', 'D-23', 'D-24', 'D-25', 'D-26', 'D-27', 'D-28', 'D-29', 'D-3', 'D-30', 'D-31', 'D-32', 'D-33', 'D-34', 'D-35', 'D-36', 'D-37', 'D-38', 'D-39', 'D-4', 'D-40', 'D-41', 'D-42', 'D-43', 'D-44', 'D-45', 'D-46', 'D-47', 'D-48', 'D-49', 'D-5', 'D-50', 'D-51', 'D-52', 'D-53', 'D-54', 'D-55', 'D-56', 'D-57', 'D-58', 'D-59', 'D-6', 'D-60', 'D-7', 'D-8', 'D-9', 'E', 'E-10', 'E-11', 'E-12', 'E-13', 'E-14', 'E-15', 'E-16', 'E-17', 'E-18', 'E-19', 'E-2', 'E-20', 'E-21', 'E-22', 'E-23', 'E-24', 'E-25', 'E-26', 'E-27', 'E-28', 'E-29', 'E-3', 'E-30', 'E-31', 'E-32', 'E-33', 'E-34', 'E-35', 'E-36', 'E-37', 'E-38', 'E-39', 'E-40', 'E-41', 'E-42', 'E-43', 'E-44', 'E-45', 'E-46', 'E-47', 'E-48', 'E-49', 'E-5', 'E-50', 'E-51', 'E-52', 'E-53', 'E-54', 'E-55', 'E-56', 'E-57', 'E-58', 'E-59', 'E-6', 'E-60', 'E-7', 'E-8', 'E-9', 'F', 'F-10', 'F-11', 'F-12', 'F-13', 'F-14', 'F-15', 'F-16', 'F-17', 'F-18', 'F-19', 'F-2', 'F-20', 'F-21', 'F-22', 'F-23', 'F-24', 'F-25', 'F-26', 'F-27', 'F-28', 'F-29', 'F-3', 'F-30', 'F-31', 'F-32', 'F-33', 'F-34', 'F-35', 'F-36', 'F-37', 'F-38', 'F-39', 'F-40', 'F-41', 'F-42', 'F-43', 'F-44', 'F-45', 'F-46', 'F-47', 'F-48', 'F-49', 'F-5', 'F-50', 'F-51', 'F-52', 'F-53', 'F-54', 'F-55', 'F-56', 'F-57', 'F-58', 'F-59', 'F-6', 'F-60', 'F-7', 'F-8', 'F-9']
+[FILTERED] 6LA6: removed_far_chains=['A', 'A-10', 'A-11', 'A-12', 'A-13', 'A-14', 'A-15', 'A-16', 'A-17', 'A-18', 'A-19', 'A-2', 'A-20', 'A-21', 'A-22', 'A-23', 'A-24', 'A-25', 'A-26', 'A-27', 'A-28', 'A-29', 'A-3', 'A-30', 'A-31', 'A-32', 'A-33', 'A-34', 'A-35', 'A-38', 'A-39', 'A-4', 'A-40', 'A-41', 'A-42', 'A-43', 'A-44', 'A-45', 'A-46', 'A-47', 'A-48', 'A-49', 'A-5', 'A-50', 'A-51', 'A-52', 'A-53', 'A-54', 'A-55', 'A-56', 'A-57', 'A-58', 'A-59', 'A-6', 'A-60', 'A-7', 'A-8', 'A-9', 'B', 'B-10', 'B-11', 'B-12', 'B-13', 'B-14', 'B-15', 'B-16', 'B-17', 'B-18', 'B-19', 'B-2', 'B-20', 'B-21', 'B-22', 'B-23', 'B-24', 'B-25', 'B-26', 'B-27', 'B-28', 'B-29', 'B-3', 'B-30', 'B-31', 'B-32', 'B-33', 'B-34', 'B-35', 'B-37', 'B-38', 'B-39', 'B-4', 'B-40', 'B-41', 'B-42', 'B-43', 'B-44', 'B-45', 'B-46', 'B-47', 'B-48', 'B-49', 'B-5', 'B-50', 'B-51', 'B-52', 'B-53', 'B-54', 'B-55', 'B-56', 'B-57', 'B-58', 'B-59', 'B-6', 'B-60', 'B-7', 'B-8', 'B-9', 'C', 'C-10', 'C-11', 'C-12', 'C-13', 'C-14', 'C-15', 'C-16', 'C-17', 'C-18', 'C-19', 'C-2', 'C-20', 'C-21', 'C-22', 'C-23', 'C-24', 'C-25', 'C-26', 'C-27', 'C-28', 'C-29', 'C-3', 'C-30', 'C-31', 'C-32', 'C-33', 'C-34', 'C-35', 'C-38', 'C-39', 'C-4', 'C-40', 'C-41', 'C-42', 'C-43', 'C-44', 'C-45', 'C-46', 'C-47', 'C-48', 'C-49', 'C-5', 'C-50', 'C-51', 'C-52', 'C-53', 'C-54', 'C-55', 'C-56', 'C-57', 'C-58', 'C-59', 'C-6', 'C-60', 'C-7', 'C-8', 'C-9', 'D', 'D-10', 'D-11', 'D-12', 'D-13', 'D-14', 'D-15', 'D-16', 'D-17', 'D-18', 'D-19', 'D-2', 'D-20', 'D-21', 'D-22', 'D-23', 'D-24', 'D-25', 'D-26', 'D-27', 'D-28', 'D-29', 'D-3', 'D-30', 'D-31', 'D-32', 'D-33', 'D-34', 'D-35', 'D-36', 'D-37', 'D-38', 'D-39', 'D-4', 'D-40', 'D-41', 'D-42', 'D-43', 'D-44', 'D-45', 'D-46', 'D-47', 'D-48', 'D-49', 'D-5', 'D-50', 'D-51', 'D-52', 'D-53', 'D-54', 'D-55', 'D-56', 'D-57', 'D-58', 'D-59', 'D-6', 'D-60', 'D-7', 'D-8', 'D-9', 'E', 'E-10', 'E-11', 'E-12', 'E-13', 'E-14', 'E-15', 'E-16', 'E-17', 'E-18', 'E-19', 'E-2', 'E-20', 'E-21', 'E-22', 'E-23', 'E-24', 'E-25', 'E-26', 'E-27', 'E-28', 'E-29', 'E-3', 'E-30', 'E-31', 'E-32', 'E-33', 'E-34', 'E-35', 'E-37', 'E-38', 'E-39', 'E-4', 'E-40', 'E-41', 'E-42', 'E-43', 'E-44', 'E-45', 'E-46', 'E-47', 'E-48', 'E-49', 'E-5', 'E-50', 'E-51', 'E-52', 'E-53', 'E-54', 'E-55', 'E-56', 'E-57', 'E-58', 'E-59', 'E-6', 'E-60', 'E-7', 'E-8', 'E-9', 'F', 'F-10', 'F-11', 'F-12', 'F-13', 'F-14', 'F-15', 'F-16', 'F-17', 'F-18', 'F-19', 'F-2', 'F-20', 'F-21', 'F-22', 'F-23', 'F-24', 'F-25', 'F-26', 'F-27', 'F-28', 'F-29', 'F-3', 'F-30', 'F-31', 'F-32', 'F-33', 'F-34', 'F-35', 'F-37', 'F-38', 'F-39', 'F-4', 'F-40', 'F-41', 'F-42', 'F-43', 'F-44', 'F-45', 'F-46', 'F-47', 'F-48', 'F-49', 'F-5', 'F-50', 'F-51', 'F-52', 'F-53', 'F-54', 'F-55', 'F-56', 'F-57', 'F-58', 'F-59', 'F-6', 'F-60', 'F-7', 'F-8', 'F-9']
 [SAVED] 6LA6: chains=360->7 matrix=6la6_matrix.txt output=6la6_mhc_configured.pdb
 [PROCESSING] 6QIP
 [SAVED] 6QIP: chains=3->3 matrix=6qip_matrix.txt output=6qip_mhc_configured.pdb
 [PROCESSING] 6ILM
-[FILTERED] 6ILM: removed_far_chains=['A', 'A-10', 'A-11', 'A-12', 'A-13', 'A-14', 'A-15', 'A-16', 'A-17', 'A-18', 'A-19', 'A-2', 'A-20', 'A-21', 'A-22', 'A-23', 'A-24', 'A-25', 'A-26', 'A-27', 'A-28', 'A-29', 'A-3', 'A-30', 'A-31', 'A-32', 'A-33', 'A-34', 'A-35', 'A-36', 'A-37', 'A-38', 'A-39', 'A-4', 'A-40', 'A-42', 'A-43', 'A-44', 'A-46', 'A-47', 'A-48', 'A-49', 'A-5', 'A-50', 'A-51', 'A-52', 'A-53', 'A-54', 'A-55', 'A-56', 'A-57', 'A-58', 'A-59', 'A-6', 'A-60', 'A-7', 'A-8', 'A-9', 'B', 'B-10', 'B-11', 'B-12', 'B-13', 'B-14', 'B-15', 'B-16', 'B-17', 'B-18', 'B-19', 'B-2', 'B-20', 'B-21', 'B-22', 'B-23', 'B-24', 'B-25', 'B-26', 'B-27', 'B-28', 'B-29', 'B-3', 'B-30', 'B-31', 'B-32', 'B-33', 'B-34', 'B-35', 'B-36', 'B-37', 'B-38', 'B-39', 'B-4', 'B-40', 'B-41', 'B-42', 'B-43', 'B-44', 'B-46', 'B-47', 'B-48', 'B-49', 'B-5', 'B-50', 'B-51', 'B-52', 'B-53', 'B-54', 'B-55', 'B-56', 'B-57', 'B-58', 'B-59', 'B-6', 'B-60', 'B-7', 'B-8', 'B-9', 'C', 'C-10', 'C-11', 'C-12', 'C-13', 'C-14', 'C-15', 'C-16', 'C-17', 'C-18', 'C-19', 'C-2', 'C-20', 'C-21', 'C-22', 'C-23', 'C-24', 'C-25', 'C-26', 'C-27', 'C-28', 'C-29', 'C-3', 'C-30', 'C-31', 'C-32', 'C-33', 'C-34', 'C-35', 'C-36', 'C-37', 'C-38', 'C-39', 'C-4', 'C-40', 'C-42', 'C-43', 'C-44', 'C-46', 'C-47', 'C-48', 'C-49', 'C-5', 'C-50', 'C-51', 'C-52', 'C-53', 'C-54', 'C-55', 'C-56', 'C-57', 'C-58', 'C-59', 'C-6', 'C-60', 'C-7', 'C-8', 'C-9', 'D', 'D-10', 'D-11', 'D-12', 'D-13', 'D-14', 'D-15', 'D-16', 'D-17', 'D-18', 'D-19', 'D-2', 'D-20', 'D-21', 'D-22', 'D-23', 'D-24', 'D-25', 'D-26', 'D-27', 'D-28', 'D-29', 'D-3', 'D-30', 'D-31', 'D-32', 'D-33', 'D-34', 'D-35', 'D-36', 'D-37', 'D-38', 'D-39', 'D-4', 'D-40', 'D-41', 'D-42', 'D-43', 'D-44', 'D-45', 'D-46', 'D-47', 'D-48', 'D-49', 'D-5', 'D-50', 'D-51', 'D-52', 'D-53', 'D-54', 'D-55', 'D-56', 'D-57', 'D-58', 'D-59', 'D-6', 'D-60', 'D-7', 'D-8', 'D-9', 'E', 'E-10', 'E-11', 'E-12', 'E-13', 'E-14', 'E-15', 'E-16', 'E-17', 'E-18', 'E-19', 'E-2', 'E-20', 'E-21', 'E-22', 'E-23', 'E-24', 'E-25', 'E-26', 'E-27', 'E-28', 'E-29', 'E-3', 'E-30', 'E-31', 'E-32', 'E-33', 'E-34', 'E-35', 'E-36', 'E-37', 'E-38', 'E-39', 'E-4', 'E-40', 'E-41', 'E-42', 'E-43', 'E-44', 'E-46', 'E-47', 'E-48', 'E-49', 'E-5', 'E-50', 'E-51', 'E-52', 'E-53', 'E-54', 'E-55', 'E-56', 'E-57', 'E-58', 'E-59', 'E-6', 'E-60', 'E-7', 'E-8', 'E-9', 'F', 'F-10', 'F-11', 'F-12', 'F-13', 'F-14', 'F-15', 'F-16', 'F-17', 'F-18', 'F-19', 'F-2', 'F-20', 'F-21', 'F-22', 'F-23', 'F-24', 'F-25', 'F-26', 'F-27', 'F-28', 'F-29', 'F-3', 'F-30', 'F-31', 'F-32', 'F-33', 'F-34', 'F-35', 'F-36', 'F-37', 'F-38', 'F-39', 'F-4', 'F-40', 'F-41', 'F-42', 'F-43', 'F-44', 'F-46', 'F-47', 'F-48', 'F-49', 'F-5', 'F-50', 'F-51', 'F-52', 'F-53', 'F-54', 'F-55', 'F-56', 'F-57', 'F-58', 'F-59', 'F-6', 'F-60', 'F-7', 'F-8', 'F-9']
+[FILTERED] 6ILM: removed_far_chains=['A', 'A-10', 'A-11', 'A-12', 'A-13', 'A-14', 'A-15', 'A-16', 'A-17', 'A-18', 'A-19', 'A-2', 'A-20', 'A-21', 'A-22', 'A-23', 'A-24', 'A-25', 'A-26', 'A-27', 'A-28', 'A-29', 'A-3', 'A-30', 'A-31', 'A-32', 'A-33', 'A-34', 'A-35', 'A-36', 'A-37', 'A-38', 'A-39', 'A-4', 'A-40', 'A-41', 'A-42', 'A-43', 'A-46', 'A-47', 'A-48', 'A-49', 'A-5', 'A-50', 'A-51', 'A-52', 'A-53', 'A-54', 'A-55', 'A-56', 'A-57', 'A-58', 'A-59', 'A-6', 'A-60', 'A-7', 'A-8', 'A-9', 'B', 'B-10', 'B-11', 'B-12', 'B-13', 'B-14', 'B-15', 'B-16', 'B-17', 'B-18', 'B-19', 'B-2', 'B-20', 'B-21', 'B-22', 'B-23', 'B-24', 'B-25', 'B-26', 'B-27', 'B-28', 'B-29', 'B-3', 'B-30', 'B-31', 'B-32', 'B-33', 'B-34', 'B-35', 'B-36', 'B-37', 'B-38', 'B-39', 'B-4', 'B-40', 'B-41', 'B-42', 'B-43', 'B-45', 'B-46', 'B-47', 'B-48', 'B-49', 'B-5', 'B-50', 'B-51', 'B-52', 'B-53', 'B-54', 'B-55', 'B-56', 'B-57', 'B-58', 'B-59', 'B-6', 'B-60', 'B-7', 'B-8', 'B-9', 'C', 'C-10', 'C-11', 'C-12', 'C-13', 'C-14', 'C-15', 'C-16', 'C-17', 'C-18', 'C-19', 'C-2', 'C-20', 'C-21', 'C-22', 'C-23', 'C-24', 'C-25', 'C-26', 'C-27', 'C-28', 'C-29', 'C-3', 'C-30', 'C-31', 'C-32', 'C-33', 'C-34', 'C-35', 'C-36', 'C-37', 'C-38', 'C-39', 'C-4', 'C-40', 'C-41', 'C-42', 'C-43', 'C-46', 'C-47', 'C-48', 'C-49', 'C-5', 'C-50', 'C-51', 'C-52', 'C-53', 'C-54', 'C-55', 'C-56', 'C-57', 'C-58', 'C-59', 'C-6', 'C-60', 'C-7', 'C-8', 'C-9', 'D', 'D-10', 'D-11', 'D-12', 'D-13', 'D-14', 'D-15', 'D-16', 'D-17', 'D-18', 'D-19', 'D-2', 'D-20', 'D-21', 'D-22', 'D-23', 'D-24', 'D-25', 'D-26', 'D-27', 'D-28', 'D-29', 'D-3', 'D-30', 'D-31', 'D-32', 'D-33', 'D-34', 'D-35', 'D-36', 'D-37', 'D-38', 'D-39', 'D-4', 'D-40', 'D-41', 'D-42', 'D-43', 'D-44', 'D-45', 'D-46', 'D-47', 'D-48', 'D-49', 'D-5', 'D-50', 'D-51', 'D-52', 'D-53', 'D-54', 'D-55', 'D-56', 'D-57', 'D-58', 'D-59', 'D-6', 'D-60', 'D-7', 'D-8', 'D-9', 'E', 'E-10', 'E-11', 'E-12', 'E-13', 'E-14', 'E-15', 'E-16', 'E-17', 'E-18', 'E-19', 'E-2', 'E-20', 'E-21', 'E-22', 'E-23', 'E-24', 'E-25', 'E-26', 'E-27', 'E-28', 'E-29', 'E-3', 'E-30', 'E-31', 'E-32', 'E-33', 'E-34', 'E-35', 'E-36', 'E-37', 'E-38', 'E-39', 'E-4', 'E-40', 'E-41', 'E-42', 'E-43', 'E-45', 'E-46', 'E-47', 'E-48', 'E-49', 'E-5', 'E-50', 'E-51', 'E-52', 'E-53', 'E-54', 'E-55', 'E-56', 'E-57', 'E-58', 'E-59', 'E-6', 'E-60', 'E-7', 'E-8', 'E-9', 'F', 'F-10', 'F-11', 'F-12', 'F-13', 'F-14', 'F-15', 'F-16', 'F-17', 'F-18', 'F-19', 'F-2', 'F-20', 'F-21', 'F-22', 'F-23', 'F-24', 'F-25', 'F-26', 'F-27', 'F-28', 'F-29', 'F-3', 'F-30', 'F-31', 'F-32', 'F-33', 'F-34', 'F-35', 'F-36', 'F-37', 'F-38', 'F-39', 'F-4', 'F-40', 'F-41', 'F-42', 'F-43', 'F-45', 'F-46', 'F-47', 'F-48', 'F-49', 'F-5', 'F-50', 'F-51', 'F-52', 'F-53', 'F-54', 'F-55', 'F-56', 'F-57', 'F-58', 'F-59', 'F-6', 'F-60', 'F-7', 'F-8', 'F-9']
 [SAVED] 6ILM: chains=360->7 matrix=6ilm_matrix.txt output=6ilm_mhc_configured.pdb
 [PROCESSING] 4WO4
 [SAVED] 4WO4: chains=7->7 matrix=4wo4_matrix.txt output=4wo4_mhc_configured.pdb
+[PROCESSING] 9OHX
+[SAVED] 9OHX: chains=2->2 matrix=9ohx_matrix.txt output=9ohx_mhc_configured.pdb
 [PROCESSING] 1JE6
 [SAVED] 1JE6: chains=1->1 matrix=1je6_matrix.txt output=1je6_mhc_configured.pdb
 [PROCESSING] 8TM0
@@ -2163,8 +2379,8 @@
 [SAVED] 5WHK: chains=4->4 matrix=5whk_matrix.txt output=5whk_mhc_configured.pdb
 [PROCESSING] 6V7Y
 [SAVED] 6V7Y: chains=5->5 matrix=6v7y_matrix.txt output=6v7y_mhc_configured.pdb
-[PROCESSING] 3M17
-[SAVED] 3M17: chains=1->1 matrix=3m17_matrix.txt output=3m17_mhc_configured.pdb
+[PROCESSING] 9OHV
+[SAVED] 9OHV: chains=2->2 matrix=9ohv_matrix.txt output=9ohv_mhc_configured.pdb
 [PROCESSING] 8TM2
 [FILTERED] 8TM2: removed_far_chains=['B']
 [SAVED] 8TM2: chains=4->3 matrix=8tm2_matrix.txt output=8tm2_mhc_configured.pdb
@@ -2182,35 +2398,39 @@
 [PROCESSING] 1EXU
 [SAVED] 1EXU: chains=2->2 matrix=1exu_matrix.txt output=1exu_mhc_configured.pdb
 [PROCESSING] 6LA7
-[FILTERED] 6LA7: removed_far_chains=['A', 'A-10', 'A-11', 'A-12', 'A-13', 'A-14', 'A-15', 'A-16', 'A-17', 'A-18', 'A-19', 'A-2', 'A-20', 'A-21', 'A-22', 'A-23', 'A-24', 'A-25', 'A-26', 'A-27', 'A-28', 'A-29', 'A-30', 'A-31', 'A-32', 'A-33', 'A-34', 'A-35', 'A-36', 'A-37', 'A-38', 'A-39', 'A-40', 'A-41', 'A-42', 'A-43', 'A-44', 'A-45', 'A-46', 'A-47', 'A-48', 'A-49', 'A-5', 'A-50', 'A-51', 'A-52', 'A-53', 'A-54', 'A-55', 'A-56', 'A-57', 'A-58', 'A-59', 'A-6', 'A-60', 'A-7', 'A-8', 'A-9', 'B', 'B-10', 'B-11', 'B-12', 'B-13', 'B-14', 'B-15', 'B-16', 'B-17', 'B-18', 'B-19', 'B-2', 'B-20', 'B-21', 'B-22', 'B-23', 'B-24', 'B-25', 'B-26', 'B-27', 'B-28', 'B-29', 'B-30', 'B-31', 'B-32', 'B-33', 'B-34', 'B-35', 'B-36', 'B-37', 'B-38', 'B-39', 'B-4', 'B-40', 'B-41', 'B-42', 'B-43', 'B-44', 'B-45', 'B-46', 'B-47', 'B-48', 'B-49', 'B-5', 'B-50', 'B-51', 'B-52', 'B-53', 'B-54', 'B-55', 'B-56', 'B-57', 'B-58', 'B-59', 'B-6', 'B-60', 'B-7', 'B-8', 'B-9', 'C', 'C-10', 'C-11', 'C-12', 'C-13', 'C-14', 'C-15', 'C-16', 'C-17', 'C-18', 'C-19', 'C-2', 'C-20', 'C-21', 'C-22', 'C-23', 'C-24', 'C-25', 'C-26', 'C-27', 'C-28', 'C-29', 'C-30', 'C-31', 'C-32', 'C-33', 'C-34', 'C-35', 'C-36', 'C-37', 'C-38', 'C-39', 'C-40', 'C-41', 'C-42', 'C-43', 'C-44', 'C-45', 'C-46', 'C-47', 'C-48', 'C-49', 'C-5', 'C-50', 'C-51', 'C-52', 'C-53', 'C-54', 'C-55', 'C-56', 'C-57', 'C-58', 'C-59', 'C-6', 'C-60', 'C-7', 'C-8', 'C-9', 'D', 'D-10', 'D-11', 'D-12', 'D-13', 'D-14', 'D-15', 'D-16', 'D-17', 'D-18', 'D-19', 'D-2', 'D-20', 'D-21', 'D-22', 'D-23', 'D-24', 'D-25', 'D-26', 'D-27', 'D-28', 'D-29', 'D-3', 'D-30', 'D-31', 'D-32', 'D-33', 'D-34', 'D-35', 'D-36', 'D-37', 'D-38', 'D-39', 'D-4', 'D-40', 'D-41', 'D-42', 'D-43', 'D-44', 'D-45', 'D-46', 'D-47', 'D-48', 'D-49', 'D-5', 'D-50', 'D-51', 'D-52', 'D-53', 'D-54', 'D-55', 'D-56', 'D-57', 'D-58', 'D-59', 'D-6', 'D-60', 'D-7', 'D-8', 'D-9', 'E', 'E-10', 'E-11', 'E-12', 'E-13', 'E-14', 'E-15', 'E-16', 'E-17', 'E-18', 'E-19', 'E-2', 'E-20', 'E-21', 'E-22', 'E-23', 'E-24', 'E-25', 'E-26', 'E-27', 'E-28', 'E-29', 'E-30', 'E-31', 'E-32', 'E-33', 'E-34', 'E-35', 'E-36', 'E-37', 'E-38', 'E-39', 'E-4', 'E-40', 'E-41', 'E-42', 'E-43', 'E-44', 'E-45', 'E-46', 'E-47', 'E-48', 'E-49', 'E-5', 'E-50', 'E-51', 'E-52', 'E-53', 'E-54', 'E-55', 'E-56', 'E-57', 'E-58', 'E-59', 'E-6', 'E-60', 'E-7', 'E-8', 'E-9', 'F', 'F-10', 'F-11', 'F-12', 'F-13', 'F-14', 'F-15', 'F-16', 'F-17', 'F-18', 'F-19', 'F-2', 'F-20', 'F-21', 'F-22', 'F-23', 'F-24', 'F-25', 'F-26', 'F-27', 'F-28', 'F-29', 'F-30', 'F-31', 'F-32', 'F-33', 'F-34', 'F-35', 'F-36', 'F-37', 'F-38', 'F-39', 'F-4', 'F-40', 'F-41', 'F-42', 'F-43', 'F-44', 'F-45', 'F-46', 'F-47', 'F-48', 'F-49', 'F-5', 'F-50', 'F-51', 'F-52', 'F-53', 'F-54', 'F-55', 'F-56', 'F-57', 'F-58', 'F-59', 'F-6', 'F-60', 'F-7', 'F-8', 'F-9']
+[FILTERED] 6LA7: removed_far_chains=['A', 'A-10', 'A-11', 'A-12', 'A-13', 'A-14', 'A-15', 'A-16', 'A-17', 'A-18', 'A-19', 'A-2', 'A-20', 'A-21', 'A-22', 'A-23', 'A-24', 'A-25', 'A-26', 'A-27', 'A-28', 'A-29', 'A-3', 'A-30', 'A-31', 'A-32', 'A-33', 'A-34', 'A-35', 'A-36', 'A-37', 'A-38', 'A-39', 'A-4', 'A-40', 'A-41', 'A-42', 'A-43', 'A-44', 'A-45', 'A-46', 'A-47', 'A-48', 'A-49', 'A-5', 'A-50', 'A-51', 'A-52', 'A-53', 'A-54', 'A-55', 'A-58', 'A-59', 'A-6', 'A-60', 'A-7', 'A-8', 'A-9', 'B', 'B-10', 'B-11', 'B-12', 'B-13', 'B-14', 'B-15', 'B-16', 'B-17', 'B-18', 'B-19', 'B-2', 'B-20', 'B-21', 'B-22', 'B-23', 'B-24', 'B-25', 'B-26', 'B-27', 'B-28', 'B-29', 'B-3', 'B-30', 'B-31', 'B-32', 'B-33', 'B-34', 'B-35', 'B-36', 'B-37', 'B-38', 'B-39', 'B-4', 'B-40', 'B-41', 'B-42', 'B-43', 'B-44', 'B-45', 'B-46', 'B-47', 'B-48', 'B-49', 'B-5', 'B-50', 'B-51', 'B-52', 'B-53', 'B-54', 'B-55', 'B-57', 'B-58', 'B-59', 'B-6', 'B-60', 'B-7', 'B-8', 'B-9', 'C', 'C-10', 'C-11', 'C-12', 'C-13', 'C-14', 'C-15', 'C-16', 'C-17', 'C-18', 'C-19', 'C-2', 'C-20', 'C-21', 'C-22', 'C-23', 'C-24', 'C-25', 'C-26', 'C-27', 'C-28', 'C-29', 'C-3', 'C-30', 'C-31', 'C-32', 'C-33', 'C-34', 'C-35', 'C-36', 'C-37', 'C-38', 'C-39', 'C-4', 'C-40', 'C-41', 'C-42', 'C-43', 'C-44', 'C-45', 'C-46', 'C-47', 'C-48', 'C-49', 'C-5', 'C-50', 'C-51', 'C-52', 'C-53', 'C-54', 'C-55', 'C-58', 'C-59', 'C-6', 'C-60', 'C-7', 'C-8', 'C-9', 'D', 'D-10', 'D-11', 'D-12', 'D-13', 'D-14', 'D-15', 'D-16', 'D-17', 'D-18', 'D-19', 'D-2', 'D-20', 'D-21', 'D-22', 'D-23', 'D-24', 'D-25', 'D-26', 'D-27', 'D-28', 'D-29', 'D-3', 'D-30', 'D-31', 'D-32', 'D-33', 'D-34', 'D-35', 'D-36', 'D-37', 'D-38', 'D-39', 'D-4', 'D-40', 'D-41', 'D-42', 'D-43', 'D-44', 'D-45', 'D-46', 'D-47', 'D-48', 'D-49', 'D-5', 'D-50', 'D-51', 'D-52', 'D-53', 'D-54', 'D-55', 'D-56', 'D-57', 'D-58', 'D-59', 'D-6', 'D-60', 'D-7', 'D-8', 'D-9', 'E', 'E-10', 'E-11', 'E-12', 'E-13', 'E-14', 'E-15', 'E-16', 'E-17', 'E-18', 'E-19', 'E-2', 'E-20', 'E-21', 'E-22', 'E-23', 'E-24', 'E-25', 'E-26', 'E-27', 'E-28', 'E-29', 'E-3', 'E-30', 'E-31', 'E-32', 'E-33', 'E-34', 'E-35', 'E-36', 'E-37', 'E-38', 'E-39', 'E-4', 'E-40', 'E-41', 'E-42', 'E-43', 'E-44', 'E-45', 'E-46', 'E-47', 'E-48', 'E-49', 'E-5', 'E-50', 'E-51', 'E-52', 'E-53', 'E-54', 'E-55', 'E-57', 'E-58', 'E-59', 'E-6', 'E-60', 'E-7', 'E-8', 'E-9', 'F', 'F-10', 'F-11', 'F-12', 'F-13', 'F-14', 'F-15', 'F-16', 'F-17', 'F-18', 'F-19', 'F-2', 'F-20', 'F-21', 'F-22', 'F-23', 'F-24', 'F-25', 'F-26', 'F-27', 'F-28', 'F-29', 'F-3', 'F-30', 'F-31', 'F-32', 'F-33', 'F-34', 'F-35', 'F-36', 'F-37', 'F-38', 'F-39', 'F-4', 'F-40', 'F-41', 'F-42', 'F-43', 'F-44', 'F-45', 'F-46', 'F-47', 'F-48', 'F-49', 'F-5', 'F-50', 'F-51', 'F-52', 'F-53', 'F-54', 'F-55', 'F-57', 'F-58', 'F-59', 'F-6', 'F-60', 'F-7', 'F-8', 'F-9']
 [SAVED] 6LA7: chains=360->7 matrix=6la7_matrix.txt output=6la7_mhc_configured.pdb
 [PROCESSING] 7MXF
 [SAVED] 7MXF: chains=2->2 matrix=7mxf_matrix.txt output=7mxf_mhc_configured.pdb
 [PROCESSING] 8TLZ
 [SAVED] 8TLZ: chains=2->2 matrix=8tlz_matrix.txt output=8tlz_mhc_configured.pdb
-[PROCESSING] 3M1B
-[SAVED] 3M1B: chains=1->1 matrix=3m1b_matrix.txt output=3m1b_mhc_configured.pdb
+[PROCESSING] 9OHW
+[SAVED] 9OHW: chains=2->2 matrix=9ohw_matrix.txt output=9ohw_mhc_configured.pdb
 [PROCESSING] 7MX4
 [SAVED] 7MX4: chains=2->2 matrix=7mx4_matrix.txt output=7mx4_mhc_configured.pdb
 [PROCESSING] 7C9V
-[FILTERED] 7C9V: removed_far_chains=['A', 'A-10', 'A-11', 'A-12', 'A-13', 'A-15', 'A-16', 'A-17', 'A-18', 'A-19', 'A-2', 'A-20', 'A-21', 'A-22', 'A-23', 'A-24', 'A-25', 'A-26', 'A-27', 'A-28', 'A-29', 'A-3', 'A-30', 'A-31', 'A-32', 'A-33', 'A-34', 'A-35', 'A-36', 'A-37', 'A-38', 'A-39', 'A-4', 'A-40', 'A-41', 'A-42', 'A-43', 'A-44', 'A-45', 'A-46', 'A-47', 'A-48', 'A-49', 'A-5', 'A-50', 'A-51', 'A-52', 'A-53', 'A-54', 'A-55', 'A-56', 'A-57', 'A-58', 'A-59', 'A-6', 'A-60', 'A-7', 'A-8', 'A-9', 'B', 'B-10', 'B-11', 'B-12', 'B-13', 'B-15', 'B-16', 'B-17', 'B-18', 'B-19', 'B-2', 'B-20', 'B-21', 'B-22', 'B-23', 'B-24', 'B-25', 'B-26', 'B-27', 'B-28', 'B-29', 'B-3', 'B-30', 'B-31', 'B-32', 'B-33', 'B-34', 'B-35', 'B-36', 'B-37', 'B-38', 'B-39', 'B-4', 'B-40', 'B-41', 'B-42', 'B-43', 'B-44', 'B-45', 'B-46', 'B-47', 'B-48', 'B-49', 'B-5', 'B-50', 'B-51', 'B-52', 'B-53', 'B-54', 'B-55', 'B-56', 'B-57', 'B-58', 'B-59', 'B-6', 'B-60', 'B-7', 'B-8', 'B-9', 'C', 'C-10', 'C-11', 'C-12', 'C-13', 'C-16', 'C-17', 'C-18', 'C-19', 'C-2', 'C-20', 'C-21', 'C-22', 'C-23', 'C-24', 'C-25', 'C-26', 'C-27', 'C-28', 'C-29', 'C-3', 'C-30', 'C-31', 'C-32', 'C-33', 'C-34', 'C-35', 'C-36', 'C-37', 'C-38', 'C-39', 'C-4', 'C-40', 'C-41', 'C-42', 'C-43', 'C-44', 'C-45', 'C-46', 'C-47', 'C-48', 'C-49', 'C-5', 'C-50', 'C-51', 'C-52', 'C-53', 'C-54', 'C-55', 'C-56', 'C-57', 'C-58', 'C-59', 'C-6', 'C-60', 'C-7', 'C-8', 'C-9', 'D', 'D-10', 'D-11', 'D-12', 'D-13', 'D-14', 'D-15', 'D-16', 'D-17', 'D-18', 'D-19', 'D-2', 'D-20', 'D-21', 'D-22', 'D-23', 'D-24', 'D-25', 'D-26', 'D-27', 'D-28', 'D-29', 'D-3', 'D-30', 'D-31', 'D-32', 'D-33', 'D-34', 'D-35', 'D-36', 'D-37', 'D-38', 'D-39', 'D-4', 'D-40', 'D-41', 'D-42', 'D-43', 'D-44', 'D-45', 'D-46', 'D-47', 'D-48', 'D-49', 'D-5', 'D-50', 'D-51', 'D-52', 'D-53', 'D-54', 'D-55', 'D-56', 'D-57', 'D-58', 'D-59', 'D-6', 'D-60', 'D-7', 'D-8', 'D-9', 'E', 'E-10', 'E-11', 'E-12', 'E-13', 'E-15', 'E-16', 'E-17', 'E-18', 'E-19', 'E-2', 'E-20', 'E-21', 'E-22', 'E-23', 'E-24', 'E-25', 'E-26', 'E-27', 'E-28', 'E-29', 'E-3', 'E-30', 'E-31', 'E-32', 'E-33', 'E-34', 'E-35', 'E-36', 'E-37', 'E-38', 'E-39', 'E-4', 'E-40', 'E-41', 'E-42', 'E-43', 'E-44', 'E-45', 'E-46', 'E-47', 'E-48', 'E-49', 'E-5', 'E-50', 'E-51', 'E-52', 'E-53', 'E-54', 'E-55', 'E-56', 'E-57', 'E-58', 'E-59', 'E-6', 'E-60', 'E-7', 'E-8', 'E-9', 'F', 'F-10', 'F-11', 'F-12', 'F-13', 'F-15', 'F-16', 'F-17', 'F-18', 'F-19', 'F-2', 'F-20', 'F-21', 'F-22', 'F-23', 'F-24', 'F-25', 'F-26', 'F-27', 'F-28', 'F-29', 'F-3', 'F-30', 'F-31', 'F-32', 'F-33', 'F-34', 'F-35', 'F-36', 'F-37', 'F-38', 'F-39', 'F-4', 'F-40', 'F-41', 'F-42', 'F-43', 'F-44', 'F-45', 'F-46', 'F-47', 'F-48', 'F-49', 'F-5', 'F-50', 'F-51', 'F-52', 'F-53', 'F-54', 'F-55', 'F-56', 'F-57', 'F-58', 'F-59', 'F-6', 'F-60', 'F-7', 'F-8', 'F-9']
+[FILTERED] 7C9V: removed_far_chains=['A', 'A-10', 'A-11', 'A-12', 'A-13', 'A-14', 'A-15', 'A-16', 'A-17', 'A-18', 'A-19', 'A-2', 'A-20', 'A-21', 'A-22', 'A-23', 'A-24', 'A-25', 'A-26', 'A-27', 'A-28', 'A-29', 'A-3', 'A-30', 'A-31', 'A-32', 'A-33', 'A-34', 'A-35', 'A-36', 'A-37', 'A-38', 'A-39', 'A-4', 'A-40', 'A-41', 'A-42', 'A-43', 'A-44', 'A-45', 'A-46', 'A-47', 'A-48', 'A-49', 'A-5', 'A-50', 'A-51', 'A-52', 'A-53', 'A-54', 'A-55', 'A-56', 'A-57', 'A-58', 'A-59', 'A-60', 'A-7', 'A-8', 'A-9', 'B', 'B-10', 'B-11', 'B-12', 'B-13', 'B-14', 'B-15', 'B-16', 'B-17', 'B-18', 'B-19', 'B-2', 'B-20', 'B-21', 'B-22', 'B-23', 'B-24', 'B-25', 'B-26', 'B-27', 'B-28', 'B-29', 'B-3', 'B-30', 'B-31', 'B-32', 'B-33', 'B-34', 'B-35', 'B-36', 'B-37', 'B-38', 'B-39', 'B-4', 'B-40', 'B-41', 'B-42', 'B-43', 'B-44', 'B-45', 'B-46', 'B-47', 'B-48', 'B-49', 'B-5', 'B-50', 'B-51', 'B-52', 'B-53', 'B-54', 'B-55', 'B-56', 'B-57', 'B-58', 'B-59', 'B-60', 'B-7', 'B-8', 'B-9', 'C', 'C-10', 'C-11', 'C-12', 'C-13', 'C-14', 'C-15', 'C-16', 'C-17', 'C-18', 'C-19', 'C-2', 'C-20', 'C-21', 'C-22', 'C-23', 'C-24', 'C-25', 'C-26', 'C-27', 'C-28', 'C-29', 'C-3', 'C-30', 'C-31', 'C-32', 'C-33', 'C-34', 'C-35', 'C-36', 'C-37', 'C-38', 'C-39', 'C-4', 'C-40', 'C-41', 'C-42', 'C-43', 'C-44', 'C-45', 'C-46', 'C-47', 'C-48', 'C-49', 'C-5', 'C-50', 'C-51', 'C-52', 'C-53', 'C-54', 'C-55', 'C-56', 'C-57', 'C-58', 'C-59', 'C-60', 'C-8', 'C-9', 'D', 'D-10', 'D-11', 'D-12', 'D-13', 'D-14', 'D-15', 'D-16', 'D-17', 'D-18', 'D-19', 'D-2', 'D-20', 'D-21', 'D-22', 'D-23', 'D-24', 'D-25', 'D-26', 'D-27', 'D-28', 'D-29', 'D-3', 'D-30', 'D-31', 'D-32', 'D-33', 'D-34', 'D-35', 'D-36', 'D-37', 'D-38', 'D-39', 'D-4', 'D-40', 'D-41', 'D-42', 'D-43', 'D-44', 'D-45', 'D-46', 'D-47', 'D-48', 'D-49', 'D-5', 'D-50', 'D-51', 'D-52', 'D-53', 'D-54', 'D-55', 'D-56', 'D-57', 'D-58', 'D-59', 'D-6', 'D-60', 'D-7', 'D-8', 'D-9', 'E', 'E-10', 'E-11', 'E-12', 'E-13', 'E-14', 'E-15', 'E-16', 'E-17', 'E-18', 'E-19', 'E-2', 'E-20', 'E-21', 'E-22', 'E-23', 'E-24', 'E-25', 'E-26', 'E-27', 'E-28', 'E-29', 'E-3', 'E-30', 'E-31', 'E-32', 'E-33', 'E-34', 'E-35', 'E-36', 'E-37', 'E-38', 'E-39', 'E-4', 'E-40', 'E-41', 'E-42', 'E-43', 'E-44', 'E-45', 'E-46', 'E-47', 'E-48', 'E-49', 'E-5', 'E-50', 'E-51', 'E-52', 'E-53', 'E-54', 'E-55', 'E-56', 'E-57', 'E-58', 'E-59', 'E-60', 'E-7', 'E-8', 'E-9', 'F', 'F-10', 'F-11', 'F-12', 'F-13', 'F-14', 'F-15', 'F-16', 'F-17', 'F-18', 'F-19', 'F-2', 'F-20', 'F-21', 'F-22', 'F-23', 'F-24', 'F-25', 'F-26', 'F-27', 'F-28', 'F-29', 'F-3', 'F-30', 'F-31', 'F-32', 'F-33', 'F-34', 'F-35', 'F-36', 'F-37', 'F-38', 'F-39', 'F-4', 'F-40', 'F-41', 'F-42', 'F-43', 'F-44', 'F-45', 'F-46', 'F-47', 'F-48', 'F-49', 'F-5', 'F-50', 'F-51', 'F-52', 'F-53', 'F-54', 'F-55', 'F-56', 'F-57', 'F-58', 'F-59', 'F-60', 'F-7', 'F-8', 'F-9']
 [SAVED] 7C9V: chains=360->6 matrix=7c9v_matrix.txt output=7c9v_mhc_configured.pdb
-[PROCESSING] 1KCG
-[SAVED] 1KCG: chains=3->3 matrix=1kcg_matrix.txt output=1kcg_mhc_configured.pdb
 [PROCESSING] 4S0U
 [SAVED] 4S0U: chains=3->3 matrix=4s0u_matrix.txt output=4s0u_mhc_configured.pdb
-[PROCESSING] 1B3J
-[SAVED] 1B3J: chains=2->2 matrix=1b3j_matrix.txt output=1b3j_mhc_configured.pdb
+[PROCESSING] 1KCG
+[SAVED] 1KCG: chains=3->3 matrix=1kcg_matrix.txt output=1kcg_mhc_configured.pdb
+[PROCESSING] 9OHY
+[SAVED] 9OHY: chains=2->2 matrix=9ohy_matrix.txt output=9ohy_mhc_configured.pdb
 [PROCESSING] 3U0P
 [SAVED] 3U0P: chains=3->3 matrix=3u0p_matrix.txt output=3u0p_mhc_configured.pdb
+[PROCESSING] 9TJX
+[SAVED] 9TJX: chains=3->3 matrix=9tjx_matrix.txt output=9tjx_mhc_configured.pdb
+[PROCESSING] 9RSE
+[SAVED] 9RSE: chains=2->2 matrix=9rse_matrix.txt output=9rse_mhc_configured.pdb
+[PROCESSING] 9OHT
+[SAVED] 9OHT: chains=2->2 matrix=9oht_matrix.txt output=9oht_mhc_configured.pdb
 [PROCESSING] 1XZ0
 [SAVED] 1XZ0: chains=3->3 matrix=1xz0_matrix.txt output=1xz0_mhc_configured.pdb
 [PROCESSING] 4WW2
 [SAVED] 4WW2: chains=4->4 matrix=4ww2_matrix.txt output=4ww2_mhc_configured.pdb
 [PROCESSING] 6V7Z
 [SAVED] 6V7Z: chains=5->5 matrix=6v7z_matrix.txt output=6v7z_mhc_configured.pdb
-[PROCESSING] 8DV4
-[SAVED] 8DV4: chains=4->4 matrix=8dv4_matrix.txt output=8dv4_mhc_configured.pdb
 [PROCESSING] 4LHU
 [FILTERED] 4LHU: removed_far_chains=['F']
 [SAVED] 4LHU: chains=7->6 matrix=4lhu_matrix.txt output=4lhu_mhc_configured.pdb
@@ -2228,6 +2448,8 @@
 [SAVED] 3VWK: chains=4->4 matrix=3vwk_matrix.txt output=3vwk_mhc_configured.pdb
 [PROCESSING] 7RYO
 [SAVED] 7RYO: chains=4->4 matrix=7ryo_matrix.txt output=7ryo_mhc_configured.pdb
+[PROCESSING] 9OI0
+[SAVED] 9OI0: chains=4->4 matrix=9oi0_matrix.txt output=9oi0_mhc_configured.pdb
 [PROCESSING] 3TZV
 [SAVED] 3TZV: chains=5->5 matrix=3tzv_matrix.txt output=3tzv_mhc_configured.pdb
 [PROCESSING] 1L8J
@@ -2280,18 +2502,24 @@
 [SAVED] 3OV6: chains=1->1 matrix=3ov6_matrix.txt output=3ov6_mhc_configured.pdb
 [PROCESSING] 7OKU
 [SAVED] 7OKU: chains=3->3 matrix=7oku_matrix.txt output=7oku_mhc_configured.pdb
+[PROCESSING] 8RWB
+[SAVED] 8RWB: chains=4->4 matrix=8rwb_matrix.txt output=8rwb_mhc_configured.pdb
 [PROCESSING] 7RYM
 [SAVED] 7RYM: chains=4->4 matrix=7rym_matrix.txt output=7rym_mhc_configured.pdb
 [PROCESSING] 8GLI
 [SAVED] 8GLI: chains=3->3 matrix=8gli_matrix.txt output=8gli_mhc_configured.pdb
 [PROCESSING] 3T8X
 [SAVED] 3T8X: chains=4->4 matrix=3t8x_matrix.txt output=3t8x_mhc_configured.pdb
+[PROCESSING] 9QWK
+[SAVED] 9QWK: chains=6->6 matrix=9qwk_matrix.txt output=9qwk_mhc_configured.pdb
 [PROCESSING] 6D64
 [SAVED] 6D64: chains=5->5 matrix=6d64_matrix.txt output=6d64_mhc_configured.pdb
 [PROCESSING] 7SH4
 [SAVED] 7SH4: chains=2->2 matrix=7sh4_matrix.txt output=7sh4_mhc_configured.pdb
 [PROCESSING] 4V3D
 [SAVED] 4V3D: chains=5->5 matrix=4v3d_matrix.txt output=4v3d_mhc_configured.pdb
+[PROCESSING] 9OHZ
+[SAVED] 9OHZ: chains=2->2 matrix=9ohz_matrix.txt output=9ohz_mhc_configured.pdb
 [PROCESSING] 6C09
 [SAVED] 6C09: chains=4->4 matrix=6c09_matrix.txt output=6c09_mhc_configured.pdb
 [PROCESSING] 8GLG
@@ -2328,6 +2556,8 @@
 [SAVED] 5WKE: chains=4->4 matrix=5wke_matrix.txt output=5wke_mhc_configured.pdb
 [PROCESSING] 5WKG
 [SAVED] 5WKG: chains=4->4 matrix=5wkg_matrix.txt output=5wkg_mhc_configured.pdb
+[PROCESSING] 9QWJ
+[SAVED] 9QWJ: chains=4->4 matrix=9qwj_matrix.txt output=9qwj_mhc_configured.pdb
 [PROCESSING] 1ZT4
 [SAVED] 1ZT4: chains=2->2 matrix=1zt4_matrix.txt output=1zt4_mhc_configured.pdb
 [PROCESSING] 6V80
@@ -2355,7 +2585,7 @@
 [PROCESSING] 6C15
 [SAVED] 6C15: chains=2->2 matrix=6c15_matrix.txt output=6c15_mhc_configured.pdb
 [PROCESSING] 7XXA
-[FILTERED] 7XXA: removed_far_chains=['A', 'A-10', 'A-11', 'A-12', 'A-13', 'A-14', 'A-15', 'A-16', 'A-17', 'A-18', 'A-19', 'A-2', 'A-20', 'A-21', 'A-22', 'A-23', 'A-24', 'A-25', 'A-26', 'A-27', 'A-28', 'A-3', 'A-31', 'A-32', 'A-33', 'A-34', 'A-35', 'A-36', 'A-37', 'A-38', 'A-39', 'A-4', 'A-40', 'A-41', 'A-42', 'A-43', 'A-44', 'A-45', 'A-46', 'A-47', 'A-48', 'A-49', 'A-5', 'A-50', 'A-51', 'A-52', 'A-53', 'A-54', 'A-55', 'A-56', 'A-57', 'A-58', 'A-59', 'A-6', 'A-60', 'A-7', 'A-8', 'A-9', 'B', 'B-10', 'B-11', 'B-12', 'B-13', 'B-14', 'B-15', 'B-16', 'B-17', 'B-18', 'B-19', 'B-2', 'B-20', 'B-21', 'B-22', 'B-23', 'B-24', 'B-25', 'B-26', 'B-27', 'B-28', 'B-3', 'B-30', 'B-31', 'B-32', 'B-33', 'B-34', 'B-35', 'B-36', 'B-37', 'B-38', 'B-39', 'B-4', 'B-40', 'B-41', 'B-42', 'B-43', 'B-44', 'B-45', 'B-46', 'B-47', 'B-48', 'B-49', 'B-5', 'B-50', 'B-51', 'B-52', 'B-53', 'B-54', 'B-55', 'B-56', 'B-57', 'B-58', 'B-59', 'B-6', 'B-60', 'B-7', 'B-8', 'B-9', 'C', 'C-10', 'C-11', 'C-12', 'C-13', 'C-14', 'C-15', 'C-16', 'C-17', 'C-18', 'C-19', 'C-2', 'C-20', 'C-21', 'C-22', 'C-23', 'C-24', 'C-25', 'C-26', 'C-27', 'C-28', 'C-3', 'C-31', 'C-32', 'C-33', 'C-34', 'C-35', 'C-36', 'C-37', 'C-38', 'C-39', 'C-4', 'C-40', 'C-41', 'C-42', 'C-43', 'C-44', 'C-45', 'C-46', 'C-47', 'C-48', 'C-49', 'C-5', 'C-50', 'C-51', 'C-52', 'C-53', 'C-54', 'C-55', 'C-56', 'C-57', 'C-58', 'C-59', 'C-6', 'C-60', 'C-7', 'C-8', 'C-9', 'D', 'D-10', 'D-11', 'D-12', 'D-13', 'D-14', 'D-15', 'D-16', 'D-17', 'D-18', 'D-19', 'D-2', 'D-20', 'D-21', 'D-22', 'D-23', 'D-24', 'D-25', 'D-26', 'D-27', 'D-28', 'D-29', 'D-3', 'D-30', 'D-31', 'D-32', 'D-33', 'D-34', 'D-35', 'D-36', 'D-37', 'D-38', 'D-39', 'D-4', 'D-40', 'D-41', 'D-42', 'D-43', 'D-44', 'D-45', 'D-46', 'D-47', 'D-48', 'D-49', 'D-5', 'D-50', 'D-51', 'D-52', 'D-53', 'D-54', 'D-55', 'D-56', 'D-57', 'D-58', 'D-59', 'D-6', 'D-60', 'D-7', 'D-8', 'D-9', 'E', 'E-10', 'E-11', 'E-12', 'E-13', 'E-14', 'E-15', 'E-16', 'E-17', 'E-18', 'E-19', 'E-2', 'E-20', 'E-21', 'E-22', 'E-23', 'E-24', 'E-25', 'E-26', 'E-27', 'E-28', 'E-3', 'E-30', 'E-31', 'E-32', 'E-33', 'E-34', 'E-35', 'E-36', 'E-37', 'E-38', 'E-39', 'E-4', 'E-40', 'E-41', 'E-42', 'E-43', 'E-44', 'E-45', 'E-46', 'E-47', 'E-48', 'E-49', 'E-5', 'E-50', 'E-51', 'E-52', 'E-53', 'E-54', 'E-55', 'E-56', 'E-57', 'E-58', 'E-59', 'E-6', 'E-60', 'E-7', 'E-8', 'E-9']
+[FILTERED] 7XXA: removed_far_chains=['A', 'A-10', 'A-11', 'A-12', 'A-13', 'A-14', 'A-15', 'A-16', 'A-17', 'A-18', 'A-19', 'A-2', 'A-20', 'A-21', 'A-22', 'A-23', 'A-24', 'A-25', 'A-26', 'A-27', 'A-28', 'A-29', 'A-3', 'A-30', 'A-31', 'A-32', 'A-33', 'A-34', 'A-35', 'A-36', 'A-37', 'A-4', 'A-40', 'A-41', 'A-42', 'A-43', 'A-44', 'A-45', 'A-46', 'A-47', 'A-48', 'A-49', 'A-5', 'A-50', 'A-51', 'A-52', 'A-53', 'A-54', 'A-55', 'A-56', 'A-57', 'A-58', 'A-59', 'A-6', 'A-60', 'A-7', 'A-8', 'A-9', 'B', 'B-10', 'B-11', 'B-12', 'B-13', 'B-14', 'B-15', 'B-16', 'B-17', 'B-18', 'B-19', 'B-2', 'B-20', 'B-21', 'B-22', 'B-23', 'B-24', 'B-25', 'B-26', 'B-27', 'B-28', 'B-29', 'B-3', 'B-30', 'B-31', 'B-32', 'B-33', 'B-34', 'B-35', 'B-36', 'B-37', 'B-39', 'B-4', 'B-40', 'B-41', 'B-42', 'B-43', 'B-44', 'B-45', 'B-46', 'B-47', 'B-48', 'B-49', 'B-5', 'B-50', 'B-51', 'B-52', 'B-53', 'B-54', 'B-55', 'B-56', 'B-57', 'B-58', 'B-59', 'B-6', 'B-60', 'B-7', 'B-8', 'B-9', 'C', 'C-10', 'C-11', 'C-12', 'C-13', 'C-14', 'C-15', 'C-16', 'C-17', 'C-18', 'C-19', 'C-2', 'C-20', 'C-21', 'C-22', 'C-23', 'C-24', 'C-25', 'C-26', 'C-27', 'C-28', 'C-29', 'C-3', 'C-30', 'C-31', 'C-32', 'C-33', 'C-34', 'C-35', 'C-36', 'C-37', 'C-4', 'C-40', 'C-41', 'C-42', 'C-43', 'C-44', 'C-45', 'C-46', 'C-47', 'C-48', 'C-49', 'C-5', 'C-50', 'C-51', 'C-52', 'C-53', 'C-54', 'C-55', 'C-56', 'C-57', 'C-58', 'C-59', 'C-6', 'C-60', 'C-7', 'C-8', 'C-9', 'D', 'D-10', 'D-11', 'D-12', 'D-13', 'D-14', 'D-15', 'D-16', 'D-17', 'D-18', 'D-19', 'D-2', 'D-20', 'D-21', 'D-22', 'D-23', 'D-24', 'D-25', 'D-26', 'D-27', 'D-28', 'D-29', 'D-3', 'D-30', 'D-31', 'D-32', 'D-33', 'D-34', 'D-35', 'D-36', 'D-37', 'D-38', 'D-39', 'D-4', 'D-40', 'D-41', 'D-42', 'D-43', 'D-44', 'D-45', 'D-46', 'D-47', 'D-48', 'D-49', 'D-5', 'D-50', 'D-51', 'D-52', 'D-53', 'D-54', 'D-55', 'D-56', 'D-57', 'D-58', 'D-59', 'D-6', 'D-60', 'D-7', 'D-8', 'D-9', 'E', 'E-10', 'E-11', 'E-12', 'E-13', 'E-14', 'E-15', 'E-16', 'E-17', 'E-18', 'E-19', 'E-2', 'E-20', 'E-21', 'E-22', 'E-23', 'E-24', 'E-25', 'E-26', 'E-27', 'E-28', 'E-29', 'E-3', 'E-30', 'E-31', 'E-32', 'E-33', 'E-34', 'E-35', 'E-36', 'E-37', 'E-39', 'E-4', 'E-40', 'E-41', 'E-42', 'E-43', 'E-44', 'E-45', 'E-46', 'E-47', 'E-48', 'E-49', 'E-5', 'E-50', 'E-51', 'E-52', 'E-53', 'E-54', 'E-55', 'E-56', 'E-57', 'E-58', 'E-59', 'E-6', 'E-60', 'E-7', 'E-8', 'E-9']
 [SAVED] 7XXA: chains=300->6 matrix=7xxa_matrix.txt output=7xxa_mhc_configured.pdb
 [PROCESSING] 3S6C
 [SAVED] 3S6C: chains=2->2 matrix=3s6c_matrix.txt output=3s6c_mhc_configured.pdb
@@ -2364,11 +2594,11 @@
 [PROCESSING] 3IT8
 [FILTERED] 3IT8: removed_far_chains=['C', 'E', 'F']
 [SAVED] 3IT8: chains=6->3 matrix=3it8_matrix.txt output=3it8_mhc_configured.pdb
-[CSV] /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step5/pdb/chain_map.csv
-[CSV] /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step5/pdb/pdb_assemblies_remapped.csv
+[CSV] /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step5/pdb/chain_map.csv
+[CSV] /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step5/pdb/pdb_assemblies_remapped.csv
 
 [SUMMARY] STEP5
-[SUMMARY] processed=1161
+[SUMMARY] processed=1269
 [SUMMARY] missing_cif=0
 [SUMMARY] skipped_or_failed=0
-[OUT] /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step5/pdb/1_mhc_configured
+[OUT] /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step5/pdb/1_mhc_configured

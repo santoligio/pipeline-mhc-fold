@@ -1,15 +1,15 @@
 [CONFIG] STEP6
-PIPELINE_DIR:             /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline
-STEP5_PDB_DIR:            /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step5/pdb/1_mhc_configured | exists=True
-STEP5_CHAIN_MAPPING_CSV:  /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step5/pdb/chain_map.csv | exists=True
-STEP5_REMAP_CSV:          /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step5/pdb/pdb_assemblies_remapped.csv | exists=True
-STEP1_CSV:                /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step1/pdb/pdb_assemblies.csv | exists=True
-BLACKLIST_CSV:            /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step6_fix/blacklist.csv | exists=True
-FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step4/pdb/3_filtered_cavities | exists=True
+PIPELINE_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline       /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter
+STEP5_PDB_DIR:            /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step5/pdb/1_mhc_configured | exists=True
+STEP5_CHAIN_MAPPING_CSV:  /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step5/pdb/chain_map.csv | exists=True
+STEP5_REMAP_CSV:          /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step5/pdb/pdb_assemblies_remapped.csv | exists=True
+STEP1_CSV:                /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step1/pdb/pdb_assemblies.csv | exists=True
+BLACKLIST_CSV:            /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step6/residue_removal_list.csv | exists=True
+FILTERED_CAVITY_DIR:      /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step4/pdb/3_filtered_cavities | exists=True
 
-[BLACKLIST] resnames= 60
-[CSV] remapped= 1173
-[CSV] duplicate_pdbs= 9
+[BLACKLIST] resnames= 63
+[CSV] remapped= 1284
+[CSV] duplicate_pdbs= 12
 
 [START] STEP6
 [START] 8RLV
@@ -202,8 +202,6 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6MT3: contacts=27; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6mt3_merged_cavities.pdb
 [START] 3V5K
 [MAPPED] 3V5K: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3v5k_merged_cavities.pdb
-[START] 6UK2
-[MAPPED] 6UK2: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6uk2_merged_cavities.pdb
 [START] 7KGO
 [MAPPED] 7KGO: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7kgo_merged_cavities.pdb
 [START] 7RTR
@@ -248,8 +246,6 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 4JFP: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4jfp_merged_cavities.pdb
 [START] 6ZKY
 [MAPPED] 6ZKY: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6zky_merged_cavities.pdb
-[START] 8I5D
-[MAPPED] 8I5D: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8i5d_merged_cavities.pdb
 [START] 1DUY
 [MAPPED] 1DUY: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1duy_merged_cavities.pdb
 [START] 3UTT
@@ -300,8 +296,6 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 5F9J: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5f9j_merged_cavities.pdb
 [START] 3OX8
 [MAPPED] 3OX8: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3ox8_merged_cavities.pdb
-[START] 1E27
-[MAPPED] 1E27: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1e27_merged_cavities.pdb
 [START] 3FT2
 [MAPPED] 3FT2: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3ft2_merged_cavities.pdb
 [START] 3FQW
@@ -380,10 +374,10 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 8ROP: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8rop_merged_cavities.pdb
 [START] 8RHQ
 [MAPPED] 8RHQ: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['C', 'E']; merged=8rhq_merged_cavities.pdb
-[START] 7S79
-[MAPPED] 7S79: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7s79_merged_cavities.pdb
 [START] 6P2S
 [MAPPED] 6P2S: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6p2s_merged_cavities.pdb
+[START] 7S79
+[MAPPED] 7S79: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7s79_merged_cavities.pdb
 [START] 4F7T
 [MAPPED] 4F7T: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4f7t_merged_cavities.pdb
 [START] 5JHD
@@ -406,14 +400,10 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3O3B: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3o3b_merged_cavities.pdb
 [START] 1S9X
 [MAPPED] 1S9X: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1s9x_merged_cavities.pdb
-[START] 2UWE
-[MAPPED] 2UWE: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2uwe_merged_cavities.pdb
 [START] 5HGD
 [MAPPED] 5HGD: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5hgd_merged_cavities.pdb
 [START] 6VB1
 [MAPPED] 6VB1: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6vb1_merged_cavities.pdb
-[START] 1LP9
-[MAPPED] 1LP9: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1lp9_merged_cavities.pdb
 [START] 8RYQ
 [MAPPED] 8RYQ: contacts=5; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8ryq_merged_cavities.pdb
 [START] 6TDQ
@@ -446,12 +436,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 5EU3: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5eu3_merged_cavities.pdb
 [START] 5FDW
 [MAPPED] 5FDW: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5fdw_merged_cavities.pdb
-[START] 8E13
-[MAPPED] 8E13: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8e13_merged_cavities.pdb
 [START] 6TDR
 [MAPPED] 6TDR: contacts=23; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6tdr_merged_cavities.pdb
-[START] 6UZS
-[MAPPED] 6UZS: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6uzs_merged_cavities.pdb
 [START] 3FQX
 [MAPPED] 3FQX: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3fqx_merged_cavities.pdb
 [START] 6VM9
@@ -498,10 +484,10 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3MGO: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mgo_merged_cavities.pdb
 [START] 8RLU
 [MAPPED] 8RLU: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8rlu_merged_cavities.pdb
-[START] 6GH1
-[MAPPED] 6GH1: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6gh1_merged_cavities.pdb
 [START] 5V5L
 [MAPPED] 5V5L: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5v5l_merged_cavities.pdb
+[START] 6GH1
+[MAPPED] 6GH1: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6gh1_merged_cavities.pdb
 [START] 4N8V
 [MAPPED] 4N8V: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4n8v_merged_cavities.pdb
 [START] 3H9H
@@ -520,16 +506,14 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7PB2: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7pb2_merged_cavities.pdb
 [START] 3NFN
 [MAPPED] 3NFN: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3nfn_merged_cavities.pdb
-[START] 5HGH
-[MAPPED] 5HGH: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5hgh_merged_cavities.pdb
 [START] 5T6Y
 [MAPPED] 5T6Y: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5t6y_merged_cavities.pdb
+[START] 5HGH
+[MAPPED] 5HGH: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5hgh_merged_cavities.pdb
 [START] 5VUE
 [MAPPED] 5VUE: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5vue_merged_cavities.pdb
 [START] 7MJ7
 [MAPPED] 7MJ7: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7mj7_merged_cavities.pdb
-[START] 8I5C
-[MAPPED] 8I5C: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8i5c_merged_cavities.pdb
 [START] 7S7D
 [MAPPED] 7S7D: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7s7d_merged_cavities.pdb
 [START] 5WKF
@@ -602,6 +586,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 2VLL: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2vll_merged_cavities.pdb
 [START] 7JYV
 [MAPPED] 7JYV: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7jyv_merged_cavities.pdb
+[START] 8UTC
+[MAPPED] 8UTC: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8utc_merged_cavities.pdb
 [START] 3MRB
 [MAPPED] 3MRB: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mrb_merged_cavities.pdb
 [START] 5SWQ
@@ -628,8 +614,6 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7T5M: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7t5m_merged_cavities.pdb
 [START] 3VFU
 [MAPPED] 3VFU: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3vfu_merged_cavities.pdb
-[START] 6Q3S
-[MAPPED] 6Q3S: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6q3s_merged_cavities.pdb
 [START] 1A1N
 [MAPPED] 1A1N: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1a1n_merged_cavities.pdb
 [START] 5HHO
@@ -642,8 +626,6 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 8F5A: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8f5a_merged_cavities.pdb
 [START] 3LN4
 [MAPPED] 3LN4: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3ln4_merged_cavities.pdb
-[START] 4MNQ
-[MAPPED] 4MNQ: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4mnq_merged_cavities.pdb
 [START] 7R7X
 [MAPPED] 7R7X: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7r7x_merged_cavities.pdb
 [START] 6VB2
@@ -656,14 +638,14 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 8SBK: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8sbk_merged_cavities.pdb
 [START] 4WUU
 [MAPPED] 4WUU: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4wuu_merged_cavities.pdb
-[START] 5E00
-[MAPPED] 5E00: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5e00_merged_cavities.pdb
 [START] 5FA4
 [MAPPED] 5FA4: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5fa4_merged_cavities.pdb
-[START] 8E8I
-[MAPPED] 8E8I: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8e8i_merged_cavities.pdb
+[START] 8Z08
+[MAPPED] 8Z08: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8z08_merged_cavities.pdb
 [START] 6MT6
 [MAPPED] 6MT6: contacts=26; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6mt6_merged_cavities.pdb
+[START] 8E8I
+[MAPPED] 8E8I: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8e8i_merged_cavities.pdb
 [START] 3MRQ
 [MAPPED] 3MRQ: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mrq_merged_cavities.pdb
 [START] 8TUH
@@ -688,8 +670,6 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6O4Y: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6o4y_merged_cavities.pdb
 [START] 3PWN
 [MAPPED] 3PWN: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3pwn_merged_cavities.pdb
-[START] 4LCY
-[MAPPED] 4LCY: contacts=10; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4lcy_merged_cavities.pdb
 [START] 6PTE
 [MAPPED] 6PTE: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6pte_merged_cavities.pdb
 [START] 5C08
@@ -712,16 +692,20 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 4PRA: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4pra_merged_cavities.pdb
 [START] 8FU4
 [MAPPED] 8FU4: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8fu4_merged_cavities.pdb
-[START] 6BXP
-[MAPPED] 6BXP: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6bxp_merged_cavities.pdb
 [START] 3HPJ
 [MAPPED] 3HPJ: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3hpj_merged_cavities.pdb
+[START] 6BXP
+[MAPPED] 6BXP: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6bxp_merged_cavities.pdb
 [START] 2DYP
 [MAPPED] 2DYP: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2dyp_merged_cavities.pdb
 [START] 3O3E
 [MAPPED] 3O3E: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3o3e_merged_cavities.pdb
 [START] 3V5H
 [MAPPED] 3V5H: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3v5h_merged_cavities.pdb
+[START] 9SKP
+[MAPPED] 9SKP: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9skp_merged_cavities.pdb
+[START] 9WK0
+[MAPPED] 9WK0: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9wk0_merged_cavities.pdb
 [START] 5WKH
 [MAPPED] 5WKH: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5wkh_merged_cavities.pdb
 [START] 3SJV
@@ -770,6 +754,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 1S9W: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1s9w_merged_cavities.pdb
 [START] 5N6B
 [MAPPED] 5N6B: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5n6b_merged_cavities.pdb
+[START] 8YZZ
+[MAPPED] 8YZZ: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8yzz_merged_cavities.pdb
 [START] 6VMA
 [MAPPED] 6VMA: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6vma_merged_cavities.pdb
 [START] 7WZZ
@@ -790,6 +776,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7RRG: contacts=23; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7rrg_merged_cavities.pdb
 [START] 2AV1
 [MAPPED] 2AV1: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2av1_merged_cavities.pdb
+[START] 8YZR
+[MAPPED] 8YZR: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8yzr_merged_cavities.pdb
 [START] 7DZN
 [MAPPED] 7DZN: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7dzn_merged_cavities.pdb
 [START] 4U6Y
@@ -840,6 +828,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6MTL: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6mtl_merged_cavities.pdb
 [START] 3MR9
 [MAPPED] 3MR9: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mr9_merged_cavities.pdb
+[START] 9SKO
+[MAPPED] 9SKO: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9sko_merged_cavities.pdb
 [START] 1B0R
 [MAPPED] 1B0R: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1b0r_merged_cavities.pdb
 [START] 3GSQ
@@ -848,6 +838,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 2GTW: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2gtw_merged_cavities.pdb
 [START] 3MRC
 [MAPPED] 3MRC: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mrc_merged_cavities.pdb
+[START] 9OBF
+[MAPPED] 9OBF: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9obf_merged_cavities.pdb
 [START] 3HCV
 [MAPPED] 3HCV: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3hcv_merged_cavities.pdb
 [START] 6EWC
@@ -912,12 +904,14 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 8RJI: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8rji_merged_cavities.pdb
 [START] 3MRJ
 [MAPPED] 3MRJ: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mrj_merged_cavities.pdb
-[START] 2J8U
-[MAPPED] 2J8U: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2j8u_merged_cavities.pdb
+[START] 6UZS
+[MAPPED] 6UZS: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6uzs_merged_cavities.pdb
 [START] 4FTV
 [MAPPED] 4FTV: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4ftv_merged_cavities.pdb
 [START] 3HAE
 [MAPPED] 3HAE: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3hae_merged_cavities.pdb
+[START] 9J4V
+[MAPPED] 9J4V: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9j4v_merged_cavities.pdb
 [START] 6UZN
 [MAPPED] 6UZN: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6uzn_merged_cavities.pdb
 [START] 1QR1
@@ -932,6 +926,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7JYW: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7jyw_merged_cavities.pdb
 [START] 2AV7
 [MAPPED] 2AV7: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2av7_merged_cavities.pdb
+[START] 22EE
+[MAPPED] 22EE: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=22ee_merged_cavities.pdb
 [START] 6PYV
 [MAPPED] 6PYV: contacts=24; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6pyv_merged_cavities.pdb
 [START] 7N1F
@@ -944,18 +940,20 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6D2R: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6d2r_merged_cavities.pdb
 [START] 7U21
 [MAPPED] 7U21: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7u21_merged_cavities.pdb
-[START] 6TDP
-[MAPPED] 6TDP: contacts=12; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6tdp_merged_cavities.pdb
 [START] 5DDH
 [MAPPED] 5DDH: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5ddh_merged_cavities.pdb
+[START] 6TDP
+[MAPPED] 6TDP: contacts=12; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6tdp_merged_cavities.pdb
 [START] 7M8T
 [MAPPED] 7M8T: contacts=25; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7m8t_merged_cavities.pdb
 [START] 3VFS
 [MAPPED] 3VFS: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3vfs_merged_cavities.pdb
-[START] 3VRI
-[MAPPED] 3VRI: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=3vri_merged_cavities.pdb
+[START] 9EIQ
+[MAPPED] 9EIQ: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9eiq_merged_cavities.pdb
 [START] 6Z9V
 [MAPPED] 6Z9V: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6z9v_merged_cavities.pdb
+[START] 3VRI
+[MAPPED] 3VRI: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=3vri_merged_cavities.pdb
 [START] 4U1L
 [MAPPED] 4U1L: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4u1l_merged_cavities.pdb
 [START] 7NMG
@@ -994,10 +992,10 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3L3J: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3l3j_merged_cavities.pdb
 [START] 7SR5
 [MAPPED] 7SR5: contacts=8; possible_ligand_chains=0; problematic_mhc_contacts=7; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7sr5_merged_cavities.pdb
-[START] 5EOT
-[MAPPED] 5EOT: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5eot_merged_cavities.pdb
 [START] 7SIF
 [MAPPED] 7SIF: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7sif_merged_cavities.pdb
+[START] 5EOT
+[MAPPED] 5EOT: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5eot_merged_cavities.pdb
 [START] 5MEP
 [MAPPED] 5MEP: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5mep_merged_cavities.pdb
 [START] 4QRS
@@ -1022,12 +1020,12 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 5FA3: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5fa3_merged_cavities.pdb
 [START] 3KPP
 [MAPPED] 3KPP: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3kpp_merged_cavities.pdb
-[START] 8UDR
-[MAPPED] 8UDR: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8udr_merged_cavities.pdb
-[START] 4MJI
-[MAPPED] 4MJI: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4mji_merged_cavities.pdb
 [START] 7N2O
 [MAPPED] 7N2O: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7n2o_merged_cavities.pdb
+[START] 4MJI
+[MAPPED] 4MJI: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4mji_merged_cavities.pdb
+[START] 8UDR
+[MAPPED] 8UDR: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8udr_merged_cavities.pdb
 [START] 1I7U
 [MAPPED] 1I7U: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1i7u_merged_cavities.pdb
 [START] 8SBL
@@ -1060,12 +1058,12 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 2HJL: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2hjl_merged_cavities.pdb
 [START] 3LKN
 [MAPPED] 3LKN: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3lkn_merged_cavities.pdb
-[START] 2JCC
-[MAPPED] 2JCC: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2jcc_merged_cavities.pdb
 [START] 6ULK
 [MAPPED] 6ULK: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6ulk_merged_cavities.pdb
 [START] 3MRG
 [MAPPED] 3MRG: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mrg_merged_cavities.pdb
+[START] 9YZH
+[MAPPED] 9YZH: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9yzh_merged_cavities.pdb
 [START] 7MJ6
 [MAPPED] 7MJ6: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7mj6_merged_cavities.pdb
 [START] 3MV9
@@ -1084,12 +1082,12 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3MRO: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mro_merged_cavities.pdb
 [START] 5WMO
 [MAPPED] 5WMO: contacts=21; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5wmo_merged_cavities.pdb
-[START] 5C0D
-[MAPPED] 5C0D: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5c0d_merged_cavities.pdb
-[START] 3GSV
-[MAPPED] 3GSV: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3gsv_merged_cavities.pdb
 [START] 3UTQ
 [MAPPED] 3UTQ: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3utq_merged_cavities.pdb
+[START] 3GSV
+[MAPPED] 3GSV: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3gsv_merged_cavities.pdb
+[START] 5C0D
+[MAPPED] 5C0D: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5c0d_merged_cavities.pdb
 [START] 1JF1
 [MAPPED] 1JF1: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1jf1_merged_cavities.pdb
 [START] 2BNQ
@@ -1128,6 +1126,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3O3A: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3o3a_merged_cavities.pdb
 [START] 6OPD
 [MAPPED] 6OPD: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6opd_merged_cavities.pdb
+[START] 9NW7
+[MAPPED] 9NW7: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nw7_merged_cavities.pdb
 [START] 6AMU
 [MAPPED] 6AMU: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6amu_merged_cavities.pdb
 [START] 6EWO
@@ -1158,6 +1158,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 9BL2: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9bl2_merged_cavities.pdb
 [START] 7X1C
 [MAPPED] 7X1C: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7x1c_merged_cavities.pdb
+[START] 9EJD
+[MAPPED] 9EJD: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9ejd_merged_cavities.pdb
 [START] 3MRK
 [MAPPED] 3MRK: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mrk_merged_cavities.pdb
 [START] 8ESH
@@ -1172,18 +1174,22 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3LKP: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3lkp_merged_cavities.pdb
 [START] 6SS8
 [MAPPED] 6SS8: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6ss8_merged_cavities.pdb
+[START] 8Z06
+[MAPPED] 8Z06: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8z06_merged_cavities.pdb
 [START] 3VXO
 [MAPPED] 3VXO: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3vxo_merged_cavities.pdb
+[START] 6VIU
+[MAPPED] 6VIU: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6viu_merged_cavities.pdb
 [START] 8RNE
 [MAPPED] 8RNE: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8rne_merged_cavities.pdb
 [START] 6VB4
 [MAPPED] 6VB4: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6vb4_merged_cavities.pdb
-[START] 6VIU
-[MAPPED] 6VIU: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6viu_merged_cavities.pdb
 [START] 3MRE
 [MAPPED] 3MRE: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mre_merged_cavities.pdb
 [START] 9DL1
 [MAPPED] 9DL1: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['C']; merged=9dl1_merged_cavities.pdb
+[START] 9SL0
+[MAPPED] 9SL0: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9sl0_merged_cavities.pdb
 [START] 2AXG
 [MAPPED] 2AXG: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2axg_merged_cavities.pdb
 [START] 3QZW
@@ -1208,12 +1214,14 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7SR4: contacts=8; possible_ligand_chains=0; problematic_mhc_contacts=5; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7sr4_merged_cavities.pdb
 [START] 6MT5
 [MAPPED] 6MT5: contacts=29; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6mt5_merged_cavities.pdb
-[START] 3KYO
-[MAPPED] 3KYO: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3kyo_merged_cavities.pdb
 [START] 1K5N
 [MAPPED] 1K5N: contacts=23; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1k5n_merged_cavities.pdb
+[START] 3KYO
+[MAPPED] 3KYO: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3kyo_merged_cavities.pdb
 [START] 4JFD
 [MAPPED] 4JFD: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4jfd_merged_cavities.pdb
+[START] 8V8Q
+[MAPPED] 8V8Q: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8v8q_merged_cavities.pdb
 [START] 7MLE
 [MAPPED] 7MLE: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7mle_merged_cavities.pdb
 [START] 7N2P
@@ -1234,6 +1242,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 8RH6: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['C', 'D']; merged=8rh6_merged_cavities.pdb
 [START] 3MYJ
 [MAPPED] 3MYJ: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3myj_merged_cavities.pdb
+[START] 9MIN
+[MAPPED] 9MIN: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9min_merged_cavities.pdb
 [START] 3MRD
 [MAPPED] 3MRD: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mrd_merged_cavities.pdb
 [START] 5MEO
@@ -1246,18 +1256,25 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 5T6Z: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5t6z_merged_cavities.pdb
 [START] 1AGB
 [MAPPED] 1AGB: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1agb_merged_cavities.pdb
-[START] 7N1A
-[MAPPED] 7N1A: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7n1a_merged_cavities.pdb
 [START] 6O51
 [MAPPED] 6O51: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6o51_merged_cavities.pdb
+[START] 7N1A
+[MAPPED] 7N1A: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7n1a_merged_cavities.pdb
+[START] 9NFB
+[RENAMED] 9NFB: long_resnames=1
+[MAPPED] 9NFB: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nfb_merged_cavities.pdb
 [START] 3AM8
 [MAPPED] 3AM8: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3am8_merged_cavities.pdb
+[START] 9DY8
+[MAPPED] 9DY8: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9dy8_merged_cavities.pdb
 [START] 5EU5
 [MAPPED] 5EU5: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5eu5_merged_cavities.pdb
 [START] 6BJ3
 [MAPPED] 6BJ3: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6bj3_merged_cavities.pdb
 [START] 5NMH
 [MAPPED] 5NMH: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5nmh_merged_cavities.pdb
+[START] 9MDA
+[MAPPED] 9MDA: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9mda_merged_cavities.pdb
 [START] 2FZ3
 [MAPPED] 2FZ3: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2fz3_merged_cavities.pdb
 [START] 6VQY
@@ -1272,10 +1289,10 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 5EO0: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5eo0_merged_cavities.pdb
 [START] 3QDM
 [MAPPED] 3QDM: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3qdm_merged_cavities.pdb
-[START] 8RNF
-[MAPPED] 8RNF: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8rnf_merged_cavities.pdb
 [START] 4L3E
 [MAPPED] 4L3E: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4l3e_merged_cavities.pdb
+[START] 8Z07
+[MAPPED] 8Z07: contacts=5; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8z07_merged_cavities.pdb
 [START] 3MRN
 [MAPPED] 3MRN: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mrn_merged_cavities.pdb
 [START] 4HX1
@@ -1292,10 +1309,10 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6VMC: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6vmc_merged_cavities.pdb
 [START] 8ELH
 [MAPPED] 8ELH: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8elh_merged_cavities.pdb
-[START] 1AGC
-[MAPPED] 1AGC: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1agc_merged_cavities.pdb
 [START] 6AVG
 [MAPPED] 6AVG: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6avg_merged_cavities.pdb
+[START] 1AGC
+[MAPPED] 1AGC: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1agc_merged_cavities.pdb
 [START] 3D25
 [MAPPED] 3D25: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3d25_merged_cavities.pdb
 [START] 3SPV
@@ -1314,16 +1331,18 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6V2Q: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6v2q_merged_cavities.pdb
 [START] 7OW3
 [MAPPED] 7OW3: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7ow3_merged_cavities.pdb
-[START] 7TUC
-[MAPPED] 7TUC: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7tuc_merged_cavities.pdb
 [START] 5C0A
 [MAPPED] 5C0A: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5c0a_merged_cavities.pdb
+[START] 7TUC
+[MAPPED] 7TUC: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7tuc_merged_cavities.pdb
 [START] 8V51
 [MAPPED] 8V51: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8v51_merged_cavities.pdb
 [START] 8RJH
 [MAPPED] 8RJH: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8rjh_merged_cavities.pdb
 [START] 1TVB
 [MAPPED] 1TVB: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1tvb_merged_cavities.pdb
+[START] 9YTD
+[MAPPED] 9YTD: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9ytd_merged_cavities.pdb
 [START] 2GIT
 [MAPPED] 2GIT: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2git_merged_cavities.pdb
 [START] 5F7D
@@ -1388,6 +1407,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 5U98: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=5u98_merged_cavities.pdb
 [START] 2V2W
 [MAPPED] 2V2W: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2v2w_merged_cavities.pdb
+[START] 9J4U
+[MAPPED] 9J4U: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9j4u_merged_cavities.pdb
 [START] 5NQK
 [MAPPED] 5NQK: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5nqk_merged_cavities.pdb
 [START] 6PTB
@@ -1416,8 +1437,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3BGM: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3bgm_merged_cavities.pdb
 [START] 4NO2
 [MAPPED] 4NO2: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4no2_merged_cavities.pdb
-[START] 6UK4
-[MAPPED] 6UK4: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6uk4_merged_cavities.pdb
+[START] 8YZW
+[MAPPED] 8YZW: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8yzw_merged_cavities.pdb
 [START] 7L1B
 [MAPPED] 7L1B: contacts=22; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7l1b_merged_cavities.pdb
 [START] 4U1N
@@ -1444,6 +1465,17 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7STG: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7stg_merged_cavities.pdb
 [START] 1SYV
 [MAPPED] 1SYV: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1syv_merged_cavities.pdb
+[START] 9UV8
+[MAPPED] 9UV8: contacts=22; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9uv8_merged_cavities.pdb
+[START] 9GV6
+[MAPPED] 9GV6: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9gv6_merged_cavities.pdb
+[START] 9O5S
+[MAPPED] 9O5S: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9o5s_merged_cavities.pdb
+[START] 1A1M
+[MAPPED] 1A1M: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1a1m_merged_cavities.pdb
+[START] 9O55
+[RENAMED] 9O55: long_resnames=1
+[MAPPED] 9O55: contacts=5; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9o55_merged_cavities.pdb
 [START] 3W0W
 [MAPPED] 3W0W: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3w0w_merged_cavities.pdb
 [START] 7DZM
@@ -1470,22 +1502,20 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 1JHT: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1jht_merged_cavities.pdb
 [START] 5VWH
 [MAPPED] 5VWH: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5vwh_merged_cavities.pdb
+[START] 9EK4
+[MAPPED] 9EK4: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9ek4_merged_cavities.pdb
 [START] 2VLJ
 [MAPPED] 2VLJ: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2vlj_merged_cavities.pdb
-[START] 1E28
-[MAPPED] 1E28: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1e28_merged_cavities.pdb
 [START] 7UC5
 [MAPPED] 7UC5: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7uc5_merged_cavities.pdb
-[START] 5YXU
-[MAPPED] 5YXU: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5yxu_merged_cavities.pdb
 [START] 2X4Q
 [MAPPED] 2X4Q: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2x4q_merged_cavities.pdb
+[START] 5YXU
+[MAPPED] 5YXU: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5yxu_merged_cavities.pdb
 [START] 4NO3
 [MAPPED] 4NO3: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4no3_merged_cavities.pdb
 [START] 3CDG
 [MAPPED] 3CDG: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3cdg_merged_cavities.pdb
-[START] 8WUL
-[MAPPED] 8WUL: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8wul_merged_cavities.pdb
 [START] 3D18
 [MAPPED] 3D18: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3d18_merged_cavities.pdb
 [START] 4UQ2
@@ -1518,16 +1548,22 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3KPM: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3kpm_merged_cavities.pdb
 [START] 7TUE
 [MAPPED] 7TUE: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7tue_merged_cavities.pdb
+[START] 9NMW
+[MAPPED] 9NMW: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nmw_merged_cavities.pdb
 [START] 3FFC
 [MAPPED] 3FFC: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3ffc_merged_cavities.pdb
 [START] 7PDW
 [MAPPED] 7PDW: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7pdw_merged_cavities.pdb
-[START] 4MJ5
-[MAPPED] 4MJ5: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4mj5_merged_cavities.pdb
 [START] 6AT9
 [MAPPED] 6AT9: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6at9_merged_cavities.pdb
+[START] 4MJ5
+[MAPPED] 4MJ5: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4mj5_merged_cavities.pdb
+[START] 9GV7
+[MAPPED] 9GV7: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9gv7_merged_cavities.pdb
 [START] 1XR8
 [MAPPED] 1XR8: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1xr8_merged_cavities.pdb
+[START] 9NW8
+[MAPPED] 9NW8: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nw8_merged_cavities.pdb
 [START] 4JFQ
 [MAPPED] 4JFQ: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4jfq_merged_cavities.pdb
 [START] 7RE8
@@ -1538,6 +1574,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3DTX: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['B']; merged=3dtx_merged_cavities.pdb
 [START] 5T70
 [MAPPED] 5T70: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5t70_merged_cavities.pdb
+[START] 8RNI
+[MAPPED] 8RNI: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8rni_merged_cavities.pdb
 [START] 7R7W
 [MAPPED] 7R7W: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7r7w_merged_cavities.pdb
 [START] 6VQ2
@@ -1556,10 +1594,14 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3DX8: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3dx8_merged_cavities.pdb
 [START] 5GSD
 [MAPPED] 5GSD: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5gsd_merged_cavities.pdb
+[START] 9CX0
+[MAPPED] 9CX0: contacts=23; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9cx0_merged_cavities.pdb
 [START] 6VQO
 [MAPPED] 6VQO: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6vqo_merged_cavities.pdb
 [START] 6V2O
 [MAPPED] 6V2O: contacts=24; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6v2o_merged_cavities.pdb
+[START] 28IL
+[MAPPED] 28IL: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['B']; merged=28il_merged_cavities.pdb
 [START] 6PZ5
 [MAPPED] 6PZ5: contacts=22; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6pz5_merged_cavities.pdb
 [START] 5MEQ
@@ -1568,6 +1610,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 4LNR: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4lnr_merged_cavities.pdb
 [START] 4JFO
 [MAPPED] 4JFO: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4jfo_merged_cavities.pdb
+[START] 28IL
+[MAPPED] 28IL: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['B']; merged=28il_merged_cavities.pdb
 [START] 6K60
 [MAPPED] 6K60: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6k60_merged_cavities.pdb
 [START] 4PRE
@@ -1586,8 +1630,12 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 1ZSD: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1zsd_merged_cavities.pdb
 [START] 4QRQ
 [MAPPED] 4QRQ: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4qrq_merged_cavities.pdb
+[START] 9NMY
+[MAPPED] 9NMY: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nmy_merged_cavities.pdb
 [START] 3MV7
 [MAPPED] 3MV7: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mv7_merged_cavities.pdb
+[START] 9CX1
+[MAPPED] 9CX1: contacts=23; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9cx1_merged_cavities.pdb
 [START] 1JGD
 [MAPPED] 1JGD: contacts=24; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1jgd_merged_cavities.pdb
 [START] 6TMO
@@ -1598,6 +1646,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7K80: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7k80_merged_cavities.pdb
 [START] 6Q3K
 [MAPPED] 6Q3K: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6q3k_merged_cavities.pdb
+[START] 9K2I
+[MAPPED] 9K2I: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9k2i_merged_cavities.pdb
 [START] 1ZHL
 [MAPPED] 1ZHL: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1zhl_merged_cavities.pdb
 [START] 2YPK
@@ -1608,6 +1658,10 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7R7Y: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7r7y_merged_cavities.pdb
 [START] 8F7M
 [MAPPED] 8F7M: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8f7m_merged_cavities.pdb
+[START] 8K50
+[MAPPED] 8K50: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8k50_merged_cavities.pdb
+[START] 9CWY
+[MAPPED] 9CWY: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9cwy_merged_cavities.pdb
 [START] 8DNT
 [MAPPED] 8DNT: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8dnt_merged_cavities.pdb
 [START] 1W0W
@@ -1616,8 +1670,6 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7PHR: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7phr_merged_cavities.pdb
 [START] 5VGD
 [MAPPED] 5VGD: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5vgd_merged_cavities.pdb
-[START] 8WTE
-[MAPPED] 8WTE: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8wte_merged_cavities.pdb
 [START] 7STF
 [MAPPED] 7STF: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7stf_merged_cavities.pdb
 [START] 7EU2
@@ -1626,6 +1678,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 9ASG: contacts=22; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9asg_merged_cavities.pdb
 [START] 6VR1
 [MAPPED] 6VR1: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6vr1_merged_cavities.pdb
+[START] 9LLU
+[MAPPED] 9LLU: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9llu_merged_cavities.pdb
 [START] 1M6O
 [MAPPED] 1M6O: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1m6o_merged_cavities.pdb
 [START] 9BL3
@@ -1652,8 +1706,16 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6NCA: contacts=5; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6nca_merged_cavities.pdb
 [START] 4U1H
 [MAPPED] 4U1H: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4u1h_merged_cavities.pdb
+[START] 8K4T
+[MAPPED] 8K4T: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8k4t_merged_cavities.pdb
+[START] 9HKQ
+[MAPPED] 9HKQ: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9hkq_merged_cavities.pdb
 [START] 3VH8
 [MAPPED] 3VH8: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3vh8_merged_cavities.pdb
+[START] 8Z05
+[MAPPED] 8Z05: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8z05_merged_cavities.pdb
+[START] 9RCV
+[MAPPED] 9RCV: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9rcv_merged_cavities.pdb
 [START] 1W0V
 [MAPPED] 1W0V: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1w0v_merged_cavities.pdb
 [START] 5GRG
@@ -1674,6 +1736,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 2X4O: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2x4o_merged_cavities.pdb
 [START] 9C6X
 [MAPPED] 9C6X: contacts=12; possible_ligand_chains=0; problematic_mhc_contacts=9; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9c6x_merged_cavities.pdb
+[START] 9NMU
+[MAPPED] 9NMU: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nmu_merged_cavities.pdb
 [START] 1HHJ
 [MAPPED] 1HHJ: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1hhj_merged_cavities.pdb
 [START] 7ALO
@@ -1688,6 +1752,10 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3KPS: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3kps_merged_cavities.pdb
 [START] 3LKR
 [MAPPED] 3LKR: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3lkr_merged_cavities.pdb
+[START] 9NW9
+[MAPPED] 9NW9: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nw9_merged_cavities.pdb
+[START] 9XJD
+[MAPPED] 9XJD: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9xjd_merged_cavities.pdb
 [START] 6VQE
 [MAPPED] 6VQE: contacts=22; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6vqe_merged_cavities.pdb
 [START] 3B3I
@@ -1718,10 +1786,10 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 8TNJ: contacts=9; possible_ligand_chains=0; problematic_mhc_contacts=8; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=8tnj_merged_cavities.pdb
 [START] 5NMG
 [MAPPED] 5NMG: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5nmg_merged_cavities.pdb
-[START] 9BL9
-[MAPPED] 9BL9: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9bl9_merged_cavities.pdb
 [START] 4QRU
 [MAPPED] 4QRU: contacts=21; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4qru_merged_cavities.pdb
+[START] 9BL9
+[MAPPED] 9BL9: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9bl9_merged_cavities.pdb
 [START] 3KPR
 [MAPPED] 3KPR: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3kpr_merged_cavities.pdb
 [START] 2CIK
@@ -1750,6 +1818,10 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 4JQX: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4jqx_merged_cavities.pdb
 [START] 5MER
 [MAPPED] 5MER: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5mer_merged_cavities.pdb
+[START] 9J4T
+[MAPPED] 9J4T: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9j4t_merged_cavities.pdb
+[START] 9NMV
+[MAPPED] 9NMV: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nmv_merged_cavities.pdb
 [START] 3DXA
 [MAPPED] 3DXA: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3dxa_merged_cavities.pdb
 [START] 2BST
@@ -1768,8 +1840,12 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 5D2L: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5d2l_merged_cavities.pdb
 [START] 8RH6
 [MAPPED] 8RH6: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['C', 'D']; merged=8rh6_merged_cavities.pdb
+[START] 9WVF
+[MAPPED] 9WVF: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9wvf_merged_cavities.pdb
 [START] 6EQB
 [MAPPED] 6EQB: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6eqb_merged_cavities.pdb
+[START] 9NW6
+[MAPPED] 9NW6: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nw6_merged_cavities.pdb
 [START] 6PYW
 [MAPPED] 6PYW: contacts=22; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6pyw_merged_cavities.pdb
 [START] 3QEQ
@@ -1780,10 +1856,16 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 5IB5: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5ib5_merged_cavities.pdb
 [START] 2P5W
 [MAPPED] 2P5W: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2p5w_merged_cavities.pdb
+[START] 9CX2
+[MAPPED] 9CX2: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9cx2_merged_cavities.pdb
 [START] 3MV8
 [MAPPED] 3MV8: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3mv8_merged_cavities.pdb
+[START] 9NMX
+[MAPPED] 9NMX: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nmx_merged_cavities.pdb
 [START] 3WUW
 [MAPPED] 3WUW: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3wuw_merged_cavities.pdb
+[START] 9WBD
+[MAPPED] 9WBD: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9wbd_merged_cavities.pdb
 [START] 5B39
 [MAPPED] 5B39: contacts=13; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5b39_merged_cavities.pdb
 [START] 3UPR
@@ -1792,6 +1874,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3O3D: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3o3d_merged_cavities.pdb
 [START] 8GVG
 [MAPPED] 8GVG: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8gvg_merged_cavities.pdb
+[START] 9CWZ
+[MAPPED] 9CWZ: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9cwz_merged_cavities.pdb
 [START] 2C7U
 [MAPPED] 2C7U: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2c7u_merged_cavities.pdb
 [START] 4GKN
@@ -1802,6 +1886,9 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6Y2B: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6y2b_merged_cavities.pdb
 [START] 2X4U
 [MAPPED] 2X4U: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2x4u_merged_cavities.pdb
+[START] 9NFC
+[RENAMED] 9NFC: long_resnames=1
+[MAPPED] 9NFC: contacts=5; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nfc_merged_cavities.pdb
 [START] 3SKM
 [MAPPED] 3SKM: contacts=24; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3skm_merged_cavities.pdb
 [START] 8RCV
@@ -1812,6 +1899,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 4EUP: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4eup_merged_cavities.pdb
 [START] 3LV3
 [MAPPED] 3LV3: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3lv3_merged_cavities.pdb
+[START] 9D95
+[MAPPED] 9D95: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9d95_merged_cavities.pdb
 [START] 2AXF
 [MAPPED] 2AXF: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2axf_merged_cavities.pdb
 [START] 3BP7
@@ -1824,6 +1913,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3QDJ: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3qdj_merged_cavities.pdb
 [START] 5WMR
 [MAPPED] 5WMR: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5wmr_merged_cavities.pdb
+[START] 8K4V
+[MAPPED] 8K4V: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8k4v_merged_cavities.pdb
 [START] 7RE7
 [MAPPED] 7RE7: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7re7_merged_cavities.pdb
 [START] 8RHQ
@@ -1838,8 +1929,12 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 8VRA: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8vra_merged_cavities.pdb
 [START] 2VLR
 [MAPPED] 2VLR: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2vlr_merged_cavities.pdb
+[START] 9PBH
+[MAPPED] 9PBH: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9pbh_merged_cavities.pdb
 [START] 3BP4
 [MAPPED] 3BP4: contacts=25; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3bp4_merged_cavities.pdb
+[START] 9WC2
+[MAPPED] 9WC2: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9wc2_merged_cavities.pdb
 [START] 6VQD
 [MAPPED] 6VQD: contacts=22; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6vqd_merged_cavities.pdb
 [START] 8HN4
@@ -1848,18 +1943,22 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 1M05: contacts=29; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1m05_merged_cavities.pdb
 [START] 7DYN
 [MAPPED] 7DYN: contacts=22; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7dyn_merged_cavities.pdb
+[START] 9XMR
+[MAPPED] 9XMR: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9xmr_merged_cavities.pdb
 [START] 6Y28
 [MAPPED] 6Y28: contacts=25; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6y28_merged_cavities.pdb
+[START] 9FE1
+[MAPPED] 9FE1: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9fe1_merged_cavities.pdb
 [START] 7CIS
 [MAPPED] 7CIS: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7cis_merged_cavities.pdb
+[START] 9WVE
+[MAPPED] 9WVE: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9wve_merged_cavities.pdb
 [START] 1KPR
 [MAPPED] 1KPR: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1kpr_merged_cavities.pdb
 [START] 4G9F
 [MAPPED] 4G9F: contacts=23; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4g9f_merged_cavities.pdb
 [START] 5D2N
 [MAPPED] 5D2N: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5d2n_merged_cavities.pdb
-[START] 1A1M
-[MAPPED] 1A1M: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1a1m_merged_cavities.pdb
 [START] 3BO8
 [MAPPED] 3BO8: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3bo8_merged_cavities.pdb
 [START] 9C6W
@@ -1876,6 +1975,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 8RRO: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8rro_merged_cavities.pdb
 [START] 6VPZ
 [MAPPED] 6VPZ: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6vpz_merged_cavities.pdb
+[START] 9ZCL
+[MAPPED] 9ZCL: contacts=20; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9zcl_merged_cavities.pdb
 [START] 6APN
 [MAPPED] 6APN: contacts=14; possible_ligand_chains=0; problematic_mhc_contacts=7; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6apn_merged_cavities.pdb
 [START] 1UXW
@@ -1888,14 +1989,22 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3CZF: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3czf_merged_cavities.pdb
 [START] 1HSA
 [MAPPED] 1HSA: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1hsa_merged_cavities.pdb
+[START] 9YW4
+[MAPPED] 9YW4: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9yw4_merged_cavities.pdb
 [START] 5IB4
 [MAPPED] 5IB4: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5ib4_merged_cavities.pdb
 [START] 2A83
 [MAPPED] 2A83: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2a83_merged_cavities.pdb
 [START] 2BSR
 [MAPPED] 2BSR: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2bsr_merged_cavities.pdb
+[START] 9WJ6
+[MAPPED] 9WJ6: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9wj6_merged_cavities.pdb
 [START] 8T7R
 [MAPPED] 8T7R: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['E', 'G']; merged=8t7r_merged_cavities.pdb
+[START] 24ST
+[MAPPED] 24ST: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=24st_merged_cavities.pdb
+[START] 9L48
+[MAPPED] 9L48: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9l48_merged_cavities.pdb
 [START] 1OF2
 [MAPPED] 1OF2: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1of2_merged_cavities.pdb
 [START] 8VR9
@@ -1906,14 +2015,22 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7CIQ: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7ciq_merged_cavities.pdb
 [START] 5VGE
 [MAPPED] 5VGE: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5vge_merged_cavities.pdb
+[START] 8TQ5
+[MAPPED] 8TQ5: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8tq5_merged_cavities.pdb
 [START] 6UON
 [MAPPED] 6UON: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6uon_merged_cavities.pdb
 [START] 8YJ2
 [MAPPED] 8YJ2: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8yj2_merged_cavities.pdb
+[START] 9WC3
+[MAPPED] 9WC3: contacts=12; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9wc3_merged_cavities.pdb
 [START] 5IB2
 [MAPPED] 5IB2: contacts=23; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5ib2_merged_cavities.pdb
 [START] 3B6S
 [MAPPED] 3B6S: contacts=21; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3b6s_merged_cavities.pdb
+[START] 9NDS
+[MAPPED] 9NDS: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nds_merged_cavities.pdb
+[START] 9NNF
+[MAPPED] 9NNF: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nnf_merged_cavities.pdb
 [START] 1OGT
 [MAPPED] 1OGT: contacts=22; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1ogt_merged_cavities.pdb
 [START] 7N2Q
@@ -1928,44 +2045,104 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3CII: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3cii_merged_cavities.pdb
 [START] 7QPD
 [MAPPED] 7QPD: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7qpd_merged_cavities.pdb
+[START] 9D73
+[MAPPED] 9D73: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9d73_merged_cavities.pdb
 [START] 4U1K
 [MAPPED] 4U1K: contacts=17; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4u1k_merged_cavities.pdb
+[START] 9L4I
+[MAPPED] 9L4I: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9l4i_merged_cavities.pdb
+[START] 9J4S
+[MAPPED] 9J4S: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9j4s_merged_cavities.pdb
 [START] 1JGE
 [MAPPED] 1JGE: contacts=24; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1jge_merged_cavities.pdb
 [START] 8ESA
 [MAPPED] 8ESA: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8esa_merged_cavities.pdb
+[START] 9D97
+[MAPPED] 9D97: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9d97_merged_cavities.pdb
 [START] 8T7R
 [MAPPED] 8T7R: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['E', 'G']; merged=8t7r_merged_cavities.pdb
+[START] 9YTF
+[MAPPED] 9YTF: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9ytf_merged_cavities.pdb
+[START] 9L4A
+[MAPPED] 9L4A: contacts=24; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9l4a_merged_cavities.pdb
+[START] 9K2T
+[MAPPED] 9K2T: contacts=15; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9k2t_merged_cavities.pdb
+[START] 9D74
+[MAPPED] 9D74: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9d74_merged_cavities.pdb
+[START] 9HLJ
+[MAPPED] 9HLJ: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9hlj_merged_cavities.pdb
 [START] 8T7R
 [MAPPED] 8T7R: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['E', 'G']; merged=8t7r_merged_cavities.pdb
 [START] 5IB3
 [MAPPED] 5IB3: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5ib3_merged_cavities.pdb
 [START] 1UXS
 [MAPPED] 1UXS: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1uxs_merged_cavities.pdb
+[START] 9F13
+[MAPPED] 9F13: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['B']; merged=9f13_merged_cavities.pdb
+[START] 9F13
+[MAPPED] 9F13: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['B']; merged=9f13_merged_cavities.pdb
+[START] 9L4H
+[MAPPED] 9L4H: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9l4h_merged_cavities.pdb
+[START] 9QQF
+[MAPPED] 9QQF: contacts=5; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9qqf_merged_cavities.pdb
 [START] 2HLA
 [MAPPED] 2HLA: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2hla_merged_cavities.pdb
-[START] 8EC5
-[MAPPED] 8EC5: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8ec5_merged_cavities.pdb
+[START] 9L4G
+[MAPPED] 9L4G: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9l4g_merged_cavities.pdb
 [START] 8VRB
 [MAPPED] 8VRB: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8vrb_merged_cavities.pdb
+[START] 9MEF
+[MAPPED] 9MEF: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9mef_merged_cavities.pdb
 [START] 1QQD
 [MAPPED] 1QQD: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1qqd_merged_cavities.pdb
+[START] 9D96
+[MAPPED] 9D96: contacts=11; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9d96_merged_cavities.pdb
 [START] 7DUU
 [MAPPED] 7DUU: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7duu_merged_cavities.pdb
 [START] 1EFX
 [MAPPED] 1EFX: contacts=18; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1efx_merged_cavities.pdb
+[START] 9QQE
+[MAPPED] 9QQE: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9qqe_merged_cavities.pdb
 [START] 8TMU
 [MAPPED] 8TMU: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8tmu_merged_cavities.pdb
+[START] 9L49
+[MAPPED] 9L49: contacts=9; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9l49_merged_cavities.pdb
 [START] 5XS3
 [MAPPED] 5XS3: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5xs3_merged_cavities.pdb
+[START] 9MEG
+[MAPPED] 9MEG: contacts=19; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9meg_merged_cavities.pdb
 [START] 1IM9
 [MAPPED] 1IM9: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['E']; merged=1im9_merged_cavities.pdb
 [START] 1IM9
 [MAPPED] 1IM9: contacts=10; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['E']; merged=1im9_merged_cavities.pdb
+[START] 9L47
+[MAPPED] 9L47: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9l47_merged_cavities.pdb
+[START] 9RXM
+[MAPPED] 9RXM: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9rxm_merged_cavities.pdb
+[START] 9NYN
+[MAPPED] 9NYN: contacts=16; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nyn_merged_cavities.pdb
+[START] 9K2S
+[MAPPED] 9K2S: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9k2s_merged_cavities.pdb
 [START] 5E6I
 [MAPPED] 5E6I: contacts=6; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5e6i_merged_cavities.pdb
+[START] 9K2U
+[MAPPED] 9K2U: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9k2u_merged_cavities.pdb
+[START] 9K2R
+[MAPPED] 9K2R: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9k2r_merged_cavities.pdb
+[START] 9RWI
+[MAPPED] 9RWI: contacts=7; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9rwi_merged_cavities.pdb
+[START] 9C96
+[MAPPED] 9C96: contacts=3; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9c96_merged_cavities.pdb
+[START] 9RUP
+[MAPPED] 9RUP: contacts=5; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['G']; merged=9rup_merged_cavities.pdb
+[START] 9RU5
+[MAPPED] 9RU5: contacts=8; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9ru5_merged_cavities.pdb
+[START] 9RUP
+[MAPPED] 9RUP: contacts=5; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=['G']; merged=9rup_merged_cavities.pdb
 [START] 9C3E
 [MAPPED] 9C3E: contacts=5; possible_ligand_chains=0; problematic_mhc_contacts=5; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9c3e_merged_cavities.pdb
+[START] 9NKH
+[MAPPED] 9NKH: contacts=14; possible_ligand_chains=1; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nkh_merged_cavities.pdb
 [START] 6PUI
 [MAPPED] 6PUI: contacts=25; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6pui_merged_cavities.pdb
 [START] 5U1R
@@ -1982,12 +2159,16 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6XQP: contacts=10; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6xqp_merged_cavities.pdb
 [START] 7ZT8
 [MAPPED] 7ZT8: contacts=9; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7zt8_merged_cavities.pdb
+[START] 9EK6
+[MAPPED] 9EK6: contacts=18; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9ek6_merged_cavities.pdb
 [START] 9BTX
 [MAPPED] 9BTX: contacts=10; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9btx_merged_cavities.pdb
+[START] 9O08
+[MAPPED] 9O08: contacts=20; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9o08_merged_cavities.pdb
 [START] 5U6Q
 [MAPPED] 5U6Q: contacts=22; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=5u6q_merged_cavities.pdb
-[START] 4NQD
-[MAPPED] 4NQD: contacts=11; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4nqd_merged_cavities.pdb
+[START] 9C42
+[MAPPED] 9C42: contacts=3; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9c42_merged_cavities.pdb
 [START] 6PUM
 [MAPPED] 6PUM: contacts=21; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6pum_merged_cavities.pdb
 [START] 4L4V
@@ -2000,27 +2181,32 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6W9U: contacts=19; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6w9u_merged_cavities.pdb
 [START] 6PUH
 [MAPPED] 6PUH: contacts=28; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6puh_merged_cavities.pdb
-[START] 9CGR
-[MAPPED] 9CGR: contacts=11; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9cgr_merged_cavities.pdb
 [START] 8Y6X
 [RENAMED] 8Y6X: long_resnames=1
 [MAPPED] 8Y6X: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=8y6x_merged_cavities.pdb
-[START] 4PJF
-[MAPPED] 4PJF: contacts=21; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pjf_merged_cavities.pdb
+[START] 9CGR
+[MAPPED] 9CGR: contacts=11; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9cgr_merged_cavities.pdb
+[START] 9O06
+[RENAMED] 9O06: long_resnames=2
+[MAPPED] 9O06: contacts=13; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9o06_merged_cavities.pdb
 [START] 5D7I
 [MAPPED] 5D7I: contacts=20; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=5d7i_merged_cavities.pdb
+[START] 4PJF
+[MAPPED] 4PJF: contacts=21; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pjf_merged_cavities.pdb
 [START] 6PVD
 [MAPPED] 6PVD: contacts=13; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6pvd_merged_cavities.pdb
 [START] 6PVC
 [MAPPED] 6PVC: contacts=21; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6pvc_merged_cavities.pdb
 [START] 6PUF
 [MAPPED] 6PUF: contacts=20; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6puf_merged_cavities.pdb
+[START] 9O05
+[MAPPED] 9O05: contacts=17; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9o05_merged_cavities.pdb
 [START] 4PJI
 [MAPPED] 4PJI: contacts=10; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pji_merged_cavities.pdb
+[START] 9O07
+[MAPPED] 9O07: contacts=17; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9o07_merged_cavities.pdb
 [START] 4NQE
 [MAPPED] 4NQE: contacts=14; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4nqe_merged_cavities.pdb
-[START] 4NQC
-[MAPPED] 4NQC: contacts=16; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4nqc_merged_cavities.pdb
 [START] 5U2V
 [MAPPED] 5U2V: contacts=13; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=5u2v_merged_cavities.pdb
 [START] 4PJ5
@@ -2031,20 +2217,20 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6PUG: contacts=26; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6pug_merged_cavities.pdb
 [START] 6PUE
 [MAPPED] 6PUE: contacts=17; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6pue_merged_cavities.pdb
+[START] 9C9D
+[MAPPED] 9C9D: contacts=6; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9c9d_merged_cavities.pdb
 [START] 5U17
 [MAPPED] 5U17: contacts=19; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=5u17_merged_cavities.pdb
 [START] 7ZT3
 [MAPPED] 7ZT3: contacts=11; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7zt3_merged_cavities.pdb
 [START] 4PJE
 [MAPPED] 4PJE: contacts=20; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pje_merged_cavities.pdb
-[START] 4PJ8
-[MAPPED] 4PJ8: contacts=3; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pj8_merged_cavities.pdb
-[START] 5D7L
-[MAPPED] 5D7L: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=5d7l_merged_cavities.pdb
 [START] 6PUK
 [MAPPED] 6PUK: contacts=15; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6puk_merged_cavities.pdb
 [START] 6W9V
 [MAPPED] 6W9V: contacts=22; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6w9v_merged_cavities.pdb
+[START] 9Y0V
+[MAPPED] 9Y0V: contacts=8; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9y0v_merged_cavities.pdb
 [START] 7ZT2
 [MAPPED] 7ZT2: contacts=3; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7zt2_merged_cavities.pdb
 [START] 4PJ9
@@ -2053,6 +2239,13 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 9BTZ: contacts=9; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9btz_merged_cavities.pdb
 [START] 4PJG
 [MAPPED] 4PJG: contacts=17; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pjg_merged_cavities.pdb
+[START] 9Z4R
+[RENAMED] 9Z4R: long_resnames=1
+[MAPPED] 9Z4R: contacts=17; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9z4r_merged_cavities.pdb
+[START] 9Y0W
+[MAPPED] 9Y0W: contacts=17; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9y0w_merged_cavities.pdb
+[START] 9Y0U
+[MAPPED] 9Y0U: contacts=19; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9y0u_merged_cavities.pdb
 [START] 4PJC
 [MAPPED] 4PJC: contacts=17; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pjc_merged_cavities.pdb
 [START] 7UFJ
@@ -2063,24 +2256,30 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 4PJ7: contacts=13; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pj7_merged_cavities.pdb
 [START] 9BU0
 [MAPPED] 9BU0: contacts=9; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9bu0_merged_cavities.pdb
+[START] 9EK7
+[MAPPED] 9EK7: contacts=13; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9ek7_merged_cavities.pdb
 [START] 4PJH
 [MAPPED] 4PJH: contacts=27; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pjh_merged_cavities.pdb
-[START] 5D5M
-[MAPPED] 5D5M: contacts=12; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=5d5m_merged_cavities.pdb
+[START] 9MS0
+[MAPPED] 9MS0: contacts=11; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9ms0_merged_cavities.pdb
 [START] 8BP6
 [MAPPED] 8BP6: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=8bp6_merged_cavities.pdb
 [START] 7ZT5
 [MAPPED] 7ZT5: contacts=8; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7zt5_merged_cavities.pdb
 [START] 4PJD
 [MAPPED] 4PJD: contacts=12; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pjd_merged_cavities.pdb
-[START] 7ZT7
-[MAPPED] 7ZT7: contacts=15; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7zt7_merged_cavities.pdb
 [START] 4PJX
 [MAPPED] 4PJX: contacts=20; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pjx_merged_cavities.pdb
+[START] 7ZT7
+[MAPPED] 7ZT7: contacts=15; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7zt7_merged_cavities.pdb
 [START] 7ZT4
 [MAPPED] 7ZT4: contacts=19; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7zt4_merged_cavities.pdb
+[START] 9BYS
+[MAPPED] 9BYS: contacts=11; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9bys_merged_cavities.pdb
 [START] 4PJA
 [MAPPED] 4PJA: contacts=19; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4pja_merged_cavities.pdb
+[START] 9HI7
+[MAPPED] 9HI7: contacts=6; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=3; problematic=False; removed_duplicates=[]; merged=9hi7_merged_cavities.pdb
 [START] 7LLI
 [MAPPED] 7LLI: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7lli_merged_cavities.pdb
 [START] 4LCW
@@ -2103,8 +2302,6 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6MWR: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6mwr_merged_cavities.pdb
 [START] 1T7Y
 [MAPPED] 1T7Y: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1t7y_merged_cavities.pdb
-[START] 3ES6
-[MAPPED] 3ES6: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=3es6_merged_cavities.pdb
 [START] 1T7Z
 [MAPPED] 1T7Z: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1t7z_merged_cavities.pdb
 [START] 1T80
@@ -2123,28 +2320,43 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 1ZAG: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1zag_merged_cavities.pdb
 [START] 6NHA
 [MAPPED] 6NHA: contacts=6; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6nha_merged_cavities.pdb
+[START] 13BR
+[MAPPED] 13BR: contacts=4; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=2; problematic=False; removed_duplicates=[]; merged=13br_merged_cavities.pdb
 [START] 6C98
 [MAPPED] 6C98: contacts=6; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6c98_merged_cavities.pdb
+[START] 9WYD
+[MAPPED] 9WYD: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9wyd_merged_cavities.pdb
 [START] 7Q15
 [MAPPED] 7Q15: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7q15_merged_cavities.pdb
 [START] 6WNA
 [MAPPED] 6WNA: contacts=6; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6wna_merged_cavities.pdb
+[START] 9OC7
+[MAPPED] 9OC7: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9oc7_merged_cavities.pdb
 [START] 6C97
 [MAPPED] 6C97: contacts=10; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6c97_merged_cavities.pdb
 [START] 6WOL
 [MAPPED] 6WOL: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6wol_merged_cavities.pdb
+[START] 9DBT
+[MAPPED] 9DBT: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9dbt_merged_cavities.pdb
 [START] 2WY3
 [MAPPED] 2WY3: contacts=10; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=2wy3_merged_cavities.pdb
+[START] 9OC6
+[MAPPED] 9OC6: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9oc6_merged_cavities.pdb
 [START] 6QIO
 [MAPPED] 6QIO: contacts=10; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6qio_merged_cavities.pdb
-[START] 5BJT
-[MAPPED] 5BJT: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5bjt_merged_cavities.pdb
 [START] 6C99
 [MAPPED] 6C99: contacts=6; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6c99_merged_cavities.pdb
 [START] 4N0F
 [MAPPED] 4N0F: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4n0f_merged_cavities.pdb
+[START] 9MI6
+[MAPPED] 9MI6: contacts=4; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9mi6_merged_cavities.pdb
+[START] 9OHU
+[RENAMED] 9OHU: long_resnames=2
+[MAPPED] 9OHU: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9ohu_merged_cavities.pdb
 [START] 4N0U
 [MAPPED] 4N0U: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4n0u_merged_cavities.pdb
+[START] 9NAV
+[MAPPED] 9NAV: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9nav_merged_cavities.pdb
 [START] 6FGB
 [MAPPED] 6FGB: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6fgb_merged_cavities.pdb
 [START] 6LA6
@@ -2155,6 +2367,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 6ILM: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=6ilm_merged_cavities.pdb
 [START] 4WO4
 [MAPPED] 4WO4: contacts=4; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4wo4_merged_cavities.pdb
+[START] 9OHX
+[MAPPED] 9OHX: contacts=6; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9ohx_merged_cavities.pdb
 [START] 1JE6
 [MAPPED] 1JE6: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1je6_merged_cavities.pdb
 [START] 8TM0
@@ -2163,8 +2377,9 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 5WHK: contacts=5; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=5whk_merged_cavities.pdb
 [START] 6V7Y
 [MAPPED] 6V7Y: contacts=7; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6v7y_merged_cavities.pdb
-[START] 3M17
-[MAPPED] 3M17: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3m17_merged_cavities.pdb
+[START] 9OHV
+[RENAMED] 9OHV: long_resnames=1
+[MAPPED] 9OHV: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9ohv_merged_cavities.pdb
 [START] 8TM2
 [MAPPED] 8TM2: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8tm2_merged_cavities.pdb
 [START] 5BXF
@@ -2185,28 +2400,34 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 7MXF: contacts=3; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7mxf_merged_cavities.pdb
 [START] 8TLZ
 [MAPPED] 8TLZ: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8tlz_merged_cavities.pdb
-[START] 3M1B
-[MAPPED] 3M1B: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3m1b_merged_cavities.pdb
+[START] 9OHW
+[RENAMED] 9OHW: long_resnames=1
+[MAPPED] 9OHW: contacts=5; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9ohw_merged_cavities.pdb
 [START] 7MX4
 [MAPPED] 7MX4: contacts=3; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7mx4_merged_cavities.pdb
 [START] 7C9V
 [MAPPED] 7C9V: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7c9v_merged_cavities.pdb
-[START] 1KCG
-[MAPPED] 1KCG: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1kcg_merged_cavities.pdb
 [START] 4S0U
 [MAPPED] 4S0U: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=4s0u_merged_cavities.pdb
-[START] 1B3J
-[MAPPED] 1B3J: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1b3j_merged_cavities.pdb
+[START] 1KCG
+[MAPPED] 1KCG: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=1kcg_merged_cavities.pdb
+[START] 9OHY
+[MAPPED] 9OHY: contacts=4; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9ohy_merged_cavities.pdb
 [START] 3U0P
 [MAPPED] 3U0P: contacts=7; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=3u0p_merged_cavities.pdb
+[START] 9TJX
+[MAPPED] 9TJX: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9tjx_merged_cavities.pdb
+[START] 9RSE
+[MAPPED] 9RSE: contacts=5; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9rse_merged_cavities.pdb
+[START] 9OHT
+[RENAMED] 9OHT: long_resnames=2
+[MAPPED] 9OHT: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9oht_merged_cavities.pdb
 [START] 1XZ0
 [MAPPED] 1XZ0: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=1xz0_merged_cavities.pdb
 [START] 4WW2
 [MAPPED] 4WW2: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4ww2_merged_cavities.pdb
 [START] 6V7Z
 [MAPPED] 6V7Z: contacts=4; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6v7z_merged_cavities.pdb
-[START] 8DV4
-[MAPPED] 8DV4: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=8dv4_merged_cavities.pdb
 [START] 4LHU
 [MAPPED] 4LHU: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4lhu_merged_cavities.pdb
 [START] 8SGM
@@ -2226,6 +2447,9 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3VWK: contacts=3; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=3vwk_merged_cavities.pdb
 [START] 7RYO
 [MAPPED] 7RYO: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7ryo_merged_cavities.pdb
+[START] 9OI0
+[RENAMED] 9OI0: long_resnames=1
+[MAPPED] 9OI0: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9oi0_merged_cavities.pdb
 [START] 3TZV
 [MAPPED] 3TZV: contacts=5; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=3tzv_merged_cavities.pdb
 [START] 1L8J
@@ -2278,18 +2502,25 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3OV6: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=3ov6_merged_cavities.pdb
 [START] 7OKU
 [MAPPED] 7OKU: contacts=5; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7oku_merged_cavities.pdb
+[START] 8RWB
+[MAPPED] 8RWB: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=8rwb_merged_cavities.pdb
 [START] 7RYM
 [MAPPED] 7RYM: contacts=0; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7rym_merged_cavities.pdb
 [START] 8GLI
 [MAPPED] 8GLI: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=8gli_merged_cavities.pdb
 [START] 3T8X
 [MAPPED] 3T8X: contacts=3; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=3t8x_merged_cavities.pdb
+[START] 9QWK
+[MAPPED] 9QWK: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9qwk_merged_cavities.pdb
 [START] 6D64
 [MAPPED] 6D64: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6d64_merged_cavities.pdb
 [START] 7SH4
 [MAPPED] 7SH4: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7sh4_merged_cavities.pdb
 [START] 4V3D
 [MAPPED] 4V3D: contacts=3; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4v3d_merged_cavities.pdb
+[START] 9OHZ
+[RENAMED] 9OHZ: long_resnames=1
+[MAPPED] 9OHZ: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=9ohz_merged_cavities.pdb
 [START] 6C09
 [MAPPED] 6C09: contacts=3; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=6c09_merged_cavities.pdb
 [START] 8GLG
@@ -2299,7 +2530,7 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [START] 4X6E
 [MAPPED] 4X6E: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4x6e_merged_cavities.pdb
 [START] 7OKV
-[MAPPED] 7OKV: contacts=5; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=7okv_merged_cavities.pdb
+[MAPPED] 7OKV: contacts=5; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=7okv_merged_cavities.pdb
 [START] 4ONO
 [MAPPED] 4ONO: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=4ono_merged_cavities.pdb
 [START] 7FI7
@@ -2326,6 +2557,8 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 5WKE: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=5wke_merged_cavities.pdb
 [START] 5WKG
 [MAPPED] 5WKG: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=2; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=5wkg_merged_cavities.pdb
+[START] 9QWJ
+[MAPPED] 9QWJ: contacts=2; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=9qwj_merged_cavities.pdb
 [START] 1ZT4
 [MAPPED] 1ZT4: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=1; binder_sized_contacts=0; problematic=True; removed_duplicates=[]; merged=1zt4_merged_cavities.pdb
 [START] 6V80
@@ -2363,7 +2596,7 @@ FILTERED_CAVITY_DIR:      /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/l
 [MAPPED] 3IT8: contacts=1; possible_ligand_chains=0; problematic_mhc_contacts=0; binder_sized_contacts=0; problematic=False; removed_duplicates=[]; merged=3it8_merged_cavities.pdb
 
 [SUMMARY] STEP6
-[SUMMARY] processed=1173
+[SUMMARY] processed=1284
 [SUMMARY] missing_or_failed=0
-[OUT] /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step6_fix/pdb/1_merged_cavities
-[OUT] /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step6_fix/pdb/summaries
+[OUT] /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step6/pdb/1_merged_cavities
+[OUT] /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step6/pdb/summaries

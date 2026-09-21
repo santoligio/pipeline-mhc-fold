@@ -9,6 +9,7 @@ Manual-edit requirement:
 Outputs filtered annotation and step1 tables using ALLOWED_SPECIES.
 """
 
+import os
 from pathlib import Path
 from typing import List, Set
 
@@ -19,7 +20,8 @@ import pandas as pd
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent)))
 STEP2_1_DIR = PIPELINE_DIR / "step2-1"
 
 DATABASE = "pdb"  # "pdb", "afdb", or "both"
@@ -27,8 +29,9 @@ DATABASE = "pdb"  # "pdb", "afdb", or "both"
 PDB_ANN_FILE = STEP2_1_DIR / "pdb" / "pdb_mhc_annotations_edited.csv"
 AFDB_ANN_FILE = STEP2_1_DIR / "afdb" / "afdb_mhc_annotations.csv"
 
-PDB_ASSEMBLIES_FILE = STEP2_1_DIR / "step1" / "pdb" / "pdb_assemblies.csv"
-AFDB_MODELS_FILE = STEP2_1_DIR / "step1" / "afdb" / "afdb_models.csv"
+
+PDB_ASSEMBLIES_FILE = PIPELINE_DIR / "step1" / "pdb" / "pdb_assemblies.csv"
+AFDB_MODELS_FILE = PIPELINE_DIR / "step1" / "afdb" / "afdb_models.csv"
 
 GENE_MAPPING_FILE = STEP2_1_DIR / "gene_mapping.csv"
 AFDB_UNIPROT_REMOVE_FILE = STEP2_1_DIR / "uniprot_proteins_to_remove.txt"
@@ -38,6 +41,7 @@ AFDB_OUT_DIR = STEP2_1_DIR / "afdb" / "filtered"
 
 PDB_REMOVED_LOG_FILE = PDB_OUT_DIR / "removed_ids.csv"
 AFDB_REMOVED_LOG_FILE = AFDB_OUT_DIR / "removed_ids.csv"
+PDB_CHIMERIC_REVIEW_FILE = PDB_OUT_DIR / "chimeric_needs_manual_review.csv"  # NOVO
 
 ALLOWED_SPECIES = {
     "Homo sapiens",
@@ -128,6 +132,17 @@ def log_removal(rows: list, pdb, uniprot_id, database: str, reason: str) -> None
     })
 
 
+# NOVO: log de grupos quimericos que a resolucao automatica nao conseguiu resolver
+def log_chimeric_review(rows: list, pdb_id, chain, gene_names: list, n_known_mhc: int) -> None:
+    rows.append({
+        "pdb_id": pdb_id,
+        "chain": chain,
+        "gene_names_in_group": ";".join(gene_names),
+        "n_known_mhc_candidates": n_known_mhc,
+        "reason": "ambiguous_or_unresolved_chimeric_group",
+    })
+
+
 def load_gene_mapping() -> pd.DataFrame:
     gene_mapping = pd.read_csv(GENE_MAPPING_FILE)
 
@@ -156,26 +171,63 @@ def apply_assigned_pdb_edits(pdb_ann: pd.DataFrame) -> pd.DataFrame:
     return pdb_ann
 
 
-def resolve_pdb_chimeric_rows(pdb_ann: pd.DataFrame, removed_log: list) -> pd.DataFrame:
+def resolve_pdb_chimeric_rows(
+    pdb_ann: pd.DataFrame,
+    removed_log: list,
+    gene_mapping: pd.DataFrame,
+    review_log: list,  # NOVO
+) -> pd.DataFrame:
     if "possibly_chimeric" not in pdb_ann.columns:
         return pdb_ann
 
+    # NOVO: conjunto de gene_name reconhecidos como MHC/MHC-like (gene_mapping.csv, database=pdb).
+    # Usado apenas como fallback automatico quando nao ha curadoria manual (grouped_gene_assigned).
+    known_mhc_genes = set(gene_mapping[gene_mapping["database"] == "pdb"]["gene_name"])
+
     chimeric = pdb_ann[pdb_ann["possibly_chimeric"] == "yes"]
     to_drop = []
+    auto_resolved_groups = []  # NOVO: para o resumo no console
 
     for (pdb_id, chain), group in chimeric.groupby(["pdb_id", "chain"]):
         if len(group) <= 1:
             continue
 
-        if "grouped_gene_assigned" not in group.columns:
-            continue
+        preferred = pd.DataFrame()
 
-        preferred = group[group["grouped_gene_assigned"].notna()]
+        if "grouped_gene_assigned" in group.columns:
+            preferred = group[group["grouped_gene_assigned"].notna()]
 
-        if preferred.empty:
-            continue
+        if not preferred.empty:
+            # Curadoria manual existente tem prioridade (comportamento original).
+            dropped = group.index.difference(preferred.index)
+            reason = "chimeric_mapping_resolution"
+        else:
+            # NOVO: resolucao automatica. So atua quando exatamente UMA linha do grupo
+            # tem gene_name ja presente em gene_mapping.csv (ou seja, e um gene MHC/MHC-like
+            # conhecido). Se zero ou mais de uma linha se qualificarem, o grupo fica intacto
+            # (ambiguidade real, ex. CD1B vs CD1C) para curadoria manual posterior.
+            known_rows = group[group["gene_name"].isin(known_mhc_genes)]
 
-        dropped = group.index.difference(preferred.index)
+            if len(known_rows) != 1:
+                # NOVO: so vale a pena revisar manualmente se o grupo AINDA fica ambiguo
+                # depois do filtro de especie (ALLOWED_SPECIES) - ou seja, se de fato sobra
+                # mais de uma linha no dataset final. Grupos onde o filtro de especie ja
+                # resolve a ambiguidade sozinho (ex. camundongo) nao entram no log.
+                allowed_rows = group[group["organism"].isin(ALLOWED_SPECIES)]
+
+                if len(allowed_rows) > 1:
+                    log_chimeric_review(
+                        review_log,
+                        pdb_id=pdb_id,
+                        chain=chain,
+                        gene_names=sorted(group["gene_name"].astype(str).tolist()),
+                        n_known_mhc=len(known_rows),
+                    )
+                continue
+
+            dropped = group.index.difference(known_rows.index)
+            reason = "chimeric_auto_resolved_non_mhc"
+            auto_resolved_groups.append((pdb_id, chain, known_rows["gene_name"].iloc[0]))
 
         for idx in dropped:
             log_removal(
@@ -183,10 +235,21 @@ def resolve_pdb_chimeric_rows(pdb_ann: pd.DataFrame, removed_log: list) -> pd.Da
                 pdb=pdb_ann.at[idx, "pdb_id"],
                 uniprot_id=pdb_ann.at[idx, "uniprot_id"] if "uniprot_id" in pdb_ann.columns else "",
                 database="pdb",
-                reason="chimeric_mapping_resolution",
+                reason=reason,
             )
 
         to_drop.extend(dropped)
+
+    # NOVO: resumo no console de quem passou pela resolucao automatica e quem precisa de revisao
+    if auto_resolved_groups:
+        log(f"[CHIMERIC] {len(auto_resolved_groups)} grupo(s) resolvidos automaticamente (gene mantido entre parenteses):")
+        for pdb_id, chain, kept_gene in auto_resolved_groups:
+            log(f"  - {pdb_id}/{chain} ({kept_gene})")
+
+    if review_log:
+        log(f"[CHIMERIC][REVISAR MANUALMENTE] {len(review_log)} grupo(s) ambiguos/nao resolvidos:")
+        for r in review_log:
+            log(f"  - {r['pdb_id']}/{r['chain']}: {r['gene_names_in_group']} (candidatos MHC-like: {r['n_known_mhc_candidates']})")
 
     return pdb_ann.drop(index=to_drop)
 
@@ -290,8 +353,10 @@ def filter_pdb(gene_mapping: pd.DataFrame, removed_log: list) -> None:
     pdb_ann = pd.read_csv(PDB_ANN_FILE)
     pdb_assemblies = pd.read_csv(PDB_ASSEMBLIES_FILE)
 
+    review_log: list = []  # NOVO: grupos quimericos ambiguos que precisam de revisao manual
+
     pdb_ann = apply_assigned_pdb_edits(pdb_ann)
-    pdb_ann = resolve_pdb_chimeric_rows(pdb_ann, removed_log)
+    pdb_ann = resolve_pdb_chimeric_rows(pdb_ann, removed_log, gene_mapping, review_log)  # NOVO
     pdb_ann = apply_global_filters(pdb_ann, "pdb", removed_log)
     pdb_ann = apply_gene_mapping(pdb_ann, "pdb", gene_mapping)
     pdb_ann = remove_missing_gene(pdb_ann, "pdb", removed_log)
@@ -310,8 +375,16 @@ def filter_pdb(gene_mapping: pd.DataFrame, removed_log: list) -> None:
     pdb_ann.to_csv(PDB_OUT_DIR / "pdb_mhc_annotations_filtered.csv", index=False)
     pdb_assemblies_filtered.to_csv(PDB_OUT_DIR / "pdb_assemblies_filtered.csv", index=False)
 
+    # NOVO: CSV com os grupos quimericos que nao foram resolvidos automaticamente
+    review_df = pd.DataFrame(
+        review_log,
+        columns=["pdb_id", "chain", "gene_names_in_group", "n_known_mhc_candidates", "reason"],
+    )
+    review_df.to_csv(PDB_CHIMERIC_REVIEW_FILE, index=False)
+
     log(f"[CSV] {PDB_OUT_DIR / 'pdb_mhc_annotations_filtered.csv'}")
     log(f"[CSV] {PDB_OUT_DIR / 'pdb_assemblies_filtered.csv'}")
+    log(f"[CSV] {PDB_CHIMERIC_REVIEW_FILE}")
 
 
 # =========================

@@ -3,11 +3,10 @@
 # Robust binder UniProt + GO fallback annotation pipeline
 # ------------------------------------------------------------
 
+import os
 import re
 import time
 import logging
-from pathlib import Path
-
 import pandas as pd
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -17,12 +16,18 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # CONFIGURATION
 # =========================
 
-BASE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: BASE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+BASE_DIR = os.environ.get(
+    "PIPELINE_DIR", os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+)
 
-INPUT_CSV        = f"{BASE_DIR}/step9/pdb/modified_pdbs/step9_binders.csv"
+INPUT_CSV        = f"{BASE_DIR}/step9/pdb/modified_pdbs/step9_binders.csv" #Modificar apartir da segunda rodada de rerodar step9
+#INPUT_CSV        = f"{BASE_DIR}/step7/pdb/summaries/step7_binders.csv"
 CHAIN_MAP_CSV    = f"{BASE_DIR}/step5/pdb/chain_map.csv"
 OUTPUT_CSV       = f"{BASE_DIR}/step10/binders_annotations_merged.csv"
 ERROR_CSV        = f"{BASE_DIR}/step10/binders_annotations_errors.csv"
+# NOVO: saida separada com todas as entradas cuja anotacao final foi identificada como B2M
+B2M_CSV          = f"{BASE_DIR}/step10/binders_annotations_b2m.csv"
 
 LOG_FILE         = f"{BASE_DIR}/step10/binders_annotations.log"
 
@@ -67,6 +72,9 @@ ALLOWED_ORGANISMS = {
     "Plasmodium falciparum",
     "Plasmodium falciparum HB3",
     "Echovirus E18",
+    "Human astrovirus-1",
+    "Human astrovirus-2",
+    "Human astrovirus-8"
 }
 
 # ---------------------------------------------------------------
@@ -80,7 +88,9 @@ ALLOWED_ORGANISMS = {
 ORGANISM_FILTER_EXCEPTIONS = {
     "6V7Y",
     "7BH8",
-    "8SOS"
+    "8SOS",
+    "6V7Z",
+    "6V80"
 }
 
 # Entries for which GO fallback should be used even when a usable
@@ -487,6 +497,35 @@ def main():
 
         if not results_df.empty:
             results_df.to_csv(OUTPUT_CSV, index=False)
+
+        # -----------------------------------
+        # NOVO: SEPARAR ENTRADAS CLASSIFICADAS COMO B2M
+        # -----------------------------------
+        # Verifica gene_name, classification e uniprot_name (case-insensitive),
+        # cobrindo tanto o caso normal (gene_name == "B2M") quanto o caso vindo
+        # do GO fallback, onde "classification"/"uniprot_name" costuma trazer a
+        # descricao completa "Beta-2-microglobulin" em vez do simbolo do gene.
+        if not results_df.empty:
+            b2m_pattern = re.compile(r"(^b2m$|beta-2-microglobulin)", re.IGNORECASE)
+
+            def _is_b2m(row):
+                for field in ("gene_name", "classification", "uniprot_name"):
+                    val = row.get(field)
+                    if isinstance(val, str) and b2m_pattern.search(val):
+                        return True
+                return False
+
+            b2m_mask = results_df.apply(_is_b2m, axis=1)
+            b2m_df = results_df[b2m_mask]
+
+            if not b2m_df.empty:
+                b2m_df.to_csv(B2M_CSV, index=False)
+                logging.info(
+                    f"Wrote {len(b2m_df)} B2M-classified row(s) to {B2M_CSV} "
+                    f"(pdb_ids: {sorted(b2m_df['pdb_id'].unique())})"
+                )
+            else:
+                logging.info("No B2M-classified rows found; B2M CSV not written.")
 
     # ---------------------------------------
     # ERRORS
