@@ -4,6 +4,7 @@ Filter Foldseek hits and create the primary/duplicate structure table.
 
 """
 
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -13,12 +14,15 @@ import pandas as pd
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path("/mnt/4TB/giovanna/foldseek/version_02")
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+# Atenção: aqui PIPELINE_DIR aponta para pdb_data/ (não pdb_data/filter/ como nos demais steps) —
+# inconsistência pré-existente no script original, mantida para não mudar o comportamento atual.
+PIPELINE_DIR = Path(os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent.parent)))
 
 DATASET = "pdb"  # "pdb" or "afdb"
 
 FOLDSEEK_ALN = {
-    "pdb": PIPELINE_DIR / "pdb" / "dbs_pdb_aln",
+    "pdb": PIPELINE_DIR / "foldseek_alignment" / "dbs_pdb_aln_helder_chainname",
     "afdb": PIPELINE_DIR / "alphafold" / "3mre_afdb_aln",
 }
 

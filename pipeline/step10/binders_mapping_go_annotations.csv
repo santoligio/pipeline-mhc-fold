@@ -310,3 +310,79 @@ Nanobody VHH ID5,,VHH,VHH
 3H4 Fab light chain,,AbL,Ab
 Nanobody VHH ID17,,VHH,VHH
 TCR 589 beta chain,,TCRb,TCR
+A2-TRAV1-2-TRAJ12,unknown,TCRa,TCR
+A2-TRBV6-2-TRBJ1-2,unknown,TCRb,TCR
+A6c134 TCR alpha chain,unknown,TCRa,TCR
+A6c134 TCR beta chain,unknown,TCRb,TCR
+Alpha chain 14D7 TCR,unknown,TCRa,TCR
+B1.23.2 Fab Heavy Chain: CH and CH1 domains,unknown,AbH,Ab
+B1.23.2 Fab Light Chain: VL and C kappa domains,unknown,AbL,Ab
+B1.23.2 Light Chain: VL and C kappa domains,unknown,AbL,Ab
+B1.23.2 mAb Heavy Chain: Full-length,unknown,AbH,Ab
+Beta chain 14D7 TCR,unknown,TCRb,TCR
+C1-28 TCR beta chain,unknown,TCRb,TCR
+C4 TCR alpha chain,unknown,TCRa,TCR
+C4 TCR beta chain,unknown,TCRb,TCR
+C8K10D5-1 Fab Light chain,unknown,AbL,Ab
+C8K10D5-1 Fab heavy chain,unknown,AbH,Ab
+CA117v2v8 heavy chain,unknown,AbH,Ab
+CA117v2v8 light chain,unknown,AbL,Ab
+CA147v24 heavy chain,unknown,AbH,Ab
+CA147v24 light chain,unknown,AbL,Ab
+GV37-TCR alpha chain,unknown,TCRa,TCR
+GV37-TCR beta chain,unknown,TCRb,TCR
+LLL epitope specific TCR APHLA,unknown,TCRa,TCR
+LLL epitope specific TCR BETA,unknown,TCRb,TCR
+N17.3.2 TCR alpha,unknown,TCRa,TCR
+N17.3.2 TCR beta,unknown,TCRb,TCR
+Nanobody VHH ID12,unknown,VHH,VHH
+Nanobody VHH ID22,unknown,VHH,VHH
+Q2L_Fab_heavy chain,unknown,AbH,Ab
+Q2L_Fab_light chain,unknown,AbL,Ab
+R302 Fab heavy chain,unknown,AbH,Ab
+R302 Fab light chain,unknown,AbL,Ab
+RM010 Fab heavy chain,unknown,AbH,Ab
+RM010 Fab light chain,unknown,AbL,Ab
+SN230G6 Fab Heavy Chain,unknown,AbH,Ab
+SN230G6 Fab Light Chain,unknown,AbL,Ab
+SPR epitope specific TCR CLB1 ALPHA,unknown,TCRa,TCR
+SPR epitope specific TCR CLB1 BETA,unknown,TCRb,TCR
+T Cell Receptor Alpha Variable 1-2,unknown,TCRa,TCR
+T cell receptor 4414A chain alpha,unknown,TCRa,TCR
+T cell receptor 5934 chain beta,unknown,TCRb,TCR
+"T cell receptor alpha variable 25,T cell receptor alpha chain constant",unknown,TCRa,TCR
+T cell receptor beta variable 6-1,unknown,TCRb,TCR
+T cell receptor delta chain,unknown,TCRd,TCR
+T cell receptor5934 chain alpha,unknown,TCRa,TCR
+TCR 19.2 beta chain,unknown,TCRb,TCR
+TCR Alpha,unknown,TCRa,TCR
+TCR Alpha chain,unknown,TCRa,TCR
+TCR Beta,unknown,TCRb,TCR
+TCR Beta chain,unknown,TCRb,TCR
+TCR156 alpha chain,unknown,TCRa,TCR
+TCR156 alpha chain S30E S32Q,unknown,TCRa,TCR
+TCR156 alpha chain S32H variant,unknown,TCRa,TCR
+TCR156 alpha chain S32M extracellular domains,unknown,TCRa,TCR
+TCR156 alpha chain S32Q variant,unknown,TCRa,TCR
+TCR156 beta chain,unknown,TCRb,TCR
+TCR156 beta chain extracellular domains,unknown,TCRb,TCR
+TCR19.2 alpha chain,unknown,TCRa,TCR
+TCR19.2 beta chain,unknown,TCRb,TCR
+TCRa,unknown,TCRa,TCR
+TCRb,unknown,TCRb,TCR
+TCRpub alpha chain,unknown,TCRa,TCR
+TCRpub beta chain,unknown,TCRb,TCR
+WIM8E5 Fab Heavy Chain,unknown,AbH,Ab
+nipocalimab Fab heavy chain,unknown,AbH,Ab
+nipocalimab Fab light chain,unknown,AbL,Ab
+single domain antibody VHH5,unknown,VHH,VHH
+vAB30 heavy chain,unknown,AbH,Ab
+vAB30 light chain,unknown,AbL,Ab
+vAB66 heavy chain,unknown,AbH,Ab
+vAB66 light chain,unknown,AbL,Ab
+DARPin NY_1,unknown,DARPin,DARPin
+designed minibinder KH46,unknown,miBd,miBd
+BXMart1-3 minibinder,unknown,miBd,miBd
+De-novo designed binder NY1-B04,unknown,miBd,miBd
+Capsid polyprotein VP90,unknown,Capsid protein VP90,VPs
+Echovirus 18 viral protein 3,unknown,Capsid protein VP3,VPs

@@ -9,6 +9,7 @@ For each primary PDB:
 4. Rename it to chain A.
 """
 
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -19,9 +20,10 @@ from Bio.PDB import MMCIFParser, PDBIO
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent)))
 
-INPUT_CIF_DIR = PIPELINE_DIR / "step2" / "pdb" / "1_assemblies"
+INPUT_CIF_DIR = Path(os.environ.get("INPUT_CIF_DIR", str(PIPELINE_DIR / "step2" / "pdb" / "1_assemblies")))
 INPUT_CSV = PIPELINE_DIR / "step2-1" / "pdb" / "filtered" / "pdb_assemblies_filtered.csv"
 
 OUT_DIR = PIPELINE_DIR / "step3" / "pdb"
@@ -143,8 +145,9 @@ def main() -> None:
     skipped = 0
 
     for _, row in primary_df.iterrows():
+        full_id = str(row["pdb"]) ## NOVO   
         pdb_id = str(row["pdb"]).split("-")[0].upper()
-        cif_path = INPUT_CIF_DIR / f"{pdb_id.lower()}-assembly1.cif"
+        cif_path = INPUT_CIF_DIR / f"{full_id.lower()}.cif"
 
         if not cif_path.exists():
             skipped += 1

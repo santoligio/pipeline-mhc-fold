@@ -16,6 +16,7 @@ Residues in the removal list are also permanently removed.
 
 """
 
+import os
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
 
@@ -29,7 +30,10 @@ import warnings
 # Configuration
 # =========================================================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(
+    os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent))
+)
 
 INPUT_PDB_DIR = PIPELINE_DIR / "step6" / "pdb" / "2_trimmed_mhc"
 

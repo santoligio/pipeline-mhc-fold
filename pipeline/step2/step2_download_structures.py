@@ -6,6 +6,7 @@ Download selected PDB assemblies or AFDB models.
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 import gzip
+import os
 import shutil
 
 import pandas as pd
@@ -16,7 +17,8 @@ import requests
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent)))
 DATASET = "pdb"  # "pdb" or "afdb"
 
 INPUT_CSV = {
@@ -36,9 +38,8 @@ REQUEST_TIMEOUT = 60
 # For PDB, use the four-character PDB ID, e.g. {"7B5F"}.
 # For AFDB, use the model ID exactly as it appears in the input CSV.
 DOWNLOAD_REMOVAL_LIST = {
-     "7B5F", "6ENY", "8JHV", "1HLA", "1B3J", "9CGS", "1LQV", "3JTC", "7RNO", "4PJ8"
-}
-
+    "9TF0", "8EC5", "9O4X", "9PBG", "9Y0T", "4NQC", "4NQD", "6Q3S", "4LCY", "3ES6", "8DV4", "3M17", "3M1B", "5D5M", "5BJT", "6UK2", "6UK4", "5D7L", "6ENY", "7B5F", "1HLA", "1B3J", "9CGS", "1LQV", "3JTC", "7RNO", "4PJ8", "9VSO", "1LP9", "2JCC", "2UWE", "2J8U", "8I5C", "8I5D", "8TQ6", "8WTE", "8WUL", "9IKY", "9PIX", "9PKC", "9PKF", "9PKV", "8JHV", "4MNQ"
+    }
 
 # =========================
 # File helpers

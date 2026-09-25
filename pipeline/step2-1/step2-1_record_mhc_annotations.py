@@ -9,6 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 import logging
+import os
 import re
 import shutil
 import time
@@ -21,7 +22,8 @@ import requests
 # Configuration
 # =========================
 
-PIPELINE_DIR = Path(__file__).resolve().parents[1]
+# NOVO: PIPELINE_DIR configurável via env var, com fallback relativo ao script (portável entre máquinas).
+PIPELINE_DIR = Path(os.environ.get("PIPELINE_DIR", str(Path(__file__).resolve().parent.parent)))
 FILTER_DIR = PIPELINE_DIR
 
 DATABASE = "both"  # "pdb", "afdb", or "both"
@@ -36,7 +38,7 @@ STEP2_DOWNLOAD_DIR = {
     "afdb": FILTER_DIR / "step2" / "afdb" / "1_models",
 }
 
-OUT_DIR = FILTER_DIR / "step2-1"
+OUT_DIR = FILTER_DIR / "step2-1" 
 
 THREADS = 16
 REQUEST_SLEEP = 0.2
@@ -209,8 +211,11 @@ def extract_afdb_uniprot_id(model_id: str) -> str:
 
 
 def find_downloaded_pdb_assembly(pdb_value: str) -> Optional[Path]:
+    full_id = str(pdb_value).strip().lower()
+
     pdb_id, assembly_number = parse_pdb_and_assembly(pdb_value)
     pdb_lower = pdb_id.lower()
+
 
     exact = STEP2_DOWNLOAD_DIR["pdb"] / f"{pdb_lower}-assembly{assembly_number}.cif"
     if exact.is_file():
@@ -293,13 +298,20 @@ def annotate_pdb_row(row: dict, index: int, total: int, logger: logging.Logger) 
     logger.info(f"[{index}/{total}] [PDB] {pdb_id}:{chain_id}")
 
     if target_length <= 0:
-        errors.append({"pdb_id": pdb_id, "chain": chain_id, "error": "invalid residue range"})
+        # NOVO: incluído res_start/res_end no registro de erro
+        errors.append({"pdb_id": pdb_id, "chain": chain_id, 
+                       "res_start": tstart, "res_end": tend,
+                       "error": "invalid residue range"})
         return records, errors
 
     mappings = get_sifts_mapping(pdb_id, logger)
 
     if not mappings:
-        errors.append({"pdb_id": pdb_id, "chain": chain_id, "error": "no SIFTS UniProt mapping"})
+         # NOVO: incluído res_start/res_end no registro de erro
+        errors.append({"pdb_id": pdb_id, "chain": chain_id, 
+                       "res_start": tstart, "res_end": tend,
+                       "target_length": target_length,
+                       "error": "no SIFTS UniProt mapping"})
         return records, errors
 
     seen_uniprot = set()
@@ -320,9 +332,13 @@ def annotate_pdb_row(row: dict, index: int, total: int, logger: logging.Logger) 
             meta = get_uniprot_metadata(uniprot_id, logger)
 
             if meta is None:
+                # NOVO: incluído res_start/res_end no registro de erro
                 errors.append({
                     "pdb_id": pdb_id,
                     "chain": chain_id,
+                    "res_start": tstart, "res_end": tend,
+                    "target_length": target_length,
+                    "uniprot_id": uniprot_id,
                     "error": f"UniProt metadata failed: {uniprot_id}",
                 })
                 continue
@@ -351,7 +367,11 @@ def annotate_pdb_row(row: dict, index: int, total: int, logger: logging.Logger) 
             record["possibly_chimeric"] = "yes"
 
     if not records:
-        errors.append({"pdb_id": pdb_id, "chain": chain_id, "error": "no compatible UniProt mapping"})
+        # NOVO: incluído res_start/res_end no registro de erro
+        errors.append({"pdb_id": pdb_id, "chain": chain_id, 
+                       "res_start": tstart, "res_end": tend,
+                       "target_length": target_length,
+                       "error": "no compatible UniProt mapping"})
 
     return records, errors
 
@@ -394,11 +414,34 @@ def annotate_afdb_row(row: dict, index: int, total: int, logger: logging.Logger)
     return records, errors
 
 
-def write_pdb_edited_template_if_missing(annotation_csv: Path) -> None:
+# NOVO: função agora recebe all_errors para poder anexar as cadeias com erro
+def write_pdb_edited_template_if_missing(annotation_csv: Path, all_errors: List[dict]) -> None:
     edited_csv = annotation_csv.with_name("pdb_mhc_annotations_edited.csv")
 
-    if not edited_csv.exists():
-        shutil.copy2(annotation_csv, edited_csv)
+    if edited_csv.exists():
+        return
+
+    df = pd.read_csv(annotation_csv)
+
+    # NOVO: monta linhas de erro só com pdb_id/chain/res_start/res_end preenchidos,
+    # resto vazio, e anexa ao final do template editável.
+    error_rows = pd.DataFrame([
+        {
+            "pdb_id": err["pdb_id"],
+            "chain": err["chain"],
+            "res_start": err.get("res_start", ""),
+            "res_end": err.get("res_end", ""),
+            "target_length": err.get("target_length", ""),   # NOVO
+            "uniprot_id": err.get("uniprot_id", ""),          # NOVO
+        }
+        for err in all_errors
+    ])
+
+    combined = pd.concat([df, error_rows], ignore_index=True)
+    combined.to_csv(edited_csv, index=False)
+
+    #if not edited_csv.exists():
+    #    shutil.copy2(annotation_csv, edited_csv)
 
 
 def annotate_database(database: str) -> None:
@@ -433,7 +476,8 @@ def annotate_database(database: str) -> None:
     pd.DataFrame(all_errors, columns=["pdb_id", "chain", "error"]).to_csv(err_csv, index=False)
 
     if database == "pdb":
-        write_pdb_edited_template_if_missing(ann_csv)
+            # NOVO: passa all_errors para anexar as cadeias sem anotação
+        write_pdb_edited_template_if_missing(ann_csv, all_errors)
 
     logger.info(f"[CSV] {ann_csv}")
     logger.info(f"[CSV] {err_csv}")

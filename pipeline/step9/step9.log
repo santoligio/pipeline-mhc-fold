@@ -1,20 +1,25 @@
 === STEP9 configuration ===
-INPUT_PDB_DIR (step7):  /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step7_fix/pdb/1_filtered_structures | exists=True
-STEP8_REMODELED_DIR:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step8/pdb/mhc_remodeled | exists=True
-MODIFIED_PDB_DIR:       /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/modified_pdbs | exists=True
-BINDERS_CSV:            /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step7_fix/pdb/summaries/step7_binders.csv | exists=True
-LIGANDS_CSV:            /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step7_fix/pdb/summaries/step7_ligands.csv | exists=True
-STEP9_DIR:              /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb
-RESIDUES_CSV:           /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/step9_residues.csv
-ANNOTATIONS_CSV:        /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step2_1/functional_annotation/pdb/filtered/pdb_mhc_annotations_filtered.csv | exists=True
-ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/step9_annotations.csv
+INPUT_PDB_DIR (step7):  /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step7/pdb/1_filtered_structures | exists=True
+STEP8_REMODELED_DIR:    /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step8/pdb/1_mhc_remodeled | exists=True
+MODIFIED_PDB_DIR:       /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/modified_pdbs | exists=True
+BINDERS_CSV:            /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step7/pdb/summaries/step7_binders.csv | exists=True
+LIGANDS_CSV:            /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step7/pdb/summaries/step7_ligands.csv | exists=True
+STEP9_DIR:              /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb
+RESIDUES_CSV:           /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/step9_residues.csv
+ANNOTATIONS_CSV:        /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step2-1/pdb/filtered/pdb_mhc_annotations_filtered.csv | exists=True
+ANNOTATIONS_OUT_CSV:    /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/step9_annotations.csv
+EXCLUDED_PDBS_CSV:      /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/step9_excluded_pdbs.csv | exists=False
 
-[INPUT] PDB files:            1158
-[INPUT] PDBs with binders:    386
-[INPUT] PDBs with ligands:    1097
+[INFO] EXCLUDED_PDBS_CSV not found – no PDBs excluded via manual exclusion list.
+[INPUT] PDB files:            1269
+[INPUT] PDBs with binders:    454
+[INPUT] PDBs with ligands:    1197
 [INPUT] PTM residues tracked: 54
 
+
 === STEP9 separating structures ===
+[SOURCE] 13BR: using remodeled structure → 13br_modeled_loop.pdb
+[OK] 13BR (remodeled): binders=2  ligands=0  flagged_residues=0
 [OK] 1A1M (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 1A1N (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 1A1O (step7): binders=0  ligands=1  flagged_residues=0
@@ -35,8 +40,6 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 1DE4 (step7): binders=2  ligands=0  flagged_residues=0
 [OK] 1DUY (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 1DUZ (step7): binders=0  ligands=1  flagged_residues=0
-[OK] 1E27 (step7): binders=0  ligands=1  flagged_residues=0
-[OK] 1E28 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 1EEY (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 1EEZ (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 1EFX (step7): binders=1  ligands=1  flagged_residues=0
@@ -71,10 +74,6 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 1KPR (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 1KTL (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 1L8J (step7): binders=0  ligands=1  flagged_residues=1
-[SOURCE] 1LP9: using modified structure → 1lp9_mhc_complex.pdb
-[WARNING] 1LP9: binder chain D not found
-[WARNING] 1LP9: binder chain E not found
-[OK] 1LP9 (modified): binders=0  ligands=1  flagged_residues=0
 [SOURCE] 1M05: using remodeled structure → 1m05_modeled_loop.pdb
 [OK] 1M05 (remodeled): binders=0  ligands=1  flagged_residues=0
 [OK] 1M6O (step7): binders=0  ligands=1  flagged_residues=0
@@ -133,6 +132,11 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 1ZHL (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 1ZSD (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 1ZT4 (step7): binders=0  ligands=1  flagged_residues=1
+[OK] 22EE (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 24ST (step7): binders=2  ligands=1  flagged_residues=0
+[SOURCE] 28IL: using modified structure → 28il_mhc_complex.pdb
+[WARNING] 28IL: binder chain C not found
+[OK] 28IL (modified): binders=2  ligands=1  flagged_residues=0
 [OK] 2A83 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 2AK4 (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 2AV1 (step7): binders=0  ligands=1  flagged_residues=0
@@ -170,14 +174,6 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 2HJL (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 2HLA (step7): binders=0  ligands=0  flagged_residues=0
 [OK] 2HN7 (step7): binders=0  ligands=1  flagged_residues=0
-[SOURCE] 2J8U: using modified structure → 2j8u_mhc_complex.pdb
-[WARNING] 2J8U: binder chain D not found
-[WARNING] 2J8U: binder chain E not found
-[OK] 2J8U (modified): binders=0  ligands=1  flagged_residues=0
-[SOURCE] 2JCC: using modified structure → 2jcc_mhc_complex.pdb
-[WARNING] 2JCC: binder chain D not found
-[WARNING] 2JCC: binder chain E not found
-[OK] 2JCC (modified): binders=0  ligands=1  flagged_residues=0
 [OK] 2NW3 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 2NX5 (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 2P5E (step7): binders=2  ligands=1  flagged_residues=0
@@ -185,10 +181,6 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 2PO6 (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 2PYE (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 2RFX (step7): binders=0  ligands=1  flagged_residues=0
-[SOURCE] 2UWE: using modified structure → 2uwe_mhc_complex.pdb
-[WARNING] 2UWE: binder chain D not found
-[WARNING] 2UWE: binder chain E not found
-[OK] 2UWE (modified): binders=0  ligands=1  flagged_residues=0
 [OK] 2V2W (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 2V2X (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 2VLJ (step7): binders=2  ligands=1  flagged_residues=0
@@ -234,14 +226,11 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 3D2U (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 3D39 (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 3D3V (step7): binders=2  ligands=1  flagged_residues=1
-[SOURCE] 3DTX: using modified structure → 3dtx_mhc_complex.pdb
-[WARNING] 3DTX: binder chain C not found
-[OK] 3DTX (modified): binders=0  ligands=1  flagged_residues=2
+[OK] 3DTX (step7): binders=0  ligands=1  flagged_residues=2
 [OK] 3DX6 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 3DX7 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 3DX8 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 3DXA (step7): binders=2  ligands=1  flagged_residues=0
-[OK] 3ES6 (step7): binders=0  ligands=1  flagged_residues=1
 [OK] 3FFC (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 3FQN (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 3FQR (step7): binders=0  ligands=1  flagged_residues=1
@@ -303,8 +292,6 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 3LN4 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 3LN5 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 3LV3 (step7): binders=0  ligands=1  flagged_residues=0
-[OK] 3M17 (step7): binders=0  ligands=0  flagged_residues=0
-[OK] 3M1B (step7): binders=0  ligands=0  flagged_residues=0
 [OK] 3MGO (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 3MGT (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 3MR9 (step7): binders=0  ligands=1  flagged_residues=0
@@ -447,7 +434,6 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [SOURCE] 4L4V: using remodeled structure → 4l4v_modeled_loop.pdb
 [OK] 4L4V (remodeled): binders=2  ligands=1  flagged_residues=1
 [OK] 4LCW (step7): binders=2  ligands=1  flagged_residues=1
-[OK] 4LCY (step7): binders=0  ligands=0  flagged_residues=0
 [OK] 4LHU (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 4LNR (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 4MJ5 (step7): binders=0  ligands=1  flagged_residues=0
@@ -465,8 +451,6 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 4NO2 (step7): binders=0  ligands=1  flagged_residues=1
 [OK] 4NO3 (step7): binders=0  ligands=1  flagged_residues=1
 [OK] 4NO5 (step7): binders=0  ligands=1  flagged_residues=0
-[OK] 4NQC (step7): binders=0  ligands=1  flagged_residues=1
-[OK] 4NQD (step7): binders=0  ligands=1  flagged_residues=1
 [OK] 4NQE (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 4NQV (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 4NQX (step7): binders=0  ligands=1  flagged_residues=0
@@ -545,7 +529,6 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 4XXC (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 5B38 (step7): binders=1  ligands=1  flagged_residues=0
 [OK] 5B39 (step7): binders=1  ligands=1  flagged_residues=0
-[OK] 5BJT (step7): binders=0  ligands=0  flagged_residues=0
 [OK] 5BRZ (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 5BS0 (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 5BXF (step7): binders=0  ligands=0  flagged_residues=0
@@ -564,15 +547,12 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 5C9J (step7): binders=0  ligands=3  flagged_residues=3
 [OK] 5D2L (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 5D2N (step7): binders=2  ligands=1  flagged_residues=0
-[OK] 5D5M (step7): binders=0  ligands=1  flagged_residues=1
 [OK] 5D7I (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 5D7J (step7): binders=2  ligands=1  flagged_residues=1
-[OK] 5D7L (step7): binders=0  ligands=1  flagged_residues=1
 [OK] 5D9S (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 5DDH (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 5DEF (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 5DEG (step7): binders=0  ligands=1  flagged_residues=0
-[OK] 5E00 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 5E6I (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 5E9D (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 5ENW (step7): binders=0  ligands=1  flagged_residues=0
@@ -810,7 +790,6 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 6PYW (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 6PZ5 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 6Q3K (step7): binders=0  ligands=1  flagged_residues=0
-[OK] 6Q3S (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 6QIO (step7): binders=1  ligands=0  flagged_residues=1
 [OK] 6QIP (step7): binders=1  ligands=0  flagged_residues=1
 [OK] 6R2L (step7): binders=2  ligands=1  flagged_residues=0
@@ -837,8 +816,6 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 6UJ9 (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 6UJO (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 6UJQ (step7): binders=0  ligands=1  flagged_residues=0
-[OK] 6UK2 (step7): binders=0  ligands=1  flagged_residues=0
-[OK] 6UK4 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 6ULI (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 6ULK (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 6ULN (step7): binders=2  ligands=1  flagged_residues=0
@@ -856,12 +833,8 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 6V2Q (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 6V3J (step7): binders=1  ligands=1  flagged_residues=0
 [OK] 6V7Y (step7): binders=1  ligands=1  flagged_residues=1
-[SOURCE] 6V7Z: using modified structure → 6v7z_mhc_complex.pdb
-[WARNING] 6V7Z: binder chain C not found
-[OK] 6V7Z (modified): binders=0  ligands=1  flagged_residues=1
-[SOURCE] 6V80: using modified structure → 6v80_mhc_complex.pdb
-[WARNING] 6V80: binder chain E not found
-[OK] 6V80 (modified): binders=2  ligands=1  flagged_residues=1
+[OK] 6V7Z (step7): binders=1  ligands=1  flagged_residues=1
+[OK] 6V80 (step7): binders=3  ligands=1  flagged_residues=1
 [OK] 6VB0 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 6VB1 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 6VB2 (step7): binders=0  ligands=1  flagged_residues=0
@@ -1009,7 +982,7 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 7OKT (remodeled): binders=0  ligands=1  flagged_residues=1
 [OK] 7OKU (step7): binders=0  ligands=1  flagged_residues=1
 [SOURCE] 7OKV: using remodeled structure → 7okv_modeled_loop.pdb
-[OK] 7OKV (remodeled): binders=0  ligands=1  flagged_residues=1
+[OK] 7OKV (remodeled): binders=0  ligands=0  flagged_residues=0
 [OK] 7OW3 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 7OW4 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 7OW5 (step7): binders=2  ligands=1  flagged_residues=0
@@ -1024,7 +997,8 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 7PDW (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 7PHR (step7): binders=2  ligands=1  flagged_residues=0
 [SOURCE] 7Q15: using remodeled structure → 7q15_modeled_loop.pdb
-[OK] 7Q15 (remodeled): binders=1  ligands=0  flagged_residues=0
+[WARNING] 7Q15: binder chain C not found
+[OK] 7Q15 (remodeled): binders=0  ligands=0  flagged_residues=0
 [OK] 7Q5D (step7): binders=0  ligands=1  flagged_residues=1
 [OK] 7Q98 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 7Q99 (step7): binders=2  ligands=1  flagged_residues=0
@@ -1124,15 +1098,11 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [SOURCE] 8DV3: using modified structure → 8dv3_mhc_complex.pdb
 [WARNING] 8DV3: binder chain B not found
 [OK] 8DV3 (modified): binders=0  ligands=2  flagged_residues=2
-[OK] 8DV4 (step7): binders=0  ligands=1  flagged_residues=1
 [OK] 8DVG (step7): binders=0  ligands=1  flagged_residues=0
-[OK] 8E13 (step7): binders=0  ligands=1  flagged_residues=0
 [SOURCE] 8E2Z: using remodeled structure → 8e2z_modeled_loop.pdb
 [OK] 8E2Z (remodeled): binders=0  ligands=1  flagged_residues=0
 [OK] 8E8I (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8EB2 (step7): binders=2  ligands=1  flagged_residues=0
-[SOURCE] 8EC5: using remodeled structure → 8ec5_modeled_loop.pdb
-[OK] 8EC5 (remodeled): binders=0  ligands=1  flagged_residues=0
 [OK] 8EK5 (step7): binders=1  ligands=1  flagged_residues=0
 [OK] 8ELG (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8ELH (step7): binders=0  ligands=1  flagged_residues=0
@@ -1168,16 +1138,11 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 8GVG (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8GVI (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8HN4 (step7): binders=0  ligands=1  flagged_residues=0
-[SOURCE] 8I5C: using modified structure → 8i5c_mhc_complex.pdb
-[WARNING] 8I5C: binder chain D not found
-[WARNING] 8I5C: binder chain E not found
-[OK] 8I5C (modified): binders=0  ligands=1  flagged_residues=0
-[SOURCE] 8I5D: using modified structure → 8i5d_mhc_complex.pdb
-[WARNING] 8I5D: binder chain B not found
-[WARNING] 8I5D: binder chain C not found
-[OK] 8I5D (modified): binders=0  ligands=1  flagged_residues=0
 [OK] 8I5E (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8ISN (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 8K4T (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 8K4V (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 8K50 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8QFY (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8RBU (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8RBV (step7): binders=0  ligands=1  flagged_residues=0
@@ -1193,12 +1158,13 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 8RLU (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8RLV (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8RNE (step7): binders=0  ligands=1  flagged_residues=0
-[OK] 8RNF (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8RNG (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8RNH (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 8RNI (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8ROO (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8ROP (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8RRO (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 8RWB (step7): binders=2  ligands=0  flagged_residues=0
 [OK] 8RYM (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8RYN (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8RYO (step7): binders=2  ligands=1  flagged_residues=0
@@ -1223,26 +1189,21 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 8TM2 (remodeled): binders=1  ligands=0  flagged_residues=0
 [OK] 8TMU (step7): binders=1  ligands=1  flagged_residues=0
 [OK] 8TNJ (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 8TQ5 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8TUB (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8TUH (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8U9G (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8UDR (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 8UTC (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8V4Z (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8V50 (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8V51 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 8V8Q (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8VCL (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8VJZ (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8VR9 (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 8VRA (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 8VRB (step7): binders=2  ligands=1  flagged_residues=1
-[SOURCE] 8WTE: using modified structure → 8wte_mhc_complex.pdb
-[WARNING] 8WTE: binder chain B not found
-[WARNING] 8WTE: binder chain C not found
-[OK] 8WTE (modified): binders=0  ligands=1  flagged_residues=0
-[SOURCE] 8WUL: using modified structure → 8wul_mhc_complex.pdb
-[WARNING] 8WUL: binder chain B not found
-[WARNING] 8WUL: binder chain C not found
-[OK] 8WUL (modified): binders=0  ligands=1  flagged_residues=0
 [OK] 8XES (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8XFZ (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8XG2 (step7): binders=0  ligands=1  flagged_residues=0
@@ -1252,6 +1213,13 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 8YE4 (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8YIV (step7): binders=2  ligands=1  flagged_residues=0
 [OK] 8YJ2 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 8YZR (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 8YZW (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 8YZZ (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 8Z05 (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 8Z06 (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 8Z07 (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 8Z08 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 8ZOX (step7): binders=2  ligands=2  flagged_residues=2
 [OK] 8ZV9 (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 9ASF (step7): binders=0  ligands=1  flagged_residues=1
@@ -1267,30 +1235,181 @@ ANNOTATIONS_OUT_CSV:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/lig
 [OK] 9BTY (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 9BTZ (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 9BU0 (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9BYS (step7): binders=2  ligands=1  flagged_residues=1
 [SOURCE] 9C3E: using remodeled structure → 9c3e_modeled_loop.pdb
 [OK] 9C3E (remodeled): binders=2  ligands=1  flagged_residues=0
+[OK] 9C42 (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 9C6V (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 9C6W (step7): binders=0  ligands=1  flagged_residues=0
 [OK] 9C6X (step7): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9C96: using remodeled structure → 9c96_modeled_loop.pdb
+[OK] 9C96 (remodeled): binders=1  ligands=1  flagged_residues=0
+[OK] 9C9D (step7): binders=2  ligands=1  flagged_residues=1
 [OK] 9CGR (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9CWY (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9CWZ (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9CX0 (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9CX1 (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9CX2 (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9D73 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9D74 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9D95 (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9D96 (step7): binders=1  ligands=1  flagged_residues=0
+[OK] 9D97 (step7): binders=1  ligands=1  flagged_residues=0
+[OK] 9DBT (step7): binders=1  ligands=0  flagged_residues=0
 [OK] 9DL1 (step7): binders=2  ligands=1  flagged_residues=0
-[ANNOTATIONS] 1164 rows written to /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/step9_annotations.csv
-[ANNOTATIONS]   binder=yes: 386  ligand=yes: 1097
-[MHC_BINDER] Copied 385 binder-positive complexes to /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/6_mhc_binder
-[MHC_BINDER] Missing 1 expected files:
-[MHC_BINDER]   4mnq_mhc_complex.pdb
+[OK] 9DY8 (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9EIQ (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9EJD (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9EK4 (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9EK6 (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9EK7 (step7): binders=2  ligands=1  flagged_residues=1
+[SOURCE] 9F13: using modified structure → 9f13_mhc_complex.pdb
+[WARNING] 9F13: binder chain D not found
+[OK] 9F13 (modified): binders=0  ligands=1  flagged_residues=0
+[OK] 9FE1 (step7): binders=1  ligands=1  flagged_residues=0
+[OK] 9GV6 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9GV7 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9HI7 (step7): binders=2  ligands=0  flagged_residues=0
+[SOURCE] 9HKQ: using remodeled structure → 9hkq_modeled_loop.pdb
+[OK] 9HKQ (remodeled): binders=1  ligands=1  flagged_residues=0
+[OK] 9HLJ (step7): binders=2  ligands=1  flagged_residues=0
+[SOURCE] 9J4S: using remodeled structure → 9j4s_modeled_loop.pdb
+[OK] 9J4S (remodeled): binders=0  ligands=1  flagged_residues=0
+[OK] 9J4T (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9J4U (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9J4V (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9K2I (step7): binders=2  ligands=1  flagged_residues=0
+[SOURCE] 9K2R: using remodeled structure → 9k2r_modeled_loop.pdb
+[OK] 9K2R (remodeled): binders=2  ligands=1  flagged_residues=0
+[SOURCE] 9K2S: using remodeled structure → 9k2s_modeled_loop.pdb
+[OK] 9K2S (remodeled): binders=1  ligands=1  flagged_residues=0
+[OK] 9K2T (step7): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9K2U: using remodeled structure → 9k2u_modeled_loop.pdb
+[OK] 9K2U (remodeled): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9L47: using remodeled structure → 9l47_modeled_loop.pdb
+[OK] 9L47 (remodeled): binders=0  ligands=1  flagged_residues=0
+[OK] 9L48 (step7): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9L49: using remodeled structure → 9l49_modeled_loop.pdb
+[OK] 9L49 (remodeled): binders=0  ligands=1  flagged_residues=0
+[OK] 9L4A (step7): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9L4G: using remodeled structure → 9l4g_modeled_loop.pdb
+[OK] 9L4G (remodeled): binders=0  ligands=1  flagged_residues=0
+[OK] 9L4H (step7): binders=1  ligands=1  flagged_residues=0
+[SOURCE] 9L4I: using remodeled structure → 9l4i_modeled_loop.pdb
+[OK] 9L4I (remodeled): binders=1  ligands=1  flagged_residues=0
+[OK] 9LLU (step7): binders=1  ligands=1  flagged_residues=0
+[OK] 9MDA (step7): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9MEF: using remodeled structure → 9mef_modeled_loop.pdb
+[OK] 9MEF (remodeled): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9MEG: using remodeled structure → 9meg_modeled_loop.pdb
+[OK] 9MEG (remodeled): binders=0  ligands=1  flagged_residues=0
+[OK] 9MI6 (step7): binders=2  ligands=0  flagged_residues=0
+[OK] 9MIN (step7): binders=1  ligands=1  flagged_residues=0
+[OK] 9MS0 (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9NAV (step7): binders=1  ligands=0  flagged_residues=0
+[OK] 9NDS (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9NFB (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9NFC (step7): binders=2  ligands=1  flagged_residues=1
+[SOURCE] 9NKH: using remodeled structure → 9nkh_modeled_loop.pdb
+[OK] 9NKH (remodeled): binders=0  ligands=1  flagged_residues=0
+[OK] 9NMU (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9NMV (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9NMW (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9NMX (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9NMY (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9NNF (step7): binders=1  ligands=1  flagged_residues=0
+[OK] 9NW6 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9NW7 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9NW8 (step7): binders=2  ligands=1  flagged_residues=0
+[SOURCE] 9NW9: using modified structure → 9nw9_mhc_complex.pdb
+[WARNING] 9NW9: binder chain B not found
+[OK] 9NW9 (modified): binders=2  ligands=1  flagged_residues=0
+[SOURCE] 9NYN: using remodeled structure → 9nyn_modeled_loop.pdb
+[OK] 9NYN (remodeled): binders=0  ligands=1  flagged_residues=0
+[OK] 9O05 (step7): binders=2  ligands=1  flagged_residues=1
+[SOURCE] 9O06: using modified structure → 9o06_mhc_complex.pdb
+[WARNING] 9O06: binder chain F not found
+[OK] 9O06 (modified): binders=2  ligands=1  flagged_residues=1
+[OK] 9O07 (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9O08 (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9O55 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9O5S (step7): binders=1  ligands=1  flagged_residues=0
+[OK] 9OBF (step7): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9OC6: using remodeled structure → 9oc6_modeled_loop.pdb
+[OK] 9OC6 (remodeled): binders=0  ligands=0  flagged_residues=0
+[OK] 9OC7 (step7): binders=1  ligands=0  flagged_residues=0
+[OK] 9OHT (step7): binders=0  ligands=2  flagged_residues=2
+[OK] 9OHU (step7): binders=0  ligands=2  flagged_residues=2
+[OK] 9OHV (step7): binders=0  ligands=2  flagged_residues=2
+[OK] 9OHW (step7): binders=0  ligands=2  flagged_residues=2
+[SOURCE] 9OHX: using remodeled structure → 9ohx_modeled_loop.pdb
+[WARNING] 9OHX: ligand chain C not found
+[OK] 9OHX (remodeled): binders=0  ligands=0  flagged_residues=0
+[OK] 9OHY (step7): binders=0  ligands=1  flagged_residues=1
+[SOURCE] 9OHZ: using remodeled structure → 9ohz_modeled_loop.pdb
+[OK] 9OHZ (remodeled): binders=0  ligands=1  flagged_residues=1
+[OK] 9OI0 (step7): binders=0  ligands=2  flagged_residues=2
+[OK] 9PBH (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9QQE (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9QQF (step7): binders=1  ligands=1  flagged_residues=0
+[OK] 9QWJ (step7): binders=2  ligands=0  flagged_residues=0
+[OK] 9QWK (step7): binders=2  ligands=0  flagged_residues=0
+[OK] 9RCV (step7): binders=1  ligands=0  flagged_residues=0
+[OK] 9RSE (step7): binders=0  ligands=1  flagged_residues=1
+[SOURCE] 9RU5: using remodeled structure → 9ru5_modeled_loop.pdb
+[OK] 9RU5 (remodeled): binders=2  ligands=1  flagged_residues=0
+[OK] 9RUP (step7): binders=2  ligands=1  flagged_residues=0
+[SOURCE] 9RWI: using remodeled structure → 9rwi_modeled_loop.pdb
+[OK] 9RWI (remodeled): binders=0  ligands=1  flagged_residues=0
+[OK] 9RXM (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9SKO (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9SKP (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9SL0 (step7): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9TJX: using remodeled structure → 9tjx_modeled_loop.pdb
+[OK] 9TJX (remodeled): binders=1  ligands=1  flagged_residues=10
+[OK] 9UV8 (step7): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9WBD: using remodeled structure → 9wbd_modeled_loop.pdb
+[OK] 9WBD (remodeled): binders=2  ligands=1  flagged_residues=0
+[OK] 9WC2 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9WC3 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9WJ6 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9WK0 (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9WVE (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9WVF (step7): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9WYD: using remodeled structure → 9wyd_modeled_loop.pdb
+[OK] 9WYD (remodeled): binders=1  ligands=0  flagged_residues=0
+[OK] 9XJD (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9XMR (step7): binders=0  ligands=1  flagged_residues=0
+[SOURCE] 9Y0U: using modified structure → 9y0u_mhc_complex.pdb
+[WARNING] 9Y0U: binder chain F not found
+[OK] 9Y0U (modified): binders=2  ligands=1  flagged_residues=1
+[OK] 9Y0V (step7): binders=2  ligands=0  flagged_residues=0
+[SOURCE] 9Y0W: using modified structure → 9y0w_mhc_complex.pdb
+[WARNING] 9Y0W: binder chain F not found
+[OK] 9Y0W (modified): binders=2  ligands=1  flagged_residues=1
+[OK] 9YTD (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9YTF (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9YW4 (step7): binders=2  ligands=1  flagged_residues=0
+[OK] 9YZH (step7): binders=0  ligands=1  flagged_residues=0
+[OK] 9Z4R (step7): binders=2  ligands=1  flagged_residues=1
+[OK] 9ZCL (step7): binders=2  ligands=1  flagged_residues=0
+[ANNOTATIONS] 1269 rows written to /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/step9_annotations.csv
+[ANNOTATIONS]   excluded because not processed: 4
+[ANNOTATIONS]   binder=yes: 454  ligand=yes: 1197
+[MHC_BINDER] Copied 454 binder-positive complexes to /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/6_mhc_binder
 
 === STEP9 summary ===
-Processed PDBs:        1158
-Flagged residues:      246
-Residues CSV:          /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/step9_residues.csv
-MHC-only structures:   /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/1_mhc_only
-Binder-only chains:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/2_binders
-MHC-all structures:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/3_mhc_all
-MHC-ligand structures: /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/4_mhc_ligands
-MHC-complex folder:    /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/5_mhc_complex
-MHC-binder folder:     /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/6_mhc_binder
-MHC-binder copied:     385
-MHC-binder missing:    1
-Annotations CSV:       /mnt/c/Users/gio/Documents/foldseek_nefertari/filter/ligands_pipeline/step9_fix/pdb/step9_annotations.csv
+Processed PDBs:        1269
+Flagged residues:      280
+Residues CSV:          /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/step9_residues.csv
+MHC-only structures:   /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/1_mhc_only
+Binder-only chains:    /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/2_binders
+MHC-all structures:    /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/3_mhc_all
+MHC-ligand structures: /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/4_mhc_ligands
+MHC-complex folder:    /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/5_mhc_complex
+MHC-binder folder:     /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/6_mhc_binder
+MHC-binder copied:     454
+MHC-binder missing:    0
+Annotations CSV:       /home/rocio.maidana/Documents/pMHCfold/version6/pdb_data/filter/step9/pdb/step9_annotations.csv
 [DONE] Step9 finished
